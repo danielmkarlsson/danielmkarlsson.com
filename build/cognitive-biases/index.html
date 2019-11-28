@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>dmk</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style type="text/css">
+  /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:0;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+  </style>
+  <link href="/player/dmk-player.css?v=2" rel="stylesheet"> 
+  <style type="text/css">
+  
+  html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+      max-width: 840px;
+      height: 100%;
+      margin: 40px auto;
+      padding: 0 10px;
+  
+      font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.4;
+      font-size: 14px;
+  
+      color: black;
+  }
+  
+  h1,h2,h3{
+      line-height:1.2
+  }
+  
+  a:link, a:visited {
+      color: rgb(128,128,128);
+      text-decoration: none;
+  }
+  
+  a:hover, a:active {
+      color: black;
+      text-decoration: underline;
+  }
+  
+  .contact {
+    margin-bottom: 15%;
+  }
+  
+  .footnotes {
+    margin-top: 100%;
+    padding-bottom: 10px;
+  }
+  
+  /* audio player */
+  
+  .player {
+    width: 100%;
+  }
+  
+  .transport {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  
+    margin-bottom: 15px;
+  }
+  
+  #player-title {
+    /* text-align: center; */
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: 600;
+  }
+  
+  #play-button {
+    margin: 0;
+    padding: 0;
+    width: 30px; /* prevent resize */
+  
+    background: transparent;
+    outline: 0;
+    border: none;
+  
+    text-align: left;
+  
+    font-size: 1.25em;
+    white-space: nowrap;
+  }
+  
+  #current-time {
+    white-space: nowrap;
+    font-size: 1em;
+    margin-left: 10px;
+  }
+  
+  #time-line {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid black;
+  }
+  
+  #progress {
+    position: absolute;
+    top: 21px; /* depends on timeline height */
+    left: 0;
+  
+    height: 4px;
+    background: black;
+  }
+  
+  .playlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  
+    height: 280px;
+    overflow: auto;
+  }
+  
+  .playlist-item {
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 0.25rem 0.25rem;
+    border-bottom: 1px solid #eee;
+  
+    /* prevent div resize when selecting track */
+    border-left: 1px solid transparent;
+  }
+  
+  .playlist-item.selected {
+    border-left: 1px solid black;
+  }
+  
+  .playlist-item.selected:hover {
+    border-left: 1px solid black;
+  }
+  
+  .playlist-item:hover {
+    background: #eee;
+    border-color: #eee;
+  }
+  
+  .playlist::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .playlist::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-left: 6px solid white;
+  }
+  
+  </style>
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+</head>
+<body>
+<h2 id="the-4-conundrums-of-the-universe-that-lead-to-all-biases">The 4 conundrums of the universe that lead to all biases</h2>
+<p>There are 4 qualities of the universe that limit our own intelligence and the intelligence of every other person, collective, organism, machine, alien, or imaginable god. All 200ish of our known biases are attempts to work around these conundrums!</p>
+<h3 id="st-conundrum-theres-too-much-information">1st conundrum: there’s too much information</h3>
+<p>The 1st conundrum is that there’s too much information in the universe for any individual within the universe to process it all. We have our 5 senses (or up to a dozen depending on how you divide them up), and we’re located at points within vast planes of space and time. So there’s a lot of information out there (outside your house, across the street, on the other side of the world, throughout the galaxy, and back in time) that we have missed and will continue to miss. When we talk of super artificial intelligences that eventually dwarf the power of our own brains, even they will be constrained in this way. They will likely install and network some insane number of cameras and other sensors around the world, and maybe deploy rockets to continue mapping our solar system and beyond, but the limitations of material, fuel, the speed of light, and the lack of time travel options guarantee that full coverage of the universe’s information will never even be remotely possible.</p>
+<h3 id="nd-conundrum-theres-not-enough-meaning">2nd conundrum: there’s not enough meaning</h3>
+<p>The 2nd conundrum is that the process of turning raw information into something meaningful requires connecting the dots between the limited information that’s made it to you and the catalog of mental models, beliefs, symbols, and associations that you’ve stored from previous experiences. Connecting dots is an imprecise and subjective process, resulting in a story that’s a blend of new and old information. Your new stories are being built out of the bricks of your old stories, and so will always have a hint of past qualities and textures that may not have actually been there. A simple example of this is how the first automobile was referred to as a horseless carriage, because the closest thing to it had horses attached. If a super artificial intelligence was loaded with every symbol and story on the internet and in our collective human minds, it would still not be able to interpret new information without using old symbols (and a ton of those symbols and stories would be pretty wonky and mostly useless… I do not envy that super A.I. the task of sifting through all of that).</p>
+<h3 id="rd-conundrum-theres-not-enough-time-resources">3rd conundrum: there’s not enough time &amp; resources</h3>
+<p>The 3rd conundrum is that there just isn’t enough time in the moment/day/lifetime to thoroughly consider and analyze all possibilities to make sure we’re making the right decisions and taking the right actions. Even deciding what you should have for lunch would take longer than the remaining life of the universe if you truly considered all of your options. A super artificial intelligence would have this same problem, and until recently was the “proof” that a computer would never be able to beat the world champion in Go — there are 129,960 possible board positions after just the first round of moves alone, and that number grows exponentially after every additional round. Then, someone built a computer that did what humans do and just crossed its eyes and picked the best move based on intuition built up over watching millions of games, thus succumbing to the 3rd conundrum.</p>
+<h2 id="th-conundrum-theres-not-enough-memory">4th conundrum: there’s not enough memory</h2>
+<p>The 4th conundrum is that there’s not enough space in our brains, or in all of the matter in the universe, to store all the raw information, all the symbols and stories, and all of the past decisions that we’ve made. We have to be strategic about what we choose to remember, and what we choose to let slide back out of our minds. We can try to generalize, or identify patterns, to save some space, but those create problems of their own. A super artificial intelligence that could remember everything it ever saw or processed would then create a situation where the 4 conundrums applied to retrieving its own memories.</p>
+</body>
+</html>

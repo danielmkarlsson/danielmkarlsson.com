@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>dmk</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style type="text/css">
+  /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:0;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+  </style>
+  <link href="/player/dmk-player.css?v=2" rel="stylesheet"> 
+  <style type="text/css">
+  
+  html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+      max-width: 840px;
+      height: 100%;
+      margin: 40px auto;
+      padding: 0 10px;
+  
+      font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.4;
+      font-size: 14px;
+  
+      color: black;
+  }
+  
+  h1,h2,h3{
+      line-height:1.2
+  }
+  
+  a:link, a:visited {
+      color: rgb(128,128,128);
+      text-decoration: none;
+  }
+  
+  a:hover, a:active {
+      color: black;
+      text-decoration: underline;
+  }
+  
+  .contact {
+    margin-bottom: 15%;
+  }
+  
+  .footnotes {
+    margin-top: 100%;
+    padding-bottom: 10px;
+  }
+  
+  /* audio player */
+  
+  .player {
+    width: 100%;
+  }
+  
+  .transport {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  
+    margin-bottom: 15px;
+  }
+  
+  #player-title {
+    /* text-align: center; */
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: 600;
+  }
+  
+  #play-button {
+    margin: 0;
+    padding: 0;
+    width: 30px; /* prevent resize */
+  
+    background: transparent;
+    outline: 0;
+    border: none;
+  
+    text-align: left;
+  
+    font-size: 1.25em;
+    white-space: nowrap;
+  }
+  
+  #current-time {
+    white-space: nowrap;
+    font-size: 1em;
+    margin-left: 10px;
+  }
+  
+  #time-line {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid black;
+  }
+  
+  #progress {
+    position: absolute;
+    top: 21px; /* depends on timeline height */
+    left: 0;
+  
+    height: 4px;
+    background: black;
+  }
+  
+  .playlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  
+    height: 280px;
+    overflow: auto;
+  }
+  
+  .playlist-item {
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 0.25rem 0.25rem;
+    border-bottom: 1px solid #eee;
+  
+    /* prevent div resize when selecting track */
+    border-left: 1px solid transparent;
+  }
+  
+  .playlist-item.selected {
+    border-left: 1px solid black;
+  }
+  
+  .playlist-item.selected:hover {
+    border-left: 1px solid black;
+  }
+  
+  .playlist-item:hover {
+    background: #eee;
+    border-color: #eee;
+  }
+  
+  .playlist::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .playlist::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-left: 6px solid white;
+  }
+  
+  </style>
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+</head>
+<body>
+<h3 id="seminar-notes">Seminar notes</h3>
+<p>When you do your ventilation remember to ask: Is this the part where I make notes in silence when recieving critique? If asked direct questions keep your answers brief.<br />
+Kim has the idea to include outside references. Music and text that either shows a kinship or an opposing view. The latter is interesting to me. Dampens tendencies to get too navel gazing.<br />
+Per says it was fun to read because it is succesfully selfreflecting. Would be nice to reach that level.<br />
+Oops yeah Mattias is right about how weird it is that the gig hasn’t happened at the time when the text needs to be due. Make sure this doesn’t happen to you. The simplest solution to solving this problem is don’t write about a piece.<br />
+Students get 5 minutes at the top it seems. Either talk or play music. Then there’s the random kid has questions about the text section.<br />
+Bill feels it was interesting. The concert sounded good he says. Action and result. Optics and resultant sound matched which he feels is important. Bill wants better pictures in the thesis. What are better pictures?<br />
+Avoid black boxes when explaing your signal flow. Praises composition thereby infering the inferiority of improvisation. Doesn’t really matter that I agree. Just interesting to note. Per responds positively to the dialectic. There is some discussion regarding the definition of the term hyperInstrument. A descrition of a personal practice. Music which suffers from loosing it’s optical or performative aspect is phenomenoligically discussed. The room settles on video as the solution. Bill also offers the possibility of doing a binaural mix. Interesting to note that binaural holds that status.</p>
+<p><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br></p>
+<p><a href="./gun-for-hire_techwork_notes.html">.nxt</a> | <a href="#" onClick="goToURL()">.rnd</a></p>
+<p><br> <br></p>
+<script>
+function goToURL() {
+    var links = [
+        "log.html",
+        "img.html",
+        "irc.html",
+        "seminar_notes.html",
+        "gun-for-hire_techwork_notes.html",
+        "schop_notes.html",
+    ];
+
+    // get a random number between 0 and the number of links
+    var randIdx = Math.round(Math.random() * (links.length - 1));
+    // construct the link to be opened
+    var root = window.location.protocol + '//' + window.location.host;
+    var link = root + '/' + links[randIdx];
+
+    document.location.href = link;
+};
+</script>
+</body>
+</html>
