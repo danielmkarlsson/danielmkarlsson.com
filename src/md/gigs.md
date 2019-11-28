@@ -50,6 +50,14 @@ src="RuinsAtFylkingen7November2019.mov"></video>
 
 <br>
 
+**A collapse of structures at Ställbergs Gruva**
+
+This piece was originally composed for 8 channels and had it’s premiere on the
+second of August 2019 at Ställbergs Gruva as part of their three day festival
+“Att återta det levande”.
+
+<br>
+
 **Intersections of traversals at NorbergFestival**
 
 I was invited by [Sara Fors](http://www.stickydrama.se/om/sara-fors/), [Mattias
