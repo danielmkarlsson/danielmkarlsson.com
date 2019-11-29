@@ -21,14 +21,14 @@ friends came out to support us. I've never done that kind of tit for tat thing
 of booking a gig for someone from out of town at Fylkingen. This is not that. I
 just really dig Francesco and I thought that he should get to experience doing a
 gig at Fylkingen while he was here. I guess the way to get a gig at Fylkingen is
-either become a member or to get chummy with a member. Fylkingen has a good PA
-,quad Lacoustics with decent subs under each top + extra JBL subs and a good
+either become a member, or to get chummy with a member. Fylkingen has a good PA,
+quad Lacoustics with decent subs under each top + extra JBL subs and a good
 projector. The thing they didn't have was a cable that was long enough to get
 from the projector to the other end of the room. I thought that for sure
 Fylkingen would still have that really old, really long VGA cable but it must
 have broke since I used it last. I ended up using OS X's built in Screen
-Sharing. It was not ideal, but I had to think on my feet there so that's what
-happened. Luckily the new wifi setup is pretty fast so there was not all that
+Sharing. It was not ideal, but I had to think on my feet there, so that's what
+happened. Luckily the new wifi setup is pretty fast, so there was not all that
 much latency. I do not recommend doing it that way, but it did work. Would have
 felt better to ssh or even send the OSC messages over ethernet between the two
 computers. Maybe next time. The code is very raw. They are single line things
@@ -38,12 +38,12 @@ Granström](https://davidgranstrom.com/) taught me is subtracting `1` from an
 `exprand` to invert the range. I like to be able to do that because I remember
 swapping the values in Haskell and getting that behaviour. I think it's neat.
 The lines are grouped in parentheses for optics and also there is the top level
-parenthesis which let's me evaluate all lines wherever I'm at with `C + e`. On
+parentheses which let's me evaluate all lines wherever I'm at with `C + e`. On
 top of that David taught me this neat trick where you can make a visual
 selection in [nvim](https://github.com/neovim/neovim/wiki/Installing-Neovim) and
 then recall it with less hassle using `gv`. I can make this reselect last
 selection and then evaluate manouver pretty fast now that my hands are getting
-into it. You can see me do that a bunch in the video below.
+into it. You can see me do that a whole bunch in the video below.
 
 <video controls="controls" width="100%" name="RuinsAtFylkingen7November2019.mov"
 src="RuinsAtFylkingen7November2019.mov"></video>
@@ -54,9 +54,9 @@ src="RuinsAtFylkingen7November2019.mov"></video>
 
 This piece was originally composed for 8 channels and had it’s premiere on the
 second of August 2019 at Ställbergs Gruva as part of their three day festival
-“Att återta det levande”. We encouraged folks tot not have their handComputers
+“Att återta det levande”. We encouraged folks to not have their handComputers
 with them in the room. This meant that I don't really have a clip from this gig.
-I've been thinking I should try to work something out with the photogrpaher that
+I've been thinking I should try to work something out with the photographer that
 took stills in the room.
 
 <br>
