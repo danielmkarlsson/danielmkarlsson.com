@@ -54,9 +54,9 @@ src="RuinsAtFylkingen7November2019.mov"></video>
 
 This piece was originally composed for 8 channels and had it’s premiere on the
 second of August 2019 at Ställbergs Gruva as part of their three day festival
-“Att återta det levande”. We encouraged folks tot not have their handComputers
+“Att återta det levande”. We encouraged folks to not have their handComputers
 with them in the room. This meant that I don't really have a clip from this gig.
-I've been thinking I should try to work something out with the photogrpaher that
+I've been thinking I should try to work something out with the photographer that
 took stills in the room.
 
 <br>
