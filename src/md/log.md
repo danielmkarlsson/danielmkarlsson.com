@@ -223,26 +223,5 @@ possibility of [putting audio inside a .svg
 file.](http://xn--dahlstrm-t4a.net/svg/audio/html5-audio-in-svg.svg)
 
 <br>
-
-[//]: # ([.ndx](../) | <a href="#" onClick="goToURL()">.rnd</a>)
-
 <br>
 <br>
-
-<script>
-function goToURL() {
-    var links = [
-        ".",
-        "./img",
-        "./irc",
-    ];
-
-    // get a random number between 0 and the number of links
-    var randIdx = Math.round(Math.random() * (links.length - 1));
-    // construct the link to be opened
-    var root = window.location.protocol + '//' + window.location.host;
-    var link = root + '/' + links[randIdx];
-
-    document.location.href = link;
-};
-</script>
