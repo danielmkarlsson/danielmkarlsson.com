@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>dmk</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link href="/player/dmk-player.css?v=2" rel="stylesheet"> 
+  <style type="text/css">
+
+  html {
+      box-sizing: border-box;
+      height: 100%;
+      word-break: normal
+      overflow-wrap: normal;
+      background-color: white;
+      color: black;
+
+      .dark-mode {
+          background-color: black;
+          color: white;
+          a:link, a:visited {
+              color: white;
+          }
+          footnotes {
+              color: white;
+          }
+          play-button {
+          filter: invert(1);
+      }
+      transport {
+          filter: invert(1);
+      }
+  j
+      }
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+      max-width: 480pt;
+      height: 100%;
+      margin: auto;
+      padding-top: 10pt
+      padding-left: 10pt;
+      padding: 10pt;
+      font-family: Verdana;
+      line-height: 140%;
+      font-size: 10pt;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;
+      color:#222;
+      word-break: normal
+      overflow-wrap: normal;
+  }
+
+  .button1 {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  h1,h2,h3{
+      line-height:1.2
+  }
+
+  a:link, a:visited {
+      color: black;
+      text-decoration: none;
+  }
+
+  a:hover, a:active {
+      color: black;
+      text-decoration: underline;
+  }
+
+  .contact {
+    margin-bottom: 15%;
+  }
+
+  .footnotes {
+    margin-top: 100%;
+    padding-bottom: 10px;
+    color: black;
+  }
+
+  .blinking{
+          animation:blinkingText 0.8s infinite;
+      }
+
+      @keyframes blinkingText{
+          0%{     color: #000;    }
+          50%{    color: transparent; }
+          100%{   color: #000;    }
+      }
+
+  pre code {
+    font-size: 12px;
+    line-height: normal;
+    width: 300%;
+    background: #000;
+    color: #fff;
+    display: block;
+    padding: 10pt;
+  }
+
+  /* audio player */
+
+  .player {
+    width: 100%;
+  }
+
+
+  .tab { 
+         display:inline-block; 
+         margin-left: 40px; 
+  }
+
+  img {
+      max-width:100%;
+      height:auto;
+  }
+
+  .transport {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+  }
+
+  #player-title {
+    /* text-align: center; */
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: 600;
+
+  }
+
+  #play-button {
+    margin: 0;
+    padding: 0;
+    width: 30px; /* prevent resize */
+
+    background: transparent;
+    outline: 0;
+    border: none;
+
+    text-align: left;
+
+    font-size: 1.25em;
+    white-space: nowrap;
+  }
+
+  #current-time {
+    white-space: nowrap;
+    font-size: 1em;
+    margin-left: 10px;
+  }
+
+  #time-line {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid black;
+  }
+
+  #progress {
+    position: absolute;
+    top: 21px; /* depends on timeline height */
+    left: 0;
+
+    height: 4px;
+    background: black;
+  }
+
+  .playlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    height: 100%;
+    overflow: auto;
+  }
+
+  .playlist-item {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0.25rem 0.25rem;
+    border-bottom: 1px solid #eee;
+
+    /* prevent div resize when selecting track */
+    border-left: 1px solid transparent;
+  }
+
+  .playlist-item.selected {
+    border-left: 1px solid black;
+  }
+
+  .playlist-item.selected:hover {
+    border-left: 1px solid black;
+  }
+
+  .playlist-item:hover {
+    background: #eee;
+    border-color: #eee;
+  }
+
+  .playlist::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .playlist::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-left: 6px solid white;
+  }
+
+  video, .avia-video *, *:focus {
+    outline: 0!important;
+    outline: none!important;
+    outline-width: 0;
+   -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
+  }
+
+  </style>
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+</head>
+<body>
+<br>
+<center>
+<strong>Mapping The Valleys of The Uncanny</strong>
+</center>
+<br>
+<center>
+An investigation into a process and method, colliding with questions relating to what can be known to be real, within the field of algorithmic composition.
+</center>
+<p><br></p>
+<p>Or if you prefer:</p>
+<p><br></p>
+<center>
+The roles of instrumentation and timbre, as they unwittingly conspire to designate access, power, status, work and ultimately class.
+</center>
+<p><br></p>
+<div class="dmk-player" data-playlist="mapping-the-valleys-of-the-uncanny/index.json">
+
+</div>
+<p><br></p>
+<p>Drop me a line at firstname no initial [at] firstname initial lastname [dot] com if you’ve run into a snafu of some kind or would like to talk about anything.</p>
+<p>This thesis is accompanied by a number of files containing code, and audio. If you are reading this and you do not have these files available to you, then you can find them through this link:</p>
+<p><a href="https://www.danielmkarlsson.com/map-apx" target="_blank">danielmkarlsson.com/map-apx</a></p>
+<p>These materials, which I created for the Master degree in Computer Music at KMH in Stockholm, Sweden, are all free to imbibe under <a href="https://www.gnu.org/licenses/gpl-3.0.txt" target="_blank">GPLv3</a>. I hope you find them useful to you in some way.</p>
+<p>Daniel M Karlsson</p>
+<div class="footnotes">
+
+<h2>
+Table of Contents
+</h2>
+<p>
+<strong>01. Establishing a baseline</strong> <br> <span class="tab"> An investigation ensues <br> Public Service Announcement <br> We are free <br> Who is speaking? <br> Why should we listen? <br> What’s wrong? <br> The Cyber is huge
+</p>
+<p>
+<strong>02. On uncanniness</strong> <br> <span class="tab"> The meanings of words <br> An unexpected impact on choices <br> Fundamental differences <br> The notion of the real <br> The Lacanian Triad is so eerie
+</p>
+<p>
+<strong>03. The MPC is now a lens</strong> <br> <span class="tab"> The setup <br> A new origin myth <br> Over embellished symmetry <br> The old hat paradox <br> Curséd sampler
+</p>
+<p>
+<strong>04. Code has value</strong><br> <span class="tab"> Promises have been made <br> Workspace and environment
+</p>
+<p>
+<b>05. Pine cones are magical </b> <br> <span class="tab"> The Believing Game <br> Oram’s New Atlantis <br> Rooms are resonant bodies <br> State is immeasurable <br> A differing perspective on smallness
+</p>
+<p>
+<b>06. Music is a technology </b> <br> <span class="tab"> Putting on a show <br> Set lists <br> Briefly on the subject of recording sound <br> Uroboros’s clenched jaw
+</p>
+<p>
+<b>07. Closure and alignment </b> <br> <span class="tab"> My Last Rodeo <br> A word or two about links <br> Links to sources
+</p>
+<p><br></p>
+<center>
+<h2>
+01 Establishing a baseline
+</h2>
+</center>
+<p><br></p>
+<h3>
+An investigation ensues
+</h3>
+<p>Let’s start simple. I like simple. In this text I’m going to be citing other texts. I’m citing other texts, partly because I think that it is a thing that people do, when they write master theses. The other part of why I’m citing other texts is because it reminds me of sampling. I’m interested in sampling. We’ll get to why I think sampling, and subsequently citing other texts, in this thesis is interesting, but for now it’s important to me that you know why I cite. I do it because in my mind, I’m actually playing back a sample. It’s a sample containing text instead of sound. You are now ready to receive my first citation.</p>
+<p>Steve Martin wrote the script for <em>LA Story</em> and, in that film, he also plays the main character Harris K. Telemacher, who addresses his unrequited love this way:</p>
+<blockquote>
+<p>All I’m saying is that, when I’m around you, I find myself showing off, which is the idiot’s version of being interesting.<sup id="a1"><a href="#f1">1</a></sup></p>
+</blockquote>
+<p>When I am citing other texts I’m not doing it to try to impress you. I’m not saying that I think anyone else’s way of doing this is bad or anything. All I’m saying is that, when I’m writing this, I find myself performing and, in that performing, relating to ideas I have about other people’s expectations. Long story short; I guess you could say I have issues. These issues are mine. It’s not you, it’s me.</p>
+<p>Greg Egan writes in <em>Diaspora</em>:</p>
+<blockquote>
+<p>Every orphan was an explorer, sent to map uncharted territory. And every orphan was the uncharted territory itself.<sup id="a2"><a href="#f2">2</a></sup></p>
+</blockquote>
+<p>You knew this already, but all of the quotes that I use can be traced back to their origins. There you would find the complete body of work of their creator. We’re establishing a baseline here remember? I included the above quote because it’s from my favourite book. The reason it is my favourite book is because it is a complete recounting of all of our yet unlived communal future, as a utopia. I like to think that this says something about me and also about my sensibilities. We could keep playing it this way. My liking something could be a basis for inclusion. You might be able to piece together something towards an understanding of my influences this way. My reasons for including other people’s words won’t always be that they reflect some aspect of who I am, so watch out for that upcoming guesswork going forward.</p>
+<p>Karl Marx writes in <em>Theses on Feuerbach</em>:</p>
+<blockquote>
+<p>The philosophers have only <em>interpreted</em> the world in various ways; the point, however, is to <em>change</em> it.<sup id="a3"><a href="#f3">3</a></sup></p>
+</blockquote>
+<p>The above quote tells you for sure that I am <em>at least</em> a socialist, if you hadn’t picked up on that vibe prior to this explicit evidence. It also says something about how I’m fond of the idea that any pattern can be broken. Anything and everything is subject to change. The “world” here is dependent on the scope we apply to it. You can have your pick here whether or not to take that literally as in: The planet’s impending demise due to capitalism-induced climate disaster and subsequent resource wars, or given the terrifying nature of that particular avenue of thought, you might prefer one of the smaller scopes, which could include The Enlightenment, Academia, Artistic Research within new music, etc.</p>
+<h3>
+Public Service Announcement
+</h3>
+<p>I should state that I’m not attempting to put forth rigorous proof of anything. An example of an open problem requiring rigorous proof would be something like: “Can there be a logical solution to the creation of benevolent General Artificial Intelligence, under provably safe conditions?” That would be a Computer Science paper. That would probably happen on a Doctoral level (or above even?). This is not that. This text, although not directly engaged in the production of scientific knowledge, does however aim to be of use. More on utility later. This is artistic research, and as such, a single collapsing of a wavefront within a form of expression which is not yet fully formed, and still very much coming into being. There is quite a bit of wiggle room here, and I intend to make ample use of it because, as we’ll come back to, freedoms and liberties interest me.</p>
+<p>I’ve been a composer for a while now. I’ve been involved with making music in a lot of different ways through the course of getting to where I’m at now, in this moment, that has me writing this text. There have been different frameworks at different times, and those different frameworks have all come bundled with their own distinct set of different limitations. This kind of thing is always difficult to take apart but I think that, at least sometimes, those limitations have inspired me. They definitely affected the way my music sounded, that much I can tell you is for sure.</p>
+<p>One way that I like to think about these frameworks is with the word project. Learning to play the guitar was a project. Learning to record myself playing the guitar was another. Playing in a band came next. Learning to structure sound together with friends sprung to life out of that. If we fast forward through all of the links in that chain of events we arrive at the overarching project of organizing sound, and then, this particular example of that.</p>
+<p>One fundamental difference between acoustic and electronic music is that electronic music can be ungoverned by Newtonian forces. I think that is entirely amazing. Any sound can arrive at any time. There need not be a sounding body or physical object present in front of you. I hear someone in the back yelling something about speakers. Sure, sure, sure but we don’t have to get stuck there. Acousmatic music was a thing. I acknowledge that. No need to substitute one fetichising of the corporeal with another as we go forward. Speakers can be expensive, and as such, barriers to entry. The speaker is a conduit, or put another way; a funnel. Thinking about it as a filter can be fun but messy. What interests me the most is the stuff going through the funnel, and how to make it.</p>
+<h3>
+We are free
+</h3>
+<p>Let’s move on to what we are afforded from following the line of thinking that we are free, from the shackles of the finite, and of the physical world. Sound now enjoys morphological freedom through a myriad of transformations. It is malleable to the utmost degree. We have at our disposal an astounding plethora of tools, with which we can manipulate and organize sound.</p>
+<p>This thesis project is a collection of musical materials that explore the idea of the uncanny valley, as it relates to music being real, fake or some strange combination of the two. This thesis project is primarily one in which I produce sound files. In a secondary capacity, I’m also producing a text file.</p>
+<p>In this text I aim to present some of my thoughts on how my work writing code and making music might be connected, in some hopefully interesting ways, to my field. I’m unlikely to be able to adequately convey my own origin myth. Instead I’ll focus on stories I’ve been told about music, throughout my life, inside and outside of academia. I have a strong suspicion that these stories have shaped my coming into being as a composer. However difficult the task of introspection, and ultimately to <em>know</em> one self proves to be, I at least regard these stories as a source for clues as to why I am driven to do the things that I do.</p>
+<h3>
+Who is speaking?
+</h3>
+<p>I don’t think that there can be anything like “The Self”, without others, and that “The Self”, is largely about imagining other’s view of yourself.</p>
+<p>Leslie Ervine PhD, University of Colorado, writes in her Qualitative Sociology paper <em>Even Better Than The Real Thing</em>:</p>
+<blockquote>
+<p>One’s stories persuade one’s audience that one is a particular kind of person. When one is one’s own audience, the telling amounts to having a self.<sup id="a4"><a href="#f4">4</a></sup></p>
+</blockquote>
+<p>What particular kind of person would I like to be? A Composer with a capital C!</p>
+<blockquote>
+<p>Good stories must meet several requirements. They must fulfil their audiences expectations for what counts as convincing. They must be coherent, drawing together disparate elements that end up seeming inherently related. They must make events seem to lead to one another. In addition, they must have satisfying endings - not happy endings, necessarily, but endings that provide resolution while leaving enough ambiguity to enliven listeners imaginations.<sup id="a4"><a href="#f4">4</a></sup></p>
+</blockquote>
+<p>This is how I think about this thesis project. I am doing just that drawing together of disparate elements. Just like in a lot of music that is out there, the sequence, or the order in which things are introduced, matters. A very common trait of many musics that have been made, is that they exist as a linear experience. They are a form of artistic expression which exists within the time domain. Compare music to sculpture. While this perhaps is not an entirely water tight example, I use it here because I use it all of the time, as anyone who knows me can attest. I’m guessing that it’s important that I use it here, in order to maintain consistency. You get the idea.</p>
+<blockquote>
+<p>Good stories - stories that work - offer a reality that is, to use the words of a U2 song, even better than the real thing. For listeners, stories make experiences possible that would, in real life, be impractical, dangerous, time-consuming, costly, or otherwise impossible.<sup id="a4"><a href="#f4">4</a></sup></p>
+</blockquote>
+<p>I define the criteria for a good story as the following: A story that I can remember, and recount at a later time. Someone has told me a story, and I either like the story, or the person that told it to me, or both. I connect the story to the person, in my mind, to varying degrees. Sometimes I end up convinced that a particular person, telling a particular story, at a particular time, says something about what kind of person that person is. Other times not. I think about all of the people that I have met, coming up through music, as one person; Me. I was there, every time someone told me a story. Those stories undoubtedly came to shape the way I think about music and about organizing sound.</p>
+<blockquote>
+<p>When told well, stories offer a vicarious experience that is satisfying in ways that the actual experience would not or could not be. In much the same way, the narrative self is even better than the real thing. If a real self did exist, it would be inaccessible and incomprehensible, at moments so painfully intense and so raw as to offer no practical guidance for behaviour. But the self-storyteller uses a set of narrative techniques that yield a product that is better than authentic. As a story, the self can be convincing, coherent, and have a satisfying ending.<sup id="a5"><a href="#f5">5</a></sup></p>
+</blockquote>
+<p>How to tell a story well is subjective, or at least a matter of taste. I think about functionality as a guide for constructing the story of the self. How functional is it to include a particular aspect in the story, with regards to our intended outcome? The intended outcome here is to arrive at a story which is accessible and comprehensible. We want to understand each other. We are looking for clues, so that we can make better guesses about future behaviour. We are looking for patterns. We are fundamentally geared for it. It is literally hardwired into our senses. Pattern recognition is at the core of what it means to have consciousness. Seeing as music’s existence is dependent on hearing, and reasoning about what we hear, I tend to reason that musical form exploits this pattern recognition aspect of consciousness to keep the listener engaged.</p>
+<blockquote>
+<p>Self-stories can also have sufficient ambiguity to accommodate lives that are in progress and subject to change. It is the unique capacity of human beings to meet both sets of requirements - to tell good stories that can also accommodate uncertainty - and it is the power of institutions that allows them to do so. By institutions, I mean patterns of activities organized around a common goal.<sup id="a5"><a href="#f5">5</a></sup></p>
+</blockquote>
+<h3>
+Why should we listen?
+</h3>
+<p>That common goal, as I see it, is organizing sound. This makes us the same you and I. Mostly everyone we know shares this common goal. I trace this way of thinking about our common goal back to Edgard Varese talking about his own music as organized sound. I am fine with that description. It is a very broad and inclusive way of thinking about what we are doing, all of us together as a group.</p>
+<p>I want to keep finding new answers to the question of how to organize sound in ways that continue to interest me. Part of my staying interested is engaging with other people who are also engaged in this same struggle. I want to be part of a Community.</p>
+<p>I’ve thought a lot about how to set myself up so that I become increasingly unlikely to get bored. Cutting myself off from people increases the risk of getting bored. Sharing my tools increases the likeliness of contact and or stimulating communication with other people.</p>
+<p>In this text I don’t just want to talk at people about my internal state. I genuinely want to make an honest attempt at making my thesis valuable to others in terms of it’s utility. This is why I’ve chosen to include the code I used to make the music in this thesis project. My thinking here is that there exists a certain kind of reader that won’t want to sit through these touchy feely meanderings unless there is a promise of some code that can be run at the end of the day. For that reader: Here is that promise now.</p>
+<p>I couldn’t resist tying back sharing the code into this thesis project’s narrative framework, as maps. You would be free to connect my code to anything you want and control it. You could make your own connections to the things you care about. Edit my code, to find your own path through the valley.</p>
+<h3>
+What’s wrong?
+</h3>
+<p>Analogies are a special category of story. They are frail things. I don’t particularly care for them, as I find that they too easily fall prey to being contradicted by themselves, as all of the things are fundamentally different from each other. For example it doesn’t work to say that gravity is kind of like a rubber band pulling you back to the earth when you jump up. This falls apart because the rubber band is also subjected to gravity within that analogy. When analogy is used to describe domains that we kind of “know” are at least a little fuzzy, and or subjective, like emotions and ways of thinking poetically about the world, then I think that can be understood as something akin to a shorthand, and receives a passing grade. Now, with all that in mind, here comes an analogy: Certain sonorities always made me feel like I was on the outside of a locked door. Which sonorities I am referring to here is largely exemplified in the music I made for this thesis project. You really should start listening to the music if you haven’t already.</p>
+<p><em>MIT guide to Lock Picking</em>:</p>
+<blockquote>
+<p>…it is worth pointing out that lock picking is just one way to bypass a lock, though it does cause less damage than brute force techniques. In fact, it may be easier to bypass the bolt mechanism than to bypass the lock. It may also be easier to bypass some other part of the door or even avoid the door entirely. Remember: There is always another way, usually a better one.<sup id="a6"><a href="#f6">6</a></sup></p>
+</blockquote>
+<p>Having picked the lock, or otherwise bypassed it (perhaps metaphysically walking through walls!), I find myself inside of this most coveted room. Inside the room are an abundance of instruments I’d never be able to gain access to otherwise. The best part of all is that they can all be computer controlled. It is an amazing room, and I am very happy that I can enter into it whenever I want, and spend as much time there as I like. No one ever comes into the room to say:</p>
+<p>“Who the hell are you? You can’t be in here touching these <del>instruments</del> priceless museum pieces! Security!!”</p>
+<p>I’m in a safe space now, and that feels good. The thing that feels even better is that I got in, by thinking about how I could gain access using the tools available to me. Boom! I fixed my problem. I don’t have a problem anymore. I should be happy now right? Nope!. That’s not how this works. I find struggle wherever I go. I keep going. Trying new things.</p>
+<p>Here is an example of the frailty I was talking about earlier. You wouldn’t be particularly well served by bringing the wrong map with you on a hiking trip in the woods. That wouldn’t be poetic, you would just regret it. I much prefer diagrams to analogies. So much more serious seeming and they have that sweet, sweet science feel to them.</p>
+<h3>
+The Cyber is huge
+</h3>
+<p>Trying to make sense of what music making is, and also, what subsequent publishing as “cybernetic practice” even means, all seems very difficult, so let’s use a tool to help us do that thinking.</p>
+<p><br></p>
+<p><img src= "../images/willats.png"></p>
+<p><br></p>
+<p>Stephen Willats is a British artist who has self-published <em>Control</em>, a seminal forum for artists writings on art practice and social organization since 1965. I’m going to let Willats walk us through the diagram and I’ll add some thoughts in between:</p>
+<blockquote>
+<p>This diagram shows the position an art work traditionally occupies between the artist and his audience. Two fundamental discrete loops are shown, which are isolated from each other by the art work. There is no form of interaction between the two which could generate mutual understanding as would be the case in a successful conversation. In the absence of such a procedure both the audience and artist become locked in their own perceptual biases.<sup id="a7"><a href="#f7">7</a></sup></p>
+</blockquote>
+<p>The audience views the result of the artist’s process of composing the work and then goes on about their lives. Both artists and the audience proceed to make and experience new artworks respectively. The arrows keep on going up forever, like on a conveyor belt infinitely churning out new artworks, and experiences of those artworks. Some particular work, by some particular artist, may resonate more with some individual human being held within the mass that is the audience. The prescribed modus operandi for this individual is then to take an interest in the artist, or rather, the story that has been constructed about the artist. To be neatly consumed, perhaps in the form of a biography or an interview. I don’t think this model serves us very well. At least not on it’s own.</p>
+<blockquote>
+<p>I wanted to look at all means of communication within society to take what I could from everywhere I could, and reformulate it into a new way of operating.<sup id="a7"><a href="#f7">7</a></sup></p>
+</blockquote>
+<p>This makes me think of sampling as an act which holds potential to be radically instrumental both in reevaluating not just intellectual property laws, but the very concept of property itself.</p>
+<blockquote>
+<p>I wanted to intervene in the fabric of society directly. Not just sit inside a box, but to move freely within the interpersonal infrastructure of society. To create the means of people transforming their own sense of reality and identity and vision of the future.<sup id="a7"><a href="#f7">7</a></sup></p>
+</blockquote>
+<p>If we were to share our code, the audience would be more likely to be empowered to do something, instead of just continuing to go about their lives as consumers. Consumers of musics and of stories about artists. Perhaps idolizing them. Putting the artist on an unattainable pedestal, and subconsciously the idea that they themselves as part of an audience (which is wholly separate from the artist), could create something, anything.</p>
+<blockquote>
+<p>The outcome that I was interested in was the idea of self-organization. Transformation in the self, or creative potential of the self, so that anybody could create their own being in relation to other people. I was interested in society. I see that there’s a richness in relationships between people, community.<sup id="a7"><a href="#f7">7</a></sup></p>
+</blockquote>
+<p>I think self-organization as Willats uses it above is problematic because it could be misconstrued as the invisible hand of the market which ideologues proclaim needs to be left alone, forever, in order to “self-organize” supply and demand of goods and services. It’s a good thing that there is a license that explicitly negates that. It’s GPLv3. The specific transformation in the self that I’m aiming at changing is attitudes towards constructed narratives designed to create cult followings. They are not helping to deepen the audience’s relationship with the artwork. Giving the audience access to the GPLv3 licensed code on The Public Internet might not do that all of the time but it is a thing to try instead of going along with a prescribed method mindlessly.</p>
+<blockquote>
+<p>… there was an interconnection between the audience, the language, the meaning, the intention, and the context and presentation. This meant that the strategies that the artist employed, or should we say, the artwork, was a result of the interconnections between these things.<sup id="a7"><a href="#f7">7</a></sup></p>
+</blockquote>
+<p>I’ve had a bunch of experiences prior to working on this thesis project. I have made and heard a whole lot of music. Not only that but basically everything that has ever happened to me, and the things that I have come to believe, about myself and about the world, I take with me into this new project. That happens with every project. The framework surrounding this particular project really make me acutely aware of that. Same thing goes for a listener actually. They also bring everything with them into the act of listening. They might not know it but that’s how it is. Nothing happens in a vacuum. The two discrete loops of the artist and audience are still kept separate in other, necessary ways. I need to create music to keep myself balanced, but that doesn’t mean that I surrender my privacy. The listener shouldn’t have to either. Privacy is a growing concern. Especially on the internet.</p>
+<p>Isis Agora Luvcruft, who at the time was a Core Developer of The Tor Project, relates in ver<sup id="a8"><a href="#f8">8</a></sup> talk <em>Network Security - Anonymous Networks &amp; Communications</em> at Raboud University:</p>
+<blockquote>
+<p>Privacy is necessary for all other rights. Even if you don’t care about your own right to privacy it’s incredibly antisocial to claim that the right to privacy as a whole should be relinquished, that others should also be expected to have nothing to hide.<sup id="a9"><a href="#f9">9</a></sup></p>
+</blockquote>
+<p>Mark Fisher writes in <em>Capitalist Realism</em>:</p>
+<blockquote>
+<p>As Old Media increasingly becomes subsumed into PR and the consumer report replaces the critical essay, some zones of cyberspace offer resistance to a ‘critical compression’ that is elsewhere depressingly pervasive. Nevertheless, the interpassive simulation of participation in postmodern media, the network narcissism of MySpace and Facebook, has, in the main, generated content that is repetitive, parasitic and conformist.<sup id="a10"><a href="#f10">10</a></sup></p>
+</blockquote>
+<p>The Public Internet and the commercial internet are two very different places. I thought for sure that once we got decent speeds going for most folks (yes, in the global West, I know) we’d see some great stuff happening for distribution. Self publishing web sites and genuine communication between all kinds of folks leading to all kinds of profound new insights in all kinds of domains. Instead we got social media and all kinds of really terrible things happening. Just awful.</p>
+<blockquote>
+<p>The videodrome-control apparatus described by Burroughs, Philip K. Dick and David Cronenberg in which agency is dissolved in a phantasmagoric haze of psychic and physical intoxicants. Like Burroughs, Spinoza shows that, far from being an aberrant condition, addiction is the standard state for human beings, who are habitually enslaved into reactive and repetitive behaviors by frozen images (of themselves and the world). Freedom, Spinoza shows, is something that can be achieved only when we can apprehend the real causes of our actions, when we can set aside the ‘sad passions’ that intoxicate and entrance us.<sup id="a11"><a href="#f11">11</a></sup></p>
+</blockquote>
+<p>That is what the commercial internet looks like to me. I am so immensely fatigued by it’s “sad passions”. The endless stream of strangers with perfectly fake smiles has me wanting to never see another stranger’s face ever again. They’re all so desperate to sell me everything I don’t want. They probably weren’t even told what their faces were being used to sell. So unreal.</p>
+<p>Max Read writes in <em>How much of the internet Is fake</em>:</p>
+<blockquote>
+… through layers of diminishing reality. … half-awake, unable to distinguish the virtual from the real.<sup id="a12"><a href="#f12">12</a></sup>
+</blockquote>
+<p>The infrastructure we use for getting things done on The Public Internet is something we need to look both forwards but also backwards in order to make sense of. Social media platforms or any other part of the commercial internet is not a part of that. If we were to build our own Public Internet though, now that would really be something different all together!</p>
+<p>Brass tacks nomenclature for increasing our freedoms relating to publishing our work:</p>
+<ul>
+<li>
+Self published web sites
+</li>
+<li>
+RSS
+</li>
+<li>
+Email (lists)
+</li>
+<li>
+P2P
+</li>
+</ul>
+<p>These four apply to everyone. The last one below is most important to music makers in general, and myself in particular because I didn’t have access to this technology prior to this thesis project:</p>
+<ul>
+<li>
+A decent media player
+</li>
+</ul>
+<p>When I say decent, I mean that the audio quality needs to be decent (as in 320kbps constant bit rate for audio and video). I also mean that artists should be in control of their own works and not supplying a platform with free “content”, to attract listeners which then get bombarded with atrocious ads. My wording here approaches questions of ethics and morality. You get the idea: Platforms bad, self publishing good.</p>
+<p>One last thing while we’re adjacent to the topic of the internet in general. In the Piratebay trial, Peter Sunde explained in his testimony:</p>
+<blockquote>
+We don’t use the expression IRL. We use AFK which means Away From Keyboard. We think that the internet is for real.<sup id="a13"><a href="#f13">13</a></sup>
+</blockquote>
+<p><br></p>
+<center>
+<h2>
+02 On uncanniness
+</h2>
+</center>
+<p><br></p>
+<h3>
+The meanings of words
+</h3>
+<p>Let’s have a look in a dictionary<sup id="a14"><a href="#f14">14</a></sup> just to get a broad sense of our bearings here:</p>
+<ul>
+<li>
+Having or seeming to have a supernatural or inexplicable basis.
+</li>
+<li>
+Beyond the ordinary or normal.
+</li>
+<li>
+Extraordinary.
+</li>
+</ul>
+<p>“Uncanny accuracy; An uncanny knack of foreseeing trouble.”</p>
+<ul>
+<li>
+Mysterious.
+</li>
+<li>
+Arousing superstitious fear or dread.
+</li>
+<li>
+Uncomfortably strange.
+</li>
+</ul>
+<p>“Uncanny sounds filled the house.”</p>
+<p>Let me make an attempt at explaining why I am drawn to it. First off it strikes me as contemporary, seeing as we are all living through post-truth, and secondly because I regard it as largely underexplored when thought of as a musical parameter. It turns out originality, or otherness, is important to me.</p>
+<p>Uncanniness looks underexplored enough as a space to peek my interest. From where I’m standing uncanniness being largely underexplored checks out as true. This perspective is something that I have created via the act of viewing and thinking about the world. In our time of post-truth, simply having a thought, and then remembering that one has had that thought previously, can lead one to thinking that it is a true statement, on par with statements like: Gravity exists! At the time of writing politicians at the highest levels behave in this exact way all of the time. It is eerie how “manifestation” is everywhere now. Strange times indeed.</p>
+<h3>
+An unexpected impact on choices
+</h3>
+<p>All sample libraries end up existing on a spectrum ranging from authentic sounding to blatantly fictitious. It interests me to think about where a particular library lands on that spectrum for an imagined listener. After that there are aspects of how a library is recorded and scripted that influence me to make all kinds of choices regarding the construction of the music. Dynamics and registration most especially, but in some cases even pitch material has revealed itself to me through this lens.</p>
+<p>In researching this text it was particularly inspiring to read Roboticist Masahiro Mori’s thoughts in <em>The Uncanny Valley</em><sup id="a15"><a href="#f15">15</a></sup>, and through that text finding Bunraku. It has profoundly impacted my view of the world and about how reality is something we all hold together by reenacting. We are constantly reminding each other of how to behave, what to regard as real, and what to discard as unreal. Or as William Gibson put it in <em>Neuromancer</em>:</p>
+<blockquote>
+<p>A consensual hallucination.<sup id="a16"><a href="#f16">16</a></sup></p>
+</blockquote>
+<p>Gibson was talking about something a little different when he wrote that. That’s part of what interests me about sampling. We can both refer to, and at the same time recontextualize anything that has previously been recorded, either as sound or as text. When we quote text we are bringing the context of academia at least and perhaps even of The Enlightenment with us. We are standing on the shoulders of giants. Literally all of recorded history. A history that has been kept safe for us so that we might learn from it. With sampling of audio it’s a little different. Intellectual property laws forbid it. You would have to obtain permission from the rights holders in order to distribute a derivative work. You would most likely have to relinquish all of your potential profit to the rights holders. This “potentiality” however, is shrinking rapidly. How will artists receiving fractions of pennies per stream impact their likeliness to sample? How will listeners having access to “all” of the music ever recorded impact their likeliness to sample?</p>
+<p>As my work of organizing sound has led me further and further down the path of algorithmic composition, I have grown more and more interested in the role of contexts and of connotations that certain sounds bring about in an audience because of their potential to elicit a sense of the uncanny.</p>
+<p>I never really had any deeper context for LinnDrum Kicks or Four Operator FM Synthesis. No contexts that I regarded as my own, except for the obvious context that these sounds are strictly out of bounds for anyone looking to make “serious” music. While that forbidden quality still holds some titillation I have moved on to thinking that for the most part; No one cares. Don’t worry though. This is a good thing. Trust me. It means that we are free. Free to dream endlessly and to make anything we want. Any structure or intricate web of references. Absolutely free. Steve Martin wrote about this sense of freedom in <em>LA Story</em>:</p>
+<blockquote>
+<p>No one is looking to the outside for verification that what they’re doing is ok.<sup id="a1"><a href="#f1">1</a></sup></p>
+</blockquote>
+<h3>
+Fundamental differences
+</h3>
+<p>Getting back to the practical; Certain things are different when sequencing sounds in a computer. Sounds can easily be reiterated at a faster rate. That’s interesting because we have fast playing in music played by humans also. It’s interesting because a lot of the time that ability gets held up as virtuosic in different ways, within different genres. We use phrases like gifted or talented musicians. A computer can play exactly the same amplitude and timbre multiple times in a row. Humans can’t, well actually the constraint is higher up than that. Simple physics really, Newtonian forces won’t allow it. We’ve never held that kind of virtuosity up as equilibristic instrumentalist practice either. I don’t think we’d react quite the same way if a human got even remotely close to that type of musical capacity. “You sound like a machine” they’d say. It would be derogatory. They might not even know what machine they’d be referring to. It would be the sampler and more specifically an early days sampler like the Akai MPC60 or the E-mu SP-1200, with a single layer of samples. No round-robin switching out of the samples to mimic what happens “naturally” when a key is struck on a Steinway grand piano at different velocities. An infinite amount of the subtlest variation explodes out of that action each time. The cross talk inside the body of the instrument as multiple keys are struck elevate the richness of timbral interplay to immeasurable heights of exponentiality. The sampler is different, is all I’m saying here. It has it’s own behaviour. If we try hard, we can have a unique relationship to this “new” instrument, that has nothing to do with that Steinway grand piano. We would have to do the admittedly difficult work of adjusting our way of thinking about the world in order to achieve this goal.</p>
+<h3>
+The notion of The Real
+</h3>
+<p>I find my own thinking aligning with these parts of Slavoj Zizek’s in <em>The Reality of the Virtual</em>.</p>
+<blockquote>
+…when I deal with you, I’m basically not dealing with the real you. I’m dealing with the virtual image of you. And this image has reality, in the sense that it, none the less, structures the way I am dealing with you. And then this idealization is crucial.<sup id="a17"><a href="#f17">17</a></sup>
+</blockquote>
+<p>I substitute the interactions of two individual human beings with an audience’s experiencing of an artwork from two sides of it. More on these two sides of an artwork later. I agree that idealization is crucial, and it is the case within this thesis project as well. Had there not been this idealized view of acoustic instruments active in the world, then there would be no foundation for me to build my castles in the sky upon. I am trying to relate to my surroundings somehow, by creating these works.</p>
+<blockquote>
+This would be the first elementary level: Imaginary virtual, in the sense of the virtual image which determines how we interact with other people. Virtual image in the sense of: Although we interact with real people, we erase, we behave as if whole strata of the other person are not there.<sup id="a17"><a href="#f17">17</a></sup>
+</blockquote>
+<p>I here substitute “real people” with artworks and “the whole strata” as the process which has led to the result that is the artwork; The file. The .wav or .pdf for example. Process and method, or even just the nomenclature of the tools involved, are per default hidden, or purposefully made secret.</p>
+<blockquote>
+[An] example of how the virtual dimension is operative at the symbolic level would have been beliefs. Are we aware to what extent our beliefs today are virtual? By virtual I mean, in this case, attributed to others, presupposed. They don’t actually exist, they are virtual, in the sense that nobody really has to believe, we only have to presuppose another person to believe.<sup id="a17"><a href="#f17">17</a></sup>
+</blockquote>
+<p>An example of a virtual symbolic belief in our neck of the woods would be the story of how Gil Evans arranged Sketches of Spain. The story goes that he’s a genius for arranging in such a way that instruments that were very widely apart in terms of their audibility, were they to be stood on a stage together, could be made to fit snugly in a recording. Contrastingly there’s the story of how a 1930s first-timer studio musician asked a recording engineer “if there oughtn’t be more than one microphone in the room”. The recording engineer then proceeds to laugh and ask if the musician intends to record more than one record simultaneously. The recording engineer goes on to explain that whomever in the ensemble has a solo should take a step closer to the microphone.</p>
+<p>I presuppose that there is a person within an audience which listens to the result of my organizing of sound filtered through these stories even though I don’t regard them as real from my perspective. I imagine an audience’s a priori established beliefs subsequent effect on their perception of artworks that I produce.</p>
+<p>In the music that I have produced for this thesis project the presupposition present in the imagined audience is that acoustic music is created by living breathing human beings, reading sheet music. They are using a very special type of physical object, which is a musical instrument, to make sounds. Ideally this happens in a special type of physical space, which is a concert hall. This is how recordings get made. The details surrounding the engineering aspect of the recording is not important. The people in the room with their instruments; That is where the magic happens. Any infringement upon that fact is unthinkable, to this imagined audience, which holds these virtual beliefs. This then becomes Zizek’s efficacity, as it gave me something to relate to when I made the music for this project.</p>
+<p>In the lead up to Zizek’s great reveal of The Real Real there is the telling of the story in which Rumsfeld lists what they knew at the time just before the war on Iraq:</p>
+<ul>
+<li>
+The known knows <br>
+<li>
+The known unknowns <br>
+<li>
+The unknown unknowns <br>
+</ul>
+<p>Zizek adds a fourth category to Rumsfeld’s list:</p>
+<ul>
+<li>
+Unknown knowns
+</ul>
+<blockquote>
+We know them, they are part of our identity, they determine our activity, but we don’t know that we know them! This is what, in psychoanalysis, of course, is called unconscious. Unconscious fantasies, unconscious prejudices, etc., etc. And I think that this level is crucial.<sup id="a17"><a href="#f17">17</a></sup>
+</blockquote>
+<p>I agree that this level is crucial, and add that biases are another wording of how these unknown knows dictate our behaviour. This wording strongly comes into focus for me as an expression of our time. Especially as it relates to how a wider applicability of algorithms in our daily lives has led to concerns about the pervasiveness of algorithms. I am obliged to state the obvious here for the record: All of the algorithms created to date have been created by humans. We are the one’s writing the algorithms. These are our biases. We bring them with us into everything we do. Even into the act of listening to music. This is part of why I was drawn to exemplifying, or possibly even teasing out these biases, or unknown knows, in the music I made in this thesis project.</p>
+<h3>
+The Lacanian Triad is so eerie
+</h3>
+<p><img src= "../images/lacan.png"></p>
+<p><br></p>
+<p>I’ll let Jacques Lacan speak for himself here via a quote from his seminar <em>Freud’s Papers on Technique</em> in order to give you an example of why I find it preferable to receive my Lacan through Zizek:</p>
+<blockquote>
+The real is what resists symbolization absolutely.<sup id="a18"><a href="#f18">18</a></sup>
+</blockquote>
+<p>I’ll leave this section with an exercise for the reader, to be forever doomed, just as I have been forever doomed to find Baudrillard’s four categories from <em>Simulacra and Simulation</em>, in every aspect of your life from now until eternity:</p>
+<ul>
+<li>
+Faithful copy
+</li>
+<li>
+Mask
+</li>
+<li>
+Illusion
+</li>
+<li>
+Pure simulacrum
+</li>
+</ul>
+<p>No, but seriously though, Corey Mohler asks:</p>
+<blockquote>
+What is philosophy? It’s when you think about something so much that you actually end up understanding it less.<sup id="a19"><a href="#f19">19</a></sup>
+</blockquote>
+<p>What if reality is not a contiguous field but rather made up of discrete components that require assembly?</p>
+<p>When the simulation becomes indistinguishable from the real, and then, surpasses the real in expressing potential that was present all along, both in the real and in the simulation. At that point, where the simulation extends past the capacities of the real, and becomes preferred over the real, it can begin to effect the real. Not to change the real, because the real is a moving target, but better yet, to change the enactment of the real. This enactment then emanates outward, spreading like wildfire, approaching the point of critical mass that is the wildly unruly expression of culture.</p>
+<p>If your ears are not occupied listening to the music I made for this thesis project, then you simply must see Emma Robinson’s amazing video depicting a cover of Rihanna’s <em>Stay</em><sup id="a20"><a href="#f20">20</a></sup>, using only her voice and a piano. The video contains expert mimicry of Auto-Tune artifacts using glottal stops and precise intonation inflections at on-a-dime speeds. I’d like to use it now as a popular cultural anchor to drive home the previous paragraph. I release you momentarily from the task of reading this thesis for the duration of that video. It’ll be quick and you’ll come right back. It’ll be fine.</p>
+<details>
+<summary>
+Click here to view video.
+</summary>
+<video width="100%" controls>
+<source src="stay.mp4" type="video/mp4">
+</video>
+</details>
+<p>My fascination for this material mirrors the kind of fascination representatives of american cultural imperialism feel when they hear their distinctly hyperRealised echo emanating from, for example, Japan. Mimicry is the sincerest form of flattery, albeit at times eerie or even uncanny when witnessed. This human being’s efforts are directed at an object. I bet it took ten thousand hours to perfect. The result is a most exquisite mimicry, of which the receiver, an inanimate machine, is entirely unaware.</p>
+<p><br></p>
+<center>
+<h2>
+03 The MPC is now a lens
+</h2>
+</center>
+<p><br></p>
+<h3>
+The setup
+</h3>
+<p>If the tape recorder was hyperReal then the MPC would be hyperHyperReal (compare postPostModern) and controlling Kontakt with SuperCollider is infinitely hyperRealised in comparison to the original origin myth.</p>
+<p>But we can’t just run around slapping on an ever increasing number of post and hyper to words all willy-nilly now can we? That would be ridiculous. Let’s check in with Mark Fisher in <em>Capitalist Realism</em> again:</p>
+<blockquote>
+<p>Postmodernism remains a hugely contested term, its meanings, appropriately but unhelpfully, unsettled and multiple.<sup id="a21"><a href="#f21">21</a></sup></p>
+</blockquote>
+<h3>
+A new origin myth
+</h3>
+<p>The myth of Electronic Music’s origin, as it was handed down to me, was always told through the perspective of the tape recorder being the unquestionable beginning of it all. Then later, the result of that historical perspective sees the tape recorder grow to the size of the studio, with it’s undeniable monumental prestige. If we adjust the point of departure to a more recent technological breakthrough, then the scope of our story changes dramatically. To use the MPC as the starting point for an alternative telling of history emerges as an opportunity. If we dare to follow this line of thinking further, we arrive at taking actions in the present, in order to create the kind of future we would most prefer.</p>
+<p>The story we now construct has ramifications for where density occurs within the story. My preference is for density to occur closer to our time. Year Zero is no longer the end of WWII with that of the Americans “liberating” the tape recorder from the rubble of continental Europe. Instead, the year is 1988. Public Enemy burst into a popular culture running at break-neck-speed with their debut release <em>It Takes a Nation of Millions to Hold Us Back</em>. In the same year N.W.A release <em>Straight Outta Compton</em>.</p>
+<p>Our origin story is no longer one of first meanderings of applying an alien technology inside of a void. Instead the very modus operandi is referentiality. The sampler and sampling, not the tape recorder and tape recordings of trains or doors and sighs.</p>
+<p>As stated above the history of Electronic Music begins with the tape recorder and then explodes outward into the physical monument of the studio. Our new origin story is one of implosion. From the decisively physical 10,5 Kilos of the original MPC-60 to the weightlessness of software. Both stories originate from a single machine but constitutes wildly different points of departure.</p>
+<p>I argue that sampler softwares, running inside of computers, are direct descendants of the MPC. As software they are now devoid of physical form. A computer can perform the task of any specialized machine like the tape recorder or the sampler. A general purpose computer is incorporeal. Purpose defined in software.</p>
+<h3>
+Over embellished symmetry
+</h3>
+<p>It wasn’t until much later that I realised that the “magical machine” that I had heard about was the MPC. I first heard the story when I was a kid listening to NWA, Public Enemy and De La Soul. Then finally when I was older from a friend who turned me on to J-Dilla’s Donuts. He told me the story of how the record got made as we were listening to the album together. The last celebrated experimental hip hop record, and it didn’t have any rapping on it. The story goes he made it in the hospital as he was dying of a terminal illness. Had his MPC3000 on his belly in the hospital bed. I don’t know if that’s entirely accurate. That image is so strong that I’ve put off trying to find out if it’s a 100% true story because</p>
+<blockquote>
+<p>A kiss may not be the truth but it’s what we wish were true.<sup id="a1"><a href="#f1">1</a></sup></p>
+</blockquote>
+<p>That’s another bit from Steve Martin’s <em>LA Story</em>. In the film I think we’re meant to think it’s a Shakespeare quote. I very much enjoy how in the film there are all kinds of subtleties at work drawing lines between high and low expressions of culture.</p>
+<p>There might be a way to way to fit the John Cage on tour in Europe with Earl Brown and Christian Wolff story in now. Bear with me here. So the story goes, they were all on tour together, and their musics all utilized the idea that if there is a sufficient amount of silence in between notes, then the listener will forget the previous note. John Cage finds that after hearing the same program being played night after night, in city after city, he begins to hear melodies in all of their pieces. Prolonged exposure. Even just practice. It ends up in your memory even if you don’t want it to. Cage focused on just the notes in this example. To my mind there would have still been the compounded infinities of timbre and timing. With the MPC in it’s first iteration I’m thinking this was most apparent. Hit that pad and get exactly the same sound every time. Later models in my time have been marketed as having velocity through pressure sensitivity built into the pads. Not sure but I think they returned to the flat no dynamics thing when they made an iOS version. The MPC is then an expression of acorporeality as Egan uses the word in Diaspora, reduced to pictures under glass. The retriggering anyway, The “machineGunning”. That’s actually what made the MPC so interesting to me. It was how it was perceived. Lifeless, or even undead, like a zombie. The corpse moves, and in such marvellously different ways!</p>
+<h3>
+The old hat paradox
+</h3>
+<p>Sampling as a radical act? Sampling is something I am certain that we would be well served to readdress, in both thinking and practice. Here then maybe we could entertain the idea that there were possibilities presented to artists in the past, in the form of a very special brush, that for whatever reason have been insufficiently explored since their introduction. Paradoxically taking on the role of the old hat at the same time. FM certainly is like that. Additive Synthesis as well. These two examples can easily be thought of through a purely technical perspective. Since both FM and Additive Synthesis offer an apparent abundance in the parameter space, it becomes a problem of organizing efforts to explore them in powerful (abstracted) ways. We are left to our own devices here. We are not posing a threat to anyone noodling around inside of our belly buttons engaging with this work. On the other hand sampling isn’t comparatively as underexplored from a technical perspective. Might could be that there’s a case to be made about how sampling is underexplored from a referential and social perspective. This is largely due to how fraught with legal concerns sampling became. There was, I think, a panic that spread quickly. A scrambling then ensued to safeguard intellectual property belonging to large corporations.</p>
+<h3>
+Curséd sampler
+</h3>
+<p>A strange kind of cult following has since then crept up around the hardware. Compare this to the specialized Early Music instruments that contemporary practitioners utilize. As these sought after hardwares are no longer in production, the secondhand market is of course where folks looking to live the dream end up. The problem of sellers setting their wares apart from the rest arises. The solution is now, as it always was, the narrative:</p>
+<blockquote>
+<p>Possibly Cursed Emu SP1200 Reissue Modified Sampler - $500 (Seattle)</p>
+<p>This SP-1200 belonged to my former roommate who bought it for $500 from a woman in Queens, NY who said her son was murdered. We were living in Williamsburg, Brooklyn, NY at the time.</p>
+<p>Ironically 5 years later in our apartment my roommate was violently murdered with a carpet knife in his bedroom/studio by his then ex-girlfriend who learned that he broke up with her because he got another woman pregnant.</p>
+<p>His blood was all over this SP-1200 and after the funeral his Mother gave me legal possession of all his music equipment after she was told by a spirit doctor that the SP-1200 is cursed and she must never touch it herself.</p>
+<p>This unfortunate incident was 5 years ago and I have since moved back to Seattle and cleaned up all of his blood and had this SP-1200 looked at by a technician who says it works perfectly.</p>
+<p>I recently had a dream about my old roommate and he told me that I need to part ways with this SP-1200 and to sell it for the exact price he paid for it or his spirit will be damned forever. Then his Mother called me last night telling me that the spirit doctor called her to tell her that I need to sell this machine for $500 or my roommate’s soul will never rest.</p>
+<p>and I don’t know if there is an afterlife. But if my holding on to this sampler is preventing my former roommate from a peaceful death then I think selling it is the right thing to do.</p>
+<p>I think it’s something I need to listen to and I’m admittedly a stubborn person. cause of anyone else losing their life if there really is such things as curses, but if I had a weird dream and his Mother got a phone call from a spirit doctor who said something similar to what I dreamt, then there must be some truth to the whole spirit world shit.</p>
+So there it is. Everything I know about this SP-1200 is out in the open…<sup
+id="a22"><a href="#f22">22</a></sup>
+</blockquote>
+<p>The above ad text reproduced here in it’s entirety taken from Seattle CraigsList. I am especially fond of how the writer (which the site has anonymized) manages to make the no haggling over the price requirement an integral part of the narrative itself.</p>
+<p><br></p>
+<center>
+<h2>
+04 Code has value
+</h2>
+</center>
+<p><br></p>
+<h3>
+Promises have been made
+</h3>
+<p>Why do I feel it is important to include my code in this thesis, you ask? In a word: Utility. I also feel that some degree of responsibility needs to be taken when occupying a space, and when speaking while one’s voice is amplified by context. That context in my case is academia. This is me owning up to the promise of not surrendering to capitalist logic.</p>
+<p>Mark Fisher had this to say in <em>Capitalist Realism</em>:</p>
+<blockquote>
+<p>For most people under twenty in Europe and North America, the lack of alternatives to capitalism is no longer even an issue. Capitalism seamlessly occupies the horizons of the thinkable. Jameson used to report in horror about the ways that capitalism had seeped into the very unconscious; now, the fact that capitalism has colonized the dreaming life of the population is so taken for granted that it is no longer worthy of comment.<sup id="a23"><a href="#f23">23</a></sup></p>
+</blockquote>
+<h3>
+Workspace and environment
+</h3>
+<p>I borrowed this subheader from my favourite part of Trash Audio, which is a blog that ran a series of interviews under this name. My favourite one, is the interview with Valance Drakes, which to me, stands out from the rest. In this interview the series’ focus on workspace inadvertently ends up depicting class differences. To my ears, purchasing power usually inversely correlates to quality of creative output.</p>
+<p>Here’s a picture of my screen depicting one of the pieces I made for this thesis project. This is written in a (domain specific) language called TidalCycles (fingers crossed it’s still there in the future when you read this). I’m running a vim plugin called TidalVim inside of NeoVim which is a modal text editor. Kitty is my terminal emulator. This is one of the pieces I wrote earlier in the process of putting together this thesis project.</p>
+<p>This is the <em>before image</em>:</p>
+<p><img src= "../images/threeInterpretations2.png"></p>
+<p>Here’s another picture of my screen depicting a different piece I made for this thesis project. This is written in a language called SuperCollider which is mainly an object oriented language but you can write functionally in it also, if that is your thing. I’ve previously alluded to my not knowing why anyone would want to do that. This is an entirely too strange hill for me to die on. Just let it go! Ok? Try not to think about it. I’m running a Vim plugin called scnvim inside of NeoVim which is still the same modal text editor as above. Kitty has here been replaced Alacritty which is now the GPU accelerated terminal emulator of choice for the discerning user or admin.</p>
+<p>This is one of the pieces I wrote later in the process. This is the <em>after image</em>:</p>
+<p><img src= "../images/exploratoryNarratives.png"></p>
+<p>My <del>fitness</del> configuration journey is ongoing - New goals mean continual motivation.</p>
+<p>They look kind of the same though right? Yes, they do. This is the way I like my environments to look. Free from distractions. Uncluttered, clear and to the point. I’ve spent a great deal of time and energy arriving at this look and feel. It is very dear to me, and it makes me very happy to see it. It inspires me.</p>
+<p>Here’s a link to all of the GPLv3 licensed material, including the code, for all of the pieces that I made for this thesis project:</p>
+<p><a href="https://www.danielmkarlsson.com/map-apx" target="_blank">danielmkarlsson.com/map-apx</a></p>
+<p>It would make me very happy if you connected it to something you’ve made and fiddled with the numbers and the words to make your own music. Have at it!</p>
+<p><br></p>
+<center>
+<h2>
+05 Pine cones are magical
+</h2>
+</center>
+<p><br></p>
+<p>While I don’t believe in actual magic I find this passage from Jarod Anderson’s <em>The CryptoNaturalist</em> useful for purposes of illustration:</p>
+<blockquote>
+Pine cones are beautiful, geometric wonders that are only devalued by their abundance. Fractal sculptures. Evergreen snowflakes. Blossoms in wood. (Familiarity can rust magic. A little mental effort returns the shine.)<sup
+id="a24"><a href="#f24">24</a></sup>
+</blockquote>
+<p>I would like to return the shine, as it were, to the task of organizing sound in general and to working with algorithmic composition in particular. Stretch goals would be to influence people to join me in rewiring the term Computer Music to hold a new meaning. One tailored specifically to fit our time. As computers are no longer held in artificial scarcity but rather available in abundance new ways of thinking and acting in the world are possible.</p>
+<h3>
+The Believing Game
+</h3>
+<p>I’d like to change your mind, about everything you know in your heart of hearts to be true.</p>
+<p>When I was a kid, I would sometimes stare for long stretches of time at high ceilings, imagining what it would be like, to be in that upside down world in the ceiling. To walk around up there, looking up at the world down here. For everything to be so different, about the way we perceive this place, where we are now. You are reluctant to have your perspective changed. Your world views are pretty much set. Let’s play a game you and I. It’s called: The Believing Game.</p>
+<p>Peter Elbow, Professor Emeritus of English at University of Massachusetts, Amherst, writes in a draft for an essay entitled <em>The Believing Game–Methodological Believing</em>:</p>
+<blockquote>
+I still struggle with how to name it. In my second essay, I tried a fancier more theoretically self-conscious term, calling it “methodological believing”. But then I worried that this was needlessly pretentious–and I like the irreverence of “game”. Yet now as I write this essay, “methodological” seems central.<sup id="a25"><a href="#f25">25</a></sup>
+</blockquote>
+<p>I also struggle tremendously with tone in language all of the time. The way I say something begins with the choice of which words to use. The effect of these choices lead to inclusions and exclusions of different kinds of folks. I suppose in some ways this text attempts to straddle the two hemispheres (The Academic and… the other one). If it reads anywhere near as conflicted about the matter as I feel as I write this, then maybe that is “showing by doing”. I am of several minds about. Many multitudes of minds in fact.</p>
+<blockquote>
+<p>I can define the believing game most easily and clearly by contrasting it with the doubting game. Indeed, the believing game derives from the doubting game.<sup id="a25"><a href="#f25">25</a></sup></p>
+</blockquote>
+<p>I love comparisons. They’re great. If you set them up just right, they can be very convincing. I do this kind of thing all of the time. It’s risky though. If someone where so inclined they might point out that most things are very different from each other (apples and oranges for example). They could argue for that line of thinking and if they did it well enough, the jig would be up. This is fine though because opposites exist and contrast is a real thing. Expert overconfidence is also real. Lots of things are real.</p>
+<blockquote>
+<p>The doubting game represents the kind of thinking most widely honoured and taught in our culture. It’s sometimes called “critical thinking”. It’s the disciplined practice of trying to be as skeptical and analytic as possible with every idea we encounter. By trying hard to doubt ideas, we can discover hidden contradictions, bad reasoning, or other weaknesses in them–especially in the case of ideas that seem true or attractive. We are using doubting as a tool in order to scrutinize and test.<sup id="a25"><a href="#f25">25</a></sup></p>
+</blockquote>
+<p>I am all for running experiments and putting the results we get under a microscope. Beyond that I find that defaults are very rarely sensible. Actively striving to become aware of all of the possibilities within a parameter space is a strategy I go in for a lot.</p>
+<blockquote>
+<p>In contrast, the believing game is the disciplined practice of trying to be as welcoming or accepting as possible to every idea we encounter: not just listening to views different from our own and holding back from arguing with them; not just trying to restate them without bias; but actually trying to believe them. We are using believing as a tool to scrutinize and test. But instead of scrutinizing fashionable or widely accepted ideas for hidden flaws, the believing game asks us to scrutinize unfashionable or even repellent ideas for hidden virtues. Often we cannot see what’s good in someone else’s idea (or in our own!) till we work at believing it. When an idea goes against current assumptions and beliefs–or if it seems alien, dangerous, or poorly formulated–we often cannot see any merit in it.<sup id="a25"><a href="#f25">25</a></sup></p>
+</blockquote>
+<p>I was very concerned by how my bouncing around getting all creative with the “form” of this text might put me at risk of failure to complete my duties towards academia. It has since been explained to me that I was never in any real danger of being flunked. There was no firing squad. I’m not sure what I was expecting. All I’m saying is that there can be times at which we have inherited a way of interfacing with ideas, and that it would serve us better to acknowledge that, and then to try very hard to find measures to counteract our inherited biases. We might even go so far as to try to <em>believe</em> that some other way of making music, or even listening to music, might yield some interesting results.</p>
+<blockquote>
+<p>As the rhetoric of experience, the believing game [teaches us] to try to understand points of view from the inside. Words can help us here, but the kind of words that help most tend to be imaginative, metaphorical, narrative, personal, even poetic.<sup id="a26"><a href="#f26">26</a></sup></p>
+</blockquote>
+<p>The poetic wavelength fascinates me. The lived experience often does not lend itself very well to explaining. Phenomenon arise and recede. We are mildly aware only to an extent. Experiences ever mounting, upwards and outwards, constructing the self, seemingly without our conscious involvement. Life, happening, while we are busying ourselves, constructing thoughtful analyses.</p>
+<blockquote>
+<p>Because of the dominance of critical thinking, especially in the academy, academics and students tend to feel that the best way to show they are smart is by pointing out flaws in the views of others.<sup id="a27"><a href="#f27">27</a></sup></p>
+</blockquote>
+<p>Oh hey wow, what if this is that “idiot’s version of being interesting” thing from before? What if our inheritance isn’t a whole lot more than just bigging up ourselves and trying our darndest to seem smart. What if in that bigging up of the way we seem, we’re shutting down our capacity to engage with differing perspectives in any real way? All I want, really, is for you to hear me out. Try to meet me, if not half way, then at least a little closer to me than where you started out.</p>
+<blockquote>
+<p>… because of our current model of what good thinking looks like, most of us lack the lens or the language to see their ability “to dwell genuinely in ideas alien from their own” as intellectual sophistication or careful thinking. When we see them listening and drawing out others, we call them generous or nice rather than smart. We don’t connect good listening to intelligence, and we call creativity merely a mystery. We say “Somehow they can mobilize others and actually get things done”, but we see that as a social and personal gift rather than an intellectual skill. And because our intellectual model is flawed in these ways, we don’t teach this ability to enter into alien ideas.<sup id="a27"><a href="#f27">27</a></sup></p>
+</blockquote>
+<p>Thinking about the <em>way</em> that we think is difficult, but necessary. It might even be harder to get clear about that than about what words to use. That would be a difficult comparison though. Let’s compare two kinds of narratives, or lenses, instead. A historic account, like an origin myth, and a Grand Vision of The Future. It has always been my strong conviction that the former constricts ways of thinking about the future, and that the latter, expands them.</p>
+<h3>
+Oram’s New Atlantis
+</h3>
+<p>I keep coming back to this passage from Francis Bacon’s <em>The New Atlantis</em> which was first published in 1623:</p>
+<blockquote>
+<p>We have also sound-houses, where we practise and demonstrate all sounds, and their generation. We have harmonies which you have not, of quarter-sounds, and lesser slides of sounds. Divers instruments of music likewise to you unknown, some sweeter than any you have, together with bells and rings that are dainty and sweet. We represent small sounds as great and deep; likewise great sounds extenuate and sharp; we make divers tremblings and warblings of sounds, which in their original are entire. We represent and imitate all articulate sounds and letters, and the voices and notes of beasts and birds. We have certain helps which set to the ear do further the hearing greatly. We have also divers strange and artificial echoes, reflecting the voice many times, and as it were tossing it: and some that give back the voice louder than it came, some shriller, and some deeper; yea, some rendering the voice differing in the letters or articulate sound from that they receive. We have also means to convey sounds in trunks and pipes, in strange lines and distances.<sup id="a28"><a href="#f28">28</a></sup></p>
+</blockquote>
+<p>That’s some story. Actually, for me it’s a story wrapped in another story. Daphne Oram put that quote on a door at The BBC Radiophonic Workshop and that’s the story I’ve been told.</p>
+<p>Mark Fisher writes in <em>Capitalist Realism</em>:</p>
+<blockquote>
+<p>It was [the] BBC that also funded the popular avant gardism of the BBC Radiophonic Workshop, which embedded sonic experimentalism into everyday life. Such innovations are unthinkable now that the public has been displaced by the consumer.<sup id="a29"><a href="#f29">29</a></sup></p>
+</blockquote>
+<p>I remember hearing Oram dream about The Oramics Machine in a radio program produced by Ian Chambers for TX BBC Radio 3. It was broadcasted on Sunday the 3rd of August, 2008. The broadcast celebrated the 50th anniversary of the creation of the BBC Radiophonic Workshop.</p>
+<p>Daphne Oram explains:</p>
+<blockquote>
+<p>I have a new technique … one that I’ve evolved over the years, and it’s still evolving … I’m interested in being able to manipulate sound. To give every subtle nuance that I want … I am finding that what one has to do is to pick out each parameter separately …I believe my father said that when I was seven years old I was predicting that one day I would have a marvelous new machine that would make any sound I wanted.<sup id="a30"><a href="#f30">30</a></sup></p>
+</blockquote>
+<p>I feel tremendous gratitude that I possess consciousness at a point in time, and a place in the world, where The General Purpose Computer is not only a reality but readily available in veritable abundance. A friend of mine found a working laptop in a tech-trash room four years ago and is still using it to make music at the time of writing. If you can, then how about you take five minutes right now to see if you can rescue something that has been thrown away. It’s a very empowering feeling.</p>
+<h3>
+Rooms are resonant bodies
+</h3>
+<p>There is an absurdity and a poetic quality to our acts of imagining that fascinates me. I invite you to imagine someone, at one time having believed that a photograph, could steal a soul.</p>
+<p>Through working on this thesis project I’ve felt increasingly at risk of giving in, to the temptation of magical thinking. This particular flavour of cognitive distortion was the least likely one, I thought. I always saw myself as more of a Polarized Thinking type of person, if I had to choose one. I thought I knew who I was here, when measuring only within this narrow band of inquiry, an isolated parameter. I keep saying that any sufficiently advanced technology is indistinguishable from magic. I never thought I’d be on the receiving end of that one, at least not while working on my own music.</p>
+<p>Convolution is the technology that most made me feel like I was loosing my grip on reality. Subconsciously at first. Then growing, and spilling over into conscious reflection. Towards the end, I was increasingly unsure about my footing. I began to entertain the idea that this sense of uncertainty was connected to my confusion about my class identity.</p>
+<p>When I worked as stage manager at Norbergfestival’s largest stage, Mimer (it was unpaid volunteer work) I had a couple of opportunities to make some convolution files of the space. It’s a huge concrete building. It used to be an iron ore enrichment plant connected to the mine. The tone of the room is just breathtaking. I carried that room with me in my computer afterwards and used it every now and then. I didn’t realize at the time how profoundly the experience of making the convolution files had effected me. This is meant to be a purely technical task. Then some time later, during a residency at Ställbergs gruva, which is also an old mine, Mats Erlandsson and David Granström made convolutions of The Machine Hall and gave me copies of the files.</p>
+<p>It was right under my nose then, but it still took me quite a while to piece the puzzle together. I know that it is entirely impossible for the “narrative component” of which space I use in the music I make to somehow travel the distance to the listener all on it’s own. I understand now, that it’s different for me. I’ve been there. I know the name of the convolution file. When I choose that room, I am, as if by magic, transported there. I can’t help but start to imagine the workers there. Through a wrinkle in time, toiling ceaselessly, dutifully. Now that the lightning has been caught in the bottle, I can’t help but imagine the work, that once filled those rooms with sound. From the lowest rumbles, through the spectrum all the way up the ladder to the harshest height of the audible. At the end of it we subtract time and we’ve captured, if not the room itself then it’s essence, or if you care to indulge me, it’s soul.</p>
+<p>My imaginings (or my mind playing tricks on me) have been centered on work. As the type of work that happened in the mines is quickly becoming more and more of a rare occurrence in our time and place. We are visited by emissaries of the past, passionately relating to us, stories about the work that took place there. The gruesome conditions, the undeniable physicality of it all. Those stories start to feel a lot more real than the type of work we’re doing now. Creative work, or cognitive work even. For example, my paying a membership fee to a special kind of “physical labour simulator” starts to seem utterly absurd (Zizek would have a field day with my sad realisation).</p>
+<p>That kind of real work happened there. In that place. It’s not something that I can really understand. There will never be enough time for that, as time is always passing. Racing ever more quickly now, it seems. My own origin myth will always elude me. “If these walls could talk” we say. My thoughts connect disparate elements, and make patterns.</p>
+<p>Compare another cavernous room tone; The church. A place of worship. A place to wonder in awe of god’s greatness. The organ was the first big organized sound, filling the space and making it seem even more monumental. That room tone is part of how we’ve always heard that instrument. I realized that when I was making recordings, to turn into samples for this project. The resonance is a vital part of how we identify that instrument. Place and narrative intersect, in the tone of the room. As the room resonates we are brought into resonance with ideas.</p>
+<p>I never believed in god. To me it was always just a narrative vehicle that was useful at the time, to spread some basic concepts about human interaction, like “clean your hands and try not to kill anyone”. But work though, that was, at least at one time, real. The workers were real. Despite of how they’re identity as a group now seems to be at risk of being erased by an ever increasing number of neoliberal projects. Projects that end up wearing the tell-tale signs of conspiracy (but surely a conspiracy couldn’t be real, could it?). The struggle for workers rights leading to the forming of unions was real. That was always a very strong component of any narrative at home when I was growing up. It is such a sad state of affairs to see the power of unions continuously eroded now. It feels so unreal. I am emotionally distraught. I spiral helplessly into anxiety about capitalism-induced climate disaster, and then I’m utterly lost, to a strangling feeling. I can’t breath! Where do human beings fit into this present nightmare of how the real manifests itself through quarterly earnings reports. All around us. An all encompassing blanket of unheimlichkeit, totally enveloping the world, shutting out all light. Darkness has me. I am lost to it. I wish there was a way I could make sense of it all. To be able to reason my way out of feeling.</p>
+<p>I am struggling immensely, trying to write about class. I keep thinking that it would have been easier for me to know what class I belonged to, had I been born closer to the beginning of the industrial revolution, and the only employment available to me had been to work in a factory, or a mine maybe. That would make me a working class person. I can’t say that now, because that is not my experience. Sure, I’ve had a hundred shit jobs along the way, but more importantly, I’ve undergone a strange and warped <em>cultural</em> class journey. It might have entailed some degree of class ascension, and if it has, then it’s <em>only</em> been in the cultural sense. I might be valued differently in terms of my interactions with other people, but I’m still poor. I have no affluence to assert myself with in the world. Meaning that it would be impossible for me to convince my landlord I should be allowed to pay my rent with my alleged cultural status. I did however end up with a considerable student loan debt. Measuring the cost of my education is not at all difficult, the value of it, is a different story. I value time more than money, so I try to sell as little of my time as I can. That my life is precarious is not a surprise to me. These are the choices I made. I am grateful for the opportunity to create something.</p>
+<p>There is no adequate way for me to describe which class I belong to. That <em>really</em> messes with my mind. This thesis project is about that in a lot of ways. Feeling lost, and alienated, as someone having become something strange, and other, than what I started out as, at the time often thinking there was no escape from my assigned fate.</p>
+<h3>
+State is immeasurable
+</h3>
+<p>This subheader alludes to the observer effect in physics where attempting to make measurements invariably leads to changes in the situation or phenomenon you are observing. Live coding is at once both a situation and somewhat of a phenomenon. I’ll put a link down below to Kindohm’s set at Algorithmic Art Assembly<sup id="a31"><a href="#f31">31</a></sup> which is an excellent example of live coding if you want to familiarize yourself with that after we’re done here.</p>
+<p>In this thesis project my code is static. This stands in contrast to how things are done within live coding. Why is that important? A frozen state, that holds the capacity to yield a multitude of infinities, expressed in immeasurable variation as the intricate clockwork diligently passes through time. That sort of thing fascinates me. It always has. To construct something and then for it to take on a life of it’s own in a sense. That feels paradoxical doesn’t it? This then goes on to say something interesting about complexity. Namely that the scope, or, put another way, the sampling window, matters when we aim to assess complexity.</p>
+<p>Is it static or is it in flux? I guess it also has something to do with the presentation aspect of the work. I work on the code until it reaches a static state which is most to my liking. While I might not listen to an eternity’s worth of the generated material, I’ll listen for a good long while. I can be certain that the algorithms combining of parameter values will continue to satisfy me in the same way that I can hear when a piece is finished. My choice to present static code in combination with fixed media is for the greater part due to my fascination for complexity emerging out of simplicity. It’s a feeling. You’ll have to take my word for the existence of that internal emotional state.</p>
+<h3>
+A differing perspective on smallness
+</h3>
+<p>To a smaller degree it’s also due to the fact that I can’t help but go against the prescribed modus operandi of playing the code, within live coding, like an instrument. I’m like that a lot of the time. I just don’t like being told what to do I guess.</p>
+<p>I want to organize sound in a very specific way. To collapse the wavefront. To affix the indefinite. To transform it into the definitive. Another nice aspect of static code is that it greatly increases portability. This is important to me.</p>
+<p>I want to use code to compose. I don’t want to play the code like an instrument. I compare this to preferring to compose over playing the guitar. Nothing wrong with playing the guitar, I do that all of the time. I just prefer to compose is all.</p>
+<p>When I say “We’re not ready for it”, I don’t mean that live coding is so futureWorld that it, as a “cultural phenomenon”, is ahead of it’s time. It has in fact existed for quite some time, although that is all very dependent on how you define the criteria. What I’m saying is that we don’t have the fundamentals of the infrastructure for even just the creation of the kind of files that can be distributed in a way that makes sense. Video is a really bad way of making code available to others. The recipient can’t copy the code out of the video file and has to try to write it by hand. This is error prone and clunky. Also video file sizes are huge. Static code however is just a tiny text file. Kilobytes. Goes anywhere fast because it is so tiny. David and Goliath. There’s another story for you, and you know how that one turned out.</p>
+<p>I got to thinking about state a lot through brushing up against functional programming. In functional programming state is thought of as something dirty and dangerous. That, of course, makes it interesting to me. I found workarounds because it was fun to go against prescribed ways of working. It’s that thing from before about limitations within frameworks again. Also I’d argue that memory is a fundamental aspect of music as it is a time based medium. You simply can not say stuff like “There is no state”, or that “Time is the only constant” and not expect people to rise up in rebellion to dethrone and kill you, burn down your church and take a leak on the ashes while laughing like a raving lunatic. This is just how the world works. Tough cookies.</p>
+<p>Anyway the whole “wanting to stay 100% squeaky clean all of the time” thing, that can happen to functional programmers, always struck me as having more to do with fundamental problems in computer science, than about me wanting to organize sound. Never mind about all of that. I don’t mind so much that there could potentially be a danger of some unexpected behaviour when I’m making music by writing code. I spend a lot more time listening to musical results than I do expecting to hear things. So as long as it makes a sound there is something for me to hear, and most importantly, to decide what I think of it. I only ever regarded unintended silence as failure. Anything above that is something I can work with. If I can hear it, I am certain that I can decide if I like it or not. How could I not have an opinion on anything and everything I hear? As far back as I can remember that’s all I’ve been doing. Deciding. Making choices based on what I’ve been hearing. So it’s real simple. I like simple. So does Mark Fell, and I like Mark Fell:</p>
+<blockquote>
+It’s all dead simple, I have no real interest in technical complexity, and this music has a streamlined quality I admire. No gesture is strained or wasted and the music is complex, the technology is simple, a better way round than the age old problem of academic electronic music where muscular technology too often produces pissweak sounds.<sup id="a32"><a href="#f32">32</a></sup>
+</blockquote>
+<p>If I try hard I can still remember that the task of organizing sound felt daunting to me in the beginning. I would think about the infinite possibilities of combinatorics and a general dread of the blank page would sneak up on me and I’d get all wound up. I like to keep things simple. Usually I don’t notice that I’ve started composing for real until much later. I thought I was just trying to figure out how something worked. I change one thing at a time, and I listen. If I like what I hear, having tweaked that one parameter, I’ll move on to the next one. Complexity could yield itself later through the compounding of many simple choices. I don’t go after complexity. I don’t shy away from it either. It could happen and that would be ok so long as I like what I’m hearing. Simple. Reduced both in terms of thinking about emergence of complexity and also about the work as just another craft. Do a thing many times in order to get apt at doing that thing.</p>
+<p><br></p>
+<center>
+<h2>
+06 Music is a technology
+<h2>
+</center>
+<p><br></p>
+<p>The title of this section is a remix of Anthony Rother’s 2005 album <em>Art is a technology</em>. I liked that album. Apart from the way it sounded, and how that made me feel, I liked it because it was at once the most prominent example of “Modular Music” that I had ever heard, and at the same time managed to transcend the genre entirely. I like it when albums do that.</p>
+<p>My first conscious choice at the inception of this thesis project was that I would write code in order to make all of the pieces. This was important to me because, like I said, I want to actively participate in recontextualizing the term Computer Music. This term comes from a time where computers where rare, and the utilizing of this scarce resource towards the goal of making music was even rarer. At the time of this writing computers are ubiquitous (in the global West, I know, I am very much in favor of adding The Right to Computation to The List<sup id="a33"><a href="#f33">33</a></sup>).</p>
+<h3>
+Putting on a show
+</h3>
+<p>On April 6th of 2019, at Fylkingen, which is the national venue for weird music, in Stockholm, Sweden, I premiered a bunch of music that I had made during the last year or so. I made a lot of little choices about the details surrounding this manifestation of the work. This compounding of little choices is very important to me. You’ve heard the expression “The Devil is in the details”. I subscribe to that idea fully.</p>
+<p>There were three sets. I’ve been a part of putting together a lot of shows at Fylkingen, in a lot of different capacities and, I have found that this format is my preference. Each set was 40 minutes, and there were two 20 minute breathers in between the sets. I find that this makes it doable from a technical perspective. Longer, and or more, sets are not my preference within this Fylkingen Show Framework.</p>
+<p>I choose to do the show on a Saturday afternoon. My thinking there was that, I wanted it to be possible for a person who works a full time job, with regular hours, to attend. I chose the afternoon instead of the default evening time because I didn’t want to have the bar open. The reason I didn’t want to have the bar open is because I don’t drink. Also I didn’t want to sell anything. Not that day. I find that the default behaviour of everyone drinking at shows is not conducive to listening. There is also the larger issue of sustainability.</p>
+<p>Mark Fisher writes in <em>Capitalist Realism</em>:</p>
+<blockquote>
+The significance of Green critiques is that they suggest that, far from being the only viable political-economic system, capitalism is in fact primed to destroy the entire human environment. The relationship between capitalism and eco-disaster is neither coincidental nor accidental: capital’s ‘need of a constantly expanding market’, its ‘growth fetish’, mean that capitalism is by its very nature opposed to any notion of sustainability.<sup
+id="a34"><a href="#f34">34</a></sup>
+</blockquote>
+<p>Destructive behaviour like the use of depressants like alcohol is not sustainable, and obviously toxic, despite of what our culture dictates. So instead of selling alcohol, I treated my audience to the same green tea and fruit that had sustained me through the completion of this thesis project. If you ask me, I thought that was a nice touch.</p>
+<p>More importantly (what could be more important than Sencha?) the sound files I created where all Stereo sound files. They were diffused in a larger speaker array by Mats Erlandsson in the most exquisitely subtle way imaginable. The width of the Stereo files were enhanced and the music really came to life and filled the room. Mats tailored the colour (EQ), and amplitude of each component piece, to the particular responses of the room. The sound files were accompanied by projection of the code I used to make the particular piece.</p>
+<p>Especially in the first set, I felt the need to do some “onBoarding” (intentional use of gratuitous business jargon), so I did it using excerpts from this text, read by speech synthesis. I spent way to much time on giving these virtual voices “direction”. I suspect that the underlying technology is concatenative synthesis so in a lot of ways it has the same kind of characteristic “tells” that playing back a limited set of samples of acoustic instruments does. Just like with the music I found myself wanting to navigate this topology of “tells”. I made decisions about whether I wanted to go with, or against the input from the voices I used. Should I allow the actors to “give the game away”? Do I add or subtract from the sense that theses voices were something more complicated than just plain old boring vanilla, real.</p>
+<p>While working with the resultant sounds from having giving these virtual actors “direction”, through the use of special characters that the speech synthesis engine responds to in order to shorten or extend pauses, lessen or intensify emphasis etc. I began to anthropomorphize uncontrollably. It was a trip. While on the subject of trips, here’s an account which was related to me after the show by a member of the audience. This person had at first thought that I was on the stage, then realized that it was a fake head, then become convinced that it had moved. Then, she said with eyes widening, the silhouette had changed the ear into a nose and the face from a man’s to a woman’s. It was just a backlit styrofoam head draped in a black veil. In the absence of visual stimuli we start to see things that are not there. It may be due to feedback in the pattern recognition part of our brains, who can know these things?</p>
+<p>American theoretical physicist Richard Feynman reminds us to exercise caution when fawning over science in <em>The Pleasure of Finding Things Out</em>:</p>
+<blockquote>
+… statements of science are not of what is true and what is not true, but statements of what is known with different degrees of certainty.<sup
+id="a35"><a href="#f35">35</a></sup>
+</blockquote>
+<h3>
+Set lists
+</h3>
+<pre class="text"><code>Set I:
+Fundamental phenomenon               (Woodblock)              01´ 00&quot;
+Thesis excerpt                                                00´ 23&quot;
+Exploratory narratives               (Bowed glass Bowl)       04´ 13&quot;
+Thesis excerpt)                                               00´ 54&quot;
+Heights of abstraction               (Hang drum)              03´ 32&quot;
+Thesis excerpt)                                               01´ 32&quot;
+Interaction dynamics                 (Clarinet)               03´ 37&quot;
+Thesis excerpt)                                               01´ 32&quot;
+Finite resources                     (Gong)                   01´ 31&quot;
+Thesis excerpt)                                               01´ 41&quot;
+Artificial scarcity                  (Cristal Baschet)        03´ 34&quot;
+Thesis excerpt)                                               02´ 06&quot;
+Established beliefs                  (Bazantar)               05´ 26&quot;
+Thesis excerpt)                                               01´ 10&quot;
+Recognizing patterns                 (Metallophone)           04´ 28&quot;
+Thesis excerpt)                                               00´ 27&quot;
+Ubiquity                             (Contrabass)             15´ 28&quot;
+
+Set II:
+Beyond the pleasure principle        (Ensemble)               05´ 04&quot;
+Thesis excerpt                                                00´ 15&quot;
+A faint sound in an adjacent room    (Ensemble)               14´ 32&quot;
+Thesis excerpt                                                00´ 33&quot;
+Three interpretations                (Ensemble)               09´ 03&quot;
+Thesis excerpt                                                00´ 33&quot;
+The old world is lost (reprise)      (Ensemble)               05´ 04&quot;
+Thesis excerpt                                                00´ 55&quot;
+
+Set III
+Intersections of traversals          (Large Ensemble)         40´ 00&quot;</code></pre>
+<p><br></p>
+<h3>
+Briefly on the subject of recording sound
+</h3>
+<p>Take your fingers right up to your ears. As close as you can get them without touching your ears. Now rub your fingers together ever so gently. You can hear that can’t you? Now imagine trying to hear such a faint sound across from a concert hall or even just a stage. You would not be able to. Now imagine an orchestra. Something close to a hundred people. They wouldn’t be able to fit there with all of their instruments in that close proximity where you heard that faint sound of your fingers rubbing together just now. Right there is where I put the microphone. Each time, as close as I can get it. It’s the place were a lover whispers to you. For each instrument and sometimes even changing the placement to optimize fully for a particular articulation. We are taught that close proximity is dangerous and can lead to an exaggerated low end. I have found that it is easier and sounds better to subtract from a signal rather than to add to it. Anyone who knows me knows that I have a strong preference for the lower end of the audible spectrum. If need be, cut the bass and add any room you like later, in post. Get as much of the signal as you can when you have it in front of you. Just make sure it doesn’t clip, is the kicker though.</p>
+<h3>
+Uroboros’s clenched jaw
+</h3>
+<p>Leading up to the show I, of course, started to feel more and more agonizingly pressed for time, as is always the case with me. I began to realize that I had complicated matters many times over the course of the project by wanting both the text and the music to be referential to each other in various ways. It became the age old problem of catch-22. The text needed to already be finished in order for me to bring myself to finish the music and, vice versa. The myth of Uroboros<sup id="a36"><a href="#f36">36</a></sup> sprang to mind. I could neither stop time, nor step out of it. No matter how I struggled with Uroboros’s clenched jaw, I could not pry it open. When all of this was at it’s worst I began to loose my grip on what has always been most important to me. The conceptual had begun to effect the perceptual. What I mean by the perceptual is what I heard when I listened to the music that I made in this thesis project. What I mean by conceptual here is something closer to conceptual art. I got so wound up in thinking about my music that my music started to sound like shit to me. It was very frustrating and I had to delete a bunch of music because I felt it was posturing, and utterly lost in the intoxication of constructivist beauty. I prefer the act of listening to music over the act of trying to understand contrived texts that attempt to explain what I should be thinking about when I listen to the music. My preferences aside, the narrative component needs to be there, because we’re all involved in a complex dance of trying to convince each other. So we need something a lot more intellectually directed. That something in this case is text. Music is fundamentally abstract. So we have to try to pry open the minds of listeners with text and to stuff our ideas in there, and then hopefully have our audience think that they are understanding something profound and agreeing with someone smart.</p>
+<p><br></p>
+<center>
+<h2>
+07 Closure and alignment
+</h2>
+</center>
+<p><br></p>
+<blockquote>
+<p>Nothing is real, everything is permitted.<sup id="a37"><a href="#f37">37</a></sup></p>
+</blockquote>
+<p>William S. Burroughs would have us believe that the source for this quote is:</p>
+<blockquote>
+<p>Last words [of] Hassan Sabbah. The Old Man of the Mountain quoted from The Master of the Assassins by Betty Bouthoul.</p>
+Taken from Burroughs’s <em>Minutes to Go</em>.<sup id="a36"><a href="#f36">36</a></sup>
+</blockquote>
+<p>This quote keeps popping up all over the place. Later on in a video game called <em>Assassin’s Creed</em>. Everyone is sampling it. The origin is more blurred by every use of it. It especially effects searchability on the commercial internet as the search engine (you know which one, the dominant one) is “optimizing” by finding and fanning flames into resonances. When a resonance becomes feedback it can be used as a new signal to replace the old one. True origins are being overwritten.</p>
+<p>Adam Phillips writes in <em>Missing out</em> that:</p>
+<blockquote>
+The only satisfactions available are the satisfactions of reality, which are themselves frustrating.<sup id="a38"><a href="#f38">38</a></sup>
+</blockquote>
+<p>Preferences of style exist, aesthetics do not. Just as there is no god there can be no divine beauty. We are left to our own devices down here. We have to make up our own minds about what we prefer. Not much else to it really.</p>
+<p>So the gist of this text is this: During my Master which was 2017 to 2019 I changed my way of working with music in a few different ways. A big part of it was changing some of the tools I use. New tools, new capabilities, new freedoms. I regard nomenclature as an important first step towards transparency. So here’s a quick recap of what has changed:</p>
+<p>I went from using TidalCycles to using SuperCollider as the language. From using SuperDirt as my sampler to instead using Kontakt. From using AudioMulch to using Reaper for real time post production.</p>
+<p>So some of the names of the tools changed but the functionality broadly speaking stayed the same. The modus operandi is still:</p>
+<p>Write code, that triggers samples. Then, apply effects in some kind of DAW-like environment.</p>
+<p>This is what I do, in order to express my musical ideas. Why should I express my musical ideas? Because I want to, and, because I can I guess. I am very grateful for the opportunity. Why does anyone do anything? I mean, really. The possibility exists and I am drawn to it. It passes the time and I have not found anything else that keeps me as balanced. My motivations are, for the most part, a mystery when I try to send a probe down there. Apart from needing to do it, in order for my life to feel meaningful to me, apart from that, I have no idea.</p>
+<p>The way I make music is dependent on tools. The tools should be open for others to study and use. If I don’t take measures to make my tools available to others then I see myself kicking out the rungs beneath me as I climb upwards in terms of capacity. I can’t bear that. This is a process which has not fully reached it’s end state. I am embarrassed by my dependence on commercial software. It should all be open source by now, but, it isn’t. I make excuses, none of which are any good, for why I am not fully open source yet. My most commonly used excuse is that I am pressed for time, having used most of my time to make music. There is always the sense that there isn’t enough time to put towards configuring computers. Disseminating knowledge about how to use open source tools is deeply tied in to ideology for me.</p>
+<p>On a conceptual or extra musical level I am obliged to admit, however reluctantly, that something changed. Anyone who knows me is always hearing me tell the same story. About how fundamentally music is incapable of depicting anything because of the fact that it is inherently abstract and utterly ephemeral. If someone does tell a story, I keep saying, it’s usually because they are selling something. One of my favourite stories is the one about how Vivaldi came to sell so well. In Vivaldi’s time, sheet music was the media carrier, or the product, if you will. The story goes that Vivaldi was able to sustain himself as an artist because he had figured out that narrative sells. The alleged evidence for this is that Vivaldi had already tried and failed to sell the music he later collected as The Four Seasons. This last part of the story might check out but for the most part this story has been pieced together over time from existing in a community that needs to tell stories in order to understand themselves, their origins, and most importantly, how to interact with one another. <em>We</em> are the source for this story. Every tribe has it’s lore, ours is no different. I see a need that exists well beyond gossip for these kinds of stories. They’ll undoubtedly mostly consist of conjecture, hearsay and as such are strictly not admissible as evidence. This story, despite being unverifiable, above all cements for me the unlikeliness that programme music will be real. It will most likely be a marketing ploy, to peddle goods of some kind.</p>
+<p>Despite of how many times I have told that story both to myself, to my friends and basically anyone within earshot, I ended up making a strange kind of programme music myself. I got to thinking, perhaps too much, about my environment, and about the people I met there. How they work, and also about why they work in the ways that they work, and ultimately, what their goals are. The project ended up describing my thoughts and emotions about being back in that old world. Feeling much the same way as before. Like a prole at a cocktail party, trying to blend in, eating cucumber hors d’oeuvres and failing to exchange pleasantries, sweating profusely, certain of being found out and politely asked to leave, any second now.</p>
+<p>What if reality is so choke full of individualists with an exaggerated sense of agency, infinitely doubling down on past self deceptions so avidly that no semblance of reality can be salvaged?</p>
+<p>I’ve come to realize that most of all, this thesis project was about learning to cope with cognitive dissonance.</p>
+<p>I’ve learned a lot from working on this thesis project. It’s been very freeing in a lot of ways. I feel like I “got over myself”, in at least some respects. It is my feeling that I addressed and was able to power through some issues. I am very grateful for the opportunity to do so. I spent a lot longer than I usually do coming back to pieces, adding to, and changing things. I know that doesn’t matter though. What I mean to say is: No one can ever hear how long any piece of music took to write. How much effort went into making it. How much struggle. How many demons overcome. Sound is just wiggly air. It is also my favourite thing to do with the time that I have. Also I don’t think I’m hurting anyone. So that’s what I’m doing. Making the air wiggle in a particular way that interests me, here, in The Right Now.</p>
+<p>This isn’t my last rodeo. Even though I definitely got entirely carried away with this thesis project and it kind of blew up on me, I’d hate to ever have to go through the experience of outside pressure to stay on brand. Compare type-casting in film. An equivalent example would be the type-casting of Steve Reich as The Quintessential American Minimalist. The trick here is to imagine Reich as happy. Just like how we do with Sisyphus.</p>
+<h3>
+My Last Rodeo
+</h3>
+<p>What would My Last Rodeo be like? I imagine a decidedly more musical equivalent to the ending of Diaspora but with the same premise. The point at which time’s passing is no longer a threat. It would be way better than indefinite lifespan to be entirely certain of safety. The ultimate safe space is all encompassing. That would mean collecting all of the energy from all of the suns, probably using something like Dyson spheres. All of the mass within our light cone would have been turned into Computronium<sup id="a39"><a href="#f39">39</a></sup> at this point.</p>
+<p>Eventually there would be world building. Creating universes is a tall ask. Maybe we could try utilizing quantum entanglement applied to black holes as a starting point for computation. Throw one bit in the hole and keep the other bit for measurement. It would be a start anyway. It would have to be worked out. Large tasks like this one wouldn’t be at all different to smaller tasks. With time out of the equation, me and who ever else was interested would pool our energy allotments and, just keep grinding until it was done.</p>
+<p>These universes then would have to be filled with the initial conditions necessary for consciousness to emerge. That would keep me busy for a while I think. Next would be tweaking those initial conditions until I started hearing some interesting results. It would be a substantially larger parameter space than the one I enjoyed exploring in this thesis project. I look forward to this challenge.</p>
+<p>This is my favourite story about the future. Stories about the future are a special category of story. I included it because I want you to be certain of my foreseeing working on all kinds of different projects, in between this one and, My Last Rodeo.</p>
+<p>Thank you for reading. That is all.</p>
+<p><br></p>
+<h3>
+A word or two about links
+</h3>
+<p>Below here are some materials I have gathered in an attempt to make things easier for the kind of person who is curious about sources. Here’s the thing about the internet: It’s fickle and frail. “Bit rot” is an ever increasing likelihood. What I mean by that is that, I have taken steps to ensure that the things I link to, will deliver on the content I wanted to link to. Archive.org’s WayBack Machine is a great tool for this kind of thing. It’s been around since 2001. What it does is let you make a snapshot of what a web page looked like, at a certain point in time. It is possible to have many snapshots, so you could potentially describe how a website changed as time progressed through the eons.</p>
+<p>Another, related strategy, that I have utilized in order to increase the likelihood of the availability of outside materials, is .pdf files. Pdfs are great. They can do a lot of stuff. They’ll let you embed fonts. They also support links and all kinds of other neat stuff that kind of make them like web pages. There’s one important difference to web pages though. They are one consolidated file containing everything, so that makes them extremely portable.</p>
+<p>Portability is a big thing for me. That’s why, when it has been possible, I have made a copy of the .pdf and stored it in a place that I know that I can without fail, trust. The links below that end with .pdf will let you download your own copy of that .pdf. Every copy is a new original because it’s digital. The more copies of a file there are, the more likely it is to survive the heat death of the universe. I think UbuWeb said it best:</p>
+<blockquote>
+<p>If you love something. download it, it might not be there forever.<sup
+id="a40"><a href="#f40">40</a></sup></p>
+</blockquote>
+<p>There are other links below. I’ve done these on a case by case basis where the goal has been to keep you safe and shielded, from commercial forces in general, and sites that track you in particular. For example, in the instances where I have linked to birdSite I have made use of a tool called textise.net which transforms any web page into exclusively text. A .txt file can not track you and algorithmically tailor ads to sell you things you don’t need. If you have ever visited birdSite the textised version might look a little weird at first but, you get used to it. Most importantly, the text that I have quoted is preserved there, in a way that is harmless to you. As an added bonus it is significantly less data-intensive, and no longer a dopamine-fueled candy-land of bright colours and blinking lights devouring your soul at the very moment when you are at your weakest.</p>
+<p>At the time of writing I am still researching a way to perfectly implement The Free Software Movement’s vision of all users right to filter their experience on the internet. Let me walk you through what I have put together so far.</p>
+<p><a href="https://www.mozilla.org/en-GB/"
+target="_blank">Firefox</a> is an open source browser that is an ok option right out of the box for filtering, or put another way, customizing our experience on the internet.</p>
+<p>Firefox allows you to use an extension called <a
+href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/"
+target="_blank">uBlock origin</a>, which is designed to protect you from ads.</p>
+<p>uBlock origin allows you to use a custom list of elements contained within web pages to block. You can download the custom list that I have prepared for you here: <br></p>
+<p><a href="https://danielmkarlsson.com/uBlockList.txt" target="_blank">uBlockList.txt</a></p>
+<p>This list makes it possible for you to view these sources the way that I would prefer that you view them. Let me be the first to admit that this approach is experimental. While it might not suit everyone, I do however like to think that it clearly shows intent, and direction going forward.</p>
+<div class="footnotes">
+
+<div>
+
+<h3>
+Links to sources
+</h3>
+<p><b id="f1">1.</b> <a href="https://web.archive.org/web/20190522183536/https://www.quotes.net/movies/l.a._story_6359" target="_blank">Steve Martin, <em>LA Story</em>, quotes.net website archived at archive.org May 22 2019.</a> <a href="#a1">↩︎</a></p>
+<p><b id="f2">2.</b> <a href="https://web.archive.org/web/20181116080246/https://www.gregegan.net/DIASPORA/DIASPORA.html" target="_blank">Greg Egan (1997), <em>Diaspora</em>, p.13, Greg Egan’s personal website archived at archive.org November 16 2018</a> <a href="#a2">↩︎</a></p>
+<p><b id="f3">3.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Karl%20Marx%20-%20Theses%20On%20Feuerbach.pdf" target="_blank">Karl Marx (1888), <em>Thesis on Feuerbach</em> (pdf published by Marx/Engels Internet archive) p.3</a> <a href="#a3">↩︎</a></p>
+<p><b id="f4">4.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Leslie%20Irvine%20-%20Even%20Better%20Than%20the%20Real%20Thing.pdf" target="_blank"> Leslie Ervine, <em>Even Better Than the Real Thing</em> (pdf published by Qualitative Sociology, Vol. 23, No. 1, 2000, p.10)</a> <a href="#a4">↩︎</a></p>
+<p><b id="f5">5.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Leslie%20Irvine%20-%20Even%20Better%20Than%20the%20Real%20Thing.pdf" target="_blank">Leslie Ervine, <em>Even Better Than the Real Thing</em> (pdf published by Qualitative Sociology, Vol. 23, No. 1, 2000, p.11)</a> <a href="#a5">↩︎</a></p>
+<p><b id="f6">6.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Theodore%20T.%20Tool%20-%20MIT%20Guide%20to%20Lock%20Picking.pdf" target="_blank">Theodore T. Tool (August 1991 revision), <em>MIT Guide to Lock picking</em> (selfpublished pdf) p.4</a> <a href="#a6">↩︎</a></p>
+<p><b id="f7">7.</b> <a href="https://web.archive.org/web/20180831215732/http://avant.org/artifact/stephen-willats/" target="_blank">Stephen Willats, <em>Publishing as cybernetic practice</em>, avant.org website archived at achive.org August 31 2018</a> <a href="#a7">↩︎</a></p>
+<p><b id="f8">8.</b> <a href="https://web.archive.org/web/20181128154253/http://www.urticator.net/essay/0/30.html" target="_blank">urticator.net, website, archived at archive.org February 28 2015</a> <a href="#a8">↩︎</a></p>
+<p><b id="f9">9.</b> <a href="https://danielmkarlsson.com/Tor-Developer-Isis-Lovecruft-lectures-on-anonymity-systems-at-Radboud-Universiteit.mp4" target="_blank">Isis Agora Lovecruft, <em>Lecture on anonymity systems</em> at Radboud Universiteit, March 21 2016</a> <a href="#a9">↩︎</a></p>
+<p><b id="f10">10.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Mark%20Fisher%20-%20Capitalist%20Realism.pdf" target="_blank">Mark Fisher, <em>Capitalist Realism</em>, p.75</a> <a href="#a10">↩︎</a></p>
+<p><b id="f11">11.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Mark%20Fisher%20-%20Capitalist%20Realism.pdf" target="_blank">Mark Fisher, <em>Capitalist Realism</em>, p.73 </a> <a href="#a11">↩︎</a></p>
+<p><b id="f12">12.</b> <a href="https://web.archive.org/web/20190406163751/http://nymag.com/intelligencer/2018/12/how-much-of-the-internet-is-fake.html" target="_blank">Max Read, <em>How much of the internet is fake</em>, nymag.com, website, archived at archive.org June 6 2006</a> <a href="#a12">↩︎</a></p>
+<p><b id="f13">13.</b> <a href="https://danielmkarlsson.com/TPB-AFK.mp4" target="_blank">Peter Sunde, <em>TPB AFK: The Pirate Bay Away From Keyboard</em> documentary film released on 8 February 2013, directed by Simon Klose</a> <a href="#a13">↩︎</a></p>
+<p><b id="f14">14.</b> <a href="https://web.archive.org/web/20190412203548/https://www.dictionary.com/browse/uncanniness" target="_blank">dictionary.com, website, archived at archive.org April 12 2019</a> <a href="#a14">↩︎</a></p>
+<p><b id="f15">15.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Masahiro%20Mori%20-%20The%20Uncanny%20Valley.pdf" target="_blank">Masahiro Mori, <em>The Uncanny Valley</em>, Published in IEEE Robotics &amp; Automation Magazine, June 2012, p.98 - 100</a> <a href="#a15">↩︎</a></p>
+<p><b id="f16">16.</b> <a href="https://web.archive.org/web/20180725053410/http://web.mit.edu/m-i-t/provocations/gibson.html" target="_blank">William Gibson, <em>Neuromancer</em>, web.mit.edu, website, archived at archive.org July 25 2019</a> <a href="#a16">↩︎</a></p>
+<p><b id="f17">17.</b> <a href="https://web.archive.org/web/20190412210722/https://pastebin.com/LhnajViV" target="_blank">Slavoj Zizek, <em>The Reality of the Virtual</em>, pastebin.com, website, archived at archive.org April 12 2019</a> <a href="#a17">↩︎</a></p>
+<p><b id="f18">18.</b> <a href="https://web.archive.org/web/20190412212141/https://nosubject.com/index.php?title=Talk:Real" target="_blank">Jacques Lacan, <em>No subject, an encylopedia of Lacanian psychoanalysis</em>, web site, archived at archive.org April 12 2019</a> <a href="#a18">↩︎</a></p>
+<p><b id="f19">19.</b> <a href="https://web.archive.org/web/20190412213515/https://www.textise.net/showText.aspx?strURL=https%253A//twitter.com/existentialcoms/status/1062768872900648960#main-content" target="_blank">Corey Mohler, <em>Existential Comics</em>, website, archived at archive.org April 12 2019</a> <a href="#a19">↩︎</a></p>
+<p><b id="f20">20.</b> <a href="https://danielmkarlsson.com/map/stay.mp4" target="_blank">Emma Robinson, <em>Stay</em>, video, selfpublished, July 3, 2013</a> <a href="#a20">↩︎</a></p>
+<p><b id="f21">21.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Mark%20Fisher%20-%20Capitalist%20Realism.pdf" target="_blank">Mark Fisher, <em>Capitalist Realism</em>, p.7</a> <a href="#a21">↩︎</a></p>
+<p><b id="f22">22.</b> <a href="https://web.archive.org/web/20181206110547/https://seattle.craigslist.org/sno/msg/d/possibly-cursed-emu-sp1200/6761989886.html" target="_blank">Anonymized, <em>SP1200 CraigsList ad</em>, website, archived at archive.org December 6 2018</a> <a href="#a22">↩︎</a></p>
+<p><b id="f23">23.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Mark%20Fisher%20-%20Capitalist%20Realism.pdf" target="_blank">Mark Fisher, <em>Capitalist Realism</em>, p.8</a> <a href="#a23">↩︎</a></p>
+<p><b id="f24">24.</b> <a href="https://web.archive.org/web/20190412215946/https://www.textise.net/showText.aspx?strURL=https%253A//twitter.com/CryptoNature/status/1032808690292797440#main-content" target="_blank">Jarod Anderson, <em>The CryptoNaturalist</em>, website, archived at archive.org April 12 2019</a> <a href="#a24">↩︎</a></p>
+<p><b id="f25">25.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Peter%20Elbow%20-%20The%20Believing%20Game--Methodological%20Believing.pdf" target="_blank">Peter Elbow, (2008) <em>The Believing Game–Methodological Believing</em> - The Journal of the Assembly for Expanded Perspectives on Learning. 5. p.1, pdf published by University of Massachussets Amherst</a> <a href="#a25">↩︎</a></p>
+<p><b id="f26">26.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Peter%20Elbow%20-%20The%20Believing%20Game--Methodological%20Believing.pdf" target="_blank">Peter Elbow, (2008) <em>The Believing Game–Methodological Believing</em> - The Journal of the Assembly for Expanded Perspectives on Learning. 5. p.8, pdf published by University of Massachussets Amherst</a> <a href="#a26">↩︎</a></p>
+<p><b id="f27">27.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Peter%20Elbow%20-%pdf" target="_blank">Peter Elbow, (2008) <em>The Believing Game–Methodological Believing</em> - The Journal of the Assembly for Expanded Perspectives on Learning. 5. p.9, pdf published by University of Massachussets Amherst</a> <a href="#a27">↩︎</a></p>
+<p><b id="f28">28.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Francis%20Bacon%20-%20The%20New%20Atlantis.pdf" target="_blank">Sir Francis Bacon (1627), <em>The New Atlantis</em> (published as e-book by Project Gutenberg 2003) p.23 </a> <a href="#a28">↩︎</a></p>
+<p><b id="f29">29.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Mark%20Fisher%20-%20Capitalist%20Realism.pdf" target="_blank">Mark Fisher, <em>Capitalist Realism</em>, p.76</a> <a href="#a29">↩︎</a></p>
+<p><b id="f30">30.</b> <a href="https://danielmkarlsson.com/oram.mp3" target="_blank">Daphne Oram, <em>Wee Have Also Sound-Houses</em>, radio documentary, Broadcasted on TX BBC Radio 3, Sun 3 Aug 2008, 21:45</a> <a href="#a30">↩︎</a></p>
+<p><b id="f31">31.</b> <a href="https://danielmkarlsson.com/kindohm.mp4" target="_blank">Kindohm, <em>Algorithmic Art Assembly 2019 live set</em>, video, published by Algorithmic Art Assembly, April 10, 2019</a> <a href="#a31">↩︎</a></p>
+<p><b id="f32">32.</b> <a href="https://web.archive.org/web/20160706125520/http://www.markfell.com/wiki/index.php?n=Mf.Manitutshu" target="_blank">Mark Fell, personal website, archived at archive.org July 6 2016</a> <a href="#a32">↩︎</a></p>
+<p><b id="f33">33.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Universal%20Declaration%20of%20Human%20Rights%20.pdf" target="_blank">United Nations Human Rigths Office of The High Commisioner, <em>Universal Declaration of Human Rights</em>, Originally published by The UN in 1948</a> <a href="#a33">↩︎</a></p>
+<p><b id="f34">34.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Mark%20Fisher%20-%20Capitalist%20Realism.pdf" target="_blank">Mark Fisher, <em>Capitalist Realism</em>, p.18</a> <a href="#a34">↩︎</a></p>
+<p><b id="f35">35.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Richard%20Feynman%20-%20The%20Pleasure%20of%20Finding%20Things%20Out.pdf" target="_blank">Richard P. Feynman (1999), <em>The Pleasure of Finding Things Out</em>, p.248 </a> <a href="#a35">↩︎</a></p>
+<p><b id="f36">36.</b> <a href="https://web.archive.org/web/20190421144507/http://www.bbc.com/culture/story/20171204-the-ancient-symbol-that-spanned-millennia " target="_blank">Joobin Bekhrad, <em>The ancient symbol that spanned millennia</em>, bbc.com, website, archived at archive.org Apr 21 2019</a> <a href="#a36">↩︎</a></p>
+<p><b id="f37">37.</b> <a href="https://web.archive.org/web/20190421142450/https://my.vanderbilt.edu/jefftaylor/publications/origins/" target="_blank">Jeff Taylor, <em>Origins</em>, my.vanderbilt.edu, website, archived at archive.org April 21 2019</a> <a href="#a37">↩︎</a></p>
+<p><b id="f38">38.</b> <a href="https://web.archive.org/web/20171002200107/http://www.nytimes.com/2013/01/20/books/review/missing-out-by-adam-phillips.html" target="_blank">Adam Phillips, <em>Missing Out</em>, nytimes.com, website, archived at archive.org October 02 2017</a> <a href="#a38">↩︎</a></p>
+<p><b id="f39">39.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Ivan%20Amato%20-%20Speculating%20in%20precious%20Computronium.pdf" target="_blank">Ivan Amato, <em>Speculating in precious Computronium</em>, Science, Vol 253, p.856 - 857, published 23 August 1991</a> <a href="#a39">↩︎</a></p>
+<p><b id="f40">40.</b> <a href="https://web.archive.org/web/20190417073557/https://www.textise.net/showText.aspx?strURL=https%253A//twitter.com/ubuweb/status/941400647634685952#main-content" target="_blank">ubuweb, textise.net, website, archived at archive.org April 17 2019</a> <a href="#a40">↩︎</a></p>
+<script async type="text/javascript" src="/player/dmk-player.js?v=5"></script>
+<script>
+window.addEventListener('load', function () {
+  var elements = document.getElementsByClassName('dmk-player');
+  var players = Array.from(elements).map(function (el) {
+    if (el.dataset) {
+      var rootUrl = window.location.origin;
+      var playlist = el.dataset.playlist;
+      var isVideo = !!el.dataset.isVideo;
+      var layout = {
+        title: false,
+        elapsedTime: false
+      };
+      var options = {
+        playlist: playlist,
+        isVideo: isVideo,
+        rootUrl: rootUrl
+      };
+      return new DMKPlayer(el, options, layout);
+    }
+  });
+  players.forEach(function (player, index) {
+    player.index = index;
+    player.on('play', function () {
+      players.forEach(function (p) {
+        if (p.index !== player.index && p.isPlaying) {
+          p.stop();
+        }
+      });
+    });
+  });
+});
+</script>
+<script>
+function goToURL() {
+    var links = [
+        "./a-collapse-of-structures/",
+        "./map/",
+        "./now/",
+        "./ruins-in-the-distance",
+        "./gigs",
+        "./log",
+        "./log",
+        "./frequently-asked-questions",
+        "./list",
+        "./etudes",
+        "./sc4reaper",
+        "./superclean-installparty",
+        "./utilities",
+        "./recipes",
+        "./pieces",
+        "./links",
+    ];
+
+    // get a random number between 0 and the number of links
+    var randIdx = Math.round(Math.random() * (links.length - 1));
+    // construct the link to be opened
+    var root = window.location.protocol + '//' + window.location.host;
+    var link = root + '/' + links[randIdx];
+
+    document.location.href = link;
+};
+</script>
+<p align="right">
+<a href="#" onClick="goToURL()">∞</a>
+</p>
+<p><br> <br></p>
+</body>
+</html>
