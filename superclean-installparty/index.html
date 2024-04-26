@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>dmk</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link href="/player/dmk-player.css?v=2" rel="stylesheet"> 
+  <style type="text/css">
+
+  html {
+      box-sizing: border-box;
+      height: 100%;
+      word-break: normal
+      overflow-wrap: normal;
+      background-color: white;
+      color: black;
+
+      .dark-mode {
+          background-color: black;
+          color: white;
+          a:link, a:visited {
+              color: white;
+          }
+          footnotes {
+              color: white;
+          }
+          play-button {
+          filter: invert(1);
+      }
+      transport {
+          filter: invert(1);
+      }
+  j
+      }
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+      max-width: 480pt;
+      height: 100%;
+      margin: auto;
+      padding-top: 10pt
+      padding-left: 10pt;
+      padding: 10pt;
+      font-family: Verdana;
+      line-height: 140%;
+      font-size: 10pt;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;
+      color:#222;
+      word-break: normal
+      overflow-wrap: normal;
+  }
+
+  .button1 {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  h1,h2,h3{
+      line-height:1.2
+  }
+
+  a:link, a:visited {
+      color: black;
+      text-decoration: none;
+  }
+
+  a:hover, a:active {
+      color: black;
+      text-decoration: underline;
+  }
+
+  .contact {
+    margin-bottom: 15%;
+  }
+
+  .footnotes {
+    margin-top: 100%;
+    padding-bottom: 10px;
+    color: black;
+  }
+
+  .blinking{
+          animation:blinkingText 0.8s infinite;
+      }
+
+      @keyframes blinkingText{
+          0%{     color: #000;    }
+          50%{    color: transparent; }
+          100%{   color: #000;    }
+      }
+
+  pre code {
+    font-size: 12px;
+    line-height: normal;
+    width: 300%;
+    background: #000;
+    color: #fff;
+    display: block;
+    padding: 10pt;
+  }
+
+  /* audio player */
+
+  .player {
+    width: 100%;
+  }
+
+
+  .tab { 
+         display:inline-block; 
+         margin-left: 40px; 
+  }
+
+  img {
+      max-width:100%;
+      height:auto;
+  }
+
+  .transport {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+  }
+
+  #player-title {
+    /* text-align: center; */
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: 600;
+
+  }
+
+  #play-button {
+    margin: 0;
+    padding: 0;
+    width: 30px; /* prevent resize */
+
+    background: transparent;
+    outline: 0;
+    border: none;
+
+    text-align: left;
+
+    font-size: 1.25em;
+    white-space: nowrap;
+  }
+
+  #current-time {
+    white-space: nowrap;
+    font-size: 1em;
+    margin-left: 10px;
+  }
+
+  #time-line {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid black;
+  }
+
+  #progress {
+    position: absolute;
+    top: 21px; /* depends on timeline height */
+    left: 0;
+
+    height: 4px;
+    background: black;
+  }
+
+  .playlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    height: 100%;
+    overflow: auto;
+  }
+
+  .playlist-item {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0.25rem 0.25rem;
+    border-bottom: 1px solid #eee;
+
+    /* prevent div resize when selecting track */
+    border-left: 1px solid transparent;
+  }
+
+  .playlist-item.selected {
+    border-left: 1px solid black;
+  }
+
+  .playlist-item.selected:hover {
+    border-left: 1px solid black;
+  }
+
+  .playlist-item:hover {
+    background: #eee;
+    border-color: #eee;
+  }
+
+  .playlist::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .playlist::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-left: 6px solid white;
+  }
+
+  video, .avia-video *, *:focus {
+    outline: 0!important;
+    outline: none!important;
+    outline-width: 0;
+   -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
+  }
+
+  </style>
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+</head>
+<body>
+<br>
+<center>
+<strong>SuperClean InstallParty</strong>
+</center>
+<p>Welcome one and all to this SuperClean InstallParty.</p>
+<p>SuperClean is a SuperCollider framework which easily provides access to some basic utilities inside of SuperCollider itself. Not only can you play back all of your samples without needless hassle in an environment that can grow with you. SuperClean also contains a bunch of synths and a very flexible routing system.</p>
+<p>SuperClean is, in short, a one-stop-shopping-experience for folks who want:</p>
+<p>• An MPC,<br />
+• a bunch of synths,<br />
+• a whoole lot of effects, and,<br />
+• a flexible routing system</p>
+<p>for the low, low asking price of: Free! Free as in costs nothing but more importantly, free as in breaking out of jail kind of free. Also, on a personal note here, hey, this is what I use to make music with every day. I really like making music and, for me, this makes it way funner. Try it! What have you got to loose?</p>
+<p>Let’s go ahead and download SuperCollider, SuperClean and the SC3 plugins:</p>
+<center>
+<a href="https://supercollider.github.io/downloads">Download SuperCollider</a>
+</center>
+<br>
+<center>
+<a href="https://github.com/danielmkarlsson/SuperClean/releases">Download SuperClean</a>
+</center>
+<br>
+<center>
+<a href="https://supercollider.github.io/sc3-plugins/">Download Sc3plugins</a>
+</center>
+<p>If for some reason there is some kind of snag regarding that whole downloading stuff from The Public Internet maneuver, raise your hand and I’ll come over with a USB for you. If we are not in the same room, then let me know through email and I’ll sort you out. You can find my email on my index page. Now boot up SuperCollider.</p>
+<p>Next let’s go to <code>File</code>, <code>Open user support directory</code>. This is a hidden place on your computer. If you ever need to get back here then, now you know how. Grab hold of the folder called <code>sc3plugins</code> and the <code>SuperClean</code> folder and drag them both to the <code>Extensions</code> folder. Click your way into the <code>SuperClean</code> folder. Now open the file <code>superclean_startup.scd</code> and copy that whole mess of text. Go to <code>File</code>, <code>Open startup file</code>, paste into there. Save the file. Quit and then start up SuperCollider again. That should do it!</p>
+<p>Let’s try it out by opening <code>examples.scd</code> which is also located in the SuperClean folder. Any time after starting SuperCollider you see the message <code>[ SuperClean up + running ]</code> that means everything is ready to go. Put the text cursor inside a code black and run it by pressing <code>cmd + Enter</code>. At this point you should hear something. If no go, take a look at the video walkthrough below. If still no go, I can come over to help you, or let me know through email and we can work something out that works for you.</p>
+<p>Now that everybody is up + running the sky is the limit! We could literally have any sound arrive at any time. Go forth in thrash! Really looking forward to hanging out and getting into SuperClean together. Don’t be a stranger!</p>
+<p><a href="https://github.com/danielmkarlsson/SuperClean">Check this project out on github</a></p>
+<p>Below is a video walkthrough of the installation process as it went down at the first Patterns in SuperCollider with SuperClean lesson:</p>
+<video controls="controls" width="100%" name="SuperClean-install-walkthrough.mov" src="superClean-install-walkthrough.mov">
+</video>
+<p><br> <br></p>
+<!--   
+<br><center>**The EMS course**</center>
+
+I did two semesters of this course I created for Elektronmusikstudion EMS which
+is located in Stockholm Sweden. The course was held entirely online. The course
+was open to everyone, regardless of geographical location. It provided a
+biweekly opportunity to connect with people making weird and wonderful music
+with SuperCollider all over the world. I had a great time doing it and I think
+I'd like to come back to it somehow in the future.<br><br>
+
+<center>[Rummage through the show notes for the course here](https://github.com/danielmkarlsson/SuperClean-code/tree/main/Patterns-in-SuperCollider-with-SuperClean)</center>
+
+<br>
+<br>
+
+<br><center>**Patterns in SuperCollider with SuperClean course overview**</center>
+
+00: Pre course email general corraling. Matrix element, sharing code with git.  
+
+01: Introduction, Installation, configuration, defaults, evaluation, navigation.   
+
+02: Continously redefining patterns and binding values to parameter names.      
+
+03: Sequential patterns. Linear deterministic patterns. Parameterization of music.  
+
+04: Stochastic choices. Weighted distributions. A closer look at SuperClean keys.  
+
+05: Unweighted choice between threshold values. Directionality and meandering.  
+
+06: Installing custom extensions. Repeating stochastic sequences. The golden urn.  
+
+07: Translating value ranges. Connecting parameters. Scales, tunings, chords.  
+
+08: Segmented interpolation over time. Functions in patterns. Data sharing.  
+
+09: Infinite stochastic choices derived from a single number. Finite duration.  
+
+10: Form, music in parts, recording, routing, multichannel external connectivity.   
+
+11: Completing works. Performing works. Comparing portability of formats.  
+-->
+<br>
+<center>
+<strong>Getting started using Patterns with SuperClean.</strong>
+</center>
+<p>Here’s a lil piece of boilerplate code to get us started:</p>
+<pre class="text"><code>(
+Pdef(0,
+    Pbind(*[
+        type: \cln,
+        snd: \sin,
+    ])
+).play
+)</code></pre>
+<p>Now, what that lil sucker does is give us a comfortable interface. With this we can put the text cursor anywhere inside of the outermost parantheses and evaluate it with Command Enter, and it goes. It does the bleeps forever. How do we stop this thing? That’s Command period (the little dot at the end of a sentence). Next we see <code>Pdef</code> which gives us a running pattern definition. We can redefine this stream of musical event, while it’s running. To me this is essential, otherwise I get annoyed at how clunky the workflow is. Let’s do a quick redefining of what we are hearing. First get the pattern started, then, while it’s running, overwrite <code>\sin</code> with <code>saw\</code> and then reevaluate. This changes what we are hearing. SuperClean has a bunch of synths available to us. We just redefined our running pattern from making sine wave bleeps to saw wave bloops. Next in the boilerplate code block is <code>Pbind</code> which binds the parameters in the left column to the values in the right column. The colon character is in the middle, between the two columns, keeping them separate. The first parameter in the left column is <code>type</code> and we set that value to <code>\cln</code> in the right column. I like to think of this as the on button for SuperClean. This tells SuperCollider to make everything SuperClean has to offer available to us in this block of Pattern code. The next parameter in the left column is <code>snd</code> which stands for sound and refers to either the name of a synth or the name of a folder containing samples. Let’s set that to <code>\mmd</code> and evaluate. Now, what that does is play the zeroth file in a sample folder called mmd. This folder is inside of the SuperClean folder that we dragged to the Extensions folder earlier. The folder contains thirteen short drum synthesis sounds that I made on my Micro Modular. They are only 10Mb all together and they get loaded into RAM when SuperClean boots up. I put those in there as a utility. They are good for getting started quickly and trying stuff out with samples. Let’s add a new parameter so we can control which file inside this folder gets played.</p>
+<pre class="text"><code>(
+Pdef(0,
+    Pbind(*[
+        type: \cln,
+        snd: \mmd,
+        num: 1,
+    ])
+).play
+)</code></pre>
+<p>Oh hey now that made the sound change didn’t it? We’ve set the sample player to the first file in the folder. Go ahead and change this number a bunch of times to audition all of the different samples in that folder. As you were doing that did you notice that the thing counts from zero and that there are 13 samples in the folder and also that it wraps around so that the value 0 and the value 13 trigger the same sample. That’s how that works. Let’s do some linear sequencing with <code>Pseq</code>.</p>
+<pre class="text"><code>(
+Pdef(0,
+    Pbind(*[
+        type: \cln,
+        snd: \mmd,
+        num: Pseq([1, 7, 9, 11, 12, 6, 5], inf),
+    ])
+).play;
+)</code></pre>
+<p>But this is so boringly slow. Let’s make it faster.</p>
+<pre class="text"><code>(
+Pdef(0,
+    Pbind(*[
+        type: \cln,
+        snd: \mmd,
+        num: Pseq([1, 7, 9, 11, 12, 6, 5], inf),
+        dur: 1/8,
+    ])
+).play;
+)</code></pre>
+<p>Alright that’s better, but now it’s beginning to bore me again because it’s just the same thing over and over again. Let’s fix that by introducing a new pattern object that does stochastic sequencing, <code>Prand</code>:</p>
+<pre class="text"><code>(
+Pdef(0,
+    Pbind(*[
+        type: \cln,
+        snd: \mmd,
+        num: Prand([1, 7, 9, 11, 12, 6, 5], inf),
+        dur: 1/8,
+    ])
+).play;
+)</code></pre>
+<p>I want more variation so let’s add another parameter. <code>amp</code> will let us vary the amplitude. Let’s also get <code>Plprand</code> in there as a new Pattern object. This one is a nice pairing with amplitude because reasons.</p>
+<pre class="text"><code>(
+Pdef(0,
+    Pbind(*[
+        type: \cln,
+        snd: \mmd,
+        num: Prand([1, 7, 9, 11, 12, 6, 5], inf),
+        dur: 1/8,
+        amp: Plprand(0.25, 1.0),
+    ])
+).play;
+)</code></pre>
+<p>Nice to have some dynamics going. Next I want to add some panning and I’ll pair that parameter nicely with <code>Pmeanrand</code> which prefers the middle of the value range.</p>
+<pre class="text"><code>(
+Pdef(0,
+    Pbind(*[
+        type: \cln,
+        snd: \mmd,
+        num: Prand([1, 7, 9, 11, 12, 6, 5], inf),
+        dur: 1/8,
+        amp: Plprand(0.25, 1.0),
+        pan: Pmeanrand(0.0, 1.0),
+    ])
+).play;
+)</code></pre>
+<p>You might want to know how the change “the BPM”, but do you really though? This will change it globally, for all patterns, until you recompile:</p>
+<p><code>TempoClock.default.tempo = 128/60;</code></p>
+<p>I think it’s way nicer to just change this <em>per pattern</em> with <code>stretch</code></p>
+<pre class="text"><code>(
+Pdef(0,
+    Pbind(*[
+        type: \cln,
+        snd: \mmd,
+        num: Prand([1, 7, 9, 11, 12, 6, 5], inf),
+        dur: 1/8,
+        amp: Plprand(0.25, 1.0),
+        pan: Pmeanrand(0.0, 1.0),
+        stretch: 0.75,
+    ])
+).play;
+)</code></pre>
+<p>Setting <code>stretch</code> to 0 is infinitely fast and setting <code>stretch</code> to 2 is half tempo. Using <code>stretch</code> opens up a door to <em>polytempic</em> music and musics that morph fluidly between different tempos. Imagine that for a minute. Wild right?</p>
+<p><br> <br> <br> <br></p>
+<script>
+function goToURL() {
+    var links = [
+        "./a-collapse-of-structures/",
+        "./map/",
+        "./now/",
+        "./ruins-in-the-distance",
+        "./gigs",
+        "./log",
+        "./log",
+        "./frequently-asked-questions",
+        "./list",
+        "./etudes",
+        "./sc4reaper",
+        "./superclean-installparty",
+        "./utilities",
+        "./recipes",
+        "./pieces",
+        "./links",
+    ];
+
+    // get a random number between 0 and the number of links
+    var randIdx = Math.round(Math.random() * (links.length - 1));
+    // construct the link to be opened
+    var root = window.location.protocol + '//' + window.location.host;
+    var link = root + '/' + links[randIdx];
+
+    document.location.href = link;
+};
+</script>
+<p align="right">
+<a href="#" onClick="goToURL()">∞</a>
+</p>
+<p><br> <br></p>
+</body>
+</html>
