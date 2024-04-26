@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>dmk</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link href="/player/dmk-player.css?v=2" rel="stylesheet"> 
+  <style type="text/css">
+
+  html {
+      box-sizing: border-box;
+      height: 100%;
+      word-break: normal
+      overflow-wrap: normal;
+      background-color: white;
+      color: black;
+
+      .dark-mode {
+          background-color: black;
+          color: white;
+          a:link, a:visited {
+              color: white;
+          }
+          footnotes {
+              color: white;
+          }
+          play-button {
+          filter: invert(1);
+      }
+      transport {
+          filter: invert(1);
+      }
+  j
+      }
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+      max-width: 480pt;
+      height: 100%;
+      margin: auto;
+      padding-top: 10pt
+      padding-left: 10pt;
+      padding: 10pt;
+      font-family: Verdana;
+      line-height: 140%;
+      font-size: 10pt;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;
+      color:#222;
+      word-break: normal
+      overflow-wrap: normal;
+  }
+
+  .button1 {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  h1,h2,h3{
+      line-height:1.2
+  }
+
+  a:link, a:visited {
+      color: black;
+      text-decoration: none;
+  }
+
+  a:hover, a:active {
+      color: black;
+      text-decoration: underline;
+  }
+
+  .contact {
+    margin-bottom: 15%;
+  }
+
+  .footnotes {
+    margin-top: 100%;
+    padding-bottom: 10px;
+    color: black;
+  }
+
+  .blinking{
+          animation:blinkingText 0.8s infinite;
+      }
+
+      @keyframes blinkingText{
+          0%{     color: #000;    }
+          50%{    color: transparent; }
+          100%{   color: #000;    }
+      }
+
+  pre code {
+    font-size: 12px;
+    line-height: normal;
+    width: 300%;
+    background: #000;
+    color: #fff;
+    display: block;
+    padding: 10pt;
+  }
+
+  /* audio player */
+
+  .player {
+    width: 100%;
+  }
+
+
+  .tab { 
+         display:inline-block; 
+         margin-left: 40px; 
+  }
+
+  img {
+      max-width:100%;
+      height:auto;
+  }
+
+  .transport {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+  }
+
+  #player-title {
+    /* text-align: center; */
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: 600;
+
+  }
+
+  #play-button {
+    margin: 0;
+    padding: 0;
+    width: 30px; /* prevent resize */
+
+    background: transparent;
+    outline: 0;
+    border: none;
+
+    text-align: left;
+
+    font-size: 1.25em;
+    white-space: nowrap;
+  }
+
+  #current-time {
+    white-space: nowrap;
+    font-size: 1em;
+    margin-left: 10px;
+  }
+
+  #time-line {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid black;
+  }
+
+  #progress {
+    position: absolute;
+    top: 21px; /* depends on timeline height */
+    left: 0;
+
+    height: 4px;
+    background: black;
+  }
+
+  .playlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    height: 100%;
+    overflow: auto;
+  }
+
+  .playlist-item {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0.25rem 0.25rem;
+    border-bottom: 1px solid #eee;
+
+    /* prevent div resize when selecting track */
+    border-left: 1px solid transparent;
+  }
+
+  .playlist-item.selected {
+    border-left: 1px solid black;
+  }
+
+  .playlist-item.selected:hover {
+    border-left: 1px solid black;
+  }
+
+  .playlist-item:hover {
+    background: #eee;
+    border-color: #eee;
+  }
+
+  .playlist::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .playlist::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-left: 6px solid white;
+  }
+
+  video, .avia-video *, *:focus {
+    outline: 0!important;
+    outline: none!important;
+    outline-width: 0;
+   -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
+  }
+
+  </style>
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+</head>
+<body>
+<br>
+<center>
+<strong>Gigs</strong>
+</center>
+<p>These kinds of pages are always a bit weird aren’t they? I mean, who are they for? It’s a pretty low key way to get the word out ahead of time, so my thinking is it’ll mostly, if ever, be read after the fact. So I thought that instead of doing the usual image crafting I would let you know how I got the gigs, and what they were like. Who was nice to me, and who is the person you should contact to ask for a gig? Was it a good PA at the venue? Was the tech staff into the music? How big was the space? Was the audience engaged and listening attentively? That kind of thing is always what I’m asking folks when they say they played somewhere. <br> <br></p>
+<center>
+<strong>Towards a Music for Large Ensemble at Edition VII GRM</strong>
+</center>
+<p>John Chantler booked me for that gig. This was a commisioned piece, also John’s doing. This was an incredible once in a life time kind of experience for me.</p>
+<p><br></p>
+<center>
+<strong>Towards a music for ensemble at Fylkingen</strong>
+</center>
+<p>Malte Dahlberg booked me for that gig. This was the last gig I did at Fylkingen when it was located at Torkel Knutssonsgatan 2. It was a pretty chill night. Everyone kind of just made it happen, together. I did sound for my friend Hara Alonso who played a great set. I performed my piece in four channels. A couple of days later I put together this Stereo mix of it.</p>
+<div class="dmk-player" data-playlist="towards-a-music-for-ensemble-at-fylkingen-20231026/index.json">
+
+</div>
+<p><br></p>
+<center>
+<strong>Planar view at Lötsjö kapell</strong>
+</center>
+<p>Linnéa Talp booked me for that gig. This little funeral chapel a little bit outside of town has an organ in it that I was allowed access to a couple of times leading up to that show. I did a bunch of recordings of the organ and I made this piece. I think it is a nice sounding room. It doesn’t have a PA so I borrowed some speakers from EMS. It worked out alright I think. People seemed to have enjoyed the music.</p>
+<div class="dmk-player" data-playlist="planar-view/index.json">
+
+</div>
+<p><br></p>
+<center>
+<strong>Towards a music for ensemble at Intonal</strong>
+</center>
+<p>Mats Lindström booked me for that gig.</p>
+<p><br></p>
+<center>
+<strong>Past the inflection point at Sound of Stockholm</strong>
+</center>
+<p>Theodor Kentros booked me for that gig.</p>
+<p><br></p>
+<center>
+<strong>Shipwrecks at Skaiv</strong>
+</center>
+<p>David Åhlen booked me for that gig.</p>
+<p><br></p>
+<center>
+<strong>Ruins in the distance at Fylkingen</strong>
+</center>
+<p>Fylkingen is member run. I am a member. I wanted to give Francesco Torelli the opportunity to do a gig while he was here, so the two of us put together a two set evening. I had a good time hanging out with Francesco and also some friends came out to support us. I’ve never done that kind of tit for tat thing of booking a gig for someone from out of town at Fylkingen. This is not that. I just really dig Francesco and I thought that he should get to experience doing a gig at Fylkingen while he was here. I guess the way to get a gig at Fylkingen is either become a member, or to get chummy with a member. Fylkingen has a good PA, quad Lacoustics with decent subs under each top + extra JBL subs and a good projector. The thing they didn’t have was a cable that was long enough to get from the projector to the other end of the room. I thought that for sure Fylkingen would still have that really old, really long VGA cable but it must have broke since I used it last.</p>
+<!-- I ended up using OS X's built in Screen Sharing. It was not ideal, but I had to think on my feet there, so that's what happened. Luckily the new wifi setup is pretty fast, so there was not all that much latency. I do not recommend doing it that way, but it did work. Would have felt better to ssh or even send the OSC messages over ethernet between the two computers. Maybe next time. The code is very raw. They are single line things that either set a specific value or generate them stochastically between thresholds or choose a value from a list of values. One neat little trick [David Granström](https://davidgranstrom.com/) taught me is subtracting `1` from an `exprand` to invert the range. I like to be able to do that because I remember swapping the values in Haskell and getting that behaviour. I think it's neat. The lines are grouped in parentheses for optics and also there is the top level parentheses which let's me evaluate all lines wherever I'm at with `C + e`. On top of that David taught me this neat trick where you can make a visual selection in [nvim](https://github.com/neovim/neovim/wiki/Installing-Neovim) and then recall it with less hassle using `gv`. I can make this reselect last selection and then evaluate manouver pretty fast now that my hands are getting into it. You can see me do that a whole bunch in the video below. <video controls="controls" width="100%" name="RuinsAtFylkingen7November2019.mov" src="RuinsAtFylkingen7November2019.mov"></video> -->
+<p><br></p>
+<center>
+<strong>A collapse of structures at Ställbergs Gruva</strong>
+</center>
+<p>Eric Sjögren booked me for this gig. This piece was originally composed for 8 channels and had it’s premiere on the second of August 2019 at Ställbergs Gruva as part of their three day festival “Att återta det levande”. We encouraged folks to not have their handComputers with them in the room. This meant that I don’t really have a clip from this gig. I’ve been thinking I should try to work something out with the photographer that took stills in the room.</p>
+<p><br></p>
+<center>
+<strong>Intersections of traversals at NorbergFestival</strong>
+</center>
+<p>I was invited by <a href="http://www.stickydrama.se/om/sara-fors/">Sara Fors</a>, <a href="https://soundcloud.com/mattiash-llsten">Mattias Hållsten</a> and <a href="http://cherche-encore.info/">Blue Maignien</a>. Despite having these three dear friends in my corner, I suspect that in the end <a href="https://cargocollective.com/johanostman">Johan Östman</a> had to sign off on me playing, in order for it to really happen. From what I gather, he is still very much in charge of booking. I don’t think it would be possible to cold call him in order to get a gig at the festival. Structural changes to how the booking gets dealt with inside the organisation are traditionally floated around at the beginning of each season, then later revised. Long story short is you need to somehow figure out who is working <em>around</em> Östman, and get in touch through there. <a href="https://norbergfestival.com/">NorbergFestival</a> is <em>the best</em> and really entirely worth playing at, always, regardless of the circumstances, so I think folks should totally try to get a gig there, even though it might be difficult. It’s a three day festival, I played on the Saturday, in Mimer. I love that space. It’s one of my all time favourite resonant spaces. It has this amazingly long room tone, full of complex resonances. It’s a huge concrete space. Just amazing. I split up the piece into 32 Stereo tracks that I then handed to <a href="https://davidgranstrom.com/">David Granström</a> who spatialized the piece in the 16 satellite Lacoustic speakers using his custom spatialization software <a href="https://github.com/davidgranstrom/SuperPrism">SuperPrism</a>. The full Stereo mix was sent to the house PA which was also Lacoustic but a huge line array one with subs that I really like. A tremendous amount of air pressure is possible in the very lowest end, which in turn creates these amazing rattling sounds in the old defunct mine. <a href="http://matserlandsson.com/">Mats Erlandsson</a> who was my producer at the premiere was also on board to do the delicate Tonmeister work setting the levels in the main PA. Rasmus Persson was the main sound technician and is always so rewarding to work with. We really had an amazing team of my favourite people working together in consort to make the sound come together both technically as well as artistically. I really could not be happier about how that team came together. I walked around and got the sense that the audience was into it. A lot of folks were laying down, listening attentively. In the last part, where the tubas come in and the overall mood changes to louder, folks came up to me to show their excitement at the fact that their nose hairs were tingling. Folks generally smiled, gave me thumbs up and even encouraging shoulder pats of approval. This made me very grateful and happy to have been given the opportunity to perform there.</p>
+<video controls="controls" width="100%" name="MapClipFromNorberg.mov" src="MapClipFromNorberg.mov">
+</video>
+<p><br></p>
+<center>
+<strong>Intersections of traversals at Notam</strong>
+</center>
+<p>I was invited by <a href="https://www.madskjeldgaard.dk" target="_blank">Mads Kjeldgard</a> to perform at <a href="http://www.notam02.no/web/" target="_blank">Notam</a> during the season finale of their SuperCollider meetUp group. I really liked the space. They had four Genelecs set up in Quad configuration. I made a Quad version of the piece and projected the code. There was a nice vibe and the audience listened attentively. I talked to a few folks afterwards and they seemed pleased. I especially liked this one guy <a
+href="https://niklasadam.oddodd.org" target="_blank">Nicklas Adam</a>’s performance and we talked afterwards and that was great. I felt like we had a lot in common in terms of thinking. He felt very free to me. I especially liked how I was able to go from not feeling engaged in the beginning of the performance to being tremendously engaged by the end of it. He changed my mind. That always feels really invigorating for me to go through that as part of an audience. To be transformed by a piece.</p>
+<p><br></p>
+<p>Here is the promo material and the lineup for the event:</p>
+<center>
+<img src="notam-concert-code-promo-image.png" />
+</center>
+<blockquote>
+<p>To celebrate the end of a fantastic year of SuperCollider meetups at Notam, we proudly present a night of music and sounds produced by way of writing code.</p>
+</blockquote>
+<blockquote>
+<p>NOTAM’s kitchen will be fitted with a quad speaker setup which will be subjected to wildly different ways of making particles vibrate in space.</p>
+</blockquote>
+<blockquote>
+<p>The lineup for the concert covers a wide range of interesting ways of coding conceptual, performative, noisy, self-governing and / or wonderful sound machines and composition systems.</p>
+</blockquote>
+<blockquote>
+<p>LINEUP: Daniel M Karlsson (SE) Niklas Adam (DK/NO) yann ics (FR) Mads Kjeldgaard (DK/NO)</p>
+</blockquote>
+<blockquote>
+<p>PRICE: free</p>
+</blockquote>
+<blockquote>
+<p>Concert: Code <br> Monday, 17 June 2019 from 19:00-23:00 UTC+02 <br> Notam <br> Sandakerveien 24 D, Bygg F3, N- 0473 Oslo, Norway <br></p>
+</blockquote>
+<p><br> <br></p>
+<script async type="text/javascript" src="/player/dmk-player.js?v=5"></script>
+<script>
+window.addEventListener('load', function () {
+  var elements = document.getElementsByClassName('dmk-player');
+  var players = Array.from(elements).map(function (el) {
+    if (el.dataset) {
+      var rootUrl = window.location.origin;
+      var playlist = el.dataset.playlist;
+      var isVideo = !!el.dataset.isVideo;
+      var layout = {
+        title: false,
+        elapsedTime: false
+      };
+      var options = {
+        playlist: playlist,
+        isVideo: isVideo,
+        rootUrl: rootUrl
+      };
+      return new DMKPlayer(el, options, layout);
+    }
+  });
+  players.forEach(function (player, index) {
+    player.index = index;
+    player.on('play', function () {
+      players.forEach(function (p) {
+        if (p.index !== player.index && p.isPlaying) {
+          p.stop();
+        }
+      });
+    });
+  });
+});
+</script>
+<script>
+function goToURL() {
+    var links = [
+        "./a-collapse-of-structures/",
+        "./map/",
+        "./now/",
+        "./ruins-in-the-distance",
+        "./gigs",
+        "./log",
+        "./log",
+        "./frequently-asked-questions",
+        "./list",
+        "./etudes",
+        "./sc4reaper",
+        "./superclean-installparty",
+        "./utilities",
+        "./recipes",
+        "./pieces",
+        "./links",
+    ];
+
+    // get a random number between 0 and the number of links
+    var randIdx = Math.round(Math.random() * (links.length - 1));
+    // construct the link to be opened
+    var root = window.location.protocol + '//' + window.location.host;
+    var link = root + '/' + links[randIdx];
+
+    document.location.href = link;
+};
+</script>
+<p align="right">
+<a href="#" onClick="goToURL()">∞</a>
+</p>
+<p><br> <br></p>
+</body>
+</html>
