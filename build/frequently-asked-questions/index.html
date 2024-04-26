@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>dmk</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link href="/player/dmk-player.css?v=2" rel="stylesheet"> 
+  <style type="text/css">
+
+  html {
+      box-sizing: border-box;
+      height: 100%;
+      word-break: normal
+      overflow-wrap: normal;
+      background-color: white;
+      color: black;
+
+      .dark-mode {
+          background-color: black;
+          color: white;
+          a:link, a:visited {
+              color: white;
+          }
+          footnotes {
+              color: white;
+          }
+          play-button {
+          filter: invert(1);
+      }
+      transport {
+          filter: invert(1);
+      }
+  j
+      }
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+      max-width: 480pt;
+      height: 100%;
+      margin: auto;
+      padding-top: 10pt
+      padding-left: 10pt;
+      padding: 10pt;
+      font-family: Verdana;
+      line-height: 140%;
+      font-size: 10pt;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;
+      color:#222;
+      word-break: normal
+      overflow-wrap: normal;
+  }
+
+  .button1 {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  h1,h2,h3{
+      line-height:1.2
+  }
+
+  a:link, a:visited {
+      color: black;
+      text-decoration: none;
+  }
+
+  a:hover, a:active {
+      color: black;
+      text-decoration: underline;
+  }
+
+  .contact {
+    margin-bottom: 15%;
+  }
+
+  .footnotes {
+    margin-top: 100%;
+    padding-bottom: 10px;
+    color: black;
+  }
+
+  .blinking{
+          animation:blinkingText 0.8s infinite;
+      }
+
+      @keyframes blinkingText{
+          0%{     color: #000;    }
+          50%{    color: transparent; }
+          100%{   color: #000;    }
+      }
+
+  pre code {
+    font-size: 12px;
+    line-height: normal;
+    width: 300%;
+    background: #000;
+    color: #fff;
+    display: block;
+    padding: 10pt;
+  }
+
+  /* audio player */
+
+  .player {
+    width: 100%;
+  }
+
+
+  .tab { 
+         display:inline-block; 
+         margin-left: 40px; 
+  }
+
+  img {
+      max-width:100%;
+      height:auto;
+  }
+
+  .transport {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+  }
+
+  #player-title {
+    /* text-align: center; */
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: 600;
+
+  }
+
+  #play-button {
+    margin: 0;
+    padding: 0;
+    width: 30px; /* prevent resize */
+
+    background: transparent;
+    outline: 0;
+    border: none;
+
+    text-align: left;
+
+    font-size: 1.25em;
+    white-space: nowrap;
+  }
+
+  #current-time {
+    white-space: nowrap;
+    font-size: 1em;
+    margin-left: 10px;
+  }
+
+  #time-line {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid black;
+  }
+
+  #progress {
+    position: absolute;
+    top: 21px; /* depends on timeline height */
+    left: 0;
+
+    height: 4px;
+    background: black;
+  }
+
+  .playlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    height: 100%;
+    overflow: auto;
+  }
+
+  .playlist-item {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0.25rem 0.25rem;
+    border-bottom: 1px solid #eee;
+
+    /* prevent div resize when selecting track */
+    border-left: 1px solid transparent;
+  }
+
+  .playlist-item.selected {
+    border-left: 1px solid black;
+  }
+
+  .playlist-item.selected:hover {
+    border-left: 1px solid black;
+  }
+
+  .playlist-item:hover {
+    background: #eee;
+    border-color: #eee;
+  }
+
+  .playlist::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .playlist::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-left: 6px solid white;
+  }
+
+  video, .avia-video *, *:focus {
+    outline: 0!important;
+    outline: none!important;
+    outline-width: 0;
+   -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
+  }
+
+  </style>
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+</head>
+<body>
+<br>
+<center>
+<strong>Frequently asked questions</strong>
+</center>
+<p><br><strong>What’s the startup keyCombo to install the OG OS on older Macs?</strong></p>
+<p><code>Shift Option ⌘ R</code> takes you into Internet Recovery mode.</p>
+<p><br><strong>What’s the largest 16:10 resolution you can squeeze in under 1920 x 1080?</strong></p>
+<p><code>1680 × 1050</code></p>
+<p><br><strong>I need to stop using chrome because reasons. How do I make FireFox usable?</strong></p>
+<p>• Suppress pop-up notification “Firefox is full screen”:</p>
+<p>Type <code>about:config</code> in the address bar.<br />
+Search for <code>full-screen-api.warning.timeout</code><br />
+Set the value to <code>0</code>.</p>
+<p>• Make the url at bottom left disappear when videos are fullscreened in Firefox:</p>
+<p>Click the settings icon in the top right corner, then<br />
+<code>Help</code>,<br />
+<code>More troubleshooting Information</code>,<br />
+Scroll down to <code>Profile folder</code> and click the button next to that text that says<br />
+<code>Show in finder</code>, then<br />
+make a folder called <code>chrome</code> in there (case sensitive), then<br />
+open a text editor and<br />
+paste this in there:</p>
+<pre><code>#statuspanel[type=&quot;overLink&quot;] #statuspanel-label#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Look&quot;],
+#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Connect&quot;],
+#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Send&quot;],
+#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Transfer&quot;],
+#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Read&quot;],
+#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Wrote&quot;],
+#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Wait&quot;],
+#statuspanel[type=&quot;status&quot;] #statuspanel-label[value*=&quot;TLS handshake&quot;],
+#statuspanel[type=&quot;status&quot;] #statuspanel-label[value*=&quot;FTP transaction&quot;] {
+display:none!important;
+}</code></pre>
+<p>Then save as: <code>userChrome.css</code><br />
+inside the <code>chrome</code> folder.<br />
+Restart Firefox.<br />
+Should be good to go.</p>
+<p>• Suppress download pop-up window:</p>
+<p><code>about:config</code><br />
+<code>browser.download.alwaysOpenPanel</code><br />
+<code>false</code></p>
+<p><br><strong>How do you make a macOS Mojave USB installer?</strong></p>
+<p><code>sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/usb --applicationpath /Applications/Install\ macOS\ Mojave.app</code></p>
+<p><br><strong>How do you organize your samples?</strong></p>
+<p>Well, I mean I’ll prefice this by stating that: Each to their own of course and also that I am surprised that I get asked this so often. Whatever works for you is naturally fine. I am increasingly getting the sense though that the way that people I talk to are doing it, is not working out for them. I like to keep things simple. I have a folder directly under my user called <code>snd</code>. In that folder I have a bunch of three letter folders. Like this:</p>
+<p><code>~/snd/zth</code><br />
+<code>~/snd/gng</code><br />
+<code>~/snd/org</code></p>
+<p>These folders all contain one or more .wav files that have that same three letter name followed by a dash and then incrementing numbers beginning from double zero one. Like this:</p>
+<p><code>zth-001.wav</code><br />
+<code>zth-002.wav</code><br />
+<code>zth-003.wav</code></p>
+<p>I have another folder directly under my user called <code>scd</code>. In that folder I have a bunch of SuperCollider documents. Like this:</p>
+<p><code>~/scd/zth.scd</code><br />
+<code>~/scd/gng.scd</code><br />
+<code>~/scd/org.scd</code></p>
+<p>That way it’s easy for me to keep things organized. I always know when a certain SuperCollider document has sound files that go with it because I put this oneliner at the top of my code:</p>
+<p><code>~clean.lsf("~/snd/zth")</code></p>
+<p>When I run that line those samples get loaded into RAM. I prefer this to the alternative of always having all samples load in to RAM automagically upon booting SuperCollider. This is partly because I don’t want to sit and wait for that to happen everytime I’m feeling creative, but mostly because I would totally run out of RAM if I did that. Oh and hey, if you want to try also doing it like how I’m doing it with SuperClean I need to tell you; Never put folders in folders. SuperClean doesn’t like it and subsequently won’t let you do it. <br> <br></p>
+<p><strong>How do I find SuperCollider’s Extension folder?</strong></p>
+<p>Run this line in SuperCollider:</p>
+<p><code>Platform.userExtensionDir</code></p>
+<p>Really great for when you’re helping friends get SC up + running on all kinds of exotic OS’s. <br> <br></p>
+<p><strong>How do I set up Reaper to be able to do feedback?</strong></p>
+<p><code>File -&gt; Project Settings -&gt; Advanced -&gt; Allow feedback in routing</code></p>
+<p>Depending on your preferences you may also want to tick the box that says</p>
+<p><code>Save as default project settings</code></p>
+<p>I am team feedback 4 lyfe so, that’s how I like my defaults. <br> <br></p>
+<p><strong>I heard you have a lot of guitars, how many do you have?</strong></p>
+<p>I don’t want to say.<br />
+I mean really… [laughs]<br />
+Too many!</p>
+<p><strong>Come on man how many?</strong></p>
+<p>Geez Louise, I dunno… I mean it’s not like I’m collecting them. They’re guitars that I <em>play</em> you know. They all have different tunings and have something that’s special about them. One is a barytone guitar so it has a longer scale length and heavier gauges. I am excited about that one. It’s a Hagström Viking. Semihollow body. I have it ’cause I used to have a Hagström when I was a kid but it got took somewhere along the way. Then a while back I had a chance to buy this barytone really cheap so. I mean, they’re all cheap guitars. Nothing fancy. They’re experiments. Not all of them successfull! One is a black Epiphone SG with quarter tone fretting up to the twelth fret. That one I don’t play enough to be honest. One is an old parlor guitar where the lid has a crack in it, the neck is half broken and it’s missing a tuner. That’s my stunt guitar. That kind of thing, you know.</p>
+<p><strong>What are we talking here? Triple digits?</strong></p>
+<p>NO! [laughs]<br />
+That would be crazy.<br />
+Single digits for sure! <br> <br></p>
+<p><strong>What are your settings for InitialKeyRepeat and KeyRepeat?</strong></p>
+<p>I have ’em both set pretty fast but not as fast as some folks.<br />
+I feel it suits my temperament. It’s fast, but not twitchy.<br />
+Here’s how you can make yours like mine:</p>
+<p><code>defaults write -g InitialKeyRepeat -int 15;</code><br />
+<code>defaults write -g KeyRepeat -int 1</code></p>
+<p>I need it to be fast so that I can be lazy in the bad way in nvim. Fast frets you know… I still do a <em>whole</em> lot of hulkSmashing <code>hjkl</code> to get around even tho I know better. I do some <code>{</code> and <code>}</code> to traverse blocks sometimes. I love the idea of using marks although I feel like that’s for when I have like a big thing. Like a whole set of things that I want to navigate in more of a magical way. Like for a gig maybe. I don’t set up any marks when I am sat at home just noodling trying stuff out. <br> <br></p>
+<p><strong>What operating system do you use?</strong></p>
+<p>Mostly I use 10.14 now because I need to be able to run certain software that won’t run well, or at all, on more modern versions. I also have access to one computer that runs 11.5.2 which is problematic because it won’t let me run everything I want to be able to run and it bugs me a whole lot. I also have a couple of different Linux computers that I’m hoping will pan out on a long enough timeline. Thanks to a lot of help from <a href="https://computermusic.life/">friends</a> I now have a pretty neat set up with Arch running headless on a Rpi4. That’s more of a long term project though. A lot of stuff is coming together now in that space. I spend some time monitoring that, without jumping ship entirely. I know that bareknuckling through, and not getting any work done, just to be entirely sqeaky clean would not work for me. <br> <br></p>
+<p><strong>I read you’re a Marxist transhumanist singularitarian.</strong></p>
+<p>Sure, yeah that’s true.</p>
+<p><strong>What does that even mean? Tell me about your politics.</strong></p>
+<p>Well, the first part means that Marx is my main guy. I read Marx because what he wrote resonates with me. I’ve come to understand from previous interactions with people that it’s important that I provide information about what Marx is to me, or else things quickly get sidetracked. I regard Marx as a philosopher and a poet. To me he’s someone who did a lot of thinking about how to plan and organize finite resources. He’s separate from anything to do with any administrative arm of any communist dictatorships you might be thinking of here.</p>
+<p><strong>Ok so what’s the main thing you draw from Marx?</strong></p>
+<p>What I’m mostly thinking about is <em>utility</em>. I value things by how useful they are, not only to myself, but to everyone. Every conscious being. I believe in democracy. I really do. I also know how hollow that phrase sounds because of how it has gotten used by what I regard to be some very undemocratic forces. My end goal is economic democracy. Now, what I mean by that is democratic planning of how finite resources are utilized. This leads me to the second part of transhumanism. I see no way forward that leads to us fulfilling the promises we all agreed to, as a species, in The United Nations Universal Declaration Of Humans Rights, without us passing through economic democracy.</p>
+<p><strong>Wow… ok, that’s wild.</strong></p>
+<p>We signed that declaration in 1948. That needle is not moving in the right direction. The reason it’s moving in the wrong direction is capitalism. In capitalism all that matters is the bottom line. Profits. Money. The quality of life for sentient beings on the other side of the planet, to give just one example, does not matter. That declaration was a promise we all made and we are not living up to it. So that’s a diagnostic tool for me. I want to keep tabs on how we are doing with that work that we already commited to doing because I want to add a whole <em>bunch</em> of stuff to that list. The right to computation, completely free healthcare, education, public transportation, housing, clothing, food, water, you name it, <em>everything</em> for everyone, all of the time and forever.</p>
+<p><strong>That’s a lot, how can we afford that?</strong></p>
+<p>How can we afford <em>not</em> to? Let’s look at computation because, ultimately, that’s all we’re doing. Every object, whether sentient or inert, miniscule or monumental computes it’s own weight and position in the universe. For sentient matter there’s a whole lot of other stuff going on on top of that. All of our sensory information, all of our thoughts and our feelings, those are all being computed in these biological computers, our bodies. Bodies are subject to wear and tear over time. They break down. I’d like for us all to commit to solving this problem, which I think is our biggest problem; Everybody’s dying. I’d like to add that to the list of tasks on our communal to do list. Indefinate lifespan. Now, that’s a big project, it’s a lofty goal that would benefit everyone. There’s a lot of utility there. Big projects like this, there’s just no way the current economic system can reach a goal like that. Not so long as we’re all kept busy cutting each other’s throats fighting for survival.</p>
+<p><strong>But everything that’s alive has to die at some point tho right?</strong></p>
+<p>I am really looking forward to living as software. That’s a lot less likely to happen as long as we are still in this old way of doing things where only very few people are given the oppourtunity to find their favourite task to spend time with and excel at. The right to computation roughly translates to the right to selfeducation for me. Having access to a computer makes it possible to circumvent an unjust system, where knowledge is held at artificial scarcity, for fear of power slipping out of the hands of the few. We need everyone to be as free, and as safe as possible, as soon as possible, in order to really accomplish anything worth while. We might all get wiped out before we get to the point where we are all truly free and safe otherwise. That scares me, you know.</p>
+<p><strong>What scares you?</strong></p>
+<p>That all of this might have been in vain. That everything everyone has ever learned, all our thoughts and feelings could just disappear. The worse thing about that dark vision of the future is that we will have done it to ourselves. Maybe because we thought that we were different from one another somehow. We’re not. I can’t bare that thought. I have to fight for a world where we can accomplish something a lot bigger and better than fighting with each other over bits of food all of the time. Another things that scares me is the idea that complexity ineveitably leads to collapse. Now, there is no way of proving that hypothesis, and I certanly hope it’s not true. Still, I fear that this idea or, this suspicion let’s call it, is seeping into our collective unconscious and potentially having a very negative effect on our ways of thinking. For example, say you where the CEO of an electric car company and you have your sights set on colonizing Mars as soon as possible. When you have a loafty goal like that in your sights you might lose sight of… or actaully, in this case more likely you were raised to never ever allow workers to unionize in your electric car factories. Whenever you tell yourself that the ends justify the means, then I think you’re in trouble from an ethics and moral philosophy perspective.</p>
+<p><strong>Don’t you have to break a few…?</strong></p>
+<p>I’m sorry for cutting you off there but I just hate that expression, and to answer your question: No, certainly not. You most certanly do not <em>have</em> to “disincentivize” workers from unionizing, in order to ensure their inability to start placing demands on the factory being a safe place to work where you can make a living wage from working a fulltime job. In fact my position is that you should not be <em>allowed</em> to do that, even if your goal is to turn that insane amount of profit into succesfully colonizing Mars. Not even if your end goals overlap even more with my own am I able to surrender on the idea that each state that we inhabit on our way towards the future absolutely needs to be an acceptable state for all conscious beings. I’ll add here that <em>that</em> is the point where I myself fall prey to that nagging suspicion that everything may in fact break at scale. It doesn’t however stop me from following my convictions and staying true to my beliefs. That is regardless of the perceived likeliness of success in the here and now. <br> <br></p>
+<p><strong>How do you work with harmonic progression in your music?</strong></p>
+<p>The short answer is I don’t. I for sure work with tonality and I make a lot of choices that amount to pitch aggregates or lists of pitches. It’s just the progression part that makes this a tricky question to answer because It implies linearity and I don’t really do that. I tend to think of my music as outside of time. I don’t really want to go anywhere. I just want to build a place, and then be in that place, watching the light change. I’ll make a material, and that can have a lot of change over time, but it will abide by the rules I’ve sat up for it. Then I listen to it for a really long time and change smaller and smaller things until it gives me enough of the kind of variation that I’m looking for. I used to think that this was cheating or otherwise of a lesser value than what I got the impression that other composers were doing. When I was younger I caught some slack for this kind of musical suggestion approach but nowadays I’m just really grateful to have found something I like doing.</p>
+<p><strong>Must be nice. How does that break down in practical terms?</strong></p>
+<p>I’d like to say that it’s different everytime, but I think that’s more true of where I end up than where I tend to begin. My go to scale for starting out is <code>harmonicMinor</code>. Sequencing scales is another one of those things that I used to feel like I shouldn’t be doing. When I’m sat at an instrument, or if I roll my own scale in a computer, ususally I’ll just end up with something pretty close to major, with like maybe one or two ambigious pitches in there. It seems to be connected to the part of my brain that provides pitch material for whistling or humming. I get outside of that when I sequence scales. I like <code>whole</code> and a lot of the church scales but not all of them. I like a lot of the minor scales. Up to pretty recently I would choose a tuning for the whole thing but now I also change those up so I might return to the same scale but with a different tuning. I think that’s wild. It can have this whole other feel to it on the second pass.</p>
+<p><strong>What are some tunings you use?</strong></p>
+<p>I like vanilla <code>et12</code> but you randomly subtract two from that chromatic scale. All of those scales are great. Also I like the same idea but in <code>et31</code> but then you do unique omissions per octave. I like <code>just</code> but I try to stear clear of getting too locked in to cleanliness. If I do that one I’ll have a high likeliness of some really muddy and fevery intervals occuring. Also <code>sept2</code> I have used but that one has kind of been used so much now it has this kind of spent feel to it for me. I like that other one, <code>sept1</code> better. <code>vallotti</code> and <code>werkmeister</code> are cool because they have that kind of early harpsichord music feel to them. I have used a meantone one but I can’t remember which one now, but I don’t really go in for that like super salty fevery vibe. I think a better choice for flagging that kind of tuning that has those organ music connotations is Barnes Bach. I used to use that tuning all the time but I don’t anymore and I miss it thinking about it now. Have a look see for yourself what scales and tunings are in these handy directories:</p>
+<p><code>Tuning.directory;</code> <code>Scale.directory;</code> <br> <br></p>
+<p><strong>Alright so I have recorded some sound in SC, but now I can’t find it?</strong></p>
+<p>Run this line:</p>
+<p><code>Platform.recordingsDir;</code></p>
+<p>That’ll give you the path to the directory on your os. You can also set it to something else if you would prefer. Like this:</p>
+<p><code>thisProcess.platform.recordingsDir = ("your/path/here/");</code></p>
+<p>You could put that in your startup file to make the change stick. Also might be good to let you know that you can specify the number of channels you want to record by running this line:</p>
+<p><code>s.record(numChannels: 1);</code></p>
+<p>That line will record just the first channel. The default is 2. You can set that number to anything you like, but you’ll have to specify your number of outputs first like this:</p>
+<p><code>s.options.numOutputBusChannels = 8;</code></p>
+<p>That will get you 8 channels out. So then if you run:</p>
+<p><code>s.record(numChannels: 8);</code></p>
+<p>That will record those 8 channels in one file under the same header. If you need to split those apart into mono channels I’d do that afterwards. I like this utility:</p>
+<p><a href="https://github.com/muellmusik/De-Interleaver/releases/download/v1.3.0/De-Interleaver.2017-12-21.09-43-52.zip">De-Interleaver.zip</a></p>
+<p>If you need to go the other way and interleave a bunch of mono files into a single file under one header, it also does that. So that’s a neat little utility program. It does one thing and it does it well. <br><br></p>
+<p><strong>I am annoyed by superfluous messages about apps quitting unexpectedly.</strong></p>
+<p>Try this:</p>
+<p><code>defaults write com.apple.CrashReporter DialogType none</code> <br><br></p>
+<p><strong>How do I calculate the precise playback speed change of transposing down from 48000 to 44100?</strong></p>
+<p>Divide the lower sample rate by the higher sample rate. If you want to go from 48 down to 44.1 that would look like this in SuperCollider:</p>
+<p><code>(44100 / 48000).asStringPrec(48)</code></p>
+<p>which yields: <code>0.918749999999999955591079014993738383054733276367</code> SuperCollider also doubles as a very capable calculator which is real nice I think.</p>
+<p><strong>Can Reaper handle that kind of precision?</strong></p>
+<p>Yes, go ahead and input the result of that calculation right up front there on the big rate slider in the main window and you are done. <br><br></p>
+<p><strong>I keep forgetting how to add a new ssh key to my site. Can you help?</strong></p>
+<p>Sure. First run this line on the computer that you want to be able to ssh from:</p>
+<p><code>ssh-keygen -o -b 4096</code></p>
+<p>That’ll make a new key pair. Next it’ll ask you where to save it. Press Enter to blow passed this and use the default location. Next it’ll ask you for a passphrase. I like to leave this blank because I don’t want to have to type this passphrase like a million times per day forever end ever. Then again, if you are into the idea that any security is better than no security then by all means, have it your way. You have to enter your passphrase twice. So in my case I would press enter twice to leave it blank. Next you open up your public key and copy it:</p>
+<p><code>cat ~/.ssh/id_rsa.pub</code></p>
+<p>Copy that <em>whole</em> thing, including <code>ssh-rsa</code> at the beginning as well as the stuff at the end. Then go to the place where you pop that into to your server. In my case that is:</p>
+<p><a href="https://console.scaleway.com/project/credentials">https://console.scaleway.com/project/credentials</a></p>
+<p>When you are adding your new ssh key don’t get riled by the fact that maybe the ones that are there already don’t look the same as the one you are about to paste in there. Have faith, it’ll work itself out. Paste it in there. Also it is a <em>really</em> good idea to provide an understandable description for this new ssh key. Something like “M1 MBA 2022” could be easily understood by your future self while as “biz_up_in_haya” you might think is cool now, but this is a terrible way to treat your future self who wants to know which keys can be deleted. Next up is connecting over ssh for the first time from this new computer:</p>
+<p><code>ssh -i ~/.ssh/id_rsa root@your-server's-ip-number-goes-here;</code></p>
+<p>If you get a question about authenticity bla, bla and are you sure? Then yes, you are sure. After that you should be good to go.</p>
+<p><br> <br> <br> <br> <br></p>
+<script>
+function goToURL() {
+    var links = [
+        "./a-collapse-of-structures/",
+        "./map/",
+        "./now/",
+        "./ruins-in-the-distance",
+        "./gigs",
+        "./log",
+        "./log",
+        "./frequently-asked-questions",
+        "./list",
+        "./etudes",
+        "./sc4reaper",
+        "./superclean-installparty",
+        "./utilities",
+        "./recipes",
+        "./pieces",
+        "./links",
+    ];
+
+    // get a random number between 0 and the number of links
+    var randIdx = Math.round(Math.random() * (links.length - 1));
+    // construct the link to be opened
+    var root = window.location.protocol + '//' + window.location.host;
+    var link = root + '/' + links[randIdx];
+
+    document.location.href = link;
+};
+</script>
+<p align="right">
+<a href="#" onClick="goToURL()">∞</a>
+</p>
+<p><br> <br></p>
+</body>
+</html>
