@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>dmk</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link href="/player/dmk-player.css?v=2" rel="stylesheet"> 
+  <style type="text/css">
+
+  html {
+      box-sizing: border-box;
+      height: 100%;
+      word-break: normal
+      overflow-wrap: normal;
+      background-color: white;
+      color: black;
+
+      .dark-mode {
+          background-color: black;
+          color: white;
+          a:link, a:visited {
+              color: white;
+          }
+          footnotes {
+              color: white;
+          }
+          play-button {
+          filter: invert(1);
+      }
+      transport {
+          filter: invert(1);
+      }
+  j
+      }
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+      max-width: 480pt;
+      height: 100%;
+      margin: auto;
+      padding-top: 10pt
+      padding-left: 10pt;
+      padding: 10pt;
+      font-family: Verdana;
+      line-height: 140%;
+      font-size: 10pt;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;
+      color:#222;
+      word-break: normal
+      overflow-wrap: normal;
+  }
+
+  .button1 {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  h1,h2,h3{
+      line-height:1.2
+  }
+
+  a:link, a:visited {
+      color: black;
+      text-decoration: none;
+  }
+
+  a:hover, a:active {
+      color: black;
+      text-decoration: underline;
+  }
+
+  .contact {
+    margin-bottom: 15%;
+  }
+
+  .footnotes {
+    margin-top: 100%;
+    padding-bottom: 10px;
+    color: black;
+  }
+
+  .blinking{
+          animation:blinkingText 0.8s infinite;
+      }
+
+      @keyframes blinkingText{
+          0%{     color: #000;    }
+          50%{    color: transparent; }
+          100%{   color: #000;    }
+      }
+
+  pre code {
+    font-size: 12px;
+    line-height: normal;
+    width: 300%;
+    background: #000;
+    color: #fff;
+    display: block;
+    padding: 10pt;
+  }
+
+  /* audio player */
+
+  .player {
+    width: 100%;
+  }
+
+
+  .tab { 
+         display:inline-block; 
+         margin-left: 40px; 
+  }
+
+  img {
+      max-width:100%;
+      height:auto;
+  }
+
+  .transport {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+  }
+
+  #player-title {
+    /* text-align: center; */
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: 600;
+
+  }
+
+  #play-button {
+    margin: 0;
+    padding: 0;
+    width: 30px; /* prevent resize */
+
+    background: transparent;
+    outline: 0;
+    border: none;
+
+    text-align: left;
+
+    font-size: 1.25em;
+    white-space: nowrap;
+  }
+
+  #current-time {
+    white-space: nowrap;
+    font-size: 1em;
+    margin-left: 10px;
+  }
+
+  #time-line {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid black;
+  }
+
+  #progress {
+    position: absolute;
+    top: 21px; /* depends on timeline height */
+    left: 0;
+
+    height: 4px;
+    background: black;
+  }
+
+  .playlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    height: 100%;
+    overflow: auto;
+  }
+
+  .playlist-item {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0.25rem 0.25rem;
+    border-bottom: 1px solid #eee;
+
+    /* prevent div resize when selecting track */
+    border-left: 1px solid transparent;
+  }
+
+  .playlist-item.selected {
+    border-left: 1px solid black;
+  }
+
+  .playlist-item.selected:hover {
+    border-left: 1px solid black;
+  }
+
+  .playlist-item:hover {
+    background: #eee;
+    border-color: #eee;
+  }
+
+  .playlist::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .playlist::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-left: 6px solid white;
+  }
+
+  video, .avia-video *, *:focus {
+    outline: 0!important;
+    outline: none!important;
+    outline-width: 0;
+   -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
+  }
+
+  </style>
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+</head>
+<body>
+<br>
+<center>
+<strong>Links</strong>
+</center>
+<p><br></p>
+<p>I got to talking with a friend on new years eve one year, about how a page with <em>links</em> is the <em>og</em> decentralized internet. I felt tremendous gratitude that I was able to use skills I had already acquired to make that kind of page happen on my site right away.</p>
+<p>Please note that this list of Public Internet sites makes no attempt to be fully exhaustive, and will undoubtedly be added to continously, as more sites are made available and The Public Internet grows.</p>
+<center>
+<p><a href="https://matserlandsson.com/">Mats Erlandsson</a> | <a href="https://mariahorn.se/">Maria W Horn</a> | <a href="https://davidgranstrom.com/">David Granström</a> | <a href="https://scottcazan.com/">Scott Cazan</a> | <a href="https://inventingzero.net/home/">John Chantler</a><br />
+<a href="http://www.theodorkentros.com/">Theodor Kentros</a> | <a href="http://www.erikvalentinberg.com/">Erik Berg</a> | <a href="https://lisastenberg.com/">Lisa Stenberg</a> | <a href="https://www.erikenocksson.com/">Erik Enocksson</a> | <a href="https://mattiashallsten.github.io/">Mattias Hållsten</a> | <a href="https://juliagiertz.info/">Julia Giertz</a> | <!--[Mads Kjeldgaard](https://madskjeldgaard.dk/) |--> <a href="https://isakedberg.com/">Isak Edberg</a> | <a href="https://niklasadam.oddodd.org/">Niklas Adam</a> | <a href="https://yairelazarglotman.com/">Yair Elazar Glotman</a> | <a href="https://joonassiren.fi/">Joonas Siren</a><br />
+<a href="https://thehumancomparator.net/">The Human Comparator</a> | <a href="https://www.elektronmusikstudion.se/">Elektronmusikstudion</a> | <a href="http://www.edition-festival.com/">Edition festival</a> | <a href="https://fylkingen.se/">Fylkingen</a> | <a href="https://xkatedral.se/">XKatedral</a> | <a href="https://kalkatrazcassettes.bandcamp.com/music">Kalkatraz Cassettes</a> | <a href="https://www.irrlicht.se/">Irrlicht</a><br />
+<a href="https://co-dependent.bandcamp.com/">Co-Dependent</a> | <a href="https://activelistenersclub.bandcamp.com/">Active Listeners Club</a> | <a href="https://supercollider.github.io/">SuperCollider</a> | <a href="https://github.com/danielmkarlsson/SuperClean">SuperClean</a><br />
+<a href="https://neovim.io/">Neovim</a> | <a href="https://github.com/davidgranstrom/scnvim">Scnvim</a> | <a href="https://github.com/alacritty/alacritty">Alacritty</a> | <a href="https://rectangleapp.com/">Rectangle</a> | <a href="https://www.reaper.fm/">Reaper</a> | <a href="https://www.ubu.com/">Ubuweb</a> | <a href="https://archive.org/">archive.org</a> | <a href="http://collapseos.org/">Collapse OS</a> | <a href="http://duskos.org/">Dusk OS</a> | <a href="http://frogfind.com/">Frogfind</a> | <a href="http://68k.news/index.php?section=science&amp;loc=UK">68knews</a> | <a href="https://en.wikipedia.org/wiki/Special:Random/">Wikipedia</a> | <a href="http://www.theuse.info/">Chris Mann</a> | <a href="https://atonoflight.se/">Anton Andersson</a> | <a href="https://hadron-sclang.org/">Hadron</a> | <a href="http://bjornbergborg.blogspot.com/p/henrik-olsson.html">Henrik Olsson</a> | <a href="http://wegottoxoplasma.org/">Toxoplasma</a> | <a href="https://www.brow.sh/">browsh</a> | <a href="https://github.com/objective-see/LuLu">LuLu</a> | <a href="https://www.helgoboss.org/projects/realearn/">ReaLearn</a> | <a href="https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx/">Sam Keating-Fry</a> | <a href="https://nathan.ho.name/">Nathan Ho</a> | <a href="https://gregegan.net/">Greg Egan</a> | <a href="https://plan.cat/">plan.cat</a> | <a href="https://bombich.com/">Carbon Copy Cloner</a> | <a href="https://www.privateinternetaccess.com/">Private Internet Access</a> | <a href="https://treevis.net/">treevis.net</a> | <a href="https://oeis.org/">oeis.org</a> | <a href="https://transmissionbt.com/">Transmission</a> | <a href="https://instrumentinventors.org/">iii</a> | <a href="http://www.marianthi.net/">Marianthi Papalexandri-Alexandri</a> | <a href="https://evicshen.com/">Victoria Shen</a> | <a href="https://buildlist.org/">buildlist.org</a> | <a href="https://12ft.io/">12ft.io</a> | <a href="https://www.marcuspal.com/">Marcus Pal</a> | <a href="https://hexfiend.com/">Hex Fiend</a> | <a href="https://linushillb.org/">Linus Hillborg</a> | <a href="https://syncthing.net/">Syncthing</a> | <a href="http://wiki.yak.net/1132">Jerboa</a> | <a href="https://ffmpeg.app/">ffmpeg.app</a> | <a href="https://feed.grantcuster.com/">Grant Custer</a> | <a href="https://nixos.org/">Nix OS</a> | <a href="https://tails.net/">Tails</a> | <a href="http://call-with-current-continuation.org">Call with current continuation</a> | <a href="https://librewolf.net/">LibreWolf</a> | <a href="https://www.kindohm.com/">Kindohm</a> | <a href="http://empty-lake.u-i-q.org">Empty lake</a> | <a href="https://29a.ch/ditherlicious/">Ditherlicious</a> | <a href="https://fixyouraudio.com/">fixyouraudio.com</a> | <a href="https://theyrule.net/">theyrule.net</a> | <a href="https://lyssningsrum.github.io/">Lyssningsrum</a> | <a href="https://github.com/DISTRHO/Cardinal">Cardinal</a> | <a href="https://octave.org/">Octave</a> | <a href="https://www.eff.org/">EFF</a> | <a href="https://charlie-roberts.com/">Charlie Roberts</a> | <a href="https://gibber.cc/alpha/playground/">Gibber</a> | <a href="https://mssiah.com/">mssiah</a> | <a href="https://solar.lowtechmagazine.com">Low tech magazine</a> | <a href="https://sshx.io/">sshx.io</a> | <a href="https://permillion.live/">permillion.live</a> <a href="https://www.field-notes.berlin">field notes</a> | <a href="https://titanium-software.fr/en/onyx.html">OnyX</a> | <a href="https://doomlaser.com/cursorcerer-hide-your-cursor-at-will/">Cursorcerer</a> | <a href="https://ungoogled-software.github.io/ungoogled-chromium-binaries/">ungoogled chromium</a> | <a href="https://search.marginalia.nu/">Marginalia</a> | <a href="https://kome.ai/tools/youtube-transcript-generator">YT Transcript Generator</a> | <a href="https://github.com/charlieroberts/midiStroke/">midiStroke</a> | <a href="https://ryanpackardsounds.org/">Ryan Packard</a> | <a href="https://sevish.com/scaleworkshop/">Scale Workshop</a> | <a href="https://gerotakke.de/">Gero Takke</a> | <a href="https://convertcase.net/">convertcase.net</a> | <a href="http://www.loop-o.com/">Andreas Lubich</a> | <a href="https://nickcoutsos.github.io/keymap-editor/">Keymap editor</a> | <a href="https://zmk.dev/">ZMK</a></p>
+</center>
+<p><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br></p>
+<script>
+const style = document.createElement('style');
+  style.type = 'text/css';
+  style.textContent = `
+    center {
+      contain: content;
+    }
+
+    center a {
+      display: inline-block;
+    }
+
+    .separator {
+      display:inline-block;
+      width: 10px;
+      text-align: center;
+    }
+
+    .separator.hidden {
+      visibility: hidden;
+    }
+  `;
+  document.head.appendChild(style);
+
+  const linkCenter = document.querySelectorAll('center')[1];
+
+  let boundingRect = linkCenter.getBoundingClientRect();
+  const links = Array.from(linkCenter.querySelectorAll('a'))
+    .sort(() => Math.random() - 0.5)
+    .map((link, i, sortedLinks) => {
+      if (i !== (sortedLinks.length - 1)) {
+        link.innerHTML = link.innerText + '<span class="separator"> | </span>';
+      }
+      return link;
+    });
+
+  linkCenter.innerHTML = '';
+
+  links.forEach(link => linkCenter.appendChild(link));
+
+  const formattedLinks = linkCenter.querySelectorAll('a');
+  let timeoutId = null;
+
+  const setSeparators = () => {
+    boundingRect = linkCenter.getBoundingClientRect();
+    formattedLinks.forEach((link, i) => {
+      const linkRect = link.getBoundingClientRect();
+
+      if (i < formattedLinks.length - 1) {
+        const nextLink = formattedLinks[i + 1];
+        const nextLinkRect = nextLink.getBoundingClientRect();
+
+        const linkRightSideCoord = linkRect.left + linkRect.width;
+
+        if ((linkRightSideCoord + nextLinkRect.width) > (boundingRect.left + boundingRect.width)) {
+          link.querySelector('.separator').classList.add('hidden');
+        } else {
+          link.querySelector('.separator').classList.remove('hidden');
+        }
+      }
+    });
+  };
+
+  setSeparators();
+  window.addEventListener('resize', setSeparators);
+</script>
+<script>
+function goToURL() {
+    var links = [
+        "./a-collapse-of-structures/",
+        "./map/",
+        "./now/",
+        "./ruins-in-the-distance",
+        "./gigs",
+        "./log",
+        "./log",
+        "./frequently-asked-questions",
+        "./list",
+        "./etudes",
+        "./sc4reaper",
+        "./superclean-installparty",
+        "./utilities",
+        "./recipes",
+        "./pieces",
+        "./links",
+    ];
+
+// Sorry, just putting this here behind a comment to save it maybe for later, sorry.
+// [Skaiv](https://skaiv.se/) |
+// [Zimoun](https://zimoun.net/) |
+// [N Collective](http://www.n-collective.com/archive/index.cgi?dept=mp3s&article=1) |
+
+    // get a random number between 0 and the number of links
+    var randIdx = Math.round(Math.random() * (links.length - 1));
+    // construct the link to be opened
+    var root = window.location.protocol + '//' + window.location.host;
+    var link = root + '/' + links[randIdx];
+
+    document.location.href = link;
+};
+  </script>
+<p align="right">
+<a href="#" onClick="goToURL()">∞</a>
+</p>
+<p><br> <br></p>
+</body>
+</html>
