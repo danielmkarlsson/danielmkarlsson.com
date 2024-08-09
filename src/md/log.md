@@ -259,8 +259,8 @@ That's a saw, just real slow. Also it felt cool to use modulo to have the pitche
 ~clean.lsf("~/snd/eph")
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(152,
             Pbind(*[
@@ -318,8 +318,8 @@ to feel rushed.
 ~clean.lsf("~/snd/mtb")
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(2748,
             Pbind(*[
@@ -386,8 +386,8 @@ of a sample folder because computers. I translated scars into Ukrainian and I go
 ~clean.lsf("~/snd/sar")
 (
 Routine{
-    s.record;
-    1.wait;  
+    //s.record;
+    //1.wait;  
     Pdef(0,
         Pseed(9991,
         Pbind(*[
@@ -511,7 +511,7 @@ added the ability to read sound files from disk to SuperClean.
 
 
 
-[Download this sample pack here.](https://tinyurl.com/bde5h2nn) 
+[Download this sample pack here.](https://f005.backblazeb2.com/file/log-packs/lsh.zip) 
 <br>
 
 ```text
@@ -519,8 +519,8 @@ Server.default.options.blockSize = 4096;
 ~clean.csf("~/snd/lsh");
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(20,
             Pbind(*[
@@ -567,15 +567,15 @@ certain angle on the rim of the bowl. I recorded in my usual way with the fancy
 mics and the double soundcard setup. There is a single 192kHz 24 bit Stereo
 sound file at around three minutes in duration inside the sample folder.
 
-[Download this sample pack here.](https://tinyurl.com/43n7d7k8) 
+[Download this sample pack here.](https://f005.backblazeb2.com/file/log-packs/nsb.zip) 
 <br>
 
 ```text
 ~clean.lsf("~/snd/nsb")
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     ~a = {|seed, pan, aux| 
         var b = 
         Pbind(*[ 
@@ -647,7 +647,7 @@ I wanted the rounding of the playback speed to switch from 1/7 to 1/13 after
 minutes long and the other is about four minutes long. Both were recorded at
 192kHZ in stereo.
 
-[Download this sample pack here.](https://tinyurl.com/42xzjkcx) 
+[Download this sample pack here.](https://f005.backblazeb2.com/file/log-packs/bcm.zip) 
 <br>
 
 ```text
@@ -708,7 +708,7 @@ detailed variation which is possible utilizing the parameters that deal with
 the glissandi. It's a subtle thing, but I enjoyed making a connection between
 the amount of glissando and the panning position.
 
-[Download this sample pack here.](https://tinyurl.com/2ha5d4rn) 
+[Download this sample pack here.](https://f005.backblazeb2.com/file/log-packs/fms.zip) 
 <br>
 
 ```text
@@ -1289,8 +1289,8 @@ could. I exported a single stereo file at 192kHz.
 ~clean.lsf("~/snd/gvs")
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(2,
             Pbind(*[
@@ -1366,8 +1366,8 @@ works like a charm.
 ~clean.lsf("~/snd/rec")
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(3565,
             Pbind(*[
@@ -1430,8 +1430,8 @@ outs baked in. I recorded and exported at 192kHz.
 ~clean.lsf("~/snd/met")
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(5,
             Ppar(
@@ -1533,8 +1533,8 @@ if ever done this in my music.
 ~clean.lsf("~/snd/trp")
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(206,
             Pbind(*[
@@ -1612,8 +1612,8 @@ combination of soundcards at 192kHz.
 ~clean.lsf("~/snd/gls")
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(7,
             Ppar(
@@ -1693,8 +1693,8 @@ about this approach. I get the feeling that it is very CPU efficient.
 ~clean.lsf("~/snd/tgt")
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(837,
             Ppar(
@@ -1767,8 +1767,8 @@ recorded in Stereo at 192kHz and exported at half speed at 96kHz.
 ~clean.lsf("~/snd/bfn")
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(940,
             Pbind(*[
@@ -1845,8 +1845,8 @@ This solution proly I will have use of again.
 (
 Routine{ 
     var a = 261.6255653005986232528812251985073089599609375;
-    1.wait;
-    s.record;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(238,
             Pbind(*[
@@ -1944,8 +1944,8 @@ ending. I thought that was neat.
 ~clean.lsf("~/snd/mtf")
 (
 Routine{
-    1.wait;
-    s.record(numChannels: 4);
+    //s.record(numChannels: 4);
+    //1.wait;
     ~arc = {|seed, snd, dur, amp, sustain, cav, aux, lpf, lhf|
     var bin = 
     Pbind(*[ 
@@ -2178,8 +2178,8 @@ second in duration.
 
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
         ~pat = {| num, aux|
     var pattern = Pbind(*[
         type: \cln,
@@ -2235,7 +2235,7 @@ minutes and 21 seconds in duration.
 (
 Routine{
     //s.record;
-    1.wait;
+    //1.wait;
     (
         Pdef(0,
             Pseed(1467,
@@ -2410,7 +2410,8 @@ pickup because it was the cleanest. Recorded in 192kHz. Did a tiny, tiny bit of
 very delicate denoising. Played back at half speed. Chopped up the recording
 into 8 mono files at aroundabouts 90 seconds each. Exported at 44.1kHz.
 
-[Download this sample pack here.](https://danielmkarlsson.com/bwm.zip) 
+[Download this sample pack here.](https://f005.backblazeb2.com/file/log-packs/bwm.zip) 
+
 <br> 
 
 ```text
@@ -2468,7 +2469,7 @@ inherent in the playing styles. I thought that I would be making some kind of
 chuggy rhythmically driven music, but that did not happen today as you can hear
 in the example below. Maybe some other day. 
 
-[Download this sample pack here.](https://danielmkarlsson.com/stn.zip) <br>
+[Download this sample pack here.](https://f005.backblazeb2.com/file/log-packs/stn.zip) <br>
 <br> 
 
 ```text

@@ -556,8 +556,8 @@ Routine{
 <pre class="text"><code>~clean.lsf(&quot;~/snd/eph&quot;)
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(152,
             Pbind(*[
@@ -603,8 +603,8 @@ Routine{
 <pre class="text"><code>~clean.lsf(&quot;~/snd/mtb&quot;)
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(2748,
             Pbind(*[
@@ -652,8 +652,8 @@ Routine{
 <pre class="text"><code>~clean.lsf(&quot;~/snd/sar&quot;)
 (
 Routine{
-    s.record;
-    1.wait;  
+    //s.record;
+    //1.wait;  
     Pdef(0,
         Pseed(9991,
         Pbind(*[
@@ -744,13 +744,13 @@ Routine{
 
 </div>
 <p>I made this music from the recordings I did of the lowest keyboard register on the organ at Lötsjö kapell. I chose this registration because it had the fewest overtones out of the registrations available. It’s called <em>Rohrflöjt 4’</em>. The perceived tonality in this music is entirely derived from the instrument itself. The recordings are all 192 kHz, 24 bit. I recorded about three minutes worth of every note in this registration using the same gain settings for each one. The differences in amplitude and panning in the files themselves are a result of putting the microphones in this one particular spot that I prefered over other places I tried. Because I made such long recordings and there were 56 notes, this .zip file is pretty big. 11.83GB in fact. Please be advised. In the code I liked how I was able to create a relationship between the stochastic operations that yield the values for the volume envelope. I connected the sum of that continously changing envelope calculation to the durations. I then found that I could trim things down to get the density I wanted by dividing those values by five. This gave the amount of overlapping notes I wanted. In the past I’ve tried to limit the amount of data I put into RAM. With this one, things really got out of hand tho. I was really struggling to get this to play back without hickups, although thankfully recording did work. I might be imagining things, but I think increasing the block size helps, so I included that line at the top. This later got solved nicely when <a href="https://fredrikolofsson.com">redFrik</a> added the ability to read sound files from disk to SuperClean.</p>
-<p><a href="https://tinyurl.com/bde5h2nn">Download this sample pack here.</a> <br></p>
+<p><a href="https://f005.backblazeb2.com/file/log-packs/lsh.zip">Download this sample pack here.</a> <br></p>
 <pre class="text"><code>Server.default.options.blockSize = 4096;
 ~clean.csf(&quot;~/snd/lsh&quot;);
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(20,
             Pbind(*[
@@ -786,12 +786,12 @@ Routine{
 
 </div>
 <p>A friend of mine who is a really great percussionist let me borrow one of his bows. It’s a custom made bow. It’s made with fishing line and it is quite short but it has at least the height of a Contrabass bow, might even be bigger than that. This means you can really dig in. The short travel of the bow is great I realize now after using it for a while. It affects the way I think about bow changes a whole lot. Because they have to happen more often it creates this kind of breathing or rhythm even. I really enjoy how these give a kind of life to the sustained parts of the sound. The thing being bowed is a stainless steel baking bowl. I’ve used these before a lot but not this particular one. This one is my biggest one yet. It was fun to play it and to find a certain node and a certain angle on the rim of the bowl. I recorded in my usual way with the fancy mics and the double soundcard setup. There is a single 192kHz 24 bit Stereo sound file at around three minutes in duration inside the sample folder.</p>
-<p><a href="https://tinyurl.com/43n7d7k8">Download this sample pack here.</a> <br></p>
+<p><a href="https://f005.backblazeb2.com/file/log-packs/nsb.zip">Download this sample pack here.</a> <br></p>
 <pre class="text"><code>~clean.lsf(&quot;~/snd/nsb&quot;)
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     ~a = {|seed, pan, aux| 
         var b = 
         Pbind(*[ 
@@ -849,7 +849,7 @@ Routine{
 
 </div>
 <p>I bought a cymbal real cheap at a second hand store close to were I live. I used the nice mics and the nice preamps to record it. I layed the cymbal on a table with the bell down and bowed it over the side of the table. It was a little finicky to get the mics in the right position because if I had them too close the stereo field varied way too much with each bowing. I figured out after a while that there was a mic position which was a little bit backed off from as close as possible that kept the stereo field stable while still picking up that low end that comes with proximity that I was looking to capture. This kind of thing is just great on it’s own and to my mind doesn’t need much passed just doing it. In the code I wanted to keep things simple and not do a lot. I just wanted to have a slow and steady presenting of the material in some different combinations of transpositions. I just had the one little idea where I wanted the rounding of the playback speed to switch from 1/7 to 1/13 after 5/8 of the total duration. There are two files in the pack. One is about two minutes long and the other is about four minutes long. Both were recorded at 192kHZ in stereo.</p>
-<p><a href="https://tinyurl.com/42xzjkcx">Download this sample pack here.</a> <br></p>
+<p><a href="https://f005.backblazeb2.com/file/log-packs/bcm.zip">Download this sample pack here.</a> <br></p>
 <pre class="text"><code>~clean.lsf(&quot;~/snd/bcm&quot;)
 (
 Routine{
@@ -891,7 +891,7 @@ Routine{
 
 </div>
 <p>I put a long, thin metal shelf on a box with a pickup and a speaker in it and got some feedback going through the shelf itself. The shelf acts as a complex resonator. I bought the shelf at a thrift store for real cheap. It was made by the dominant cheap furniture franchise (you know the one), and has since been discontinued. <a href="https://thehumancomparator.net/">My friend Jon</a> made the box with a pickup and a speaker in it. It’s called <em>Rundgång</em>. I have grown quite fond of this contraption. It’s an interesting iterator. I don’t reach for it quite as often as a bow, but that’s alright. It’s very good at what it does. It felt nice to make another track using it with the nice mics. The feedback teeters through some steady states and I vary the amplitude with small nudges now and then, striving to maintain those delicate steady states. I used my regular recording setup. The result was one Stereo file recorded at 192kHZ. In the code it felt very liberating to be doing a kind of compacti glissandi music again. I’ve been wanting to get back to making a music which allows for a wider gamut of pitch relationships for some time now. I am grateful for the degree of detailed variation which is possible utilizing the parameters that deal with the glissandi. It’s a subtle thing, but I enjoyed making a connection between the amount of glissando and the panning position.</p>
-<p><a href="https://tinyurl.com/2ha5d4rn">Download this sample pack here.</a> <br></p>
+<p><a href="https://f005.backblazeb2.com/file/log-packs/fms.zip">Download this sample pack here.</a> <br></p>
 <pre class="text"><code>~clean.lsf(&quot;~/snd/fms&quot;)
 (
 Routine{
@@ -1247,8 +1247,8 @@ Routine{
 <pre class="text"><code>~clean.lsf(&quot;~/snd/gvs&quot;)
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(2,
             Pbind(*[
@@ -1295,8 +1295,8 @@ Routine{
 <pre class="text"><code>~clean.lsf(&quot;~/snd/rec&quot;)
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(3565,
             Pbind(*[
@@ -1345,8 +1345,8 @@ Routine{
 <pre class="text"><code>~clean.lsf(&quot;~/snd/met&quot;)
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(5,
             Ppar(
@@ -1416,8 +1416,8 @@ Routine{
 <pre class="text"><code>~clean.lsf(&quot;~/snd/trp&quot;)
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(206,
             Pbind(*[
@@ -1480,8 +1480,8 @@ Routine{
 <pre class="text"><code>~clean.lsf(&quot;~/snd/gls&quot;)
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(7,
             Ppar(
@@ -1550,8 +1550,8 @@ Routine{
 <pre class="text"><code>~clean.lsf(&quot;~/snd/tgt&quot;)
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(837,
             Ppar(
@@ -1603,8 +1603,8 @@ Routine{
 <pre class="text"><code>~clean.lsf(&quot;~/snd/bfn&quot;)
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(940,
             Pbind(*[
@@ -1662,8 +1662,8 @@ Routine{
 (
 Routine{ 
     var a = 261.6255653005986232528812251985073089599609375;
-    1.wait;
-    s.record;
+    //s.record;
+    //1.wait;
     Pdef(0,
         Pseed(238,
             Pbind(*[
@@ -1712,8 +1712,8 @@ Routine{
 <pre class="text"><code>~clean.lsf(&quot;~/snd/mtf&quot;)
 (
 Routine{
-    1.wait;
-    s.record(numChannels: 4);
+    //s.record(numChannels: 4);
+    //1.wait;
     ~arc = {|seed, snd, dur, amp, sustain, cav, aux, lpf, lhf|
     var bin = 
     Pbind(*[ 
@@ -1905,8 +1905,8 @@ Pdef(0,
 
 (
 Routine{
-    s.record;
-    1.wait;
+    //s.record;
+    //1.wait;
         ~pat = {| num, aux|
     var pattern = Pbind(*[
         type: \cln,
@@ -1956,7 +1956,7 @@ t.start;
 (
 Routine{
     //s.record;
-    1.wait;
+    //1.wait;
     (
         Pdef(0,
             Pseed(1467,
@@ -2102,7 +2102,8 @@ Pdef(0,
 
 </div>
 <p>Anything can be bowed. Even a black metal stove guard I bought for 10 sek at a thrift store one time ages ago. I finally got around to bowing it and found some ways to get some different sounds out of it. At first I thought the main thing was bowing the sides of the frame because that made the loudest sound in the room but once I got to listening through a condenser microphone up close I heard that there was more to the thin rod that ran between the ends of the frame. After a while of messing around with microphoe placement I tried it in combination with a bass humbucker pickup I had soldered an XLR jack to a while back. That was the sound. Tons of bass as well as really clean soaring high pitched sounds. Bowing at an angle made a big difference also in terms of controlling which node rang the loudest. In the end I opted for only using the pickup because it was the cleanest. Recorded in 192kHz. Did a tiny, tiny bit of very delicate denoising. Played back at half speed. Chopped up the recording into 8 mono files at aroundabouts 90 seconds each. Exported at 44.1kHz.</p>
-<p><a href="https://danielmkarlsson.com/bwm.zip">Download this sample pack here.</a> <br></p>
+<p><a href="https://f005.backblazeb2.com/file/log-packs/bwm.zip">Download this sample pack here.</a></p>
+<p><br></p>
 <pre class="text"><code>~clean.loadSoundFiles(&quot;bwm&quot;)
 (
 Pdef(0,
@@ -2152,7 +2153,7 @@ Pdef(0,
 
 </div>
 <p>I started off the day by recording some chuggy stunt guitar sounds in 192kHz. I made six short samples of the zeroth and first fret using three playing styles. Open long, open staccato and palm muted. I made two takes of all three styles and hardpanned them left and right. I denoised them, careful not to leave marks. I beefed things up a little bit while still keeping some of the dynamics inherent in the playing styles. I thought that I would be making some kind of chuggy rhythmically driven music, but that did not happen today as you can hear in the example below. Maybe some other day.</p>
-<p><a href="https://danielmkarlsson.com/stn.zip">Download this sample pack here.</a> <br> <br></p>
+<p><a href="https://f005.backblazeb2.com/file/log-packs/stn.zip">Download this sample pack here.</a> <br> <br></p>
 <pre class="text"><code>~clean.loadSoundFiles(&quot;stn&quot;);
 (
 Pdef(0,

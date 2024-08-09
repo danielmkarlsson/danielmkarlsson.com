@@ -5,7 +5,7 @@ all:
 
 # publish to production
 publish: all
-	rsync -azP build/ root@212.47.227.131:/var/www/danielmkarlsson.com/html/
+#	rsync -azP build/ root@212.47.227.131:/var/www/danielmkarlsson.com/html/
 
 # start live server
 preview: all

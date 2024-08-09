@@ -21,7 +21,7 @@ are made available and The Public Internet grows.
 [Erik Enocksson](https://www.erikenocksson.com/) |
 [Mattias Hållsten](https://mattiashallsten.github.io/) |
 [Julia Giertz](https://juliagiertz.info/) |
-<!--[Mads Kjeldgaard](https://madskjeldgaard.dk/) |--> 
+[Mads Kjeldgaard](https://madskjeldgaard.dk/) | 
 [Isak Edberg](https://isakedberg.com/) |
 [Niklas Adam](https://niklasadam.oddodd.org/) |
 [Yair Elazar Glotman](https://yairelazarglotman.com/) |
@@ -81,7 +81,6 @@ are made available and The Public Internet grows.
 [Nix OS](https://nixos.org/) |
 [Tails](https://tails.net/) |
 [Call with current continuation](http://call-with-current-continuation.org) |
-[LibreWolf](https://librewolf.net/) |
 [Kindohm](https://www.kindohm.com/) |
 [Empty lake](http://empty-lake.u-i-q.org) |
 [Ditherlicious](https://29a.ch/ditherlicious/) |
@@ -110,9 +109,19 @@ are made available and The Public Internet grows.
 [convertcase.net](https://convertcase.net/) |
 [Andreas Lubich](http://www.loop-o.com/) |
 [Keymap editor](https://nickcoutsos.github.io/keymap-editor/) |
-[ZMK](https://zmk.dev/)
-
-
+[ZMK](https://zmk.dev/) |
+[The Modes](https://bandnotes.info/tidbits/tidbits-feb.htm#modes) |
+[All the scales](http://allthescales.org/) |
+[Send](https://send.vis.ee/) |
+[IRCcloud](https://www.irccloud.com/) |
+[Pads](https://pads.offline.place/) |
+[Fönstret](https://fonstret.edition-festival.com/) |
+[Anna’s Archive](https://annas-archive.org/) |
+[Judit Weegar](https://juditweegar.com/) |
+[wat](https://www.destroyallsoftware.com/talks/wat) |
+[public.work](https://public.work/) |
+[Ghostty](https://mitchellh.com/ghostty) |
+[Lucy Railton](https://lucyrailton.com/)
 </center>
 
 <br>

@@ -12,9 +12,16 @@
   /|\|||///|\\\|\|\/|\
 /||\|\|/|/\|/
 ```
-
 <br>
 
+<!-- Form which will send a GET request to the current URL -->
+<form method="post">
+  <label>
+    <input name="" autocomplete="" />
+  </label>
+</form>
+
+<br>
 
 <script>
 function goToURL() {

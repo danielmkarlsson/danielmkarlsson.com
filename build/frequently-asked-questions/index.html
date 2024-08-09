@@ -378,15 +378,34 @@
 <center>
 <strong>Frequently asked questions</strong>
 </center>
+<p><br><strong>How do I install Scnvim without a package manager?</strong></p>
+<p>First of all you download Scnvim, dont clone it, just download the .zip file. Then chop of the <code>-main</code> part from the folder name. Next you want to put yourself in the <code>.vim</code> directory:</p>
+<p><code>cd ~/.vim</code></p>
+<p>Then you want to make some directorys and move into that innermost one:</p>
+<p><code>mkdir -p ~/.vim/pack/aducators/start &amp;&amp; cd $_</code></p>
+<p>Then you move that Scnvim folder over on into there and you are done! Who even needs a package manager? Yes, yes, lots and lots of people want and need a package manager, for entirely legitimate reasons, I know. For me tho, it was a requirement that I should not be forced to install <code>xcode select</code>, so this was my journey.</p>
 <p><br><strong>What’s the startup keyCombo to install the OG OS on older Macs?</strong></p>
 <p><code>Shift Option ⌘ R</code> takes you into Internet Recovery mode.</p>
 <p><br><strong>What’s the largest 16:10 resolution you can squeeze in under 1920 x 1080?</strong></p>
-<p><code>1680 × 1050</code></p>
+<p><code>1728 × 1080</code></p>
 <p><br><strong>I need to stop using chrome because reasons. How do I make FireFox usable?</strong></p>
+<p>• Turn off “ad measurment”, wtf firefox:</p>
+<p>dom.private-attribution.submission.enabled</p>
 <p>• Suppress pop-up notification “Firefox is full screen”:</p>
 <p>Type <code>about:config</code> in the address bar.<br />
 Search for <code>full-screen-api.warning.timeout</code><br />
 Set the value to <code>0</code>.</p>
+<p>• Stop Firefox from hijacking your hrdware media hotkeys:</p>
+<p>Type <code>about:config</code> in the address bar.<br />
+Search for <code>media.hardwaremediakeys.enabled</code><br />
+Double click the value to make it <code>false</code>.</p>
+<p>• Suppress download pop-up window:</p>
+<p><code>about:config</code><br />
+<code>browser.download.alwaysOpenPanel</code><br />
+<code>false</code></p>
+<p>• Change the Find in text search highlight colors:</p>
+<p><code>about:config</code><br />
+ui.textSelectAttentionBackground = #A0A0A1 ui.textHighlightBackground = #646464</p>
 <p>• Make the url at bottom left disappear when videos are fullscreened in Firefox:</p>
 <p>Click the settings icon in the top right corner, then<br />
 <code>Help</code>,<br />
@@ -411,10 +430,15 @@ display:none!important;
 inside the <code>chrome</code> folder.<br />
 Restart Firefox.<br />
 Should be good to go.</p>
-<p>• Suppress download pop-up window:</p>
-<p><code>about:config</code><br />
-<code>browser.download.alwaysOpenPanel</code><br />
-<code>false</code></p>
+<p>I need these Firefox extensions to not be annoyed:</p>
+<p>Vimium<br />
+Copy PlainText<br />
+uBlock Origin<br />
+SponsorBlock<br />
+Dark Background and Light Text<br />
+Cookie Cutter GDPR Auto-Deny<br />
+User-Agent Switcher and Manager<br />
+hide-scrollbars</p>
 <p><br><strong>How do you make a macOS Mojave USB installer?</strong></p>
 <p><code>sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/usb --applicationpath /Applications/Install\ macOS\ Mojave.app</code></p>
 <p><br><strong>How do you organize your samples?</strong></p>
@@ -474,9 +498,9 @@ Here’s how you can make yours like mine:</p>
 <p><strong>But everything that’s alive has to die at some point tho right?</strong></p>
 <p>I am really looking forward to living as software. That’s a lot less likely to happen as long as we are still in this old way of doing things where only very few people are given the oppourtunity to find their favourite task to spend time with and excel at. The right to computation roughly translates to the right to selfeducation for me. Having access to a computer makes it possible to circumvent an unjust system, where knowledge is held at artificial scarcity, for fear of power slipping out of the hands of the few. We need everyone to be as free, and as safe as possible, as soon as possible, in order to really accomplish anything worth while. We might all get wiped out before we get to the point where we are all truly free and safe otherwise. That scares me, you know.</p>
 <p><strong>What scares you?</strong></p>
-<p>That all of this might have been in vain. That everything everyone has ever learned, all our thoughts and feelings could just disappear. The worse thing about that dark vision of the future is that we will have done it to ourselves. Maybe because we thought that we were different from one another somehow. We’re not. I can’t bare that thought. I have to fight for a world where we can accomplish something a lot bigger and better than fighting with each other over bits of food all of the time. Another things that scares me is the idea that complexity ineveitably leads to collapse. Now, there is no way of proving that hypothesis, and I certanly hope it’s not true. Still, I fear that this idea or, this suspicion let’s call it, is seeping into our collective unconscious and potentially having a very negative effect on our ways of thinking. For example, say you where the CEO of an electric car company and you have your sights set on colonizing Mars as soon as possible. When you have a loafty goal like that in your sights you might lose sight of… or actaully, in this case more likely you were raised to never ever allow workers to unionize in your electric car factories. Whenever you tell yourself that the ends justify the means, then I think you’re in trouble from an ethics and moral philosophy perspective.</p>
+<p>That all of this might have been in vain. That everything everyone has ever learned, all our thoughts and feelings could just disappear. The worse thing about that dark vision of the future is that we will have done it to ourselves. Maybe because we thought that we were different from one another somehow. We’re not. I can’t bare that thought. I have to fight for a world where we can accomplish something a lot bigger and better than fighting with each other over bits of food all of the time. Another things that scares me is the idea that complexity ineveitably leads to collapse. Now, there is no way of proving that hypothesis, and I certanly hope it’s not true. Still, I fear that this idea or, this suspicion let’s call it, is seeping into our collective unconscious and potentially having a very negative effect on our ways of thinking. For example, say you where the CEO of an electric car company and you have your sights set on colonizing Mars as soon as possible. When you have a lofty goal like that in your sights you might lose sight of… or actually, in this particular case it’s more likely you were raised to never ever allow workers to unionize in your electric car factories. Whenever you tell yourself that the ends justify the means, then I think you’re in trouble from an ethics and moral philosophy perspective.</p>
 <p><strong>Don’t you have to break a few…?</strong></p>
-<p>I’m sorry for cutting you off there but I just hate that expression, and to answer your question: No, certainly not. You most certanly do not <em>have</em> to “disincentivize” workers from unionizing, in order to ensure their inability to start placing demands on the factory being a safe place to work where you can make a living wage from working a fulltime job. In fact my position is that you should not be <em>allowed</em> to do that, even if your goal is to turn that insane amount of profit into succesfully colonizing Mars. Not even if your end goals overlap even more with my own am I able to surrender on the idea that each state that we inhabit on our way towards the future absolutely needs to be an acceptable state for all conscious beings. I’ll add here that <em>that</em> is the point where I myself fall prey to that nagging suspicion that everything may in fact break at scale. It doesn’t however stop me from following my convictions and staying true to my beliefs. That is regardless of the perceived likeliness of success in the here and now. <br> <br></p>
+<p>I’m sorry for cutting you off there but I just hate that expression, and to answer your question: No, certainly not. You most certanly do not <em>have</em> to “disincentivize” workers from unionizing, in order to ensure their inability to start placing demands on the factory being a safe place to work where you can make a living wage from working a fulltime job. In fact my position is that you should not be <em>allowed</em> to do that, even if your goal is to turn that insane amount of profit into attempting to colonize Mars. Not even if your end goals overlap even more with my own am I able to surrender on the idea that each state that we inhabit on our way towards the future absolutely needs to be an acceptable state for all conscious beings. I’ll add here that <em>that</em> is the point where I myself fall prey to that nagging suspicion that everything may in fact break at scale. It doesn’t however stop me from following my convictions and staying true to my beliefs. That is regardless of the perceived likeliness of success in the here and now. <br> <br></p>
 <p><strong>How do you work with harmonic progression in your music?</strong></p>
 <p>The short answer is I don’t. I for sure work with tonality and I make a lot of choices that amount to pitch aggregates or lists of pitches. It’s just the progression part that makes this a tricky question to answer because It implies linearity and I don’t really do that. I tend to think of my music as outside of time. I don’t really want to go anywhere. I just want to build a place, and then be in that place, watching the light change. I’ll make a material, and that can have a lot of change over time, but it will abide by the rules I’ve sat up for it. Then I listen to it for a really long time and change smaller and smaller things until it gives me enough of the kind of variation that I’m looking for. I used to think that this was cheating or otherwise of a lesser value than what I got the impression that other composers were doing. When I was younger I caught some slack for this kind of musical suggestion approach but nowadays I’m just really grateful to have found something I like doing.</p>
 <p><strong>Must be nice. How does that break down in practical terms?</strong></p>
@@ -512,8 +536,7 @@ Here’s how you can make yours like mine:</p>
 <p><code>ssh-keygen -o -b 4096</code></p>
 <p>That’ll make a new key pair. Next it’ll ask you where to save it. Press Enter to blow passed this and use the default location. Next it’ll ask you for a passphrase. I like to leave this blank because I don’t want to have to type this passphrase like a million times per day forever end ever. Then again, if you are into the idea that any security is better than no security then by all means, have it your way. You have to enter your passphrase twice. So in my case I would press enter twice to leave it blank. Next you open up your public key and copy it:</p>
 <p><code>cat ~/.ssh/id_rsa.pub</code></p>
-<p>Copy that <em>whole</em> thing, including <code>ssh-rsa</code> at the beginning as well as the stuff at the end. Then go to the place where you pop that into to your server. In my case that is:</p>
-<p><a href="https://console.scaleway.com/project/credentials">https://console.scaleway.com/project/credentials</a></p>
+<p>Copy that <em>whole</em> thing, including <code>ssh-rsa</code> at the beginning as well as the stuff at the end. Then go to the place where you pop that into to your server.</p>
 <p>When you are adding your new ssh key don’t get riled by the fact that maybe the ones that are there already don’t look the same as the one you are about to paste in there. Have faith, it’ll work itself out. Paste it in there. Also it is a <em>really</em> good idea to provide an understandable description for this new ssh key. Something like “M1 MBA 2022” could be easily understood by your future self while as “biz_up_in_haya” you might think is cool now, but this is a terrible way to treat your future self who wants to know which keys can be deleted. Next up is connecting over ssh for the first time from this new computer:</p>
 <p><code>ssh -i ~/.ssh/id_rsa root@your-server's-ip-number-goes-here;</code></p>
 <p>If you get a question about authenticity bla, bla and are you sure? Then yes, you are sure. After that you should be good to go.</p>

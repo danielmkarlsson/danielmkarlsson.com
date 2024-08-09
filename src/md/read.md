@@ -2,6 +2,8 @@
 
 Some books that I have read recently:
 
+[Greg Egan - The Eternal Flame](https://store.gollancz.co.uk/products/the-eternal-flame)  
+
 [Greg Egan - The Clockwork Rocket](https://store.gollancz.co.uk/products/the-clockwork-rocket)  
 
 [Brian Merchant - Blood in the machine](https://www.hachettebookgroup.com/titles/brian-merchant/blood-in-the-machine/9780316487740/?lens=little-brown)   
@@ -24,3 +26,5 @@ Kim Stanley Robinson - The Ministry for the Future
 Nina Björk - Om man älskar frihet    
 Fredrik Pohl & C.M. Kornbluth - The space merchants    
 Göran Therborn - Kapitalet, överheten och alla vi andra    
+William Gibson - Agency  
+William Gibson - The peripheral  

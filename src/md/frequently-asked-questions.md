@@ -1,20 +1,57 @@
 <br><center>**Frequently asked questions**</center>
 
+<br>**How do I install Scnvim without a package manager?**
+
+First of all you download Scnvim, dont clone it, just download the .zip file. Then chop of the `-main` part from the folder name.
+Next you want to put yourself in the `.vim` directory:
+
+```cd ~/.vim```
+
+Then you want to make some directorys and move into that innermost one:
+
+```mkdir -p ~/.vim/pack/aducators/start && cd $_```
+
+Then you move that Scnvim folder over on into there and you are done! Who even needs a package manager? 
+Yes, yes, lots and lots of people want and need a package manager, for entirely legitimate reasons, I
+know. For me tho, it was a requirement that I should not be forced to install `xcode select`, so this was my journey.
+
 <br>**What's the startup keyCombo to install the OG OS on older Macs?**
 
 `Shift Option ⌘ R` takes you into Internet Recovery mode.
 
 <br>**What's the largest 16:10 resolution you can squeeze in under 1920 x 1080?**
 
-`1680 × 1050`
+`1728 × 1080`  
 
 <br>**I need to stop using chrome because reasons. How do I make FireFox usable?**
+
+• Turn off "ad measurment", wtf firefox:
+
+dom.private-attribution.submission.enabled
 
 • Suppress pop-up notification "Firefox is full screen":  
     
 Type `about:config` in the  address bar.  
 Search for `full-screen-api.warning.timeout`  
 Set the value to `0`.  
+
+• Stop Firefox from hijacking your hrdware media hotkeys:  
+
+Type `about:config` in the  address bar.  
+Search for `media.hardwaremediakeys.enabled`  
+Double click the value to make it `false`.
+
+• Suppress download pop-up window:  
+
+`about:config`  
+`browser.download.alwaysOpenPanel`  
+`false`
+
+• Change the Find in text search highlight colors:  
+
+`about:config`  
+ui.textSelectAttentionBackground = #A0A0A1
+ui.textHighlightBackground = #646464
 
 • Make the url at bottom left disappear when videos are fullscreened in Firefox:  
 
@@ -47,11 +84,16 @@ inside the `chrome` folder.
 Restart Firefox.  
 Should be good to go.  
 
-• Suppress download pop-up window:  
+I need these Firefox extensions to not be annoyed:
 
-`about:config`  
-`browser.download.alwaysOpenPanel`  
-`false`
+Vimium  
+Copy PlainText  
+uBlock Origin  
+SponsorBlock  
+Dark Background and Light Text  
+Cookie Cutter GDPR Auto-Deny  
+User-Agent Switcher and Manager  
+hide-scrollbars  
 
 <br>**How do you  make a macOS Mojave USB installer?**
 
@@ -267,11 +309,12 @@ hypothesis, and I certanly hope it's not true. Still, I fear that this idea or,
 this suspicion let's call it, is seeping into our collective unconscious and
 potentially having a very negative effect on our ways of thinking. For example,
 say you where the CEO of an electric car company and you have your sights set
-on colonizing Mars as soon as possible. When you have a loafty goal like that
-in your sights you might lose sight of... or actaully, in this case more likely
-you were raised to never ever allow workers to unionize in your electric car
-factories. Whenever you tell yourself that the ends justify the means, then I
-think you're in trouble from an ethics and moral philosophy perspective.
+on colonizing Mars as soon as possible. When you have a lofty goal like that
+in your sights you might lose sight of... or actually, in this particular case 
+it's more likely you were raised to never ever allow workers to unionize in 
+your electric car factories. Whenever you tell yourself that the ends justify 
+the means, then I think you're in trouble from an ethics and moral philosophy 
+perspective.
 
 **Don't you have to break a few...?**
 
@@ -281,7 +324,7 @@ answer your question: No, certainly not. You most certanly do not _have_ to
 start placing demands on the factory being a safe place to work where you can
 make a living wage from working a fulltime job. In fact my position is that you
 should not be _allowed_ to do that, even if your goal is to turn that insane
-amount of profit into succesfully colonizing Mars. Not even if your end goals
+amount of profit into attempting to colonize Mars. Not even if your end goals
 overlap even more with my own am I able to surrender on the idea that each
 state that we inhabit on our way towards the future absolutely needs to be an
 acceptable state for all conscious beings. I'll add here that _that_ is the
@@ -425,9 +468,6 @@ and copy it:
 
 Copy that _whole_ thing, including `ssh-rsa` at the beginning as well as the
 stuff at the end. Then go to the place where you pop that into to your server.
-In my case that is:
-
-[https://console.scaleway.com/project/credentials](https://console.scaleway.com/project/credentials)
 
 When you are adding your new ssh key don't get riled by the fact that maybe the
 ones that are there already don't look the same as the one you are about to

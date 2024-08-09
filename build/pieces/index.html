@@ -376,61 +376,45 @@
 <body>
 <br>
 <center>
-<strong>Parks Tool 4p8k config</strong>
+<strong>Pieces</strong>
 </center>
-<p>From left to right the keys are as follows:</p>
-<p><code>C+e, C+a, C+x, v, h, j, k, l</code></p>
-<p>From left to right the potentiometers are as follows:</p>
-<p><code>cc0, cc1, cc2, cc3</code></p>
-<center>
-<a href="https://f005.backblazeb2.com/file/recovery-site/html/4p8k_parkstool_config.zip">4p8k_parkstool_config.json</a>
-</center>
+<p>These are some pieces that I composed at some points in the past. I find that I need to carry these with me in my life for some reason. They are alright I suppose. It feels strange hearing them now, remembering things about how they were made. You might be hearing them for the first time. They all took something different out of me. I had to figure them out. They each contain some kind of new way for me to relate to the task of organizing sound. Everything is always changing. So am I. This is as it should be I think. I was hoping that I would remember where I heard the story about the group of poets, in the tenth century in Japan who had all decided to let each other change their names, to begin again, with a fresh voice, whenever they felt the need. As I remember the story, they’d change their name every ten years or so. These pieces all sound like past incarnations of myself composed them. For some reason I need to keep them around to remind me of how I used to think and feel.</p>
+<div class="dmk-player" data-playlist="pieces/index.json">
+
+</div>
 <p><br></p>
-<br>
-<center>
-<strong>Nice and easy Reaper config</strong>
-</center>
-<p>I became annoyed with some things about how Reaper looked when the whole number version seven rolled around. It finally motivated me to put this up. I don’t foresse editing this all that much in the future. I just want things to be nice and easy. A classic look with no clutter and a few handy timesavers. Nothing big just a few small things that make the work smoother.</p>
-<center>
-<a href="https://f005.backblazeb2.com/file/recovery-site/html/niceAndEasy.ReaperConfigZip">niceAndEasy.ReaperConfigZip</a>
-</center>
-<p><br></p>
-<br>
-<center>
-<strong>Scala Scale Archive</strong>
-</center>
-<p>I wanted to mess around with the Scala Scale Archive and the files were in CR-LF format so I figured this was something I could take care of. I converted the format and zipped em back up for ya.</p>
-<center>
-<a href="https://f005.backblazeb2.com/file/recovery-site/html/ScalaScaleArchive.zip">ScalaScaleArchive.zip</a>
-</center>
-<p><br></p>
-<br>
-<center>
-<strong>Mimer IRs</strong>
-</center>
-<p>I made four impulse responses of Mimer, which is an old defunct iron ore mine in Sweden, which now serves as Norbergfestival’s largest stage. These should be thought of as an attempt to capture my own sense of being in that room, rather than an accurate depiction mathematically.</p>
-<center>
-<a href="https://f005.backblazeb2.com/file/recovery-site/html/mir.zip">mir.zip</a>
-</center>
-<p><br></p>
-<br>
-<center>
-<strong>EMS AKG</strong>
-</center>
-<p>I made two impulse responses of the AKG spring reverb at EMS. I figured I could share them here. They came out pretty decent I think. The real thing is it’s own thing for sure but files win on portability hands down so, go ahead, download ’em.</p>
-<center>
-<a href="https://f005.backblazeb2.com/file/recovery-site/html/ems-akg.zip">ems-akg.zip</a>
-</center>
-<p><br></p>
-<br>
-<center>
-<strong>Current Planck EZ layout</strong>
-</center>
-<p>This is my current Planck EZ layout. I have the version with leds. I have a couple of other keyboards but this is the one I’ve been using most. I held out for a really long time hoping that I would be able to get used to the stock placement of the arrow keys. That was not happening at all a couple years in so I finally caved and changed that.</p>
-<center>
-<a href="https://f005.backblazeb2.com/file/recovery-site/html/planck-ez.zip">plank-ez.zip</a>
-</center>
-<p><br></p>
+<script async type="text/javascript" src="/player/dmk-player.js?v=5"></script>
+<script>
+window.addEventListener('load', function () {
+  var elements = document.getElementsByClassName('dmk-player');
+  var players = Array.from(elements).map(function (el) {
+    if (el.dataset) {
+      var rootUrl = window.location.origin;
+      var playlist = el.dataset.playlist;
+      var isVideo = !!el.dataset.isVideo;
+      var layout = {
+        title: false,
+        elapsedTime: false
+      };
+      var options = {
+        playlist: playlist,
+        isVideo: isVideo,
+        rootUrl: rootUrl
+      };
+      return new DMKPlayer(el, options, layout);
+    }
+  });
+  players.forEach(function (player, index) {
+    player.index = index;
+    player.on('play', function () {
+      players.forEach(function (p) {
+        if (p.index !== player.index && p.isPlaying) {
+          p.stop();
+        }
+      });
+    });
+  });
+});
 </script>
 <script>
 function goToURL() {
