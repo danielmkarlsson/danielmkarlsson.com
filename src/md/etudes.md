@@ -1,12 +1,11 @@
-**Etudes**
-
-These are intermediaries, mockups, experiments designed to investigate ideas
-quickly. They are rough proofs of concepts that might demonstrate a
-functionality or a phenomenon. Stakes in the ground or notes for further
-development. Typically I'll use these to get a handle on things myself. Once in
-a while they'll be things I made to show other folks what I'm aiming for. If you
-are one of those folks, then probably it's the top one you're meant to hear.
-<br>
+<br><center>**Etudes**</center> 
+These are intermediaries, mockups or experiments that I designed to quickly
+investigate ideas. They are rough drafts or proofs of concepts that might
+demonstrate a functionality or a phenomenon.  Stakes in the ground or notes for
+things I'd like to develope further.  Typically I'll use these to get a handle
+on things myself. Once in a while they'll be things I made to show other folks
+what I'm aiming for. If you are one of those folks, then probably it's the top
+one you're meant to hear.  <br>
 
 <div class="dmk-player" data-playlist="etudes/index.json"></div>
 
@@ -43,3 +42,40 @@ window.addEventListener('load', function () {
   });
 });
 </script>
+
+<script>
+function goToURL() {
+    var links = [
+        "./a-collapse-of-structures/",
+        "./map/",
+        "./now/",
+        "./ruins-in-the-distance",
+        "./gigs",
+        "./log",
+        "./log",
+        "./frequently-asked-questions",
+        "./list",
+        "./etudes",
+        "./sc4reaper",
+        "./superclean-installparty",
+        "./utilities",
+        "./recipes",
+        "./pieces",
+        "./links",
+    ];
+
+    // get a random number between 0 and the number of links
+    var randIdx = Math.round(Math.random() * (links.length - 1));
+    // construct the link to be opened
+    var root = window.location.protocol + '//' + window.location.host;
+    var link = root + '/' + links[randIdx];
+
+    document.location.href = link;
+};
+</script>
+
+<p align="right">
+<a href="#" onClick="goToURL()">∞</a>
+</p>
+<br>
+<br>

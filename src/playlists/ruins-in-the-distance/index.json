@@ -1,0 +1,5387 @@
+[
+	{
+		"name": "Vector algebra",
+		"url": "vector-algebra.mp3",
+		"dateModified": 1702415987317
+	},
+	{
+		"name": "Spherical distance",
+		"url": "spherical-distance.mp3",
+		"dateModified": 1702300066264
+	},
+	{
+		"name": "Central angle",
+		"url": "central-angle.mp3",
+		"dateModified": 1702246580733
+	},
+	{
+		"name": "Angle bisectors",
+		"url": "angle-bisectors.mp3",
+		"dateModified": 1697839111867
+	},
+	{
+		"name": "Collinearity graph",
+		"url": "collinearity-graph.mp3",
+		"dateModified": 1696280426301
+	},
+	{
+		"name": "Partial geometries",
+		"url": "partial-geometries.mp3",
+		"dateModified": 1696061833097
+	},
+	{
+		"name": "Incidence geometry",
+		"url": "incidence-geometry.mp3",
+		"dateModified": 1695995045287
+	},
+	{
+		"name": "Fundamental quadrilateral",
+		"url": "fundamental-quadrilateral.mp3",
+		"dateModified": 1695833798563
+	},
+	{
+		"name": "Sesquilinear forms",
+		"url": "sesquilinear-forms.mp3",
+		"dateModified": 1695759352483
+	},
+	{
+		"name": "Oblique projection",
+		"url": "oblique-projection.mp3",
+		"dateModified": 1689802513788
+	},
+	{
+		"name": "Enumerative definition",
+		"url": "enumerative-definition.mp3",
+		"dateModified": 1685486420274
+	},
+	{
+		"name": "Existential instantiation",
+		"url": "existential-instantiation.mp3",
+		"dateModified": 1684102818407
+	},
+	{
+		"name": "Material implication",
+		"url": "material-implication.mp3",
+		"dateModified": 1683833392283
+	},
+	{
+		"name": "Implication graph",
+		"url": "implication-graph.mp3",
+		"dateModified": 1683752464577
+	},
+	{
+		"name": "Infinite union",
+		"url": "infinite-union.mp3",
+		"dateModified": 1683406794299
+	},
+	{
+		"name": "Countable quantity",
+		"url": "countable-quantity.mp3",
+		"dateModified": 1679945943454
+	},
+	{
+		"name": "Surface density",
+		"url": "surface-density.mp3",
+		"dateModified": 1679823258876
+	},
+	{
+		"name": "Planar lamina",
+		"url": "planar-lamina.mp3",
+		"dateModified": 1679779795509
+	},
+	{
+		"name": "Measurable space",
+		"url": "measurable-space.mp3",
+		"dateModified": 1679413031383
+	},
+	{
+		"name": "Counting measure",
+		"url": "counting-measure.mp3",
+		"dateModified": 1677699543697
+	},
+	{
+		"name": "Inhabited set",
+		"url": "inhabited-set.mp3",
+		"dateModified": 1676583276755
+	},
+	{
+		"name": "Instantiation principle",
+		"url": "Instantiation-principle.mp3",
+		"dateModified": 1675107019483
+	},
+	{
+		"name": "Epistemic commitment",
+		"url": "epistemic-commitment.mp3",
+		"dateModified": 1674753439956
+	},
+	{
+		"name": "Semantic perspective",
+		"url": "semantic-perspective.mp3",
+		"dateModified": 1674421983863
+	},
+	{
+		"name": "Logical equivalences",
+		"url": "logical-equivalences.mp3",
+		"dateModified": 1674334225382
+	},
+	{
+		"name": "Commutative law",
+		"url": "commutative-law.mp3",
+		"dateModified": 1674160845285
+	},
+	{
+		"name": "Inner automorphism",
+		"url": "inner-automorphism.mp3",
+		"dateModified": 1674074871333
+	},
+	{
+		"name": "Circular ordering",
+		"url": "circular-ordering.mp3",
+		"dateModified": 1673950658512
+	},
+	{
+		"name": "Rotation system",
+		"url": "rotation-system.mp3",
+		"dateModified": 1673899192862
+	},
+	{
+		"name": "Combinatorial embedding",
+		"url": "combinatorial-embedding.mp3",
+		"dateModified": 1673813203822
+	},
+	{
+		"name": "Graph embedding",
+		"url": "graph-embedding.mp3",
+		"dateModified": 1673730920574
+	},
+	{
+		"name": "Utility graph",
+		"url": "utility-graph.mp3",
+		"dateModified": 1673641984497
+	},
+	{
+		"name": "Cubic graph",
+		"url": "cubic-graph.mp3",
+		"dateModified": 1673560485242
+	},
+	{
+		"name": "Linear endomorphism",
+		"url": "linear-endomorphism.mp3",
+		"dateModified": 1673472320181
+	},
+	{
+		"name": "Unipotent groups",
+		"url": "unipotent-groups.mp3",
+		"dateModified": 1673379249393
+	},
+	{
+		"name": "Representation formulas",
+		"url": "representation-formulas.mp3",
+		"dateModified": 1673299050318
+	},
+	{
+		"name": "Minimal surface",
+		"url": "minimal-surface.mp3",
+		"dateModified": 1673042033855
+	},
+	{
+		"name": "Shape operators",
+		"url": "shape-operators.mp3",
+		"dateModified": 1672945515212
+	},
+	{
+		"name": "Perpendicular distance",
+		"url": "perpendicular-distance.mp3",
+		"dateModified": 1672867452650
+	},
+	{
+		"name": "Orthogonal vectors",
+		"url": "orthogonal-vectors.mp3",
+		"dateModified": 1672742894007
+	},
+	{
+		"name": "Coordinate axes",
+		"url": "coordinate-axes.mp3",
+		"dateModified": 1672696803012
+	},
+	{
+		"name": "Euclidean plane",
+		"url": "euclidean-plane.mp3",
+		"dateModified": 1672579476301
+	},
+	{
+		"name": "Cyclic polytope",
+		"url": "cyclic-polytope.mp3",
+		"dateModified": 1671869886351
+	},
+	{
+		"name": "Moment curve",
+		"url": "moment-curve.mp3",
+		"dateModified": 1670538347077
+	},
+	{
+		"name": "Global field",
+		"url": "global-field.mp3",
+		"dateModified": 1670112340362
+	},
+	{
+		"name": "Theta correspondence",
+		"url": "theta-correspondence.mp3",
+		"dateModified": 1669669768000
+	},
+	{
+		"name": "Metaplectic representation",
+		"url": "metaplectic-representation.mp3",
+		"dateModified": 1669576140232
+	},
+	{
+		"name": "Central extension",
+		"url": "central-extension.mp3",
+		"dateModified": 1669452053929
+	},
+	{
+		"name": "Crossed modules",
+		"url": "crossed-modules.mp3",
+		"dateModified": 1669328797376
+	},
+	{
+		"name": "Double groupoid",
+		"url": "double-groupoid.mp3",
+		"dateModified": 1669240774973
+	},
+	{
+		"name": "Universal bundle",
+		"url": "universal-bundle.mp3",
+		"dateModified": 1669059056479
+	},
+	{
+		"name": "Bundle morphism",
+		"url": "bundle-morphism.mp3",
+		"dateModified": 1668976408565
+	},
+	{
+		"name": "Bundle map",
+		"url": "bundle-map.mp3",
+		"dateModified": 1668716664319
+	},
+	{
+		"name": "Trigonometric substitution",
+		"url": "trigonometric-substitution.mp3",
+		"dateModified": 1668669493136
+	},
+	{
+		"name": "Hyperbolic sine",
+		"url": "hyperbolic-sine.mp3",
+		"dateModified": 1668462217056
+	},
+	{
+		"name": "Inversion operator",
+		"url": "inversion-operator.mp3",
+		"dateModified": 1667947232128
+	},
+	{
+		"name": "Cubic groups",
+		"url": "cubic-groups.mp3",
+		"dateModified": 1667330420226
+	},
+	{
+		"name": "Ionic radius",
+		"url": "ionic-radius.mp3",
+		"dateModified": 1667252502407
+	},
+	{
+		"name": "Atomic radius",
+		"url": "atomic-radius.mp3",
+		"dateModified": 1666899341358
+	},
+	{
+		"name": "Ionization energy",
+		"url": "ionization-energy.mp3",
+		"dateModified": 1666812522648
+	},
+	{
+		"name": "Electron affinity",
+		"url": "electron-affinity.mp3",
+		"dateModified": 1666644864327
+	},
+	{
+		"name": "Canonical ensemble",
+		"url": "canonical-ensemble.mp3",
+		"dateModified": 1666439236236
+	},
+	{
+		"name": "Correlation length",
+		"url": "correlation-length.mp3",
+		"dateModified": 1666209477395
+	},
+	{
+		"name": "Excited states",
+		"url": "excited-states.mp3",
+		"dateModified": 1665998749735
+	},
+	{
+		"name": "Gravitational interaction",
+		"url": "gravitational-interaction.mp3",
+		"dateModified": 1665947777176
+	},
+	{
+		"name": "Mass generation",
+		"url": "mass-generation.mp3",
+		"dateModified": 1665860361334
+	},
+	{
+		"name": "Spatial parity",
+		"url": "spatial-parity.mp3",
+		"dateModified": 1665764013119
+	},
+	{
+		"name": "Internal symmetries",
+		"url": "internal-symmetries.mp3",
+		"dateModified": 1665686859654
+	},
+	{
+		"name": "Inversion transformations",
+		"url": "inversion-transformations.mp3",
+		"dateModified": 1665603531898
+	},
+	{
+		"name": "Global symmetry",
+		"url": "global-symmetry.mp3",
+		"dateModified": 1665424405207
+	},
+	{
+		"name": "Gauge orbit",
+		"url": "gauge-orbit.mp3",
+		"dateModified": 1665256654973
+	},
+	{
+		"name": "First integrals",
+		"url": "first-integrals.mp3",
+		"dateModified": 1665087094646
+	},
+	{
+		"name": "Complete integrability",
+		"url": "complete-integrability.mp3",
+		"dateModified": 1665000989417
+	},
+	{
+		"name": "Sphere bundles",
+		"url": "sphere-bundles.mp3",
+		"dateModified": 1664898101414
+	},
+	{
+		"name": "Principal bundle",
+		"url": "principal-bundle.mp3",
+		"dateModified": 1664824042095
+	},
+	{
+		"name": "Associated bundle",
+		"url": "associated-bundle.mp3",
+		"dateModified": 1664436554761
+	},
+	{
+		"name": "Decision tables",
+		"url": "decision-tables.mp3",
+		"dateModified": 1664388320744
+	},
+	{
+		"name": "Finite automaton",
+		"url": "finite-automaton.mp3",
+		"dateModified": 1663792055050
+	},
+	{
+		"name": "Counter automaton",
+		"url": "Counter-automaton.mp3",
+		"dateModified": 1663439949943
+	},
+	{
+		"name": "Transition system",
+		"url": "transition-system.mp3",
+		"dateModified": 1663277285578
+	},
+	{
+		"name": "Hybrid automaton",
+		"url": "hybrid-automaton.mp3",
+		"dateModified": 1662927023604
+	},
+	{
+		"name": "Equilibrium point",
+		"url": "equilibrium-point.mp3",
+		"dateModified": 1662741938394
+	},
+	{
+		"name": "Contact dynamics",
+		"url": "contact-dynamics.mp3",
+		"dateModified": 1662646039545
+	},
+	{
+		"name": "Phase line",
+		"url": "phase-line.mp3",
+		"dateModified": 1661974827065
+	},
+	{
+		"name": "Logistic function",
+		"url": "logistic-function.mp3",
+		"dateModified": 1661894169918
+	},
+	{
+		"name": "Bounded growth",
+		"url": "bounded-growth.mp3",
+		"dateModified": 1661581767842
+	},
+	{
+		"name": "Phase field",
+		"url": "phase-field.mp3",
+		"dateModified": 1661453493163
+	},
+	{
+		"name": "Finite element",
+		"url": "finite-element.mp3",
+		"dateModified": 1661364080400
+	},
+	{
+		"name": "Interatomic potentials",
+		"url": "interatomic-potentials.mp3",
+		"dateModified": 1661363585335
+	},
+	{
+		"name": "Initial segment",
+		"url": "initial-segment.mp3",
+		"dateModified": 1660738433168
+	},
+	{
+		"name": "Ordinal number",
+		"url": "ordinal-number.mp3",
+		"dateModified": 1660679292720
+	},
+	{
+		"name": "Ordinal logic",
+		"url": "ordinal-logic.mp3",
+		"dateModified": 1658483187518
+	},
+	{
+		"name": "Branching quantifier",
+		"url": "branching-quantifier.mp3",
+		"dateModified": 1658262948203
+	},
+	{
+		"name": "Bounded formulas",
+		"url": "bounded-formulas.mp3",
+		"dateModified": 1658045044201
+	},
+	{
+		"name": "Conditional quantifier",
+		"url": "conditional-quantifier.mp3",
+		"dateModified": 1658006017197
+	},
+	{
+		"name": "Transitive class",
+		"url": "transitive-class.mp3",
+		"dateModified": 1657645660403
+	},
+	{
+		"name": "Positive reducibility",
+		"url": "positive-reducibility.mp3",
+		"dateModified": 1657561090579
+	},
+	{
+		"name": "Enumeration reducibility",
+		"url": "enumeration-reducibility.mp3",
+		"dateModified": 1657484270372
+	},
+	{
+		"name": "Hyperarithmetic reducibility",
+		"url": "hyperarithmetic-reducibility.mp3",
+		"dateModified": 1657371696601
+	},
+	{
+		"name": "Arithmetical hierarchy",
+		"url": "arithmetical-hierarchy.mp3",
+		"dateModified": 1657316454835
+	},
+	{
+		"name": "Indicator vector",
+		"url": "indicator-vector.mp3",
+		"dateModified": 1657216221972
+	},
+	{
+		"name": "Pointed sets",
+		"url": "pointed-sets.mp3",
+		"dateModified": 1657052647434
+	},
+	{
+		"name": "Permutation category",
+		"url": "permutation-category.mp3",
+		"dateModified": 1656964968315
+	},
+	{
+		"name": "Additive functors",
+		"url": "additive-functors.mp3",
+		"dateModified": 1656880815910
+	},
+	{
+		"name": "Functor categories",
+		"url": "functor-categories.mp3",
+		"dateModified": 1656765424531
+	},
+	{
+		"name": "Ordered triples",
+		"url": "ordered-triples.mp3",
+		"dateModified": 1656712366740
+	},
+	{
+		"name": "Function graph",
+		"url": "function-graph.mp3",
+		"dateModified": 1656593711799
+	},
+	{
+		"name": "Surjective relation",
+		"url": "surjective-relation.mp3",
+		"dateModified": 1656502967597
+	},
+	{
+		"name": "Algebraic logic",
+		"url": "algebraic-logic.mp3",
+		"dateModified": 1656495161248
+	},
+	{
+		"name": "Composite relation",
+		"url": "composite-relation.mp3",
+		"dateModified": 1656492004466
+	},
+	{
+		"name": "Equivalence relation",
+		"url": "equivalence-relation.mp3",
+		"dateModified": 1656407999333
+	},
+	{
+		"name": "Homotopy equivalent",
+		"url": "homotopy-equivalent.mp3",
+		"dateModified": 1656363493485
+	},
+	{
+		"name": "Singular chains",
+		"url": "singular-chains.mp3",
+		"dateModified": 1656165714391
+	},
+	{
+		"name": "Relative homology",
+		"url": "relative-homology.mp3",
+		"dateModified": 1655671844122
+	},
+	{
+		"name": "Orientable surface",
+		"url": "orientable-surface.mp3",
+		"dateModified": 1655414541219
+	},
+	{
+		"name": "Topology control",
+		"url": "topology-control.mp3",
+		"dateModified": 1654809783918
+	},
+	{
+		"name": "Mesh topology",
+		"url": "mesh-topology.mp3",
+		"dateModified": 1654597606218
+	},
+	{
+		"name": "Spanning tree",
+		"url": "spanning-tree.mp3",
+		"dateModified": 1654587138473
+	},
+	{
+		"name": "Cycle basis",
+		"url": "cycle-basis.mp3",
+		"dateModified": 1654537492940
+	},
+	{
+		"name": "Circuit rank",
+		"url": "circuit-rank.mp3",
+		"dateModified": 1654463354146
+	},
+	{
+		"name": "Cycle spaces",
+		"url": "cycle-spaces.mp3",
+		"dateModified": 1653456119910
+	},
+	{
+		"name": "Composite entity",
+		"url": "composite-entity.mp3",
+		"dateModified": 1652725657049
+	},
+	{
+		"name": "State pattern",
+		"url": "state-pattern.mp3",
+		"dateModified": 1652421589020
+	},
+	{
+		"name": "Exception chaining",
+		"url": "exception-chaining.mp3",
+		"dateModified": 1652335176820
+	},
+	{
+		"name": "Canonical model",
+		"url": "canonical-model.mp3",
+		"dateModified": 1652015829459
+	},
+	{
+		"name": "Composite map",
+		"url": "composite-map.mp3",
+		"dateModified": 1651656622119
+	},
+	{
+		"name": "Matrix multiplication",
+		"url": "matrix-multiplication.mp3",
+		"dateModified": 1651218597041
+	},
+	{
+		"name": "Algebraic invariants",
+		"url": "algebraic-invariants.mp3",
+		"dateModified": 1651216800663
+	},
+	{
+		"name": "Singular homology",
+		"url": "singular-homology.mp3",
+		"dateModified": 1650558550592
+	},
+	{
+		"name": "Delta set",
+		"url": "delta-set.mp3",
+		"dateModified": 1650394566435
+	},
+	{
+		"name": "Simplicial object",
+		"url": "simplicial-object.mp3",
+		"dateModified": 1650139744933
+	},
+	{
+		"name": "Group object",
+		"url": "group-object.mp3",
+		"dateModified": 1650104760282
+	},
+	{
+		"name": "Algebraic group",
+		"url": "algebraic-group.mp3",
+		"dateModified": 1649795174022
+	},
+	{
+		"name": "Identity component",
+		"url": "Identity-component.mp3",
+		"dateModified": 1649621220139
+	},
+	{
+		"name": "Invertible residues",
+		"url": "invertible-residues.mp3",
+		"dateModified": 1649494615745
+	},
+	{
+		"name": "Gaussian period",
+		"url": "gaussian-period.mp3",
+		"dateModified": 1649440704502
+	},
+	{
+		"name": "Congruent triangles",
+		"url": "congruent-triangles.mp3",
+		"dateModified": 1649272654140
+	},
+	{
+		"name": "Convex quadrilateral",
+		"url": "convex-quadrilateral.mp3",
+		"dateModified": 1649272388157
+	},
+	{
+		"name": "Tangential quadrilaterals",
+		"url": "tangential-quadrilaterals.mp3",
+		"dateModified": 1648985196687
+	},
+	{
+		"name": "Tangential polygon",
+		"url": "tangential-polygon.mp3",
+		"dateModified": 1648939288452
+	},
+	{
+		"name": "Convex polygons",
+		"url": "convex-polygons.mp3",
+		"dateModified": 1648840330843
+	},
+	{
+		"name": "Interior angles",
+		"url": "interior-angles.mp3",
+		"dateModified": 1648758388634
+	},
+	{
+		"name": "Vertex angle",
+		"url": "vertex-angle.mp3",
+		"dateModified": 1648499085514
+	},
+	{
+		"name": "Polar sine",
+		"url": "polar-sine.mp3",
+		"dateModified": 1648412491074
+	},
+	{
+		"name": "Order polynomial",
+		"url": "order-polynomial.mp3",
+		"dateModified": 1648411847637
+	},
+	{
+		"name": "Matching polytope",
+		"url": "matching-polytope.mp3",
+		"dateModified": 1648410469963
+	},
+	{
+		"name": "Dual polyhedron",
+		"url": "dual-polyhedron.mp3",
+		"dateModified": 1648408913157
+	},
+	{
+		"name": "Input validation",
+		"url": "input-validation.mp3",
+		"dateModified": 1648331189727
+	},
+	{
+		"name": "Canonical form",
+		"url": "canonical-form.mp3",
+		"dateModified": 1648156936241
+	},
+	{
+		"name": "Universal morphism",
+		"url": "universal-morphism.mp3",
+		"dateModified": 1648072625449
+	},
+	{
+		"name": "Representable functor",
+		"url": "representable-functor.mp3",
+		"dateModified": 1647981787340
+	},
+	{
+		"name": "Adaptive representation",
+		"url": "adaptive-representation.mp3",
+		"dateModified": 1647899130609
+	},
+	{
+		"name": "Enumerative induction",
+		"url": "enumerative-induction.mp3",
+		"dateModified": 1647811625693
+	},
+	{
+		"name": "Commutative diagrams",
+		"url": "commutative-diagrams.mp3",
+		"dateModified": 1647726921223
+	},
+	{
+		"name": "Knot invariant",
+		"url": "knot-invariant.mp3",
+		"dateModified": 1647632947357
+	},
+	{
+		"name": "Poset category",
+		"url": "poset-category.mp3",
+		"dateModified": 1647460305067
+	},
+	{
+		"name": "Monoid factorisation",
+		"url": "monoid-factorisation.mp3",
+		"dateModified": 1647281636436
+	},
+	{
+		"name": "Functional notation",
+		"url": "functional-notation.mp3",
+		"dateModified": 1647021275232
+	},
+	{
+		"name": "Trigonometric functions",
+		"url": "trigonometric-functions.mp3",
+		"dateModified": 1646763306422
+	},
+	{
+		"name": "Sequentially continuous",
+		"url": "sequentially-continuous.mp3",
+		"dateModified": 1646166458929
+	},
+	{
+		"name": "Sequentially closed",
+		"url": "sequentially-closed.mp3",
+		"dateModified": 1646083313900
+	},
+	{
+		"name": "Invertible mapping",
+		"url": "invertible-mapping.mp3",
+		"dateModified": 1645998933904
+	},
+	{
+		"name": "Combinatorial manifolds",
+		"url": "combinatorial-manifolds.mp3",
+		"dateModified": 1645916152270
+	},
+	{
+		"name": "Cell complex",
+		"url": "cell-complex.mp3",
+		"dateModified": 1645830863427
+	},
+	{
+		"name": "Interior operator",
+		"url": "interior-operator.mp3",
+		"dateModified": 1645734154331
+	},
+	{
+		"name": "Topological interior",
+		"url": "topological-interior.mp3",
+		"dateModified": 1645561885829
+	},
+	{
+		"name": "Balanced sets",
+		"url": "balanced-sets.mp3",
+		"dateModified": 1645477205739
+	},
+	{
+		"name": "Linear functionals",
+		"url": "linear-functionals.mp3",
+		"dateModified": 1645395586536
+	},
+	{
+		"name": "Cotangent manifold",
+		"url": "cotangent-manifold.mp3",
+		"dateModified": 1645210174730
+	},
+	{
+		"name": "Symplectic structure",
+		"url": "symplectic-structure.mp3",
+		"dateModified": 1645129308180
+	},
+	{
+		"name": "Phase spaces",
+		"url": "phase-spaces.mp3",
+		"dateModified": 1645045753167
+	},
+	{
+		"name": "Reference frames",
+		"url": "reference-frames.mp3",
+		"dateModified": 1645041467413
+	},
+	{
+		"name": "Euclidean space",
+		"url": "euclidean-space.mp3",
+		"dateModified": 1644874030021
+	},
+	{
+		"name": "Fundamental domains",
+		"url": "fundamental-domains.mp3",
+		"dateModified": 1644785766455
+	},
+	{
+		"name": "Arithmetic group",
+		"url": "arithmetic-group.mp3",
+		"dateModified": 1644696949742
+	},
+	{
+		"name": "Algebraic torus",
+		"url": "algebraic-torus.mp3",
+		"dateModified": 1644619323450
+	},
+	{
+		"name": "Profinite integer",
+		"url": "profinite-integer.mp3",
+		"dateModified": 1644530332163
+	},
+	{
+		"name": "Monomial representation",
+		"url": "monomial-representation.mp3",
+		"dateModified": 1644441220755
+	},
+	{
+		"name": "Modal algebra",
+		"url": "modal-algebra.mp3",
+		"dateModified": 1644353308929
+	},
+	{
+		"name": "Central polynomial",
+		"url": "central-polynomial.mp3",
+		"dateModified": 1644352661102
+	},
+	{
+		"name": "Linear topology",
+		"url": "linear-topology.mp3",
+		"dateModified": 1644182470813
+	},
+	{
+		"name": "Inclusion order",
+		"url": "inclusion-order.mp3",
+		"dateModified": 1644090074527
+	},
+	{
+		"name": "Intersection graphs",
+		"url": "intersection-graphs.mp3",
+		"dateModified": 1644007801579
+	},
+	{
+		"name": "Threshold graphs",
+		"url": "threshold-graphs.mp3",
+		"dateModified": 1643918203350
+	},
+	{
+		"name": "Complement graph",
+		"url": "complement-graph.mp3",
+		"dateModified": 1643832949671
+	},
+	{
+		"name": "Domatic number",
+		"url": "domatic-number.mp3",
+		"dateModified": 1643754348783
+	},
+	{
+		"name": "Spectral partitioning",
+		"url": "spectral-partitioning.mp3",
+		"dateModified": 1643661373945
+	},
+	{
+		"name": "Graph partition",
+		"url": "graph-partition.mp3",
+		"dateModified": 1643577931837
+	},
+	{
+		"name": "Vertex cover",
+		"url": "vertex-cover.mp3",
+		"dateModified": 1643486684698
+	},
+	{
+		"name": "Integer constraints",
+		"url": "integer-constraints.mp3",
+		"dateModified": 1643365874127
+	},
+	{
+		"name": "Constraint condition",
+		"url": "constraint-condition.mp3",
+		"dateModified": 1643272468766
+	},
+	{
+		"name": "Solid modeling",
+		"url": "solid-modeling.mp3",
+		"dateModified": 1643181598907
+	},
+	{
+		"name": "Light field",
+		"url": "light-field.mp3",
+		"dateModified": 1643143424880
+	},
+	{
+		"name": "Volumetric models",
+		"url": "volumetric-models.mp3",
+		"dateModified": 1642890455681
+	},
+	{
+		"name": "Geometric modeling",
+		"url": "geometric-modeling.mp3",
+		"dateModified": 1642719445546
+	},
+	{
+		"name": "Discrete modelling",
+		"url": "discrete-modelling.mp3",
+		"dateModified": 1642619503153
+	},
+	{
+		"name": "Discrete values",
+		"url": "discrete-values.mp3",
+		"dateModified": 1642545724792
+	},
+	{
+		"name": "Magnetic translation",
+		"url": "magnetic-translation.mp3",
+		"dateModified": 1642331922175
+	},
+	{
+		"name": "Quantum magnetism‎",
+		"url": "quantum-magnetism‎.mp3",
+		"dateModified": 1641924367388
+	},
+	{
+		"name": "Vortex lattice",
+		"url": "vortex-lattice.mp3",
+		"dateModified": 1641923611309
+	},
+	{
+		"name": "Phase separation",
+		"url": "phase-separation.mp3",
+		"dateModified": 1641754599087
+	},
+	{
+		"name": "Quantum models",
+		"url": "quantum-models.mp3",
+		"dateModified": 1641753039218
+	},
+	{
+		"name": "Spherical basis",
+		"url": "spherical-basis.mp3",
+		"dateModified": 1641592335265
+	},
+	{
+		"name": "Spherical harmonics",
+		"url": "spherical-harmonics.mp3",
+		"dateModified": 1641502603172
+	},
+	{
+		"name": "Cubic harmonic",
+		"url": "cubic-harmonic.mp3",
+		"dateModified": 1641325007912
+	},
+	{
+		"name": "Reflection symmetry",
+		"url": "reflection-symmetry.mp3",
+		"dateModified": 1641244804992
+	},
+	{
+		"name": "Absolute number",
+		"url": "absolute-number.mp3",
+		"dateModified": 1641165697345
+	},
+	{
+		"name": "Unitarily inequivalent",
+		"url": "unitarily-inequivalent.mp3",
+		"dateModified": 1641071513632
+	},
+	{
+		"name": "Theta representation",
+		"url": "theta-representation.mp3",
+		"dateModified": 1641071155378
+	},
+	{
+		"name": "Quarter period",
+		"url": "quarter-period.mp3",
+		"dateModified": 1640964403168
+	},
+	{
+		"name": "Unitary group",
+		"url": "unitary-group.mp3",
+		"dateModified": 1640817042021
+	},
+	{
+		"name": "Cohomology class",
+		"url": "cohomology-class.mp3",
+		"dateModified": 1640536728949
+	},
+	{
+		"name": "Quasiperiodic function",
+		"url": "quasiperiodic-function.mp3",
+		"dateModified": 1640536650348
+	},
+	{
+		"name": "Moduli spaces",
+		"url": "moduli-spaces.mp3",
+		"dateModified": 1640216169318
+	},
+	{
+		"name": "Theta function",
+		"url": "theta-function.mp3",
+		"dateModified": 1640098176540
+	},
+	{
+		"name": "Entire function",
+		"url": "entire-function.mp3",
+		"dateModified": 1639921781009
+	},
+	{
+		"name": "Complex differentiable",
+		"url": "complex-differentiable.mp3",
+		"dateModified": 1639920274051
+	},
+	{
+		"name": "Holomorphic functions",
+		"url": "holomorphic-functions.mp3",
+		"dateModified": 1639640088972
+	},
+	{
+		"name": "Congruence subgroups",
+		"url": "congruence-subgroups.mp3",
+		"dateModified": 1639520909295
+	},
+	{
+		"name": "Periodic functions",
+		"url": "periodic-functions.mp3",
+		"dateModified": 1639419018901
+	},
+	{
+		"name": "Automorphic representations",
+		"url": "automorphic-representations.mp3",
+		"dateModified": 1639343390237
+	},
+	{
+		"name": "Canonical quantization",
+		"url": "canonical-quantization.mp3",
+		"dateModified": 1639168580479
+	},
+	{
+		"name": "Balanced prime",
+		"url": "balanced-prime.mp3",
+		"dateModified": 1638994925115
+	},
+	{
+		"name": "Binomial number",
+		"url": "binomial-number.mp3",
+		"dateModified": 1638859200952
+	},
+	{
+		"name": "Arithmetic topology",
+		"url": "arithmetic-topology.mp3",
+		"dateModified": 1638655131014
+	},
+	{
+		"name": "Quantum invariant",
+		"url": "quantum-invariant.mp3",
+		"dateModified": 1638564983204
+	},
+	{
+		"name": "Scale parameter",
+		"url": "scale-parameter.mp3",
+		"dateModified": 1638476355116
+	},
+	{
+		"name": "Thermal distribution",
+		"url": "thermal-distribution.mp3",
+		"dateModified": 1638036275708
+	},
+	{
+		"name": "Effective mass",
+		"url": "effective-mass.mp3",
+		"dateModified": 1638032812726
+	},
+	{
+		"name": "Diffusion capacitance",
+		"url": "diffusion-capacitance.mp3",
+		"dateModified": 1637788132944
+	},
+	{
+		"name": "Dissipation factor",
+		"url": "dissipation-factor.mp3",
+		"dateModified": 1637662172958
+	},
+	{
+		"name": "Dielectric loss",
+		"url": "dielectric-loss.mp3",
+		"dateModified": 1637572543207
+	},
+	{
+		"name": "Squared modulus",
+		"url": "squared-modulus.mp3",
+		"dateModified": 1637514751498
+	},
+	{
+		"name": "Wave functions",
+		"url": "wave-functions.mp3",
+		"dateModified": 1637328359296
+	},
+	{
+		"name": "Quantum well",
+		"url": "quantum-well.mp3",
+		"dateModified": 1637250302083
+	},
+	{
+		"name": "Persistent current",
+		"url": "persistent-current.mp3",
+		"dateModified": 1637185137054
+	},
+	{
+		"name": "Conductance quantum",
+		"url": "conductance-quantum.mp3",
+		"dateModified": 1637100505751
+	},
+	{
+		"name": "Distance modulus",
+		"url": "distance-modulus.mp3",
+		"dateModified": 1637011102737
+	},
+	{
+		"name": "Absolute magnitude",
+		"url": "absolute-magnitude.mp3",
+		"dateModified": 1636837614815
+	},
+	{
+		"name": "Main sequence",
+		"url": "main-sequence.mp3",
+		"dateModified": 1636721254075
+	},
+	{
+		"name": "Equivalent width",
+		"url": "equivalent-width.mp3",
+		"dateModified": 1636662999320
+	},
+	{
+		"name": "Spectral lines",
+		"url": "spectral-lines.mp3",
+		"dateModified": 1636562650922
+	},
+	{
+		"name": "Electron configurations",
+		"url": "electron-configurations.mp3",
+		"dateModified": 1636492806848
+	},
+	{
+		"name": "Atomic orbitals",
+		"url": "atomic-orbitals.mp3",
+		"dateModified": 1636409750049
+	},
+	{
+		"name": "Algebraic multiplicities",
+		"url": "algebraic-multiplicities.mp3",
+		"dateModified": 1636318026197
+	},
+	{
+		"name": "Unitarily similar",
+		"url": "unitarily-similar.mp3",
+		"dateModified": 1636142243595
+	},
+	{
+		"name": "Unitary matrix",
+		"url": "unitary-matrix.mp3",
+		"dateModified": 1636051813648
+	},
+	{
+		"name": "Unitary element",
+		"url": "unitary-element.mp3",
+		"dateModified": 1636049339888
+	},
+	{
+		"name": "Cyclic vector",
+		"url": "cyclic-vector.mp3",
+		"dateModified": 1635977567151
+	},
+	{
+		"name": "Euclidean vector",
+		"url": "euclidean-vector.mp3",
+		"dateModified": 1635887199433
+	},
+	{
+		"name": "Polar molecules",
+		"url": "polar-molecules.mp3",
+		"dateModified": 1635795604228
+	},
+	{
+		"name": "Dielectric constant",
+		"url": "dielectric-constant.mp3",
+		"dateModified": 1635696261770
+	},
+	{
+		"name": "Polar solvents",
+		"url": "polar-solvents.mp3",
+		"dateModified": 1635626053210
+	},
+	{
+		"name": "Electrostatic interactions",
+		"url": "electrostatic-interactions.mp3",
+		"dateModified": 1635452389485
+	},
+	{
+		"name": "Noncovalent interactions",
+		"url": "noncovalent-interactions.mp3",
+		"dateModified": 1635190396234
+	},
+	{
+		"name": "Ion association",
+		"url": "ion-association.mp3",
+		"dateModified": 1635108700341
+	},
+	{
+		"name": "Distribution law",
+		"url": "distribution-law.mp3",
+		"dateModified": 1634923745716
+	},
+	{
+		"name": "Adiabatic accessibility",
+		"url": "adiabatic-accessibility.mp3",
+		"dateModified": 1634749654547
+	},
+	{
+		"name": "Binding constants",
+		"url": "binding-constants.mp3",
+		"dateModified": 1634499293936
+	},
+	{
+		"name": "Comparative morphology",
+		"url": "comparative-morphology.mp3",
+		"dateModified": 1634414732652
+	},
+	{
+		"name": "Morphologic diversity",
+		"url": "morphologic-diversity.mp3",
+		"dateModified": 1634337082442
+	},
+	{
+		"name": "Cell junction",
+		"url": "cell-junction.mp3",
+		"dateModified": 1634215879474
+	},
+	{
+		"name": "Ectopic recombination",
+		"url": "ectopic-recombination.mp3",
+		"dateModified": 1633981264400
+	},
+	{
+		"name": "Dyad symmetry",
+		"url": "dyad-symmetry.mp3",
+		"dateModified": 1633900957735
+	},
+	{
+		"name": "Mitotic crossover",
+		"url": "mitotic-crossover.mp3",
+		"dateModified": 1633636692577
+	},
+	{
+		"name": "Crossover value",
+		"url": "crossover-value.mp3",
+		"dateModified": 1633548208685
+	},
+	{
+		"name": "Reverse transcription",
+		"url": "reverse-transcription.mp3",
+		"dateModified": 1633374439515
+	},
+	{
+		"name": "Transposable elements",
+		"url": "transposable-elements.mp3",
+		"dateModified": 1633274690948
+	},
+	{
+		"name": "Transition mutations",
+		"url": "transition-mutations.mp3",
+		"dateModified": 1633272252358
+	},
+	{
+		"name": "Point mutations",
+		"url": "point-mutations.mp3",
+		"dateModified": 1633270472397
+	},
+	{
+		"name": "Sequence identity",
+		"url": "sequence-identity.mp3",
+		"dateModified": 1633118784869
+	},
+	{
+		"name": "Homology model",
+		"url": "homology-model.mp3",
+		"dateModified": 1632947358871
+	},
+	{
+		"name": "Interatomic potential",
+		"url": "interatomic-potential.mp3",
+		"dateModified": 1632680776351
+	},
+	{
+		"name": "Molecular mechanics",
+		"url": "molecular-mechanics.mp3",
+		"dateModified": 1632343796051
+	},
+	{
+		"name": "Configuration interaction",
+		"url": "configuration-interaction.mp3",
+		"dateModified": 1632336636615
+	},
+	{
+		"name": "Electron orbitals",
+		"url": "electron-orbitals.mp3",
+		"dateModified": 1632254353137
+	},
+	{
+		"name": "Unit fractions",
+		"url": "unit-fractions.mp3",
+		"dateModified": 1632147615162
+	},
+	{
+		"name": "Reciprocal value",
+		"url": "reciprocal-value.mp3",
+		"dateModified": 1632146900223
+	},
+	{
+		"name": "Normalizing constant",
+		"url": "normalizing-constant.mp3",
+		"dateModified": 1631913933679
+	},
+	{
+		"name": "Posterior distribution",
+		"url": "posterior-distribution.mp3",
+		"dateModified": 1631798724410
+	},
+	{
+		"name": "Conjugate priors",
+		"url": "conjugate-priors.mp3",
+		"dateModified": 1631796045638
+	},
+	{
+		"name": "Distribution relation",
+		"url": "distribution-relation.mp3",
+		"dateModified": 1631734493338
+	},
+	{
+		"name": "Elliptic unit",
+		"url": "elliptic-unit.mp3",
+		"dateModified": 1631649622794
+	},
+	{
+		"name": "Cyclotomic unit",
+		"url": "cyclotomic-unit.mp3",
+		"dateModified": 1631476844771
+	},
+	{
+		"name": "Cyclic extensions",
+		"url": "cyclic-extensions.mp3",
+		"dateModified": 1631286880845
+	},
+	{
+		"name": "Biquadratic field",
+		"url": "biquadratic-field.mp3",
+		"dateModified": 1631219019081
+	},
+	{
+		"name": "Quadratic integer",
+		"url": "quadratic-integer.mp3",
+		"dateModified": 1630956166521
+	},
+	{
+		"name": "Unit group",
+		"url": "unit-group.mp3",
+		"dateModified": 1630872320814
+	},
+	{
+		"name": "Cyclotomic fields",
+		"url": "cyclotomic-fields.mp3",
+		"dateModified": 1630784956696
+	},
+	{
+		"name": "Cubic field",
+		"url": "cubic-field.mp3",
+		"dateModified": 1630693736053
+	},
+	{
+		"name": "Homological dimension",
+		"url": "homological-dimension.mp3",
+		"dateModified": 1630611535460
+	},
+	{
+		"name": "Positive definite",
+		"url": "positive-definite.mp3",
+		"dateModified": 1630438184193
+	},
+	{
+		"name": "Metric signature",
+		"url": "metric-signature.mp3",
+		"dateModified": 1630353514885
+	},
+	{
+		"name": "Causal contact",
+		"url": "causal-contact.mp3",
+		"dateModified": 1630166866888
+	},
+	{
+		"name": "Inertia negation",
+		"url": "inertia-negation.mp3",
+		"dateModified": 1630089774252
+	},
+	{
+		"name": "Mass ratio",
+		"url": "mass-ratio.mp3",
+		"dateModified": 1630009277658
+	},
+	{
+		"name": "Orbital motion",
+		"url": "orbital-motion.mp3",
+		"dateModified": 1629827234919
+	},
+	{
+		"name": "Polar form",
+		"url": "polar-form.mp3",
+		"dateModified": 1629750355820
+	},
+	{
+		"name": "Antisymmetric matrices",
+		"url": "antisymmetric-matrices.mp3",
+		"dateModified": 1629661722548
+	},
+	{
+		"name": "Curvature form",
+		"url": "curvature-form.mp3",
+		"dateModified": 1629648660951
+	},
+	{
+		"name": "Connection form",
+		"url": "connection-form.mp3",
+		"dateModified": 1629639447961
+	},
+	{
+		"name": "Vertical bundle",
+		"url": "vertical-bundle.mp3",
+		"dateModified": 1629638998666
+	},
+	{
+		"name": "Bundle metric",
+		"url": "bundle-metric.mp3",
+		"dateModified": 1629403418594
+	},
+	{
+		"name": "Analytic torsion",
+		"url": "analytic-torsion.mp3",
+		"dateModified": 1629290176765
+	},
+	{
+		"name": "Equiareal map",
+		"url": "equiareal-map.mp3",
+		"dateModified": 1629146036944
+	},
+	{
+		"name": "Bidirectional transformation",
+		"url": "bidirectional-transformation.mp3",
+		"dateModified": 1628966090807
+	},
+	{
+		"name": "Bounded pointer",
+		"url": "bounded-pointer.mp3",
+		"dateModified": 1628872068084
+	},
+	{
+		"name": "Augmented map",
+		"url": "augmented-map.mp3",
+		"dateModified": 1628789762349
+	},
+	{
+		"name": "Tagged union",
+		"url": "tagged-union.mp3",
+		"dateModified": 1628713201319
+	},
+	{
+		"name": "Parametrically polymorphic",
+		"url": "parametrically-polymorphic.mp3",
+		"dateModified": 1628625972981
+	},
+	{
+		"name": "Bounded type",
+		"url": "bounded-type.mp3",
+		"dateModified": 1628512076061
+	},
+	{
+		"name": "Meromorphic functions‎",
+		"url": "meromorphic-functions‎.mp3",
+		"dateModified": 1628452874606
+	},
+	{
+		"name": "Exponential type",
+		"url": "exponential-type.mp3",
+		"dateModified": 1628110387084
+	},
+	{
+		"name": "Principal branch",
+		"url": "principal-branch.mp3",
+		"dateModified": 1628024662585
+	},
+	{
+		"name": "Arc tangent",
+		"url": "arc-tangent.mp3",
+		"dateModified": 1627933985850
+	},
+	{
+		"name": "Extended reals",
+		"url": "extended-reals.mp3",
+		"dateModified": 1627763376316
+	},
+	{
+		"name": "Countably compact",
+		"url": "countably-compact.mp3",
+		"dateModified": 1627644500729
+	},
+	{
+		"name": "Sequentially compact",
+		"url": "sequentially-compact.mp3",
+		"dateModified": 1627643893691
+	},
+	{
+		"name": "Topological property",
+		"url": "topological-property.mp3",
+		"dateModified": 1627594883301
+	},
+	{
+		"name": "Dyadic space",
+		"url": "dyadic-space.mp3",
+		"dateModified": 1627543953744
+	},
+	{
+		"name": "Sphere spectrum",
+		"url": "sphere-spectrum.mp3",
+		"dateModified": 1627459589980
+	},
+	{
+		"name": "Ring spectrum",
+		"url": "ring-spectrum.mp3",
+		"dateModified": 1627156862351
+	},
+	{
+		"name": "Equivariant cohomology",
+		"url": "equivariant-cohomology.mp3",
+		"dateModified": 1627073752491
+	},
+	{
+		"name": "Permutation representation",
+		"url": "permutation-representation.mp3",
+		"dateModified": 1626992583146
+	},
+	{
+		"name": "Ascendant subgroup",
+		"url": "ascendant-subgroup.mp3",
+		"dateModified": 1626901899031
+	},
+	{
+		"name": "Torsion group",
+		"url": "torsion-group.mp3",
+		"dateModified": 1626817357801
+	},
+	{
+		"name": "Abelian groups",
+		"url": "abelian-groups.mp3",
+		"dateModified": 1626728872742
+	},
+	{
+		"name": "Finite topology",
+		"url": "finite-topology.mp3",
+		"dateModified": 1626641695553
+	},
+	{
+		"name": "Dense order",
+		"url": "dense-order.mp3",
+		"dateModified": 1626590787181
+	},
+	{
+		"name": "Maximal elements",
+		"url": "maximal-elements.mp3",
+		"dateModified": 1626471445705
+	},
+	{
+		"name": "Bounded poset",
+		"url": "bounded-poset.mp3",
+		"dateModified": 1626422163569
+	},
+	{
+		"name": "Graded poset",
+		"url": "graded-poset.mp3",
+		"dateModified": 1626297988784
+	},
+	{
+		"name": "Abstract polytope",
+		"url": "abstract-polytope.mp3",
+		"dateModified": 1626217949117
+	},
+	{
+		"name": "Topological pair",
+		"url": "topological-pair.mp3",
+		"dateModified": 1626122459651
+	},
+	{
+		"name": "Geometric topology",
+		"url": "geometric-topology.mp3",
+		"dateModified": 1626036969387
+	},
+	{
+		"name": "Prime manifold",
+		"url": "prime-manifold.mp3",
+		"dateModified": 1625911114532
+	},
+	{
+		"name": "Geodesic curvature",
+		"url": "geodesic-curvature.mp3",
+		"dateModified": 1625777973297
+	},
+	{
+		"name": "Closed manifold",
+		"url": "closed-manifold.mp3",
+		"dateModified": 1625692718422
+	},
+	{
+		"name": "Coherent duality",
+		"url": "coherent-duality.mp3",
+		"dateModified": 1625603929692
+	},
+	{
+		"name": "Inverse image",
+		"url": "inverse-image.mp3",
+		"dateModified": 1625470130768
+	},
+	{
+		"name": "Singular cohomology",
+		"url": "singular-cohomology.mp3",
+		"dateModified": 1625431303155
+	},
+	{
+		"name": "Induced maps",
+		"url": "induced-maps.mp3",
+		"dateModified": 1625343017547
+	},
+	{
+		"name": "Integral curves",
+		"url": "integral-curves.mp3",
+		"dateModified": 1625257687988
+	},
+	{
+		"name": "Frame field",
+		"url": "frame-field.mp3",
+		"dateModified": 1625173016433
+	},
+	{
+		"name": "Spatial coordinates",
+		"url": "spatial-coordinates.mp3",
+		"dateModified": 1625084582796
+	},
+	{
+		"name": "Quantum states",
+		"url": "quantum-states.mp3",
+		"dateModified": 1624998106682
+	},
+	{
+		"name": "Spatial inversion",
+		"url": "spatial-inversion.mp3",
+		"dateModified": 1624825321051
+	},
+	{
+		"name": "Toroidal moment",
+		"url": "toroidal-moment.mp3",
+		"dateModified": 1624741817362
+	},
+	{
+		"name": "Vortex ring",
+		"url": "vortex-ring.mp3",
+		"dateModified": 1624616963086
+	},
+	{
+		"name": "Vorticity tensor",
+		"url": "vorticity-tensor.mp3",
+		"dateModified": 1624568031514
+	},
+	{
+		"name": "Isotropic coordinates",
+		"url": "isotropic-coordinates.mp3",
+		"dateModified": 1624476073460
+	},
+	{
+		"name": "Coordinate surfaces",
+		"url": "coordinate-surfaces.mp3",
+		"dateModified": 1624456206799
+	},
+	{
+		"name": "Coordinate frame",
+		"url": "coordinate-frame.mp3",
+		"dateModified": 1624306169920
+	},
+	{
+		"name": "Connection coefficients",
+		"url": "connection-coefficients.mp3",
+		"dateModified": 1624220164859
+	},
+	{
+		"name": "Torsion tensor",
+		"url": "torsion-tensor.mp3",
+		"dateModified": 1624132759428
+	},
+	{
+		"name": "Curvature tensors",
+		"url": "curvature-tensors.mp3",
+		"dateModified": 1623965256485
+	},
+	{
+		"name": "Tensor analysis",
+		"url": "tensor-analysis.mp3",
+		"dateModified": 1623840946078
+	},
+	{
+		"name": "Covariant components",
+		"url": "covariant-components.mp3",
+		"dateModified": 1623837828983
+	},
+	{
+		"name": "Generalized forces",
+		"url": "generalized-forces.mp3",
+		"dateModified": 1623701693296
+	},
+	{
+		"name": "Thermodynamic potential",
+		"url": "thermodynamic-potential.mp3",
+		"dateModified": 1623618505856
+	},
+	{
+		"name": "Internal energy",
+		"url": "internal-energy.mp3",
+		"dateModified": 1623536149834
+	},
+	{
+		"name": "Spherical model",
+		"url": "spherical-model.mp3",
+		"dateModified": 1623443535977
+	},
+	{
+		"name": "Boolean network",
+		"url": "boolean-network.mp3",
+		"dateModified": 1623362915153
+	},
+	{
+		"name": "Sequence mining",
+		"url": "sequence-mining.mp3",
+		"dateModified": 1623274184989
+	},
+	{
+		"name": "Association rules",
+		"url": "association-rules.mp3",
+		"dateModified": 1623186769281
+	},
+	{
+		"name": "Outlier detection",
+		"url": "outlier-detection.mp3",
+		"dateModified": 1623100036832
+	},
+	{
+		"name": "Cyclic polygon",
+		"url": "cyclic-polygon.mp3",
+		"dateModified": 1623011427933
+	},
+	{
+		"name": "Regular polygon",
+		"url": "regular-polygon.mp3",
+		"dateModified": 1622840563635
+	},
+	{
+		"name": "Cluster algebra",
+		"url": "cluster-algebra.mp3",
+		"dateModified": 1622756466693
+	},
+	{
+		"name": "Congruence ideal",
+		"url": "congruence-ideal.mp3",
+		"dateModified": 1622634146958
+	},
+	{
+		"name": "Congruence subgroup",
+		"url": "congruence-subgroup.mp3",
+		"dateModified": 1622485157957
+	},
+	{
+		"name": "Line group",
+		"url": "line-group.mp3",
+		"dateModified": 1622407825700
+	},
+	{
+		"name": "Spherical symmetry",
+		"url": "spherical-symmetry.mp3",
+		"dateModified": 1622322420614
+	},
+	{
+		"name": "Local transformations",
+		"url": "local-transformations.mp3",
+		"dateModified": 1622233435706
+	},
+	{
+		"name": "Gauge invariant",
+		"url": "gauge-invariant.mp3",
+		"dateModified": 1622144705642
+	},
+	{
+		"name": "Momentum operator",
+		"url": "momentum-operator.mp3",
+		"dateModified": 1622052251666
+	},
+	{
+		"name": "Position operators",
+		"url": "position-operators.mp3",
+		"dateModified": 1621975306308
+	},
+	{
+		"name": "Symplectic form",
+		"url": "symplectic-form.mp3",
+		"dateModified": 1621892645112
+	},
+	{
+		"name": "Volume forms",
+		"url": "volume-forms.mp3",
+		"dateModified": 1621686780986
+	},
+	{
+		"name": "Orientable manifold",
+		"url": "orientable-manifold.mp3",
+		"dateModified": 1621627586336
+	},
+	{
+		"name": "Line bundles",
+		"url": "line-bundles.mp3",
+		"dateModified": 1621541882805
+	},
+	{
+		"name": "Projective varieties",
+		"url": "projective-varieties.mp3",
+		"dateModified": 1621458493897
+	},
+	{
+		"name": "Coordinate lines",
+		"url": "coordinate-lines.mp3",
+		"dateModified": 1621369407982
+	},
+	{
+		"name": "Curvilinear coordinates",
+		"url": "curvilinear-coordinates.mp3",
+		"dateModified": 1621290088272
+	},
+	{
+		"name": "Identity line",
+		"url": "identity-line.mp3",
+		"dateModified": 1621197157142
+	},
+	{
+		"name": "Generalized variance",
+		"url": "generalized-variance.mp3",
+		"dateModified": 1621114187330
+	},
+	{
+		"name": "Correlation coefficients",
+		"url": "correlation-coefficients.mp3",
+		"dateModified": 1621022578714
+	},
+	{
+		"name": "Correlation matrix",
+		"url": "correlation-matrix.mp3",
+		"dateModified": 1620942538843
+	},
+	{
+		"name": "Canonical analysis",
+		"url": "canonical-analysis.mp3",
+		"dateModified": 1620830697030
+	},
+	{
+		"name": "Quantile regression",
+		"url": "quantile-regression.mp3",
+		"dateModified": 1620591078634
+	},
+	{
+		"name": "Optimality criterion",
+		"url": "optimality-criterion.mp3",
+		"dateModified": 1620509933910
+	},
+	{
+		"name": "Optimal control",
+		"url": "optimal-control.mp3",
+		"dateModified": 1620155915391
+	},
+	{
+		"name": "Choice function",
+		"url": "choice-function.mp3",
+		"dateModified": 1620075005935
+	},
+	{
+		"name": "Singleton subset",
+		"url": "singleton-subset.mp3",
+		"dateModified": 1619987312041
+	},
+	{
+		"name": "Conjugate closure",
+		"url": "conjugate-closure.mp3",
+		"dateModified": 1619905609889
+	},
+	{
+		"name": "Closure properties",
+		"url": "closure-properties.mp3",
+		"dateModified": 1619639546850
+	},
+	{
+		"name": "Holonomic functions",
+		"url": "holonomic-functions.mp3",
+		"dateModified": 1619554372138
+	},
+	{
+		"name": "Chain complex",
+		"url": "chain-complex.mp3",
+		"dateModified": 1619469658808
+	},
+	{
+		"name": "Homology sphere",
+		"url": "homology-sphere.mp3",
+		"dateModified": 1619380587802
+	},
+	{
+		"name": "Acyclic space",
+		"url": "acyclic-space.mp3",
+		"dateModified": 1619294793807
+	},
+	{
+		"name": "Cohomological descent",
+		"url": "cohomological-descent.mp3",
+		"dateModified": 1619211620779
+	},
+	{
+		"name": "Discrete groups",
+		"url": "discrete-groups.mp3",
+		"dateModified": 1619123601632
+	},
+	{
+		"name": "Homeomorphism group",
+		"url": "homeomorphism-group.mp3",
+		"dateModified": 1618950366797
+	},
+	{
+		"name": "Smooth manifolds",
+		"url": "smooth-manifolds.mp3",
+		"dateModified": 1618822883336
+	},
+	{
+		"name": "Tangent manifold",
+		"url": "tangent-manifold.mp3",
+		"dateModified": 1618690168225
+	},
+	{
+		"name": "Center manifold",
+		"url": "center-manifold.mp3",
+		"dateModified": 1618607073922
+	},
+	{
+		"name": "Iterated filtering",
+		"url": "iterated-filtering.mp3",
+		"dateModified": 1618517403843
+	},
+	{
+		"name": "Median filtering",
+		"url": "median-filtering.mp3",
+		"dateModified": 1618433140072
+	},
+	{
+		"name": "Anisotropic diffusion",
+		"url": "anisotropic-diffusion.mp3",
+		"dateModified": 1618346391716
+	},
+	{
+		"name": "Total variation",
+		"url": "total-variation.mp3",
+		"dateModified": 1618259790180
+	},
+	{
+		"name": "Finite measure",
+		"url": "finite-measure.mp3",
+		"dateModified": 1618171910920
+	},
+	{
+		"name": "Indicator variables",
+		"url": "indicator-variables.mp3",
+		"dateModified": 1618090559550
+	},
+	{
+		"name": "Choice set",
+		"url": "choice-set.mp3",
+		"dateModified": 1617914334032
+	},
+	{
+		"name": "Sequential estimation",
+		"url": "sequential-estimation.mp3",
+		"dateModified": 1617826585306
+	},
+	{
+		"name": "Sequential analysis",
+		"url": "sequential-analysis.mp3",
+		"dateModified": 1617741315329
+	},
+	{
+		"name": "Step function",
+		"url": "step-function.mp3",
+		"dateModified": 1617569659874
+	},
+	{
+		"name": "Quantum calculus",
+		"url": "quantum-calculus.mp3",
+		"dateModified": 1617486968121
+	},
+	{
+		"name": "Quotient rule",
+		"url": "quotient-rule.mp3",
+		"dateModified": 1617398488444
+	},
+	{
+		"name": "Integrating factor",
+		"url": "integrating-factor.mp3",
+		"dateModified": 1617219474237
+	},
+	{
+		"name": "Matrix field",
+		"url": "matrix-field.mp3",
+		"dateModified": 1617133109915
+	},
+	{
+		"name": "Ground field",
+		"url": "ground-field.mp3",
+		"dateModified": 1617050623456
+	},
+	{
+		"name": "Tangent spaces",
+		"url": "tangent-spaces.mp3",
+		"dateModified": 1616962769047
+	},
+	{
+		"name": "Set image",
+		"url": "set-image.mp3",
+		"dateModified": 1616875578637
+	},
+	{
+		"name": "Ordered pairs",
+		"url": "ordered-pairs.mp3",
+		"dateModified": 1616805586123
+	},
+	{
+		"name": "Inverse mapping",
+		"url": "inverse-mapping.mp3",
+		"dateModified": 1616622301893
+	},
+	{
+		"name": "Affine isomorphisms",
+		"url": "affine-isomorphisms.mp3",
+		"dateModified": 1616533316630
+	},
+	{
+		"name": "Affine bundle",
+		"url": "affine-bundle.mp3",
+		"dateModified": 1616449031484
+	},
+	{
+		"name": "Geometric analysis",
+		"url": "geometric-analysis.mp3",
+		"dateModified": 1616188525797
+	},
+	{
+		"name": "Harmonic map",
+		"url": "harmonic-map.mp3",
+		"dateModified": 1616101467548
+	},
+	{
+		"name": "Univalent function",
+		"url": "univalent-function.mp3",
+		"dateModified": 1616019112863
+	},
+	{
+		"name": "Injective map",
+		"url": "injective-map.mp3",
+		"dateModified": 1615927856480
+	},
+	{
+		"name": "Local homeomorphism",
+		"url": "local-homeomorphism.mp3",
+		"dateModified": 1615844116741
+	},
+	{
+		"name": "Poset topology",
+		"url": "poset-topology.mp3",
+		"dateModified": 1615756688052
+	},
+	{
+		"name": "Semimodular lattice",
+		"url": "semimodular-lattice.mp3",
+		"dateModified": 1615662510410
+	},
+	{
+		"name": "Continuous lattice",
+		"url": "continuous-lattice.mp3",
+		"dateModified": 1615584383396
+	},
+	{
+		"name": "Pointwise operations",
+		"url": "pointwise-operations.mp3",
+		"dateModified": 1615498606288
+	},
+	{
+		"name": "Bivariate function",
+		"url": "bivariate-function.mp3",
+		"dateModified": 1615413257947
+	},
+	{
+		"name": "Bivariate polynomial",
+		"url": "bivariate-polynomial.mp3",
+		"dateModified": 1615325152490
+	},
+	{
+		"name": "Isotropic vectors",
+		"url": "isotropic-vectors.mp3",
+		"dateModified": 1615154636719
+	},
+	{
+		"name": "Bilinear operator",
+		"url": "bilinear-operator.mp3",
+		"dateModified": 1615121694652
+	},
+	{
+		"name": "Bilinear form",
+		"url": "bilinear-form.mp3",
+		"dateModified": 1614898483381
+	},
+	{
+		"name": "Orthogonal functions",
+		"url": "orthogonal-functions.mp3",
+		"dateModified": 1614806814693
+	},
+	{
+		"name": "Basis function",
+		"url": "basis-function.mp3",
+		"dateModified": 1614717671734
+	},
+	{
+		"name": "Linear algebra",
+		"url": "linear-algebra.mp3",
+		"dateModified": 1614633403837
+	},
+	{
+		"name": "Quotient module",
+		"url": "quotient-module.mp3",
+		"dateModified": 1614375952643
+	},
+	{
+		"name": "Quotient algebra",
+		"url": "quotient-algebra.mp3",
+		"dateModified": 1614286124661
+	},
+	{
+		"name": "Spin groups",
+		"url": "spin-groups.mp3",
+		"dateModified": 1614202794152
+	},
+	{
+		"name": "Axial vector",
+		"url": "axial-vector.mp3",
+		"dateModified": 1614036073496
+	},
+	{
+		"name": "Parity transformation",
+		"url": "parity-transformation.mp3",
+		"dateModified": 1613849927729
+	},
+	{
+		"name": "Covariance group",
+		"url": "covariance-group.mp3",
+		"dateModified": 1613815679507
+	},
+	{
+		"name": "Spatial scale",
+		"url": "spatial-scale.mp3",
+		"dateModified": 1613593504495
+	},
+	{
+		"name": "Interparticle distance",
+		"url": "interparticle-distance.mp3",
+		"dateModified": 1613511508897
+	},
+	{
+		"name": "Mechanical similarity",
+		"url": "mechanical-similarity.mp3",
+		"dateModified": 1613425696724
+	},
+	{
+		"name": "Aggregate modulus",
+		"url": "aggregate-modulus.mp3",
+		"dateModified": 1613338595151
+	},
+	{
+		"name": "Inverse length",
+		"url": "inverse-length.mp3",
+		"dateModified": 1613139255058
+	},
+	{
+		"name": "Conformal gravity",
+		"url": "conformal-gravity.mp3",
+		"dateModified": 1612992555215
+	},
+	{
+		"name": "Geometric mechanics",
+		"url": "geometric-mechanics.mp3",
+		"dateModified": 1612906489626
+	},
+	{
+		"name": "Momentum map",
+		"url": "momentum-map.mp3",
+		"dateModified": 1612822350977
+	},
+	{
+		"name": "Canonical momentum",
+		"url": "canonical-momentum.mp3",
+		"dateModified": 1612727898281
+	},
+	{
+		"name": "Momentum space",
+		"url": "momentum-space.mp3",
+		"dateModified": 1612706853742
+	},
+	{
+		"name": "Probability current",
+		"url": "probability-current.mp3",
+		"dateModified": 1612559151704
+	},
+	{
+		"name": "Diffusion equation",
+		"url": "diffusion-equation.mp3",
+		"dateModified": 1612450048099
+	},
+	{
+		"name": "Field equation",
+		"url": "field-equation.mp3",
+		"dateModified": 1612449965948
+	},
+	{
+		"name": "Planar curves",
+		"url": "planar-curves.mp3",
+		"dateModified": 1612304338205
+	},
+	{
+		"name": "Parametric representation",
+		"url": "parametric-representation.mp3",
+		"dateModified": 1612214716431
+	},
+	{
+		"name": "Symmedian point",
+		"url": "symmedian-point.mp3",
+		"dateModified": 1612129956372
+	},
+	{
+		"name": "Geometric centroid",
+		"url": "geometric-centroid.mp3",
+		"dateModified": 1612042031923
+	},
+	{
+		"name": "Shell integration",
+		"url": "shell-integration.mp3",
+		"dateModified": 1611957351842
+	},
+	{
+		"name": "Direct integrals",
+		"url": "direct-integrals.mp3",
+		"dateModified": 1611870801936
+	},
+	{
+		"name": "Countably additive",
+		"url": "countably-additive.mp3",
+		"dateModified": 1611785993113
+	},
+	{
+		"name": "Spectral measure",
+		"url": "spectral-measure.mp3",
+		"dateModified": 1611678255163
+	},
+	{
+		"name": "Functional analysis",
+		"url": "functional-analysis.mp3",
+		"dateModified": 1611611024231
+	},
+	{
+		"name": "Linear frame",
+		"url": "linear-frame.mp3",
+		"dateModified": 1611522572446
+	},
+	{
+		"name": "Dianalytic manifold",
+		"url": "dianalytic-manifold.mp3",
+		"dateModified": 1611439781063
+	},
+	{
+		"name": "Hyperelliptic integral",
+		"url": "hyperelliptic-integral.mp3",
+		"dateModified": 1611345985136
+	},
+	{
+		"name": "Abelian integral",
+		"url": "abelian-integral.mp3",
+		"dateModified": 1611238157285
+	},
+	{
+		"name": "Algebraic stack",
+		"url": "algebraic-stack.mp3",
+		"dateModified": 1611175312687
+	},
+	{
+		"name": "Cotangent complex",
+		"url": "cotangent-complex.mp3",
+		"dateModified": 1611008621613
+	},
+	{
+		"name": "Exact functors",
+		"url": "exact-functors.mp3",
+		"dateModified": 1610915337922
+	},
+	{
+		"name": "Abelian categories",
+		"url": "abelian-categories.mp3",
+		"dateModified": 1610839306143
+	},
+	{
+		"name": "Homology groups",
+		"url": "homology-groups.mp3",
+		"dateModified": 1610749712574
+	},
+	{
+		"name": "Spectral invariants",
+		"url": "spectral-invariants.mp3",
+		"dateModified": 1610656552647
+	},
+	{
+		"name": "Energy density",
+		"url": "energy-density.mp3",
+		"dateModified": 1610483536676
+	},
+	{
+		"name": "Topological insulator",
+		"url": "topological-insulator.mp3",
+		"dateModified": 1610400249923
+	},
+	{
+		"name": "Topological phases",
+		"url": "topological-phases.mp3",
+		"dateModified": 1610272712725
+	},
+	{
+		"name": "Arithmetic geometry",
+		"url": "arithmetic-geometry.mp3",
+		"dateModified": 1610231212116
+	},
+	{
+		"name": "Cohomology rings",
+		"url": "cohomology-rings.mp3",
+		"dateModified": 1610150065552
+	},
+	{
+		"name": "Ring axioms",
+		"url": "ring-axioms.mp3",
+		"dateModified": 1610055151543
+	},
+	{
+		"name": "Unital rings",
+		"url": "unital-rings.mp3",
+		"dateModified": 1609952177667
+	},
+	{
+		"name": "Hyperbolic quaternion",
+		"url": "hyperbolic-quaternion.mp3",
+		"dateModified": 1609840648242
+	},
+	{
+		"name": "Hyperboloid model",
+		"url": "hyperboloid-model.mp3",
+		"dateModified": 1609795361939
+	},
+	{
+		"name": "Hyperbolic motions",
+		"url": "hyperbolic-motions.mp3",
+		"dateModified": 1609620249347
+	},
+	{
+		"name": "Elliptic elements",
+		"url": "elliptic-elements.mp3",
+		"dateModified": 1609547494426
+	},
+	{
+		"name": "Analytic representation",
+		"url": "analytic-representation.mp3",
+		"dateModified": 1609532536528
+	},
+	{
+		"name": "Instantaneous phase",
+		"url": "instantaneous-phase.mp3",
+		"dateModified": 1609364638938
+	},
+	{
+		"name": "Angle modulation",
+		"url": "angle-modulation.mp3",
+		"dateModified": 1609266811679
+	},
+	{
+		"name": "Phase quadrature",
+		"url": "phase-quadrature.mp3",
+		"dateModified": 1609190900542
+	},
+	{
+		"name": "Elliptical polarization",
+		"url": "elliptical-polarization.mp3",
+		"dateModified": 1609085469035
+	},
+	{
+		"name": "Circular polarization",
+		"url": "circular-polarization.mp3",
+		"dateModified": 1609022251082
+	},
+	{
+		"name": "Hydrostatic equilibrium",
+		"url": "hydrostatic-equilibrium.mp3",
+		"dateModified": 1608884237610
+	},
+	{
+		"name": "Scale analysis",
+		"url": "scale-analysis.mp3",
+		"dateModified": 1608847654798
+	},
+	{
+		"name": "Superposition principle",
+		"url": "superposition-principle.mp3",
+		"dateModified": 1608826402537
+	},
+	{
+		"name": "Nonlinear medium",
+		"url": "nonlinear-medium.mp3",
+		"dateModified": 1608747113233
+	},
+	{
+		"name": "Magnetic permeability",
+		"url": "magnetic-permeability.mp3",
+		"dateModified": 1608639863303
+	},
+	{
+		"name": "Vacuum permeability",
+		"url": "vacuum-permeability.mp3",
+		"dateModified": 1608591121074
+	},
+	{
+		"name": "Magnetization current",
+		"url": "magnetization-current.mp3",
+		"dateModified": 1608415880370
+	},
+	{
+		"name": "Polarization density",
+		"url": "polarization-density.mp3",
+		"dateModified": 1608330944528
+	},
+	{
+		"name": "Mode coupling",
+		"url": "mode-coupling.mp3",
+		"dateModified": 1608238959935
+	},
+	{
+		"name": "Isotropic solid",
+		"url": "isotropic-solid.mp3",
+		"dateModified": 1608194857844
+	},
+	{
+		"name": "Drift current",
+		"url": "drift-current.mp3",
+		"dateModified": 1608065140147
+	},
+	{
+		"name": "Provable prime",
+		"url": "provable-prime.mp3",
+		"dateModified": 1607892726441
+	},
+	{
+		"name": "Alternating factorials",
+		"url": "alternating-factorials.mp3",
+		"dateModified": 1607729894583
+	},
+	{
+		"name": "Conditionally convergent",
+		"url": "conditionally-convergent.mp3",
+		"dateModified": 1607635683672
+	},
+	{
+		"name": "Alternating sum",
+		"url": "alternating-sum.mp3",
+		"dateModified": 1607547680065
+	},
+	{
+		"name": "Alternating factorial",
+		"url": "alternating-factorial.mp3",
+		"dateModified": 1607420807559
+	},
+	{
+		"name": "Dihedral prime",
+		"url": "dihedral-prime.mp3",
+		"dateModified": 1607380903594
+	},
+	{
+		"name": "Permutable primes",
+		"url": "permutable-primes.mp3",
+		"dateModified": 1607292141362
+	},
+	{
+		"name": "Circular prime",
+		"url": "circular-prime.mp3",
+		"dateModified": 1607212550556
+	},
+	{
+		"name": "Digit sum",
+		"url": "digit-sum.mp3",
+		"dateModified": 1607120334575
+	},
+	{
+		"name": "Automorphic number",
+		"url": "automorphic-number.mp3",
+		"dateModified": 1607029130938
+	},
+	{
+		"name": "Quartic reciprocity",
+		"url": "quartic-reciprocity.mp3",
+		"dateModified": 1606990689276
+	},
+	{
+		"name": "Optic equation",
+		"url": "optic-equation.mp3",
+		"dateModified": 1606857652134
+	},
+	{
+		"name": "Height function",
+		"url": "height-function.mp3",
+		"dateModified": 1606773206527
+	},
+	{
+		"name": "Diophantine geometry",
+		"url": "diophantine-geometry.mp3",
+		"dateModified": 1606687434542
+	},
+	{
+		"name": "Arithmetic dynamics",
+		"url": "arithmetic-dynamics.mp3",
+		"dateModified": 1606483292329
+	},
+	{
+		"name": "Composite number",
+		"url": "composite-number.mp3",
+		"dateModified": 1606470657879
+	},
+	{
+		"name": "Finite sum",
+		"url": "finite-sum.mp3",
+		"dateModified": 1606418085506
+	},
+	{
+		"name": "Algebraic form",
+		"url": "algebraic-form.mp3",
+		"dateModified": 1606335294781
+	},
+	{
+		"name": "Multilinear functions",
+		"url": "multilinear-functions.mp3",
+		"dateModified": 1606247156720
+	},
+	{
+		"name": "Cartesian tensor",
+		"url": "cartesian-tensor.mp3",
+		"dateModified": 1606168229930
+	},
+	{
+		"name": "Extended metric",
+		"url": "extended-metric.mp3",
+		"dateModified": 1606122564262
+	},
+	{
+		"name": "Complete field",
+		"url": "complete-field.mp3",
+		"dateModified": 1605996940890
+	},
+	{
+		"name": "Splitting field",
+		"url": "splitting-field.mp3",
+		"dateModified": 1605905990638
+	},
+	{
+		"name": "Triangular lattice",
+		"url": "triangular-lattice.mp3",
+		"dateModified": 1605824867252
+	},
+	{
+		"name": "Vertex arrangement",
+		"url": "vertex-arrangement.mp3",
+		"dateModified": 1605722990351
+	},
+	{
+		"name": "Distributive polytope",
+		"url": "distributive-polytope.mp3",
+		"dateModified": 1605642534435
+	},
+	{
+		"name": "Inductive limits",
+		"url": "inductive-limits.mp3",
+		"dateModified": 1605559353026
+	},
+	{
+		"name": "Sequentially open",
+		"url": "sequentially-open.mp3",
+		"dateModified": 1605478213908
+	},
+	{
+		"name": "Closed graph",
+		"url": "closed-graph.mp3",
+		"dateModified": 1605392803348
+	},
+	{
+		"name": "Bifurcation locus",
+		"url": "bifurcation-locus.mp3",
+		"dateModified": 1605303419887
+	},
+	{
+		"name": "Bounding point",
+		"url": "bounding-point.mp3",
+		"dateModified": 1605216214246
+	},
+	{
+		"name": "Algebraic interior",
+		"url": "algebraic-interior.mp3",
+		"dateModified": 1605130945971
+	},
+	{
+		"name": "Compact embedding",
+		"url": "compact-embedding.mp3",
+		"dateModified": 1605045294006
+	},
+	{
+		"name": "Local finiteness",
+		"url": "local-finiteness.mp3",
+		"dateModified": 1604951702370
+	},
+	{
+		"name": "Coordinate charts",
+		"url": "coordinate-charts.mp3",
+		"dateModified": 1604870100845
+	},
+	{
+		"name": "Exterior forms",
+		"url": "exterior-forms.mp3",
+		"dateModified": 1604789476352
+	},
+	{
+		"name": "Holonomic basis",
+		"url": "holonomic-basis.mp3",
+		"dateModified": 1604697117308
+	},
+	{
+		"name": "Coframe field",
+		"url": "coframe-field.mp3",
+		"dateModified": 1604611036418
+	},
+	{
+		"name": "Chronometric singularity",
+		"url": "chronometric-singularity.mp3",
+		"dateModified": 1604517811206
+	},
+	{
+		"name": "Gravitational acceleration",
+		"url": "gravitational-acceleration.mp3",
+		"dateModified": 1604443780518
+	},
+	{
+		"name": "Series acceleration",
+		"url": "series-acceleration.mp3",
+		"dateModified": 1604351383375
+	},
+	{
+		"name": "Numerical integrators",
+		"url": "numerical-integrators.mp3",
+		"dateModified": 1604253896726
+	},
+	{
+		"name": "Local linearization",
+		"url": "local-linearization.mp3",
+		"dateModified": 1604170436565
+	},
+	{
+		"name": "Generalized filtering",
+		"url": "generalized-filtering.mp3",
+		"dateModified": 1604089218152
+	},
+	{
+		"name": "Phase margin",
+		"url": "phase-margin.mp3",
+		"dateModified": 1603916708802
+	},
+	{
+		"name": "State variable",
+		"url": "state-variable.mp3",
+		"dateModified": 1603833890351
+	},
+	{
+		"name": "Time variant",
+		"url": "time-variant.mp3",
+		"dateModified": 1603735919228
+	},
+	{
+		"name": "Gain scheduling",
+		"url": "gain-scheduling.mp3",
+		"dateModified": 1603642699365
+	},
+	{
+		"name": "Logarithmic integral",
+		"url": "logarithmic-integral.mp3",
+		"dateModified": 1603571000113
+	},
+	{
+		"name": "Asymptotic scale",
+		"url": "asymptotic-scale.mp3",
+		"dateModified": 1603311892163
+	},
+	{
+		"name": "Augmented matrix",
+		"url": "augmented-matrix.mp3",
+		"dateModified": 1603227085079
+	},
+	{
+		"name": "Row reduction",
+		"url": "row-reduction.mp3",
+		"dateModified": 1603146546726
+	},
+	{
+		"name": "Row space",
+		"url": "row-space.mp3",
+		"dateModified": 1603057241233
+	},
+	{
+		"name": "Null space",
+		"url": "null-space.mp3",
+		"dateModified": 1602973684041
+	},
+	{
+		"name": "Symmetric matrices",
+		"url": "symmetric-matrices.mp3",
+		"dateModified": 1602880786052
+	},
+	{
+		"name": "Symplectic matrices",
+		"url": "symplectic-matrices.mp3",
+		"dateModified": 1602793126269
+	},
+	{
+		"name": "Symplectic group",
+		"url": "symplectic-group.mp3",
+		"dateModified": 1602711098959
+	},
+	{
+		"name": "Directional statistics",
+		"url": "directional-statistics.mp3",
+		"dateModified": 1602622785130
+	},
+	{
+		"name": "Wrapped distribution",
+		"url": "wrapped-distribution.mp3",
+		"dateModified": 1602526769278
+	},
+	{
+		"name": "Circular variance",
+		"url": "circular-variance.mp3",
+		"dateModified": 1602371611217
+	},
+	{
+		"name": "Circular mean",
+		"url": "circular-mean.mp3",
+		"dateModified": 1602277565606
+	},
+	{
+		"name": "Circular distribution",
+		"url": "circular-distribution.mp3",
+		"dateModified": 1602187601035
+	},
+	{
+		"name": "Probability mass",
+		"url": "probability-mass.mp3",
+		"dateModified": 1602106197655
+	},
+	{
+		"name": "Associative classifier",
+		"url": "associative-classifier.mp3",
+		"dateModified": 1602015393993
+	},
+	{
+		"name": "Category utility",
+		"url": "category-utility.mp3",
+		"dateModified": 1601929650614
+	},
+	{
+		"name": "Conceptual clustering",
+		"url": "conceptual-clustering.mp3",
+		"dateModified": 1601843845065
+	},
+	{
+		"name": "Vector quantization",
+		"url": "vector-quantization.mp3",
+		"dateModified": 1601748149509
+	},
+	{
+		"name": "Stochastic grammars",
+		"url": "stochastic-grammars.mp3",
+		"dateModified": 1601668576396
+	},
+	{
+		"name": "Quorum sensing",
+		"url": "quorum-sensing.mp3",
+		"dateModified": 1601570243081
+	},
+	{
+		"name": "Cognitive semiotics",
+		"url": "cognitive-semiotics.mp3",
+		"dateModified": 1601495047725
+	},
+	{
+		"name": "Computational semiotics",
+		"url": "computational-semiotics.mp3",
+		"dateModified": 1601407126274
+	},
+	{
+		"name": "Statistical semantics",
+		"url": "statistical-semantics.mp3",
+		"dateModified": 1601325608846
+	},
+	{
+		"name": "Semantic parsing",
+		"url": "semantic-parsing.mp3",
+		"dateModified": 1601233719171
+	},
+	{
+		"name": "Grammar induction",
+		"url": "grammar-induction.mp3",
+		"dateModified": 1601156466537
+	},
+	{
+		"name": "Laver function",
+		"url": "laver-function.mp3",
+		"dateModified": 1601071662733
+	},
+	{
+		"name": "Deductive closure",
+		"url": "deductive-closure.mp3",
+		"dateModified": 1600979258769
+	},
+	{
+		"name": "Control flow",
+		"url": "control-flow.mp3",
+		"dateModified": 1600891157370
+	},
+	{
+		"name": "Infinite recursion",
+		"url": "infinite-recursion.mp3",
+		"dateModified": 1600800134068
+	},
+	{
+		"name": "Entropy compression",
+		"url": "entropy-compression.mp3",
+		"dateModified": 1600718527383
+	},
+	{
+		"name": "Branching factor",
+		"url": "branching-factor.mp3",
+		"dateModified": 1600626693917
+	},
+	{
+		"name": "Graph reduction",
+		"url": "graph-reduction.mp3",
+		"dateModified": 1600464629436
+	},
+	{
+		"name": "Attributed graphs",
+		"url": "attributed-graphs.mp3",
+		"dateModified": 1600372948209
+	},
+	{
+		"name": "Graph matching",
+		"url": "graph-matching.mp3",
+		"dateModified": 1600291383988
+	},
+	{
+		"name": "Concurrency semantics",
+		"url": "concurrency-semantics.mp3",
+		"dateModified": 1600202931604
+	},
+	{
+		"name": "Instruction cycle",
+		"url": "instruction-cycle.mp3",
+		"dateModified": 1600117413198
+	},
+	{
+		"name": "Memory barriers",
+		"url": "memory-barriers.mp3",
+		"dateModified": 1600024710831
+	},
+	{
+		"name": "Priority inversion",
+		"url": "priority-inversion.mp3",
+		"dateModified": 1599845068642
+	},
+	{
+		"name": "Condition variables",
+		"url": "condition-variables.mp3",
+		"dateModified": 1599684070680
+	},
+	{
+		"name": "Dynamic coupling",
+		"url": "dynamic-coupling.mp3",
+		"dateModified": 1599508037115
+	},
+	{
+		"name": "Synchronization constructs",
+		"url": "synchronization-constructs.mp3",
+		"dateModified": 1599424523258
+	},
+	{
+		"name": "Shape analysis",
+		"url": "shape-analysis.mp3",
+		"dateModified": 1599335069911
+	},
+	{
+		"name": "Cycle detection",
+		"url": "cycle-detection.mp3",
+		"dateModified": 1599160821491
+	},
+	{
+		"name": "Monogenic semigroup",
+		"url": "monogenic-semigroup.mp3",
+		"dateModified": 1599077367406
+	},
+	{
+		"name": "Aperiodic semigroup",
+		"url": "aperiodic-semigroup.mp3",
+		"dateModified": 1598992283470
+	},
+	{
+		"name": "Quaternion group",
+		"url": "quaternion-group.mp3",
+		"dateModified": 1598902941857
+	},
+	{
+		"name": "Group ring",
+		"url": "group-ring.mp3",
+		"dateModified": 1598823630504
+	},
+	{
+		"name": "Unit quaternions",
+		"url": "unit-quaternions.mp3",
+		"dateModified": 1598734198446
+	},
+	{
+		"name": "Aspherical spaces",
+		"url": "aspherical-spaces.mp3",
+		"dateModified": 1598651246320
+	},
+	{
+		"name": "Homotopy group",
+		"url": "homotopy-group.mp3",
+		"dateModified": 1598558021286
+	},
+	{
+		"name": "Convergence group",
+		"url": "convergence-group.mp3",
+		"dateModified": 1598468317578
+	},
+	{
+		"name": "Branched surface",
+		"url": "branched-surface.mp3",
+		"dateModified": 1598386029008
+	},
+	{
+		"name": "Boundary parallel",
+		"url": "boundary-parallel.mp3",
+		"dateModified": 1598295384274
+	},
+	{
+		"name": "Connected summation",
+		"url": "connected-summation.mp3",
+		"dateModified": 1598213368883
+	},
+	{
+		"name": "Symplectic sum",
+		"url": "symplectic-sum.mp3",
+		"dateModified": 1598134266633
+	},
+	{
+		"name": "Symplectic topology",
+		"url": "symplectic-topology.mp3",
+		"dateModified": 1598045035085
+	},
+	{
+		"name": "Quantum cohomology",
+		"url": "quantum-cohomology.mp3",
+		"dateModified": 1597955830665
+	},
+	{
+		"name": "Cohomology ring",
+		"url": "cohomology-ring.mp3",
+		"dateModified": 1597866268463
+	},
+	{
+		"name": "Group cohomology",
+		"url": "group-cohomology.mp3",
+		"dateModified": 1597866139002
+	},
+	{
+		"name": "Homotopy quotient",
+		"url": "homotopy-quotient.mp3",
+		"dateModified": 1597688784545
+	},
+	{
+		"name": "Hyperelliptic surfaces",
+		"url": "hyperelliptic-surfaces.mp3",
+		"dateModified": 1597608788341
+	},
+	{
+		"name": "Algebraic surface",
+		"url": "algebraic-surface.mp3",
+		"dateModified": 1597526838815
+	},
+	{
+		"name": "Cubic form",
+		"url": "cubic-form.mp3",
+		"dateModified": 1597439380221
+	},
+	{
+		"name": "Diagonal form",
+		"url": "diagonal-form.mp3",
+		"dateModified": 1597349757681
+	},
+	{
+		"name": "Curvilinear asymptote",
+		"url": "curvilinear-asymptote.mp3",
+		"dateModified": 1597260860976
+	},
+	{
+		"name": "Asymptopic limit",
+		"url": "asymptopic-limit.mp3",
+		"dateModified": 1597176428289
+	},
+	{
+		"name": "Regular polyhedra",
+		"url": "regular-polyhedra.mp3",
+		"dateModified": 1597093532147
+	},
+	{
+		"name": "Inversion transformation",
+		"url": "inversion-transformation.mp3",
+		"dateModified": 1597092840540
+	},
+	{
+		"name": "Isometric isomorphism",
+		"url": "isometric-isomorphism.mp3",
+		"dateModified": 1596922096708
+	},
+	{
+		"name": "Uniformly isomorphic",
+		"url": "uniformly-isomorphic.mp3",
+		"dateModified": 1596832281454
+	},
+	{
+		"name": "Uniformly homeomorphic",
+		"url": "uniformly-homeomorphic.mp3",
+		"dateModified": 1596746298940
+	},
+	{
+		"name": "Naturally isomorphic",
+		"url": "naturally-isomorphic.mp3",
+		"dateModified": 1596655493719
+	},
+	{
+		"name": "Quotient spaces",
+		"url": "quotient-spaces.mp3",
+		"dateModified": 1596572857889
+	},
+	{
+		"name": "Factor ring",
+		"url": "factor-ring.mp3",
+		"dateModified": 1596487559815
+	},
+	{
+		"name": "Preadditive categories",
+		"url": "preadditive-categories.mp3",
+		"dateModified": 1596401230060
+	},
+	{
+		"name": "Contravariant functors",
+		"url": "contravariant-functors.mp3",
+		"dateModified": 1596313395737
+	},
+	{
+		"name": "Cohomotopy groups",
+		"url": "cohomotopy-groups.mp3",
+		"dateModified": 1596230653708
+	},
+	{
+		"name": "Homotopy equivalence",
+		"url": "homotopy-equivalence.mp3",
+		"dateModified": 1596139005704
+	},
+	{
+		"name": "Open mapping",
+		"url": "open-mapping.mp3",
+		"dateModified": 1596137661820
+	},
+	{
+		"name": "Topological equivalence",
+		"url": "topological-equivalence.mp3",
+		"dateModified": 1595870609292
+	},
+	{
+		"name": "Circle map",
+		"url": "circle-map.mp3",
+		"dateModified": 1595791671514
+	},
+	{
+		"name": "Rotation number",
+		"url": "rotation-number.mp3",
+		"dateModified": 1595712508298
+	},
+	{
+		"name": "Circle group",
+		"url": "circle-group.mp3",
+		"dateModified": 1595624762876
+	},
+	{
+		"name": "Rotation group",
+		"url": "rotation-group.mp3",
+		"dateModified": 1595538567157
+	},
+	{
+		"name": "Augmented dodecahedron",
+		"url": "augmented-dodecahedron.mp3",
+		"dateModified": 1595443781540
+	},
+	{
+		"name": "Apeirogonal prism",
+		"url": "apeirogonal-prism.mp3",
+		"dateModified": 1595362561700
+	},
+	{
+		"name": "Biangular coordinates",
+		"url": "biangular-coordinates.mp3",
+		"dateModified": 1595272499175
+	},
+	{
+		"name": "Bipolar coordinates",
+		"url": "bipolar-coordinates.mp3",
+		"dateModified": 1595188744279
+	},
+	{
+		"name": "Coordinate transformations",
+		"url": "coordinate-transformations.mp3",
+		"dateModified": 1595106264658
+	},
+	{
+		"name": "Smooth manifold",
+		"url": "smooth-manifold.mp3",
+		"dateModified": 1595019381013
+	},
+	{
+		"name": "Plane curves",
+		"url": "plane-curves.mp3",
+		"dateModified": 1594932019867
+	},
+	{
+		"name": "Subdivision surface",
+		"url": "subdivision-surface.mp3",
+		"dateModified": 1594840495379
+	},
+	{
+		"name": "Tricubic interpolation",
+		"url": "tricubic-interpolation.mp3",
+		"dateModified": 1594763483383
+	},
+	{
+		"name": "Bicubic interpolation",
+		"url": "bicubic-interpolation.mp3",
+		"dateModified": 1594672698746
+	},
+	{
+		"name": "Structural similarity",
+		"url": "structural-similarity.mp3",
+		"dateModified": 1594583417017
+	},
+	{
+		"name": "Basis pursuit",
+		"url": "basis-pursuit.mp3",
+		"dateModified": 1594509546570
+	},
+	{
+		"name": "Constraint inference",
+		"url": "constraint-inference.mp3",
+		"dateModified": 1594406986014
+	},
+	{
+		"name": "Biconvex optimization",
+		"url": "biconvex-optimization.mp3",
+		"dateModified": 1594324408130
+	},
+	{
+		"name": "Strong duality",
+		"url": "strong-duality.mp3",
+		"dateModified": 1594245483621
+	},
+	{
+		"name": "Unconditional probability",
+		"url": "unconditional-probability.mp3",
+		"dateModified": 1594150539856
+	},
+	{
+		"name": "Maximal element",
+		"url": "maximal-element.mp3",
+		"dateModified": 1594069446659
+	},
+	{
+		"name": "Geometric lattice",
+		"url": "geometric-lattice.mp3",
+		"dateModified": 1593977849651
+	},
+	{
+		"name": "Peripheral cycle",
+		"url": "peripheral-cycle.mp3",
+		"dateModified": 1593892442824
+	},
+	{
+		"name": "Chordal graphs",
+		"url": "chordal-graphs.mp3",
+		"dateModified": 1593802208409
+	},
+	{
+		"name": "Induced cycle",
+		"url": "induced-cycle.mp3",
+		"dateModified": 1593720467924
+	},
+	{
+		"name": "Finite graph",
+		"url": "finite-graph.mp3",
+		"dateModified": 1593630664251
+	},
+	{
+		"name": "Undirected graphs",
+		"url": "undirected-graphs.mp3",
+		"dateModified": 1593585382081
+	},
+	{
+		"name": "Graph homomorphism",
+		"url": "graph-homomorphism.mp3",
+		"dateModified": 1593504402845
+	},
+	{
+		"name": "Semigroup homomorphism",
+		"url": "semigroup-homomorphism.mp3",
+		"dateModified": 1593378973923
+	},
+	{
+		"name": "Semigroup action",
+		"url": "semigroup-action.mp3",
+		"dateModified": 1593301526100
+	},
+	{
+		"name": "Transformation semigroup",
+		"url": "transformation-semigroup.mp3",
+		"dateModified": 1593213923873
+	},
+	{
+		"name": "Monoid morphism",
+		"url": "monoid-morphism.mp3",
+		"dateModified": 1593119073807
+	},
+	{
+		"name": "Syntactic monoids",
+		"url": "syntactic-monoids.mp3",
+		"dateModified": 1593029247287
+	},
+	{
+		"name": "Operator monoid",
+		"url": "operator-monoid.mp3",
+		"dateModified": 1592945109919
+	},
+	{
+		"name": "Abelian monoid",
+		"url": "abelian-monoid.mp3",
+		"dateModified": 1592855052710
+	},
+	{
+		"name": "Additive category",
+		"url": "additive-category.mp3",
+		"dateModified": 1592770760862
+	},
+	{
+		"name": "Cartesian monoidal",
+		"url": "cartesian-monoidal.mp3",
+		"dateModified": 1592688152045
+	},
+	{
+		"name": "Monoidal adjunction",
+		"url": "monoidal-adjunction.mp3",
+		"dateModified": 1592595062273
+	},
+	{
+		"name": "Monoidal functor",
+		"url": "monoidal-functor.mp3",
+		"dateModified": 1592516901541
+	},
+	{
+		"name": "Autonomous categories",
+		"url": "autonomous-categories.mp3",
+		"dateModified": 1592428563014
+	},
+	{
+		"name": "Categorial grammar",
+		"url": "categorial-grammar.mp3",
+		"dateModified": 1592340209503
+	},
+	{
+		"name": "Geometric distribution",
+		"url": "geometric-distribution.mp3",
+		"dateModified": 1592255955795
+	},
+	{
+		"name": "Gamma distribution",
+		"url": "gamma-distribution.mp3",
+		"dateModified": 1592169926052
+	},
+	{
+		"name": "Beta distribution",
+		"url": "beta-distribution.mp3",
+		"dateModified": 1592078183493
+	},
+	{
+		"name": "Time derivative",
+		"url": "time-derivative.mp3",
+		"dateModified": 1591996858062
+	},
+	{
+		"name": "Fundamental ephemerides",
+		"url": "fundamental-ephemerides.mp3",
+		"dateModified": 1591908349864
+	},
+	{
+		"name": "Ecliptic plane",
+		"url": "ecliptic-plane.mp3",
+		"dateModified": 1591819145736
+	},
+	{
+		"name": "Axial precession",
+		"url": "axial-precession.mp3",
+		"dateModified": 1591732895582
+	},
+	{
+		"name": "Nonholonomic constraint",
+		"url": "nonholonomic-constraint.mp3",
+		"dateModified": 1591645720293
+	},
+	{
+		"name": "Holonomic constraints",
+		"url": "holonomic-constraints.mp3",
+		"dateModified": 1591556326662
+	},
+	{
+		"name": "Analytical mechanics",
+		"url": "analytical-mechanics.mp3",
+		"dateModified": 1591477628561
+	},
+	{
+		"name": "Symplectic manifolds",
+		"url": "symplectic-manifolds.mp3",
+		"dateModified": 1591477353358
+	},
+	{
+		"name": "Symplectic geometry",
+		"url": "symplectic-geometry.mp3",
+		"dateModified": 1591215523440
+	},
+	{
+		"name": "Canonical coordinates",
+		"url": "canonical-coordinates.mp3",
+		"dateModified": 1591124241925
+	},
+	{
+		"name": "Skew coordinates",
+		"url": "skew-coordinates.mp3",
+		"dateModified": 1591045395201
+	},
+	{
+		"name": "Factor combining",
+		"url": "factor-combining.mp3",
+		"dateModified": 1590954669887
+	},
+	{
+		"name": "Iterative methods",
+		"url": "iterative-methods.mp3",
+		"dateModified": 1590875108314
+	},
+	{
+		"name": "Relative difference",
+		"url": "relative-difference.mp3",
+		"dateModified": 1590782372716
+	},
+	{
+		"name": "Absolute difference",
+		"url": "absolute-difference.mp3",
+		"dateModified": 1590698075135
+	},
+	{
+		"name": "Completeness axiom",
+		"url": "completeness-axiom.mp3",
+		"dateModified": 1590612588765
+	},
+	{
+		"name": "Bounded lattice",
+		"url": "bounded-lattice.mp3",
+		"dateModified": 1590526501482
+	},
+	{
+		"name": "Ordinal variables",
+		"url": "ordinal-variables.mp3",
+		"dateModified": 1590436604024
+	},
+	{
+		"name": "Ordinal scale",
+		"url": "ordinal-scale.mp3",
+		"dateModified": 1590349678444
+	},
+	{
+		"name": "Semantic differential",
+		"url": "semantic-differential.mp3",
+		"dateModified": 1590263446545
+	},
+	{
+		"name": "Multidimensional scaling",
+		"url": "multidimensional-scaling.mp3",
+		"dateModified": 1590176719558
+	},
+	{
+		"name": "Costate variables",
+		"url": "costate-variables.mp3",
+		"dateModified": 1590080069208
+	},
+	{
+		"name": "Transversality condition",
+		"url": "transversality-condition.mp3",
+		"dateModified": 1590065848834
+	},
+	{
+		"name": "Conformal boundary",
+		"url": "conformal-boundary.mp3",
+		"dateModified": 1589893918307
+	},
+	{
+		"name": "Algebraic holography",
+		"url": "algebraic-holography.mp3",
+		"dateModified": 1589828376581
+	},
+	{
+		"name": "Composite gravity",
+		"url": "composite-gravity.mp3",
+		"dateModified": 1589746990510
+	},
+	{
+		"name": "Conformal radius",
+		"url": "conformal-radius.mp3",
+		"dateModified": 1589659565397
+	},
+	{
+		"name": "Essential singularity",
+		"url": "essential-singularity.mp3",
+		"dateModified": 1589570173747
+	},
+	{
+		"name": "Jump discontinuity",
+		"url": "jump-discontinuity.mp3",
+		"dateModified": 1589486916388
+	},
+	{
+		"name": "Real differentiability",
+		"url": "real-differentiability.mp3",
+		"dateModified": 1589401741974
+	},
+	{
+		"name": "Holomorphic maps",
+		"url": "holomorphic-maps.mp3",
+		"dateModified": 1589313355074
+	},
+	{
+		"name": "Elliptic transforms",
+		"url": "elliptic-transforms.mp3",
+		"dateModified": 1589204068858
+	},
+	{
+		"name": "Hyperbolic plane",
+		"url": "hyperbolic-plane.mp3",
+		"dateModified": 1589147216586
+	},
+	{
+		"name": "Cross ratio",
+		"url": "cross-ratio.mp3",
+		"dateModified": 1589060806831
+	},
+	{
+		"name": "Circle inversions",
+		"url": "circle-inversions.mp3",
+		"dateModified": 1588970469581
+	},
+	{
+		"name": "Conformal isomorphism",
+		"url": "conformal-isomorphism.mp3",
+		"dateModified": 1588790733615
+	},
+	{
+		"name": "Causal sets",
+		"url": "causal-sets.mp3",
+		"dateModified": 1588713109180
+	},
+	{
+		"name": "Interval order",
+		"url": "interval-order.mp3",
+		"dateModified": 1588618816231
+	},
+	{
+		"name": "Subset inclusion",
+		"url": "subset-inclusion.mp3",
+		"dateModified": 1588539368291
+	},
+	{
+		"name": "Compact elements",
+		"url": "compact-elements.mp3",
+		"dateModified": 1588451472025
+	},
+	{
+		"name": "Congruence lattice",
+		"url": "congruence-lattice.mp3",
+		"dateModified": 1588364661716
+	},
+	{
+		"name": "Finite lattice",
+		"url": "finite-lattice.mp3",
+		"dateModified": 1588275326021
+	},
+	{
+		"name": "Median graph",
+		"url": "median-graph.mp3",
+		"dateModified": 1588100352133
+	},
+	{
+		"name": "Distributive lattice",
+		"url": "distributive-lattice.mp3",
+		"dateModified": 1588015208521
+	},
+	{
+		"name": "Ascending chain",
+		"url": "ascending-chain.mp3",
+		"dateModified": 1587932659849
+	},
+	{
+		"name": "Ring ideal",
+		"url": "ring-ideal.mp3",
+		"dateModified": 1587811103473
+	},
+	{
+		"name": "Boolean ring",
+		"url": "boolean-ring.mp3",
+		"dateModified": 1587671893618
+	},
+	{
+		"name": "Majority function",
+		"url": "majority-function.mp3",
+		"dateModified": 1587586455331
+	},
+	{
+		"name": "Median algebra",
+		"url": "median-algebra.mp3",
+		"dateModified": 1587500891548
+	},
+	{
+		"name": "Unary function",
+		"url": "unary-function.mp3",
+		"dateModified": 1587414065917
+	},
+	{
+		"name": "Euclidean transformations",
+		"url": "euclidean-transformations.mp3",
+		"dateModified": 1587326918252
+	},
+	{
+		"name": "Cartesian coordinates",
+		"url": "cartesian-coordinates.mp3",
+		"dateModified": 1587154459636
+	},
+	{
+		"name": "Asymmetric norm",
+		"url": "asymmetric-norm.mp3",
+		"dateModified": 1587068072836
+	},
+	{
+		"name": "Rotation operator",
+		"url": "rotation-operator.mp3",
+		"dateModified": 1586981545650
+	},
+	{
+		"name": "Directional derivatives",
+		"url": "directional-derivatives.mp3",
+		"dateModified": 1586894289192
+	},
+	{
+		"name": "Coordinate atlas",
+		"url": "coordinate-atlas.mp3",
+		"dateModified": 1586805592640
+	},
+	{
+		"name": "Volume form",
+		"url": "volume-form.mp3",
+		"dateModified": 1586722301125
+	},
+	{
+		"name": "Differential geometers",
+		"url": "differential-geometers.mp3",
+		"dateModified": 1586634811087
+	},
+	{
+		"name": "Affine sphere",
+		"url": "affine-sphere.mp3",
+		"dateModified": 1586548132491
+	},
+	{
+		"name": "Orthonormal frame",
+		"url": "orthonormal-frame.mp3",
+		"dateModified": 1586462851599
+	},
+	{
+		"name": "Orthonormal bases",
+		"url": "orthonormal-bases.mp3",
+		"dateModified": 1586376280898
+	},
+	{
+		"name": "Orthogonal transformation",
+		"url": "orthogonal-transformation.mp3",
+		"dateModified": 1586291339101
+	},
+	{
+		"name": "State vectors",
+		"url": "state-vectors.mp3",
+		"dateModified": 1586200991376
+	},
+	{
+		"name": "Photon polarization",
+		"url": "photon-polarization.mp3",
+		"dateModified": 1586116946642
+	},
+	{
+		"name": "Configuration spaces",
+		"url": "configuration-spaces.mp3",
+		"dateModified": 1586030522933
+	},
+	{
+		"name": "Exterior algebra",
+		"url": "exterior-algebra.mp3",
+		"dateModified": 1585951436429
+	},
+	{
+		"name": "Symmetric algebras",
+		"url": "symmetric-algebras.mp3",
+		"dateModified": 1585858959199
+	},
+	{
+		"name": "Associative algebras",
+		"url": "associative-algebras.mp3",
+		"dateModified": 1585770726343
+	},
+	{
+		"name": "Division algebra",
+		"url": "division-algebra.mp3",
+		"dateModified": 1585688470446
+	},
+	{
+		"name": "Generating set",
+		"url": "generating-set.mp3",
+		"dateModified": 1585594843396
+	},
+	{
+		"name": "Symmetric sequences",
+		"url": "symmetric-sequences.mp3",
+		"dateModified": 1585514773273
+	},
+	{
+		"name": "Combinatorial species",
+		"url": "combinatorial-species.mp3",
+		"dateModified": 1585429789310
+	},
+	{
+		"name": "Finite rings",
+		"url": "finite-rings.mp3",
+		"dateModified": 1585259218502
+	},
+	{
+		"name": "Integer literals",
+		"url": "integer-literals.mp3",
+		"dateModified": 1585170160813
+	},
+	{
+		"name": "Free variable",
+		"url": "free-variable.mp3",
+		"dateModified": 1585090151034
+	},
+	{
+		"name": "Equivalent expression",
+		"url": "equivalent-expression.mp3",
+		"dateModified": 1584993416051
+	},
+	{
+		"name": "Material nonimplication",
+		"url": "material-nonimplication.mp3",
+		"dateModified": 1584908743784
+	},
+	{
+		"name": "Group operation",
+		"url": "group-operation.mp3",
+		"dateModified": 1584826409249
+	},
+	{
+		"name": "Identity permutation",
+		"url": "identity-permutation.mp3",
+		"dateModified": 1584743450852
+	},
+	{
+		"name": "Rotation quaternions",
+		"url": "rotation-quaternions.mp3",
+		"dateModified": 1584650407956
+	},
+	{
+		"name": "Oriented angles",
+		"url": "oriented-angles.mp3",
+		"dateModified": 1584565313129
+	},
+	{
+		"name": "Geometric transformations",
+		"url": "geometric-transformations.mp3",
+		"dateModified": 1584482181228
+	},
+	{
+		"name": "Parametric equation",
+		"url": "parametric-equation.mp3",
+		"dateModified": 1584389979090
+	},
+	{
+		"name": "Plane curve",
+		"url": "plane-curve.mp3",
+		"dateModified": 1584309369465
+	},
+	{
+		"name": "Implicit function",
+		"url": "implicit-function.mp3",
+		"dateModified": 1584219795488
+	},
+	{
+		"name": "Prime polynomials",
+		"url": "prime-polynomials.mp3",
+		"dateModified": 1584130348809
+	},
+	{
+		"name": "Algebraic independence",
+		"url": "algebraic-independence.mp3",
+		"dateModified": 1584048436316
+	},
+	{
+		"name": "Algebraic over",
+		"url": "algebraic-over.mp3",
+		"dateModified": 1583958233955
+	},
+	{
+		"name": "Separable closure",
+		"url": "separable-closure.mp3",
+		"dateModified": 1583878280933
+	},
+	{
+		"name": "Primary extension",
+		"url": "primary-extension.mp3",
+		"dateModified": 1583791303760
+	},
+	{
+		"name": "Composite field",
+		"url": "composite-field.mp3",
+		"dateModified": 1583698409239
+	},
+	{
+		"name": "Bound states",
+		"url": "bound-states.mp3",
+		"dateModified": 1583627467069
+	},
+	{
+		"name": "Square potential",
+		"url": "square-potential.mp3",
+		"dateModified": 1583533347678
+	},
+	{
+		"name": "Transmission coefficient",
+		"url": "transmission-coefficient.mp3",
+		"dateModified": 1583436603810
+	},
+	{
+		"name": "Reflection coefficient",
+		"url": "reflection-coefficient.mp3",
+		"dateModified": 1583346536591
+	},
+	{
+		"name": "Substrate coupling",
+		"url": "substrate-coupling.mp3",
+		"dateModified": 1583268811385
+	},
+	{
+		"name": "Equivalent input",
+		"url": "equivalent-input.mp3",
+		"dateModified": 1583184388076
+	},
+	{
+		"name": "Phase response",
+		"url": "phase-response.mp3",
+		"dateModified": 1583098316640
+	},
+	{
+		"name": "Minimum phase",
+		"url": "minimum-phase.mp3",
+		"dateModified": 1583007816169
+	},
+	{
+		"name": "State space",
+		"url": "state-space.mp3",
+		"dateModified": 1582921280360
+	},
+	{
+		"name": "Configuration space",
+		"url": "configuration-space.mp3",
+		"dateModified": 1582836224752
+	},
+	{
+		"name": "Integral polytope",
+		"url": "integral-polytope.mp3",
+		"dateModified": 1582747411783
+	},
+	{
+		"name": "Subanalytic set",
+		"url": "subanalytic-set.mp3",
+		"dateModified": 1582664959121
+	},
+	{
+		"name": "Positive polynomial",
+		"url": "positive-polynomial.mp3",
+		"dateModified": 1582579979269
+	},
+	{
+		"name": "Multivariate functions",
+		"url": "multivariate-functions.mp3",
+		"dateModified": 1582490134358
+	},
+	{
+		"name": "Function composition",
+		"url": "function-composition.mp3",
+		"dateModified": 1582419687624
+	},
+	{
+		"name": "Conditional independence",
+		"url": "conditional-independence.mp3",
+		"dateModified": 1582323550949
+	},
+	{
+		"name": "Local independence",
+		"url": "local-independence.mp3",
+		"dateModified": 1582233623110
+	},
+	{
+		"name": "Conditionally dependent",
+		"url": "conditionally-dependent.mp3",
+		"dateModified": 1582144707222
+	},
+	{
+		"name": "Additive map",
+		"url": "additive-map.mp3",
+		"dateModified": 1582059315669
+	},
+	{
+		"name": "Invertible morphism",
+		"url": "invertible-morphism.mp3",
+		"dateModified": 1581972971815
+	},
+	{
+		"name": "Group isomorphism",
+		"url": "group-isomorphism.mp3",
+		"dateModified": 1581889157102
+	},
+	{
+		"name": "Square trisection",
+		"url": "square-trisection.mp3",
+		"dateModified": 1581806887494
+	},
+	{
+		"name": "Concentric arcs",
+		"url": "concentric-arcs.mp3",
+		"dateModified": 1581715917958
+	},
+	{
+		"name": "Cardinal directions",
+		"url": "cardinal-directions.mp3",
+		"dateModified": 1581626630063
+	},
+	{
+		"name": "Cyclic order",
+		"url": "cyclic-order.mp3",
+		"dateModified": 1581538453542
+	},
+	{
+		"name": "Linearly ordered",
+		"url": "linearly-ordered.mp3",
+		"dateModified": 1581453679987
+	},
+	{
+		"name": "Amorphous set",
+		"url": "amorphous-set.mp3",
+		"dateModified": 1581371039612
+	},
+	{
+		"name": "Cardinal assignment",
+		"url": "cardinal-assignment.mp3",
+		"dateModified": 1581282844046
+	},
+	{
+		"name": "Initial ordinal",
+		"url": "initial-ordinal.mp3",
+		"dateModified": 1581192939835
+	},
+	{
+		"name": "Limit cardinals",
+		"url": "limit-cardinals.mp3",
+		"dateModified": 1581112670050
+	},
+	{
+		"name": "Constructible universe",
+		"url": "constructible-universe.mp3",
+		"dateModified": 1581014064717
+	},
+	{
+		"name": "Inner model",
+		"url": "inner-model.mp3",
+		"dateModified": 1580935268021
+	},
+	{
+		"name": "Elementary equivalence",
+		"url": "elementary-equivalence.mp3",
+		"dateModified": 1580848450114
+	},
+	{
+		"name": "Homomorphic equivalence",
+		"url": "homomorphic-equivalence.mp3",
+		"dateModified": 1580762343794
+	},
+	{
+		"name": "Bidirected graph",
+		"url": "bidirected-graph.mp3",
+		"dateModified": 1580667066831
+	},
+	{
+		"name": "Contact graph",
+		"url": "contact-graph.mp3",
+		"dateModified": 1580596008803
+	},
+	{
+		"name": "Parallel redrawing",
+		"url": "parallel-redrawing.mp3",
+		"dateModified": 1580508517269
+	},
+	{
+		"name": "Discrete geometry",
+		"url": "discrete-geometry.mp3",
+		"dateModified": 1580430826869
+	},
+	{
+		"name": "Convex polytopes",
+		"url": "convex-polytopes.mp3",
+		"dateModified": 1580328416549
+	},
+	{
+		"name": "Vertex figure",
+		"url": "vertex-figure.mp3",
+		"dateModified": 1580246646433
+	},
+	{
+		"name": "Convex polyhedron",
+		"url": "convex-polyhedron.mp3",
+		"dateModified": 1580158172871
+	},
+	{
+		"name": "Bounding sphere",
+		"url": "bounding-sphere.mp3",
+		"dateModified": 1579999334666
+	},
+	{
+		"name": "Geometric primitives",
+		"url": "geometric-primitives.mp3",
+		"dateModified": 1579903361016
+	},
+	{
+		"name": "Geodesic polyhedra",
+		"url": "geodesic-polyhedra.mp3",
+		"dateModified": 1579813617359
+	},
+	{
+		"name": "Polyhedral symmetry",
+		"url": "polyhedral-symmetry.mp3",
+		"dateModified": 1579727525602
+	},
+	{
+		"name": "Central inversion",
+		"url": "central-inversion.mp3",
+		"dateModified": 1579639995350
+	},
+	{
+		"name": "Polyhedral group",
+		"url": "polyhedral-group.mp3",
+		"dateModified": 1579555639579
+	},
+	{
+		"name": "Point group",
+		"url": "point-group.mp3",
+		"dateModified": 1579470005566
+	},
+	{
+		"name": "Inversion symmetry",
+		"url": "inversion-symmetry.mp3",
+		"dateModified": 1579383712419
+	},
+	{
+		"name": "Cyclic symmetries",
+		"url": "cyclic-symmetries.mp3",
+		"dateModified": 1579300968598
+	},
+	{
+		"name": "Perfect lattice",
+		"url": "perfect-lattice.mp3",
+		"dateModified": 1579212044453
+	},
+	{
+		"name": "Zero vector",
+		"url": "zero-vector.mp3",
+		"dateModified": 1579122058363
+	},
+	{
+		"name": "Locally convex",
+		"url": "locally-convex.mp3",
+		"dateModified": 1579034083539
+	},
+	{
+		"name": "Symmetric set",
+		"url": "symmetric-set.mp3",
+		"dateModified": 1578944632943
+	},
+	{
+		"name": "Pairing function",
+		"url": "pairing-function.mp3",
+		"dateModified": 1578861720927
+	},
+	{
+		"name": "Hyperarithmetical reducibility",
+		"url": "hyperarithmetical-reducibility.mp3",
+		"dateModified": 1578777301741
+	},
+	{
+		"name": "Cartesian monoid",
+		"url": "cartesian-monoid.mp3",
+		"dateModified": 1578691752147
+	},
+	{
+		"name": "Set universe",
+		"url": "set-universe.mp3",
+		"dateModified": 1578594087302
+	},
+	{
+		"name": "Accessible category",
+		"url": "accessible-category.mp3",
+		"dateModified": 1578511897850
+	},
+	{
+		"name": "Closed category",
+		"url": "closed-category.mp3",
+		"dateModified": 1578432135915
+	},
+	{
+		"name": "Applicative expression",
+		"url": "applicative-expression.mp3",
+		"dateModified": 1578344049671
+	},
+	{
+		"name": "Static semantics",
+		"url": "static-semantics.mp3",
+		"dateModified": 1578257226204
+	},
+	{
+		"name": "Circular dependency",
+		"url": "circular-dependency.mp3",
+		"dateModified": 1578181418391
+	},
+	{
+		"name": "Mutually recursive",
+		"url": "mutually-recursive.mp3",
+		"dateModified": 1578078697442
+	},
+	{
+		"name": "Tail recursion",
+		"url": "tail-recursion.mp3",
+		"dateModified": 1577999281431
+	},
+	{
+		"name": "Proper subset",
+		"url": "proper-subset.mp3",
+		"dateModified": 1577924029344
+	},
+	{
+		"name": "Transfinite sequence",
+		"url": "transfinite-sequence.mp3",
+		"dateModified": 1577842413018
+	},
+	{
+		"name": "Cofinite topology",
+		"url": "cofinite-topology.mp3",
+		"dateModified": 1577744512579
+	},
+	{
+		"name": "Divisor topology",
+		"url": "divisor-topology.mp3",
+		"dateModified": 1577655323490
+	},
+	{
+		"name": "Projective bundle",
+		"url": "Projective bundle.mp3",
+		"dateModified": 1577576310078
+	},
+	{
+		"name": "Factorization homology",
+		"url": "factorization-homology.mp3",
+		"dateModified": 1577487393350
+	},
+	{
+		"name": "Topological semigroup",
+		"url": "topological-semigroup.mp3",
+		"dateModified": 1577397583690
+	},
+	{
+		"name": "Positive reals",
+		"url": "positive-reals.mp3",
+		"dateModified": 1577311901370
+	},
+	{
+		"name": "Sigma additivity",
+		"url": "sigma-additivity.mp3",
+		"dateModified": 1577233077602
+	},
+	{
+		"name": "Absolutely continuous",
+		"url": "absolutely-continuous.mp3",
+		"dateModified": 1577141725162
+	},
+	{
+		"name": "Ground state",
+		"url": "ground-state.mp3",
+		"dateModified": 1577053466571
+	},
+	{
+		"name": "Bound state",
+		"url": "bound-state.mp3",
+		"dateModified": 1576963188217
+	},
+	{
+		"name": "Combinatorial hierarchy",
+		"url": "combinatorial-hierarchy.mp3",
+		"dateModified": 1576877727665
+	},
+	{
+		"name": "Functional integration",
+		"url": "functional-integration.mp3",
+		"dateModified": 1576787462240
+	},
+	{
+		"name": "Homological integration",
+		"url": "homological-integration.mp3",
+		"dateModified": 1576702114087
+	},
+	{
+		"name": "Finite interval",
+		"url": "finite-interval.mp3",
+		"dateModified": 1576614928419
+	},
+	{
+		"name": "Bounded real",
+		"url": "bounded-real.mp3",
+		"dateModified": 1576526619718
+	},
+	{
+		"name": "Uniformly convergent",
+		"url": "uniformly-convergent.mp3",
+		"dateModified": 1576444244684
+	},
+	{
+		"name": "Compact subsets",
+		"url": "compact-subsets.mp3",
+		"dateModified": 1576362987796
+	},
+	{
+		"name": "Principal part",
+		"url": "principal-part.mp3",
+		"dateModified": 1576273748792
+	},
+	{
+		"name": "Principal value",
+		"url": "principal-value.mp3",
+		"dateModified": 1576181752813
+	},
+	{
+		"name": "Circular convolution",
+		"url": "circular-convolution.mp3",
+		"dateModified": 1576096968289
+	},
+	{
+		"name": "Operator ideal",
+		"url": "operator-ideal.mp3",
+		"dateModified": 1576005776909
+	},
+	{
+		"name": "Compact operator",
+		"url": "compact-operator.mp3",
+		"dateModified": 1575901426710
+	},
+	{
+		"name": "Complex conjugate",
+		"url": "complex-conjugate.mp3",
+		"dateModified": 1575717238545
+	},
+	{
+		"name": "Analytic signal",
+		"url": "analytic-signal.mp3",
+		"dateModified": 1575707798371
+	},
+	{
+		"name": "Square integrable",
+		"url": "square-integrable.mp3",
+		"dateModified": 1575581685914
+	},
+	{
+		"name": "Wavelet series",
+		"url": "wavelet-series.mp3",
+		"dateModified": 1575494290792
+	},
+	{
+		"name": "Wavelet analysis",
+		"url": "wavelet-analysis.mp3",
+		"dateModified": 1575373346765
+	},
+	{
+		"name": "Nominal scale",
+		"url": "nominal-scale.mp3",
+		"dateModified": 1575323442833
+	},
+	{
+		"name": "Composite measure",
+		"url": "composite-measure.mp3",
+		"dateModified": 1575231527345
+	},
+	{
+		"name": "Univariate distributions",
+		"url": "univariate-distributions.mp3",
+		"dateModified": 1575160070504
+	},
+	{
+		"name": "Characteristic function",
+		"url": "characteristic-function.mp3",
+		"dateModified": 1575065861672
+	},
+	{
+		"name": "Contour integration",
+		"url": "contour-integration.mp3",
+		"dateModified": 1574981166882
+	},
+	{
+		"name": "Numerical quadrature",
+		"url": "numerical-quadrature.mp3",
+		"dateModified": 1574891664011
+	},
+	{
+		"name": "Polynomial functor",
+		"url": "polynomial-functor.mp3",
+		"dateModified": 1574800411744
+	},
+	{
+		"name": "Contravariant functor",
+		"url": "contravariant-functor.mp3",
+		"dateModified": 1574716956586
+	},
+	{
+		"name": "Induced homomorphism",
+		"url": "induced-homomorphism.mp3",
+		"dateModified": 1574621356516
+	},
+	{
+		"name": "Acyclic group",
+		"url": "acyclic-group.mp3",
+		"dateModified": 1574550246572
+	},
+	{
+		"name": "Polycyclic subgroup",
+		"url": "polycyclic-subgroup.mp3",
+		"dateModified": 1574462170579
+	},
+	{
+		"name": "Affine manifold",
+		"url": "affine-manifold.mp3",
+		"dateModified": 1574367238361
+	},
+	{
+		"name": "Oblique reflection",
+		"url": "oblique-reflection.mp3",
+		"dateModified": 1574268207767
+	},
+	{
+		"name": "Identity transform",
+		"url": "identity-transform.mp3",
+		"dateModified": 1574170361736
+	},
+	{
+		"name": "Euclidean symmetries",
+		"url": "euclidean-symmetries.mp3",
+		"dateModified": 1574113937496
+	},
+	{
+		"name": "Gauge symmetry",
+		"url": "gauge-symmetry.mp3",
+		"dateModified": 1574024493451
+	},
+	{
+		"name": "Exponential sum",
+		"url": "exponential-sum.mp3",
+		"dateModified": 1573937938220
+	},
+	{
+		"name": "Equidistributed sequence",
+		"url": "equidistributed-sequence.mp3",
+		"dateModified": 1573858484040
+	},
+	{
+		"name": "Upper density",
+		"url": "upper-density.mp3",
+		"dateModified": 1573782125549
+	},
+	{
+		"name": "Epimoric ratio",
+		"url": "epimoric-ratio.mp3",
+		"dateModified": 1573678376668
+	},
+	{
+		"name": "Dyadic rationals",
+		"url": "dyadic-rationals.mp3",
+		"dateModified": 1573593129176
+	},
+	{
+		"name": "Continuous geometry",
+		"url": "continuous-geometry.mp3",
+		"dateModified": 1573507013728
+	},
+	{
+		"name": "Projective ranges",
+		"url": "projective-ranges.mp3",
+		"dateModified": 1573419931708
+	},
+	{
+		"name": "Hyperbolic angle",
+		"url": "hyperbolic-angle.mp3",
+		"dateModified": 1573325868141
+	},
+	{
+		"name": "Numerical differentiation",
+		"url": "numerical-differentiation.mp3",
+		"dateModified": 1573253457340
+	},
+	{
+		"name": "Difference operator",
+		"url": "difference-operator.mp3",
+		"dateModified": 1573158299728
+	},
+	{
+		"name": "Incidence algebra",
+		"url": "incidence-algebra.mp3",
+		"dateModified": 1573073660625
+	},
+	{
+		"name": "Translation functor",
+		"url": "translation-functor.mp3",
+		"dateModified": 1572987973196
+	},
+	{
+		"name": "Equivariant map",
+		"url": "equivariant-map.mp3",
+		"dateModified": 1572901672649
+	},
+	{
+		"name": "Invariant subspaces",
+		"url": "invariant-subspaces.mp3",
+		"dateModified": 1572814665229
+	},
+	{
+		"name": "Linearly dependent",
+		"url": "linearly-dependent.mp3",
+		"dateModified": 1572730560660
+	},
+	{
+		"name": "Vector components",
+		"url": "vector-components.mp3",
+		"dateModified": 1572646910654
+	},
+	{
+		"name": "Free vectors",
+		"url": "free-vectors.mp3",
+		"dateModified": 1572542235386
+	},
+	{
+		"name": "Unary operations",
+		"url": "unary-operations.mp3",
+		"dateModified": 1572471934127
+	},
+	{
+		"name": "Clearing denominators",
+		"url": "clearing-denominators.mp3",
+		"dateModified": 1572384939342
+	},
+	{
+		"name": "Algebraic fraction",
+		"url": "algebraic-fraction.mp3",
+		"dateModified": 1572294723049
+	},
+	{
+		"name": "Polynomial expression",
+		"url": "polynomial-expression.mp3",
+		"dateModified": 1572205289922
+	},
+	{
+		"name": "Constant time",
+		"url": "constant-time.mp3",
+		"dateModified": 1572124075049
+	},
+	{
+		"name": "Cofactor expansion",
+		"url": "cofactor-expansion.mp3",
+		"dateModified": 1572035582479
+	},
+	{
+		"name": "Curve orientation",
+		"url": "curve-orientation.mp3",
+		"dateModified": 1571947388518
+	},
+	{
+		"name": "Isothetic polygon",
+		"url": "isothetic-polygon.mp3",
+		"dateModified": 1571860508362
+	},
+	{
+		"name": "Bicentric polygon",
+		"url": "bicentric-polygon.mp3",
+		"dateModified": 1571773884606
+	},
+	{
+		"name": "Isoperimetric point",
+		"url": "isoperimetric-point.mp3",
+		"dateModified": 1571688570856
+	},
+	{
+		"name": "Isodynamic points",
+		"url": "isodynamic-points.mp3",
+		"dateModified": 1571602494564
+	},
+	{
+		"name": "Isogonal conjugate",
+		"url": "isogonal-conjugate.mp3",
+		"dateModified": 1571523572961
+	},
+	{
+		"name": "Ideal vertices",
+		"url": "ideal-vertices.mp3",
+		"dateModified": 1571434019098
+	},
+	{
+		"name": "Hyperbolic manifold",
+		"url": "hyperbolic-manifold.mp3",
+		"dateModified": 1571338814078
+	},
+	{
+		"name": "Infinite radius",
+		"url": "infinite-radius.mp3",
+		"dateModified": 1571255647451
+	},
+	{
+		"name": "Circle inversion",
+		"url": "circle-inversion.mp3",
+		"dateModified": 1571162309773
+	},
+	{
+		"name": "Involution operation",
+		"url": "involution-operation.mp3",
+		"dateModified": 1571081937878
+	},
+	{
+		"name": "Additive inverses",
+		"url": "additive-inverses.mp3",
+		"dateModified": 1570998192864
+	},
+	{
+		"name": "Direct functions",
+		"url": "direct-functions.mp3",
+		"dateModified": 1570914048000
+	},
+	{
+		"name": "Sequence points",
+		"url": "sequence-points.mp3",
+		"dateModified": 1570819594511
+	},
+	{
+		"name": "Value semantics",
+		"url": "value-semantics.mp3",
+		"dateModified": 1570731845254
+	},
+	{
+		"name": "Structured concurrency",
+		"url": "structured-concurrency.mp3",
+		"dateModified": 1570645739696
+	},
+	{
+		"name": "Concurrent processes",
+		"url": "concurrent-processes.mp3",
+		"dateModified": 1570565555091
+	},
+	{
+		"name": "Constraint propagation",
+		"url": "constraint-propagation.mp3",
+		"dateModified": 1570476403419
+	},
+	{
+		"name": "Principal type",
+		"url": "principal-type.mp3",
+		"dateModified": 1570394099676
+	},
+	{
+		"name": "Unit type",
+		"url": "unit-type.mp3",
+		"dateModified": 1570307101279
+	},
+	{
+		"name": "Assignment operations",
+		"url": "assignment-operations.mp3",
+		"dateModified": 1570226979295
+	},
+	{
+		"name": "Formal parameter",
+		"url": "formal-parameter.mp3",
+		"dateModified": 1570134245380
+	},
+	{
+		"name": "Combinatory logic",
+		"url": "combinatory-logic.mp3",
+		"dateModified": 1570055083183
+	},
+	{
+		"name": "Effectively separable",
+		"url": "effectively-separable.mp3",
+		"dateModified": 1569961015310
+	},
+	{
+		"name": "Axiom independence",
+		"url": "axiom-independence.mp3",
+		"dateModified": 1569875454131
+	},
+	{
+		"name": "Object language",
+		"url": "object-language.mp3",
+		"dateModified": 1569789773957
+	},
+	{
+		"name": "Material equivalence",
+		"url": "material-equivalence.mp3",
+		"dateModified": 1569679072921
+	},
+	{
+		"name": "Associative property",
+		"url": "associative-property.mp3",
+		"dateModified": 1569531315419
+	},
+	{
+		"name": "Isomorphism class",
+		"url": "isomorphism-class.mp3",
+		"dateModified": 1569433582072
+	},
+	{
+		"name": "Canonically isomorphic",
+		"url": "canonically-isomorphic.mp3",
+		"dateModified": 1569350728267
+	},
+	{
+		"name": "Canonical mapping",
+		"url": "canonical-mapping.mp3",
+		"dateModified": 1569267307738
+	},
+	{
+		"name": "Hyperelliptic curve",
+		"url": "hyperelliptic-curve.mp3",
+		"dateModified": 1569173179760
+	},
+	{
+		"name": "Elliptic surface",
+		"url": "elliptic-surface.mp3",
+		"dateModified": 1569099300184
+	},
+	{
+		"name": "Birational invariant",
+		"url": "birational-invariant.mp3",
+		"dateModified": 1569013616508
+	},
+	{
+		"name": "Rational surface",
+		"url": "rational-surface.mp3",
+		"dateModified": 1568927442241
+	},
+	{
+		"name": "Parametric surfaces",
+		"url": "parametric-surfaces.mp3",
+		"dateModified": 1568814872919
+	},
+	{
+		"name": "Affine arithmetic",
+		"url": "affine-arithmetic.mp3",
+		"dateModified": 1568741349356
+	},
+	{
+		"name": "Numerically stable",
+		"url": "numerically-stable.mp3",
+		"dateModified": 1568656593910
+	},
+	{
+		"name": "Spatial rotation",
+		"url": "spatial-rotation.mp3",
+		"dateModified": 1568569895943
+	},
+	{
+		"name": "Elliptic geometry",
+		"url": "elliptic-geometry.mp3",
+		"dateModified": 1568494742276
+	},
+	{
+		"name": "Hyperbolic geometry",
+		"url": "hyperbolic-geometry.mp3",
+		"dateModified": 1568407345867
+	},
+	{
+		"name": "Distance set",
+		"url": "distance-set.mp3",
+		"dateModified": 1568321939519
+	},
+	{
+		"name": "Metric geometries",
+		"url": "metric-geometries.mp3",
+		"dateModified": 1568239191955
+	},
+	{
+		"name": "Scalar curvature",
+		"url": "scalar-curvature.mp3",
+		"dateModified": 1568144240648
+	},
+	{
+		"name": "Dual graviton",
+		"url": "dual-graviton.mp3",
+		"dateModified": 1568060849830
+	},
+	{
+		"name": "Composite particles",
+		"url": "composite-particles.mp3",
+		"dateModified": 1567966207405
+	},
+	{
+		"name": "Point particles",
+		"url": "point-particles.mp3",
+		"dateModified": 1567885820835
+	},
+	{
+		"name": "Infinite divisibility",
+		"url": "infinite-divisibility.mp3",
+		"dateModified": 1567803887885
+	},
+	{
+		"name": "Independent increments",
+		"url": "independent-increments.mp3",
+		"dateModified": 1567706379402
+	},
+	{
+		"name": "Quantum filtering",
+		"url": "quantum-filtering.mp3",
+		"dateModified": 1567628821307
+	},
+	{
+		"name": "Quantum probability",
+		"url": "quantum-probability.mp3",
+		"dateModified": 1567540442381
+	},
+	{
+		"name": "Dyadic transformation",
+		"url": "dyadic-transformation.mp3",
+		"dateModified": 1567452506355
+	},
+	{
+		"name": "Logistic map",
+		"url": "logistic-map.mp3",
+		"dateModified": 1567411225100
+	},
+	{
+		"name": "Initial conditions",
+		"url": "initial-conditions.mp3",
+		"dateModified": 1567282208904
+	},
+	{
+		"name": "Auxiliary polynomial",
+		"url": "auxiliary-polynomial.mp3",
+		"dateModified": 1567194010707
+	},
+	{
+		"name": "Vector soliton",
+		"url": "vector-soliton.mp3",
+		"dateModified": 1567109775431
+	},
+	{
+		"name": "Soliton model",
+		"url": "soliton-model.mp3",
+		"dateModified": 1567022933301
+	},
+	{
+		"name": "Nonlinear system",
+		"url": "nonlinear-system.mp3",
+		"dateModified": 1566929825938
+	},
+	{
+		"name": "Bifurcation memory",
+		"url": "bifurcation-memory.mp3",
+		"dateModified": 1566850541093
+	},
+	{
+		"name": "Logarithmic function",
+		"url": "logarithmic-function.mp3",
+		"dateModified": 1566765183633
+	},
+	{
+		"name": "Additive function",
+		"url": "additive-function.mp3",
+		"dateModified": 1566679439864
+	},
+	{
+		"name": "Cyclotomic polynomials",
+		"url": "cyclotomic-polynomials.mp3",
+		"dateModified": 1566596607731
+	},
+	{
+		"name": "Reduced fraction",
+		"url": "reduced-fraction.mp3",
+		"dateModified": 1566336054813
+	},
+	{
+		"name": "Coprime integers",
+		"url": "coprime-integers.mp3",
+		"dateModified": 1566290733361
+	},
+	{
+		"name": "Unit fraction",
+		"url": "unit-fraction.mp3",
+		"dateModified": 1566159779058
+	},
+	{
+		"name": "Integer multiple",
+		"url": "integer-multiple.mp3",
+		"dateModified": 1566075093346
+	},
+	{
+		"name": "Residue classes",
+		"url": "residue-classes.mp3",
+		"dateModified": 1565987461523
+	},
+	{
+		"name": "Transfer homomorphism",
+		"url": "transfer-homomorphism.mp3",
+		"dateModified": 1565891045543
+	},
+	{
+		"name": "Biquadratic reciprocity",
+		"url": "biquadratic-reciprocity.mp3",
+		"dateModified": 1565815961562
+	},
+	{
+		"name": "Cubic reciprocity",
+		"url": "cubic-reciprocity.mp3",
+		"dateModified": 1565725486734
+	},
+	{
+		"name": "Multiplicative order",
+		"url": "multiplicative-order.mp3",
+		"dateModified": 1565642862580
+	},
+	{
+		"name": "Arithmetic inverse",
+		"url": "arithmetic-inverse.mp3",
+		"dateModified": 1565550392926
+	},
+	{
+		"name": "Weighted means",
+		"url": "weighted-means.mp3",
+		"dateModified": 1565467086477
+	},
+	{
+		"name": "Convex subsets",
+		"url": "convex-subsets.mp3",
+		"dateModified": 1565380420803
+	},
+	{
+		"name": "Open intervals",
+		"url": "open-intervals.mp3",
+		"dateModified": 1565292909822
+	},
+	{
+		"name": "Boundary set",
+		"url": "boundary-set.mp3",
+		"dateModified": 1565206838823
+	},
+	{
+		"name": "Continuity set",
+		"url": "continuity-set.mp3",
+		"dateModified": 1565128617158
+	},
+	{
+		"name": "Mean width",
+		"url": "mean-width.mp3",
+		"dateModified": 1565030470941
+	},
+	{
+		"name": "Integral geometry",
+		"url": "integral-geometry.mp3",
+		"dateModified": 1564949852103
+	},
+	{
+		"name": "Essential range",
+		"url": "essential-range.mp3",
+		"dateModified": 1564878689884
+	},
+	{
+		"name": "Compact convergence",
+		"url": "compact-convergence.mp3",
+		"dateModified": 1564790242404
+	},
+	{
+		"name": "Dual topology",
+		"url": "dual-topology.mp3",
+		"dateModified": 1564652824498
+	},
+	{
+		"name": "Operator algebras",
+		"url": "operator-algebras.mp3",
+		"dateModified": 1564609153913
+	},
+	{
+		"name": "Multiplication operators",
+		"url": "multiplication-operators.mp3",
+		"dateModified": 1564569127012
+	},
+	{
+		"name": "Diagonal matrices",
+		"url": "diagonal-matrices.mp3",
+		"dateModified": 1564568445807
+	},
+	{
+		"name": "Canonical representation",
+		"url": "canonical-representation.mp3",
+		"dateModified": 1564428937883
+	},
+	{
+		"name": "Point dynamics",
+		"url": "point-dynamics.mp3",
+		"dateModified": 1564397871407
+	},
+	{
+		"name": "Transfer operator",
+		"url": "transfer-operator.mp3",
+		"dateModified": 1564193142441
+	},
+	{
+		"name": "Projective coordinates",
+		"url": "projective-coordinates.mp3",
+		"dateModified": 1564050091075
+	},
+	{
+		"name": "Algebraic curves",
+		"url": "algebraic-curves.mp3",
+		"dateModified": 1564001141320
+	},
+	{
+		"name": "Level curve",
+		"url": "level-curve.mp3",
+		"dateModified": 1563915584954
+	},
+	{
+		"name": "Vector equation",
+		"url": "vector-equation.mp3",
+		"dateModified": 1563833883555
+	},
+	{
+		"name": "Permutation matrices",
+		"url": "permutation-matrices.mp3",
+		"dateModified": 1563746309929
+	},
+	{
+		"name": "Sparse matrices",
+		"url": "sparse-matrices.mp3",
+		"dateModified": 1563660846356
+	},
+	{
+		"name": "Convex geometry",
+		"url": "convex-geometry.mp3",
+		"dateModified": 1563486999295
+	},
+	{
+		"name": "Bidiagonal matrix",
+		"url": "bidiagonal-matrix.mp3",
+		"dateModified": 1563394456804
+	},
+	{
+		"name": "Aggregate pattern",
+		"url": "aggregate-pattern.mp3",
+		"dateModified": 1563314948903
+	},
+	{
+		"name": "Observable variable",
+		"url": "observable-variable.mp3",
+		"dateModified": 1563218402817
+	},
+	{
+		"name": "Nominal category",
+		"url": "nominal-category.mp3",
+		"dateModified": 1563133366883
+	},
+	{
+		"name": "Bivariate data",
+		"url": "bivariate-data.mp3",
+		"dateModified": 1563050530940
+	},
+	{
+		"name": "Ordinal variable",
+		"url": "ordinal-variable.mp3",
+		"dateModified": 1562970102040
+	},
+	{
+		"name": "Additive model",
+		"url": "additive-model.mp3",
+		"dateModified": 1562875701190
+	},
+	{
+		"name": "Parallel assignment",
+		"url": "parallel-assignment.mp3",
+		"dateModified": 1562783694332
+	},
+	{
+		"name": "Universal graph",
+		"url": "universal-graph.mp3",
+		"dateModified": 1562740845498
+	},
+	{
+		"name": "Implicit graph",
+		"url": "implicit-graph.mp3",
+		"dateModified": 1562703597638
+	},
+	{
+		"name": "Congruence coefficient",
+		"url": "congruence-coefficient.mp3",
+		"dateModified": 1562616447415
+	},
+	{
+		"name": "Convergent validity",
+		"url": "convergent-validity.mp3",
+		"dateModified": 1562514037213
+	},
+	{
+		"name": "Concurrent validity",
+		"url": "concurrent-validity.mp3",
+		"dateModified": 1562360295892
+	},
+	{
+		"name": "Predictive utility",
+		"url": "predictive-utility.mp3",
+		"dateModified": 1562269889107
+	},
+	{
+		"name": "Elementary particles",
+		"url": "elementary-particles.mp3",
+		"dateModified": 1562186439949
+	},
+	{
+		"name": "Transverse mass",
+		"url": "transverse-mass.mp3",
+		"dateModified": 1562087308398
+	},
+	{
+		"name": "Curvature singularities",
+		"url": "curvature-singularities.mp3",
+		"dateModified": 1562001014107
+	},
+	{
+		"name": "Conformal transformations",
+		"url": "conformal-transformations.mp3",
+		"dateModified": 1561847818819
+	},
+	{
+		"name": "Conformal group",
+		"url": "conformal-group.mp3",
+		"dateModified": 1561753400248
+	},
+	{
+		"name": "Conformal symmetry",
+		"url": "conformal-symmetry.mp3",
+		"dateModified": 1561665965205
+	},
+	{
+		"name": "Lattice models",
+		"url": "lattice-models.mp3",
+		"dateModified": 1561581643508
+	},
+	{
+		"name": "Integral graph",
+		"url": "integral-graph.mp3",
+		"dateModified": 1561497017221
+	},
+	{
+		"name": "Adjacency matrix",
+		"url": "adjacency-matrix.mp3",
+		"dateModified": 1561405563116
+	},
+	{
+		"name": "Isolated subgraphs",
+		"url": "isolated-subgraphs.mp3",
+		"dateModified": 1561320513975
+	},
+	{
+		"name": "Connected graph",
+		"url": "connected-graph.mp3",
+		"dateModified": 1561238006269
+	},
+	{
+		"name": "Recursive division",
+		"url": "recursive-division.mp3",
+		"dateModified": 1561139597033
+	},
+	{
+		"name": "Divided differences",
+		"url": "divided-differences.mp3",
+		"dateModified": 1561065415839
+	},
+	{
+		"name": "Falling factorial",
+		"url": "falling-factorial.mp3",
+		"dateModified": 1560976545397
+	},
+	{
+		"name": "Trigonometric integrals",
+		"url": "trigonometric-integrals.mp3",
+		"dateModified": 1560894441313
+	},
+	{
+		"name": "Double factorial",
+		"url": "double-factorial.mp3",
+		"dateModified": 1560815923233
+	},
+	{
+		"name": "Elliptic integrals",
+		"url": "elliptic-integrals.mp3",
+		"dateModified": 1560719075897
+	},
+	{
+		"name": "Abelian varieties",
+		"url": "abelian-varieties.mp3",
+		"dateModified": 1560636849337
+	},
+	{
+		"name": "Shift operators",
+		"url": "shift-operators.mp3",
+		"dateModified": 1560552963144
+	},
+	{
+		"name": "Functional equation",
+		"url": "functional-equation.mp3",
+		"dateModified": 1560455340152
+	},
+	{
+		"name": "Analytic continuations",
+		"url": "analytic-continuations.mp3",
+		"dateModified": 1560367453372
+	},
+	{
+		"name": "Summability methods",
+		"url": "summability-methods.mp3",
+		"dateModified": 1560287937058
+	},
+	{
+		"name": "Polyphase sequence",
+		"url": "polyphase-sequence.mp3",
+		"dateModified": 1560199789735
+	},
+	{
+		"name": "Periodic sequence",
+		"url": "periodic-sequence.mp3",
+		"dateModified": 1560112988688
+	},
+	{
+		"name": "Periodic function",
+		"url": "periodic-function.mp3",
+		"dateModified": 1560030383424
+	},
+	{
+		"name": "Phase difference",
+		"url": "phase-difference.mp3",
+		"dateModified": 1559930963722
+	},
+	{
+		"name": "Dynamic modulus",
+		"url": "dynamic-modulus.mp3",
+		"dateModified": 1559850297796
+	},
+	{
+		"name": "Shear modulus",
+		"url": "shear-modulus.mp3",
+		"dateModified": 1559771104619
+	},
+	{
+		"name": "Grain boundary",
+		"url": "grain-boundary.mp3",
+		"dateModified": 1559680893886
+	},
+	{
+		"name": "Pressure oxidation",
+		"url": "pressure-oxidation.mp3",
+		"dateModified": 1559545579005
+	},
+	{
+		"name": "Class inclusions",
+		"url": "class-inclusions.mp3",
+		"dateModified": 1559508496438
+	},
+	{
+		"name": "Integral domains",
+		"url": "integral-domains.mp3",
+		"dateModified": 1559425990220
+	},
+	{
+		"name": "Idempotent element",
+		"url": "idempotent-element.mp3",
+		"dateModified": 1559347923197
+	},
+	{
+		"name": "Number fields",
+		"url": "number-fields.mp3",
+		"dateModified": 1559249158008
+	},
+	{
+		"name": "Cyclic extension",
+		"url": "cyclic-extension.mp3",
+		"dateModified": 1559172628092
+	},
+	{
+		"name": "Cyclic subgroups",
+		"url": "cyclic-subgroups.mp3",
+		"dateModified": 1559086464358
+	},
+	{
+		"name": "Locally finite",
+		"url": "locally-finite.mp3",
+		"dateModified": 1558976238343
+	},
+	{
+		"name": "Coherent topology",
+		"url": "coherent-topology.mp3",
+		"dateModified": 1558903353842
+	},
+	{
+		"name": "Permutation polynomial",
+		"url": "permutation-polynomial.mp3",
+		"dateModified": 1558737367047
+	},
+	{
+		"name": "Alternating permutation",
+		"url": "alternating-permutation.mp3",
+		"dateModified": 1558631679562
+	},
+	{
+		"name": "Solid partitions",
+		"url": "solid-partitions.mp3",
+		"dateModified": 1558468368408
+	},
+	{
+		"name": "Plane partition",
+		"url": "plane-partition.mp3",
+		"dateModified": 1558381430834
+	},
+	{
+		"name": "Additive partitions",
+		"url": "additive-partitions.mp3",
+		"dateModified": 1558294983562
+	},
+	{
+		"name": "Multiplicative partition",
+		"url": "multiplicative-partition.mp3",
+		"dateModified": 1558216823942
+	},
+	{
+		"name": "Prime factorization",
+		"url": "prime-factorization.mp3",
+		"dateModified": 1558122986317
+	},
+	{
+		"name": "Relative prime",
+		"url": "relative-prime.mp3",
+		"dateModified": 1558037250914
+	},
+	{
+		"name": "Cyclotomic field",
+		"url": "cyclotomic-field.mp3",
+		"dateModified": 1557952634687
+	},
+	{
+		"name": "Quadratic extension",
+		"url": "quadratic-extension.mp3",
+		"dateModified": 1557863388026
+	},
+	{
+		"name": "Inverse elements",
+		"url": "inverse-elements.mp3",
+		"dateModified": 1557776813764
+	},
+	{
+		"name": "Binary operations",
+		"url": "binary-operations.mp3",
+		"dateModified": 1557672391160
+	},
+	{
+		"name": "Probability semiring",
+		"url": "probability-semiring.mp3",
+		"dateModified": 1557593833327
+	},
+	{
+		"name": "Log semiring",
+		"url": "log-semiring.mp3",
+		"dateModified": 1557524385296
+	},
+	{
+		"name": "Logarithmic mean",
+		"url": "logarithmic-mean.mp3",
+		"dateModified": 1557431070523
+	},
+	{
+		"name": "Basis sets",
+		"url": "basis-sets.mp3",
+		"dateModified": 1557384114003
+	},
+	{
+		"name": "Abelian category",
+		"url": "abelian-category.mp3",
+		"dateModified": 1557383115000
+	},
+	{
+		"name": "Logarithmic units",
+		"url": "logarithmic-units.mp3",
+		"dateModified": 1557351374905
+	},
+	{
+		"name": "Differential entropy",
+		"url": "differential-entropy.mp3",
+		"dateModified": 1557249711510
+	},
+	{
+		"name": "Multivariate distributions",
+		"url": "multivariate-distributions.mp3",
+		"dateModified": 1557176592448
+	},
+	{
+		"name": "Marginal distribution",
+		"url": "marginal-distribution.mp3",
+		"dateModified": 1557127611022
+	},
+	{
+		"name": "Control variates",
+		"url": "control-variates.mp3",
+		"dateModified": 1557014861573
+	},
+	{
+		"name": "Bipartite dimension",
+		"url": "bipartite-dimension.mp3",
+		"dateModified": 1556998145654
+	}
+]

@@ -6,31 +6,184 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>dmk</title>
   <style>
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  <style type="text/css">
-  /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:0;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
-  </style>
   <link href="/player/dmk-player.css?v=2" rel="stylesheet"> 
   <style type="text/css">
-  
+
   html {
-    box-sizing: border-box;
-    height: 100%;
+      box-sizing: border-box;
+      height: 100%;
+      word-break: normal
+      overflow-wrap: normal;
+      background-color: white;
+      color: black;
+
+      .dark-mode {
+          background-color: black;
+          color: white;
+          a:link, a:visited {
+              color: white;
+          }
+          footnotes {
+              color: white;
+          }
+          play-button {
+          filter: invert(1);
+      }
+      transport {
+          filter: invert(1);
+      }
+  j
+      }
   }
-  
+
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  
+
   body {
-      max-width: 460pt;
+      max-width: 480pt;
       height: 100%;
       margin: auto;
       padding-top: 10pt
@@ -42,197 +195,227 @@
       -webkit-font-smoothing:antialiased;
       -moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;
       color:#222;
+      word-break: normal
+      overflow-wrap: normal;
   }
-  
+
+  .button1 {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
   h1,h2,h3{
       line-height:1.2
   }
-  
+
   a:link, a:visited {
-      color: rgb(0,0,0);
+      color: black;
       text-decoration: none;
   }
-  
+
   a:hover, a:active {
       color: black;
       text-decoration: underline;
   }
-  
+
   .contact {
     margin-bottom: 15%;
   }
-  
+
   .footnotes {
     margin-top: 100%;
     padding-bottom: 10px;
+    color: black;
   }
-  
+
+  .blinking{
+          animation:blinkingText 0.8s infinite;
+      }
+
+      @keyframes blinkingText{
+          0%{     color: #000;    }
+          50%{    color: transparent; }
+          100%{   color: #000;    }
+      }
+
+  pre code {
+    font-size: 12px;
+    line-height: normal;
+    width: 300%;
+    background: #000;
+    color: #fff;
+    display: block;
+    padding: 10pt;
+  }
+
   /* audio player */
-  
+
   .player {
     width: 100%;
   }
-  
+
+
   .tab { 
          display:inline-block; 
          margin-left: 40px; 
   }
-  
+
   img {
       max-width:100%;
       height:auto;
   }
-  
+
   .transport {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-  
     margin-bottom: 15px;
   }
-  
+
   #player-title {
     /* text-align: center; */
     text-align: left;
     font-size: 1.0em;
     font-weight: 600;
+
   }
-  
+
   #play-button {
     margin: 0;
     padding: 0;
     width: 30px; /* prevent resize */
-  
+
     background: transparent;
     outline: 0;
     border: none;
-  
+
     text-align: left;
-  
+
     font-size: 1.25em;
     white-space: nowrap;
   }
-  
+
   #current-time {
     white-space: nowrap;
     font-size: 1em;
     margin-left: 10px;
   }
-  
+
   #time-line {
     position: relative;
     width: 100%;
     height: 25px;
     border-bottom: 1px solid black;
   }
-  
+
   #progress {
     position: absolute;
     top: 21px; /* depends on timeline height */
     left: 0;
-  
+
     height: 4px;
     background: black;
   }
-  
+
   .playlist {
     padding: 0;
     margin: 0;
     list-style: none;
-  
+
     height: 100%;
     overflow: auto;
   }
-  
+
   .playlist-item {
     display: flex;
     justify-content: space-between;
-  
+
     padding: 0.25rem 0.25rem;
     border-bottom: 1px solid #eee;
-  
+
     /* prevent div resize when selecting track */
     border-left: 1px solid transparent;
   }
-  
+
   .playlist-item.selected {
     border-left: 1px solid black;
   }
-  
+
   .playlist-item.selected:hover {
     border-left: 1px solid black;
   }
-  
+
   .playlist-item:hover {
     background: #eee;
     border-color: #eee;
   }
-  
+
   .playlist::-webkit-scrollbar {
     width: 12px;
   }
-  
+
   .playlist::-webkit-scrollbar-thumb {
     background-color: #888;
     border-left: 6px solid white;
   }
-  
+
+  video, .avia-video *, *:focus {
+    outline: 0!important;
+    outline: none!important;
+    outline-width: 0;
+   -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
+  }
+
   </style>
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
 </head>
 <body>
-<p><strong>Daniel M Karlsson</strong></p>
-<p>Composer focused primarily on texture and timbre.<sup><a href="#fn1" id="ref1">1</a></sup><br />
+<!--<center>**<span class="blinking">UNDER CONSTRUCTION!</span>**</center>-->
+<!--<center><span class="blinking">My site is going through some _serious_ changes.</span></center><br>-->
+<p>My site is currently in text only mode due to being under reconstruction. Certain external resources are still available for download. Shoot me an email if you are looking for something in particular and maybe we can work something out.</p>
+<br>
+<center>
+<strong>Daniel M Karlsson</strong>
+</center>
+<br>
+<center>
+Composer focused primarily on texture and timbre.<sup><a href="#fn1" id="ref1">1</a></sup><br />
 Works extensively with algorithmic composition.<br />
-Transhumanist singularitarian.<sup><a href="#fn2" id="ref2">2</a></sup></p>
-<p><a href="./a-collapse-of-structures">col</a> | <a href="./map">map</a> | <a href="./ruins-in-the-distance">rui</a> | <a href="./pieces">pcs</a> | <a href="./etudes">etu</a> | <a href="./gigs">gig</a> | <a href="https://danielmkarlsson.com/sc4reaper/">s4r</a> | <a href="./utilities">utl</a> | <a href="./log">log</a> | <a href="https://github.com/danielmkarlsson">git</a></p>
-<pre class="text"><code>/|\
-  \/||////
-    \/||||\\||\\
-      /|/|\\\|\//|\|//|\\
-        \\/\\/|\/|||/\|\|\/|/|/\|\\
-      |/|/|\||/|/\||/\||//||/\\/
-    /|\/|//||//|\\\/|/|\/||/
-  /|\|||///|\\\|\|\/|\
-/||\|\|/|/\|/</code></pre>
-<p>
-<p>Below is the track that I think is my strongest work at present. If you are pressed for time then I think you should start there.</p>
+Marxist transhumanist singularitarian.<sup><a href="#fn2" id="ref2">2</a></sup>
+</center>
+<br>
+<center>
+<p><a href="./a-collapse-of-structures">col</a> | <a href="./map">map</a> | <a href="./now">now</a> | <!--[pcs](./pieces) |--> <a href="./gigs">gig</a> | <a href="./log">log</a> | <a href="./frequently-asked-questions">faq</a> | <a href="https://github.com/danielmkarlsson">git</a><br />
+<a href="./list">list</a> | <a href="./etudes">etud</a> | <a href="https://danielmkarlsson.com/superclean-installparty/">scip</a> | <a href="https://danielmkarlsson.com/read/">read</a> | <!--[rigs](./rigs/) |--> <a href="./utilities">util</a> | <a href="./recipes/">rcps</a><br />
+<a href="./ruins-in-the-distance/">ruins</a> | <a href="https://danielmkarlsson.com/sc4reaper/">sc4re</a> | <a href="./pieces/">piecs</a> | <a href="./links/">links</a></p>
+<p><link rel="me" href="[https://social.ordinal.garden/@t36s]" /></p>
+</center>
+<!--<p>-->
+<!--Below is the track that I think is my strongest work at present. If you are-->
+<!--pressed for time then I think you should start there.-->
 <div class="dmk-player" data-playlist="indexPlaylist/index.json">
 
 </div>
-<p><br> If you’d like to read some text I wrote about that piece, then click the link above that says col. There are some other links to the right of it that I made for other pieces and projects I’ve done in the past. Those are still valid as representative examples of the kind of music that I make.</p>
-</p>
+<p><br> <!--If you'd like to read some text I wrote about that piece, then click the link--> <!--above that says col. There are some other links around there that I made for--> <!--other pieces and projects I've done in the past. Those are still valid as--> <!--representative examples of the kind of music that I make.--></p>
+<!--</p>-->
 <p>I would <em>love it</em> if you emailed me, about anything, right now even. I am entirely serious, have at it! I think that if you emailed me then that would be the best thing that could happen here after you are finished with your goTo of me [chuckles].</p>
-<p>firstname no initial [at] firstname initial lastname [dot] com</p>
+<center>
+firstname no initial [at] firstname initial lastname [dot] com
+</center>
 <p><br></p>
 <p><br></p>
 <div class="footnotes">
 <div>
-<sup id="fn1">1. Drone Music basically but, as always, it’s complicated.</sup>
+<sup id="fn1">1. Drone basically but, as always, it’s complicated.</sup>
 </div>
 <div>
-<sup id="fn2">2. Think more of a Fun-Times-Fully-Automated-Luxury-Space-Communism-With-Optional-Mind-Uploading-For-All <br>     rather than an evil neoliberal plot to bleed the commons dry.</sup>
+<sup id="fn2">2. My biggest short term goal is <em>Economic Democracy</em> for everyone. A simpler wording would be “everything for everyone”. Practical breakdown includes, but is not limited to: Free access to food, housing, clothing, education, transportation and computation. I am entirely anti capitalist and I regard any and all speculation as fundamentally unacceptable. My biggest long term goal is a fun times fully automated luxury space communism with optional mind uploading for all. You need to know that about me if we are going to be friends.</sup>
 </div>
 </div>
-<script>
-function goToURL() {
-    var links = [
-        "./rui",
-        "./log",
-    ];
-
-    // get a random number between 0 and the number of links
-    var randIdx = Math.round(Math.random() * (links.length - 1));
-    // construct the link to be opened
-    var root = window.location.protocol + '//' + window.location.host;
-    var link = root + '/' + links[randIdx];
-
-    document.location.href = link;
-};
-
-// | <a href="#" onClick="goToURL()">.rnd</a> |
-
-</script>
 <style>.playlist { display: none; }</style>
 <script async type="text/javascript" src="/player/dmk-player.js?v=5"></script>
 <script>
@@ -269,5 +452,51 @@ window.addEventListener('load', function () {
 
 // <script src="audio-player.js"></script>
 </script>
+<script>
+function goToURL() {
+    var links = [
+        "./a-collapse-of-structures/",
+        "./map/",
+        "./now/",
+        "./ruins-in-the-distance",
+        "./gigs",
+        "./log",
+        "./log",
+        "./frequently-asked-questions",
+        "./list",
+        "./etudes",
+        "./sc4reaper",
+        "./superclean-installparty",
+        "./utilities",
+        "./recipes",
+        "./pieces",
+        "./links",
+        "./mecha-geriatric",
+    ];
+
+    // get a random number between 0 and the number of links
+    var randIdx = Math.round(Math.random() * (links.length - 1));
+    // construct the link to be opened
+    var root = window.location.protocol + '//' + window.location.host;
+    var link = root + '/' + links[randIdx];
+
+    document.location.href = link;
+};
+</script>
+<p align="right">
+<a href="#" onClick="goToURL()">∞</a>
+</p>
+<script>
+//<p align="left">
+//<button1 onclick="darkMode()">°</button1>
+//</p>
+</script>
+<script>
+function darkMode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+<p><br> <br></p>
 </body>
 </html>

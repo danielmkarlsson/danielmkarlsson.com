@@ -1,33 +1,34 @@
-<!--<center>**<span class="blinking">UNDER CONSTRUCTION!</span>**</center>-->
-<!--<center><span class="blinking">My site is going through some _serious_ changes.</span></center><br>-->
-My site is currently in text only mode due to being under reconstruction. 
-Certain external resources are still available for download. 
-Shoot me an email if you are looking for something in particular and maybe we can work something out. 
+<center>**<span class="blinking">UNDER CONSTRUCTION!</span>**</center>
+<center><span class="blinking">My site is going through some _serious_ changes.</span></center><br>
 
 <br><center>**Daniel M Karlsson**</center><br>
 <center>Composer focused primarily on texture and timbre.<sup><a href="#fn1" id="ref1">1</a></sup>  
 Works extensively with algorithmic composition.  
 Marxist transhumanist singularitarian.<sup><a href="#fn2" id="ref2">2</a></sup></center><br>
 <center>
-[col](./a-collapse-of-structures) | 
 [map](./map) | 
 [now](./now) |
-<!--[pcs](./pieces) |--> 
 [gig](./gigs) | 
 [log](./log) | 
 [faq](./frequently-asked-questions) | 
-[git](https://github.com/danielmkarlsson)  
+[git](https://github.com/danielmkarlsson) | 
+[txt](./txt)  
 [list](./list) | 
-[etud](./etudes) | 
-[scip](https://danielmkarlsson.com/superclean-installparty/) |
-[read](https://danielmkarlsson.com/read/) |
-<!--[rigs](./rigs/) |-->
-[util](./utilities) | 
-[rcps](./recipes/)    
+[face](./face/) |
+[read](./read/) |
+[rigs](./rigs/) |
+[chat](./chat/)    
 [ruins](./ruins-in-the-distance/) |
-[sc4re](https://danielmkarlsson.com/sc4reaper/) |
-[piecs](./pieces/) |
-[links](./links/)  
+[sc4re](./sc4reaper/) |
+[links](./links/) | 
+[utils](./utilities)   
+[pieces](./pieces/) |
+[etudes](./etudes) |
+[cllpse](./a-collapse-of-structures)   
+[recipes](./recipes) | 
+[configs](./configurations)  
+[SuperClean](./1234567)
+
 
 <link rel="me" href="[https://social.ordinal.garden/@t36s]" />
 

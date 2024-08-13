@@ -58,7 +58,8 @@ function readAudioFiles() {
       const data = {};
 
       const filePromises = files.map(file => {
-        const url = path.join('audio', file);
+        // const url = path.join('audio', file);
+        const url = file;
         const ext = path.extname(file);
 
         if (ext !== '.mp3') return;
@@ -72,7 +73,6 @@ function readAudioFiles() {
         return extractMetadata(path.join(inputDir, file))
           .then(result => {
             const [duration, stats] = result;
-
             data[file] = {
               name,
               url,

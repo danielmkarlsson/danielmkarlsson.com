@@ -1,7 +1,6 @@
-**Gigs**
-
+<br><center>**Gigs**</center>
 These kinds of pages are always a bit weird aren't they? I mean, who are they
-for? It's a pretty low key way to get the word out ahead of time so my thinking
+for? It's a pretty low key way to get the word out ahead of time, so my thinking
 is it'll mostly, if ever, be read after the fact. So I thought that instead of
 doing the usual image crafting I would let you know how I got the gigs, and
 what they were like. Who was nice to me, and who is the person you should
@@ -12,56 +11,89 @@ they played somewhere.
 <br>
 <br>
 
-**Ruins in the distance at Fylkingen**
+<center>**Towards a Music for Large Ensemble at Edition VII GRM**</center>
+
+John Chantler booked me for that gig. This was a commisioned piece, also John's
+doing. This was an incredible once in a life time kind of experience for me.
+
+<br>
+
+<center>**Towards a music for ensemble at Fylkingen**</center>
+
+Malte Dahlberg booked me for that gig. This was the last gig I did at Fylkingen
+when it was located at Torkel Knutssonsgatan 2. It was a pretty chill night. 
+Everyone kind of just made it happen, together. I did sound for my friend Hara 
+Alonso who played a great set. I performed my piece in four channels. A couple 
+of days later I put together this Stereo mix of it.
+
+<div class="dmk-player" data-playlist="towards-a-music-for-ensemble-at-fylkingen-20231026/index.json"></div>
+
+<br>
+
+<center>**Planar view at Lötsjö kapell**</center>
+
+Linnéa Talp booked me for that gig. This little funeral chapel a little bit
+outside of town has an organ in it that I was allowed access to a couple of
+times leading up to that show. I did a bunch of recordings of the organ and I
+made this piece. I think it is a nice sounding room. It doesn't have a PA so I
+borrowed some speakers from EMS. It worked out alright I think. People seemed
+to have enjoyed the music.
+
+<div class="dmk-player" data-playlist="planar-view/index.json"></div>
+
+<br>
+
+<center>**Towards a music for ensemble at Intonal**</center>
+
+Mats Lindström booked me for that gig.
+
+<br>
+
+<center>**Past the inflection point at Sound of Stockholm**</center>
+
+Theodor Kentros booked me for that gig.
+
+<br>
+
+<center>**Shipwrecks at Skaiv**</center>
+
+David Åhlen booked me for that gig.
+
+<br>
+
+<center>**Ruins in the distance at Fylkingen**</center>
 
 Fylkingen is member run. I am a member. I wanted to give Francesco Torelli the
-opportunity to do a gig while he was here, so the two pf us to put together a
+opportunity to do a gig while he was here, so the two of us put together a
 two set evening. I had a good time hanging out with Francesco and also some
 friends came out to support us. I've never done that kind of tit for tat thing
 of booking a gig for someone from out of town at Fylkingen. This is not that. I
 just really dig Francesco and I thought that he should get to experience doing a
 gig at Fylkingen while he was here. I guess the way to get a gig at Fylkingen is
-either become a member or to get chummy with a member. Fylkingen has a good PA
-,quad Lacoustics with decent subs under each top + extra JBL subs and a good
+either become a member, or to get chummy with a member. Fylkingen has a good PA,
+quad Lacoustics with decent subs under each top + extra JBL subs and a good
 projector. The thing they didn't have was a cable that was long enough to get
 from the projector to the other end of the room. I thought that for sure
 Fylkingen would still have that really old, really long VGA cable but it must
-have broke since I used it last. I ended up using OS X's built in Screen
-Sharing. It was not ideal, but I had to think on my feet there so that's what
-happened. Luckily the new wifi setup is pretty fast so there was not all that
-much latency. I do not recommend doing it that way, but it did work. Would have
-felt better to ssh or even send the OSC messages over ethernet between the two
-computers. Maybe next time. The code is very raw. They are single line things
-that either set a specific value or generate them stochastically between
-thresholds or choose a value from a list of values. One neat little trick [David
-Granström](https://davidgranstrom.com/) taught me is subtracting `1` from an
-`exprand` to invert the range. I like to be able to do that because I remember
-swapping the values in Haskell and getting that behaviour. I think it's neat.
-The lines are grouped in parentheses for optics and also there is the top level
-parenthesis which let's me evaluate all lines wherever I'm at with `C + e`. On
-top of that David taught me this neat trick where you can make a visual
-selection in [nvim](https://github.com/neovim/neovim/wiki/Installing-Neovim) and
-then recall it with less hassle using `gv`. I can make this reselect last
-selection and then evaluate manouver pretty fast now that my hands are getting
-into it. You can see me do that a bunch in the video below.
+have broke since I used it last. 
 
-<video controls="controls" width="100%" name="RuinsAtFylkingen7November2019.mov"
-src="RuinsAtFylkingen7November2019.mov"></video>
+<!-- I ended up using OS X's built in Screen Sharing. It was not ideal, but I had to think on my feet there, so that's what happened. Luckily the new wifi setup is pretty fast, so there was not all that much latency. I do not recommend doing it that way, but it did work. Would have felt better to ssh or even send the OSC messages over ethernet between the two computers. Maybe next time. The code is very raw. They are single line things that either set a specific value or generate them stochastically between thresholds or choose a value from a list of values. One neat little trick [David Granström](https://davidgranstrom.com/) taught me is subtracting `1` from an `exprand` to invert the range. I like to be able to do that because I remember swapping the values in Haskell and getting that behaviour. I think it's neat. The lines are grouped in parentheses for optics and also there is the top level parentheses which let's me evaluate all lines wherever I'm at with `C + e`. On top of that David taught me this neat trick where you can make a visual selection in [nvim](https://github.com/neovim/neovim/wiki/Installing-Neovim) and then recall it with less hassle using `gv`. I can make this reselect last selection and then evaluate manouver pretty fast now that my hands are getting into it. You can see me do that a whole bunch in the video below. <video controls="controls" width="100%" name="RuinsAtFylkingen7November2019.mov" src="RuinsAtFylkingen7November2019.mov"></video> -->
+
 
 <br>
 
-**A collapse of structures at Ställbergs Gruva**
+<center>**A collapse of structures at Ställbergs Gruva**</center>
 
-This piece was originally composed for 8 channels and had it’s premiere on the
-second of August 2019 at Ställbergs Gruva as part of their three day festival
-“Att återta det levande”. We encouraged folks to not have their handComputers
-with them in the room. This meant that I don't really have a clip from this gig.
-I've been thinking I should try to work something out with the photographer that
-took stills in the room.
+Eric Sjögren booked me for this gig. This piece was originally composed for 8
+channels and had it’s premiere on the second of August 2019 at Ställbergs Gruva
+as part of their three day festival “Att återta det levande”. We encouraged
+folks to not have their handComputers with them in the room. This meant that I
+don't really have a clip from this gig. I've been thinking I should try to work
+something out with the photographer that took stills in the room.
 
 <br>
 
-**Intersections of traversals at NorbergFestival**
+<center>**Intersections of traversals at NorbergFestival**</center>
 
 I was invited by [Sara Fors](http://www.stickydrama.se/om/sara-fors/), [Mattias
 Hållsten](https://soundcloud.com/mattiash-llsten) and [Blue
@@ -106,7 +138,7 @@ src="MapClipFromNorberg.mov"></video>
 
 <br>
 
-**Intersections of traversals at Notam**
+<center>**Intersections of traversals at Notam**</center>
 
 I was invited by 
 <a href="https://www.madskjeldgaard.dk" target="_blank">Mads Kjeldgard</a> 
@@ -154,5 +186,76 @@ Here is the promo material and the lineup for the event:
 > Notam <br>
 > Sandakerveien 24 D, Bygg F3, N- 0473 Oslo, Norway <br>
 
+<br>
+<br>
+
+<script async type="text/javascript" src="/player/dmk-player.js?v=5"></script>
+<script>
+window.addEventListener('load', function () {
+  var elements = document.getElementsByClassName('dmk-player');
+  var players = Array.from(elements).map(function (el) {
+    if (el.dataset) {
+      var rootUrl = window.location.origin;
+      var playlist = el.dataset.playlist;
+      var isVideo = !!el.dataset.isVideo;
+      var layout = {
+        title: false,
+        elapsedTime: false
+      };
+      var options = {
+        playlist: playlist,
+        isVideo: isVideo,
+        rootUrl: rootUrl
+      };
+      return new DMKPlayer(el, options, layout);
+    }
+  });
+  players.forEach(function (player, index) {
+    player.index = index;
+    player.on('play', function () {
+      players.forEach(function (p) {
+        if (p.index !== player.index && p.isPlaying) {
+          p.stop();
+        }
+      });
+    });
+  });
+});
+</script>
+
+<script>
+function goToURL() {
+    var links = [
+        "./a-collapse-of-structures/",
+        "./map/",
+        "./now/",
+        "./ruins-in-the-distance",
+        "./gigs",
+        "./log",
+        "./log",
+        "./frequently-asked-questions",
+        "./list",
+        "./etudes",
+        "./sc4reaper",
+        "./superclean-installparty",
+        "./utilities",
+        "./recipes",
+        "./pieces",
+        "./links",
+    ];
+
+    // get a random number between 0 and the number of links
+    var randIdx = Math.round(Math.random() * (links.length - 1));
+    // construct the link to be opened
+    var root = window.location.protocol + '//' + window.location.host;
+    var link = root + '/' + links[randIdx];
+
+    document.location.href = link;
+};
+</script>
+
+<p align="right">
+<a href="#" onClick="goToURL()">∞</a>
+</p>
 <br>
 <br>

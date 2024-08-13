@@ -1,5 +1,4 @@
-<center> <h1> Mapping The Valleys of The Uncanny </h1> </center> 
-
+<br><center>**Mapping The Valleys of The Uncanny**</center><br> 
 <center>An investigation into a process and method, colliding with questions relating to
 what can be known to be real, within the field of algorithmic composition.</center>
 
@@ -80,8 +79,8 @@ Workspace and environment
 <p>
 <b>05. Pine cones are magical </b> <br> 
 <span class="tab">
-The Believing Game Oram's <br>
-New Atlantis <br> 
+The Believing Game <br>
+Oram's New Atlantis <br> 
 Rooms are resonant bodies <br> 
 State is immeasurable <br> 
 A differing perspective on smallness 
@@ -189,7 +188,7 @@ moment, that has me writing this text. There have been different frameworks at
 different times, and those different frameworks have all come bundled with their
 own distinct set of different limitations. This kind of thing is always
 difficult to take apart but I think that, at least sometimes, those limitations
-have inspired me. They definitely effected the way my music sounded, that much I
+have inspired me. They definitely affected the way my music sounded, that much I
 can tell you is for sure.
 
 One way that I like to think about these frameworks is with the word project.
@@ -197,7 +196,7 @@ Learning to play the guitar was a project. Learning to record myself playing the
 guitar was another. Playing in a band came next. Learning to structure sound
 together with friends sprung to life out of that. If we fast forward through all
 of the links in that chain of events we arrive at the overarching project of
-organising sound, and then, this particular example of that.
+organizing sound, and then, this particular example of that.
 
 One fundamental difference between acoustic and electronic music is that
 electronic music can be ungoverned by Newtonian forces. I think that is entirely
@@ -206,7 +205,7 @@ physical object present in front of you. I hear someone in the back yelling
 something about speakers. Sure, sure, sure but we don't have to get stuck there.
 Acousmatic music was a thing. I acknowledge that. No need to substitute one
 fetichising of the corporeal with another as we go forward. Speakers can be
-expensive, and as such barriers to entry. The speaker is a conduit, or put
+expensive, and as such, barriers to entry. The speaker is a conduit, or put
 another way; a funnel. Thinking about it as a filter can be fun but messy. What
 interests me the most is the stuff going through the funnel, and how to make it.
 
@@ -216,7 +215,7 @@ Let's move on to what we are afforded from following the line of thinking that
 we are free, from the shackles of the finite, and of the physical world. Sound
 now enjoys morphological freedom through a myriad of transformations. It is
 malleable to the utmost degree. We have at our disposal an astounding plethora
-of tools, with which we can manipulate and organise sound.
+of tools, with which we can manipulate and organize sound.
 
 This thesis project is a collection of musical materials that explore the idea
 of the uncanny valley, as it relates to music being real, fake or some strange
@@ -229,7 +228,7 @@ field. I'm unlikely to be able to adequately convey my own origin myth. Instead
 I'll focus on stories I've been told about music, throughout my life, inside and
 outside of academia. I have a strong suspicion that these stories have shaped my
 coming into being as a composer. However difficult the task of introspection,
-and ultimately to know one self proves to be, I at least regard these stories as
+and ultimately to _know_ one self proves to be, I at least regard these stories as
 a source for clues as to why I am driven to do the things that I do.
 
 <h3>Who is speaking? </h3>
@@ -251,7 +250,6 @@ What particular kind of person would I like to be? A Composer with a capital C!
 > make events seem to lead to one another. In addition, they must have satisfying
 > endings - not happy endings, necessarily, but endings that provide resolution
 > while leaving enough ambiguity to enliven listeners imaginations.<sup id="a4">[4](#f4)</sup>
-
 
 This is how I think about this thesis project. I am doing just that drawing
 together of disparate elements. Just like in a lot of music that is out there,
@@ -276,7 +274,7 @@ a particular person, telling a particular story, at a particular time, says
 something about what kind of person that person is. Other times not. I think
 about all of the people that I have met, coming up through music, as one person;
 Me. I was there, every time someone told me a story. Those stories undoubtedly
-came to shape the way I think about music and about organising sound.
+came to shape the way I think about music and about organizing sound.
 
 > When told well, stories offer a vicarious experience that is satisfying in ways
 > that the actual experience would not or could not be. In much the same way, the
@@ -303,18 +301,18 @@ pattern recognition aspect of consciousness to keep the listener engaged.
 > progress and subject to change. It is the unique capacity of human beings to
 > meet both sets of requirements - to tell good stories that can also accommodate
 > uncertainty - and it is the power of institutions that allows them to do so. By
-> institutions, I mean patterns of activities organised around a common goal.<sup id="a5">[5](#f5)</sup> 
+> institutions, I mean patterns of activities organized around a common goal.<sup id="a5">[5](#f5)</sup> 
 
 <h3>Why should we listen?</h3>
 
 That common goal, as I see it, is organizing sound. This makes us the same you
 and I. Mostly everyone we know shares this common goal. I trace this way of
 thinking about our common goal back to Edgard Varese talking about his own music
-as organised sound. I am fine with that description. It is a very broad and
+as organized sound. I am fine with that description. It is a very broad and
 inclusive way of thinking about what we are doing, all of us together as a
 group.
 
-I want to keep finding new answers to the question of how to organise sound in
+I want to keep finding new answers to the question of how to organize sound in
 ways that continue to interest me. Part of my staying interested is engaging
 with other people who are also engaged in this same struggle. I want to be part
 of a Community.
@@ -325,7 +323,7 @@ getting bored. Sharing my tools increases the likeliness of contact and or
 stimulating communication with other people.
 
 In this text I don't just want to talk at people about my internal state. I
-genuinely want to try to make an honest attempt to make my thesis valuable to
+genuinely want to make an honest attempt at making my thesis valuable to
 others in terms of it's utility. This is why I've chosen to include the code I
 used to make the music in this thesis project. My thinking here is that there
 exists a certain kind of reader that won't want to sit through these touchy
@@ -362,14 +360,15 @@ _MIT guide to Lock Picking_:
 > easier to bypass some other part of the door or even avoid the door entirely.
 > Remember: There is always another way, usually a better one.<sup id="a6">[6](#f6)</sup> 
 
-Having picked the lock, or otherwise bypassed it (perhaps metaphysically walking
-through walls!), I find myself inside of this most coveted room. Inside the room
-are an abundance of instruments I'd never be able to gain access to. The best
-part of all is that they can all be computer controlled. It is an amazing room,
-and I am very happy that I can enter into it whenever I want, and spend as much
-time there as I like. No one ever comes into the room to say:
+Having picked the lock, or otherwise bypassed it (perhaps metaphysically
+walking through walls!), I find myself inside of this most coveted room. Inside
+the room are an abundance of instruments I'd never be able to gain access to
+otherwise. The best part of all is that they can all be computer controlled. It
+is an amazing room, and I am very happy that I can enter into it whenever I
+want, and spend as much time there as I like. No one ever comes into the room
+to say:
 
-"Who the hell are you? You can't be in here touching these instruments
+"Who the hell are you? You can't be in here touching these ~~instruments~~
 priceless museum pieces! Security!!"
 
 I'm in a safe space now, and that feels good. The thing that feels even better
@@ -587,11 +586,11 @@ here:
 
 Let me make an attempt at explaining why I am drawn to it. First off it strikes
 me as contemporary, seeing as we are all living through post-truth, and secondly
-because I regard it as largely unexplored when thought of as a musical
+because I regard it as largely underexplored when thought of as a musical
 parameter. It turns out originality, or otherness, is important to me.
 
-Uncanniness looks unexplored enough as a space to peek my interest. From where
-I'm standing uncanniness being largely unexplored checks out as true. This
+Uncanniness looks underexplored enough as a space to peek my interest. From where
+I'm standing uncanniness being largely underexplored checks out as true. This
 perspective is something that I have created via the act of viewing and thinking
 about the world. In our time of post-truth, simply having a thought, and then
 remembering that one has had that thought previously, can lead one to thinking
@@ -656,28 +655,29 @@ _LA Story_:
 <h3>Fundamental differences</h3>
 
 Getting back to the practical; Certain things are different when sequencing
-sounds in a computer. Sounds can be played faster. That's interesting because we
-have fast playing in music played by humans also. It's interesting because a lot
-of the time it gets held up as virtuosic in different ways, within different
-genres. We use phrases like gifted or talented musicians. A computer can play
-exactly the same amplitude and timbre multiple times in a row. Humans can't,
-well actually the constraint is higher up than that. Simple physics really,
-Newtonian forces won't allow it. We've never held that kind of virtuosity up as
-equilibristic instrumentalist practice. I don't think we'd react quite the same
-way if a human got even remotely close to that type of musical capacity. "You
-sound like a machine" they'd say. It would be derogatory. They might not even
-know what machine they'd be referring to. It would be the sampler and more
-specifically an early days sampler like the Akai MPC60 or the E-mu SP-1200, with
-a single layer of samples. No round-robin switching out of the samples to mimic
-what happens "naturally" when a key is struck on a Steinway grand piano at
-different velocities. An infinite amount of the subtlest variation explodes out
-of that action each time. The cross talk inside the body of the instrument as
-multiple keys are struck elevate the richness of timbral interplay to
-immeasurable heights of exponentiality. The sampler is different, is all I'm
-saying here. It has it's own behaviour. If we try hard, we can have a unique
-relationship to this "new" instrument, that has nothing to do with that
-Steinway grand piano. We would have to do the admittedly difficult work of
-adjusting our way of thinking about the world in order to achieve this goal.
+sounds in a computer. Sounds can easily be reiterated at a faster rate. That's
+interesting because we have fast playing in music played by humans also. It's
+interesting because a lot of the time that ability gets held up as virtuosic in
+different ways, within different genres. We use phrases like gifted or talented
+musicians. A computer can play exactly the same amplitude and timbre multiple
+times in a row. Humans can't, well actually the constraint is higher up than
+that. Simple physics really, Newtonian forces won't allow it. We've never held
+that kind of virtuosity up as equilibristic instrumentalist practice either. I
+don't think we'd react quite the same way if a human got even remotely close to
+that type of musical capacity. "You sound like a machine" they'd say. It would
+be derogatory. They might not even know what machine they'd be referring to. It
+would be the sampler and more specifically an early days sampler like the Akai
+MPC60 or the E-mu SP-1200, with a single layer of samples. No round-robin
+switching out of the samples to mimic what happens "naturally" when a key is
+struck on a Steinway grand piano at different velocities. An infinite amount of
+the subtlest variation explodes out of that action each time. The cross talk
+inside the body of the instrument as multiple keys are struck elevate the
+richness of timbral interplay to immeasurable heights of exponentiality. The
+sampler is different, is all I'm saying here. It has it's own behaviour. If we
+try hard, we can have a unique relationship to this "new" instrument, that has
+nothing to do with that Steinway grand piano. We would have to do the
+admittedly difficult work of adjusting our way of thinking about the world in
+order to achieve this goal.
 
 <h3>The notion of The Real</h3>
 
@@ -723,10 +723,10 @@ An example of a virtual symbolic belief in our neck of the woods would be the
 story of how Gil Evans arranged Sketches of Spain. The story goes that he's a
 genius for arranging in such a way that instruments that were very widely apart
 in terms of their audibility, were they to be stood on a stage together, could
-be made to fit snugly in a mix. Contrastingly there's the story of how a 1930s
-first-timer studio musician asked a recording engineer "if there oughtn't be
-more than one microphone in the room". The recording engineer then proceeds to
-laugh and ask if the musician intends to record more than one record
+be made to fit snugly in a recording. Contrastingly there's the story of how a
+1930s first-timer studio musician asked a recording engineer "if there oughtn't
+be more than one microphone in the room". The recording engineer then proceeds
+to laugh and ask if the musician intends to record more than one record
 simultaneously. The recording engineer goes on to explain that whomever in the
 ensemble has a solo should take a step closer to the microphone.
 
@@ -815,8 +815,8 @@ What is philosophy? It's when you think about something so much that you
 actually end up understanding it less.<sup id="a19">[19](#f19)</sup> 
 </blockquote>
 
-What if reality is not a contiguous field but rather made up of components that
-require assembly?
+What if reality is not a contiguous field but rather made up of discrete
+components that require assembly?
 
 When the simulation becomes indistinguishable from the real, and then, surpasses
 the real in expressing potential that was present all along, both in the real
@@ -836,9 +836,14 @@ to use it now as a popular cultural anchor to drive home the previous paragraph.
 I release you momentarily from the task of reading this thesis for the duration
 of that video. It'll be quick and you'll come right back. It'll be fine.
 
+<details>
+<summary>Click here to view video.</summary>
+
 <video width="100%" controls>
   <source src="stay.mp4" type="video/mp4">
 </video>
+
+</details>
 
 My fascination for this material mirrors the kind of fascination representatives
 of american cultural imperialism feel when they hear their distinctly
@@ -1063,15 +1068,15 @@ This is the _before image_:
 
 Here's another picture of my screen depicting a different piece I made for this
 thesis project. This is written in a language called SuperCollider which is
-mainly an object oriented language but you can write functionally in it also, if
-that is your thing. I've previously alluded to my not knowing why anyone would
-want to do that. This is an entirely too strange hill for me to die on. Just let
-it go! Ok? Try not to think about it. I'm running a Vim plugin called scnvim
-inside of NeoVim which is still the same modal text editor as above. Kitty is
-still the GPU accelerated  terminal emulator of choice for the discerning user
-or admin.
+mainly an object oriented language but you can write functionally in it also,
+if that is your thing. I've previously alluded to my not knowing why anyone
+would want to do that. This is an entirely too strange hill for me to die on.
+Just let it go! Ok? Try not to think about it. I'm running a Vim plugin called
+scnvim inside of NeoVim which is still the same modal text editor as above.
+Kitty has here been replaced Alacritty which is now the GPU accelerated
+terminal emulator of choice for the discerning user or admin.
 
-This is one of the pieces I wrote later in the process. This is the _after image_.
+This is one of the pieces I wrote later in the process. This is the _after image_:
 
 <img src= "../images/exploratoryNarratives.png">
 
@@ -1106,7 +1111,7 @@ by their abundance. Fractal sculptures. Evergreen snowflakes. Blossoms in wood.
 (Familiarity can rust magic. A little mental effort returns the shine.)<sup
 id="a24">[24](#f24)</sup> </blockquote>
 
-I would like to return the shine, as it were, to the task of organising sound in
+I would like to return the shine, as it were, to the task of organizing sound in
 general and to working with algorithmic composition in particular. Stretch goals
 would be to influence people to join me in rewiring the term Computer Music to
 hold a new meaning. One tailored specifically to fit our time. As computers are
@@ -1316,7 +1321,7 @@ every now and then. I didn't realize at the time how profoundly the experience
 of making the convolution files had effected me. This is meant to be a purely
 technical task. Then some time later, during a residency at Ställbergs gruva,
 which is also an old mine, Mats Erlandsson and David Granström made
-convolutions of The Machine Hall and gave me the files.
+convolutions of The Machine Hall and gave me copies of the files.
 
 It was right under my nose then, but it still took me quite a while to piece the
 puzzle together. I know that it is entirely impossible for the "narrative
@@ -1348,7 +1353,7 @@ always elude me. "If these walls could talk" we say. My thoughts connect
 disparate elements, and make patterns.
 
 Compare another cavernous room tone; The church. A place of worship. A place to
-wonder in awe of god's greatness. The organ was the first big organised sound,
+wonder in awe of god's greatness. The organ was the first big organized sound,
 filling the space and making it seem even more monumental. That room tone is
 part of how we've always heard that instrument. I realized that when I was making
 recordings, to turn into samples for this project. The resonance is a vital part
@@ -1370,7 +1375,7 @@ spiral helplessly into anxiety about capitalism-induced climate disaster, and
 then I'm utterly lost, to a strangling feeling. I can't breath! Where do human
 beings fit into this present nightmare of how the real manifests itself through
 quarterly earnings reports. All around us. An all encompassing blanket of
-Unheimlichkeit, totally enveloping the world, shutting out all light. Darkness
+unheimlichkeit, totally enveloping the world, shutting out all light. Darkness
 has me. I am lost to it. I wish there was a way I could make sense of it all. To
 be able to reason my way out of feeling.
 
@@ -1392,15 +1397,15 @@ story. I value time more than money, so I try to sell as little of my time as I
 can. That my life is precarious is not a surprise to me. These are the choices I
 made. I am grateful for the opportunity to create something.
 
-There is no adequate way for me to describe which class I belong to. This
+There is no adequate way for me to describe which class I belong to. That
 _really_ messes with my mind. This thesis project is about that in a lot of
 ways. Feeling lost, and alienated, as someone having become something strange,
-and other, than what I started out as, at that time often thinking there was no
+and other, than what I started out as, at the time often thinking there was no
 escape from my assigned fate.
 
 <h3>State is immeasurable</h3>
 
-This subheader alludes to the observer effect in Physics where attempting to
+This subheader alludes to the observer effect in physics where attempting to
 make measurements invariably leads to changes in the situation or phenomenon you
 are observing. Live coding is at once both a situation and somewhat of a
 phenomenon. I'll put a link down below to Kindohm's set at Algorithmic Art
@@ -1420,7 +1425,7 @@ complexity.
 Is it static or is it in flux? I guess it also has something to do with the
 presentation aspect of the work. I work on the code until it reaches a static
 state which is most to my liking. While I might not listen to an eternity's
-worth of the generated material, I'll listen to a good long while. I can be
+worth of the generated material, I'll listen for a good long while. I can be
 certain that the algorithms combining of parameter values will continue to
 satisfy me in the same way that I can hear when a piece is finished. My choice
 to present static code in combination with fixed media is for the greater part
@@ -1434,7 +1439,7 @@ the prescribed modus operandi of playing the code, within live coding, like an
 instrument. I'm like that a lot of the time. I just don't like being told what
 to do I guess.
 
-I want to organise sound in a very specific way. To collapse the wavefront. To
+I want to organize sound in a very specific way. To collapse the wavefront. To
 affix the indefinite. To transform it into the definitive. Another nice aspect
 of static code is that it greatly increases portability. This is important to
 me.
@@ -1467,10 +1472,10 @@ constant" and not expect people to rise up in rebellion to dethrone and kill
 you, burn down your church and take a leak on the ashes while laughing like a
 raving lunatic. This is just how the world works. Tough cookies.
 
-Anyway the whole "wanting to stay 100% squeaky clean all of the time
-thing", that can happen to functional programmers, always struck me as having
+Anyway the whole "wanting to stay 100% squeaky clean all of the time"
+thing, that can happen to functional programmers, always struck me as having
 more to do with fundamental problems in computer science, than about me wanting
-to organise sound. Never mind about all of that. I don't mind so much that there
+to organize sound. Never mind about all of that. I don't mind so much that there
 could potentially be a danger of some unexpected behaviour when I'm making music
 by writing code. I spend a lot more time listening to musical results than I do
 expecting to hear things. So as long as it makes a sound there is something for
@@ -1490,7 +1495,7 @@ old problem of academic electronic music where muscular technology too often
 produces pissweak sounds.<sup id="a32">[32](#f32)</sup>
 </blockquote>
 
-If I try hard I can still remember that the task of organising sound felt
+If I try hard I can still remember that the task of organizing sound felt
 daunting to me in the beginning. I would think about the infinite possibilities
 of combinatorics and a general dread of the blank page would sneak up on me and
 I'd get all wound up. I like to keep things simple.  Usually I don't notice that
@@ -1517,12 +1522,12 @@ made me feel, I liked it because it was at once the most prominent example of
 transcend the genre entirely. I like it when albums do that.
 
 My first conscious choice at the inception of this thesis project was that I
-wrote code in order to make all of the pieces. This was important to me because,
-like I said, I want to actively participate in recontextualizing the term
-Computer Music. This term comes from a time where computers where rare, and the
-utilizing of this scarce resource towards the goal of making music was even
-rarer. At the time of this writing computers are ubiquitous (in the global West,
-I know, I am very much in favor of adding The Right to Computation to The
+would write code in order to make all of the pieces. This was important to me
+because, like I said, I want to actively participate in recontextualizing the
+term Computer Music. This term comes from a time where computers where rare,
+and the utilizing of this scarce resource towards the goal of making music was
+even rarer. At the time of this writing computers are ubiquitous (in the global
+West, I know, I am very much in favor of adding The Right to Computation to The
 List<sup id="a33">[33](#f33)</sup>).
 
 <h3>Putting on a show</h3>
@@ -1580,7 +1585,7 @@ virtual voices "direction". I suspect that the underlying technology is
 concatenative synthesis so in a lot of ways it has the same kind of
 characteristic "tells" that playing back a limited set of samples of acoustic
 instruments does. Just like with the music I found myself wanting to navigate
-this topography of "tells". I made decisions about whether I wanted to go with,
+this topology of "tells". I made decisions about whether I wanted to go with,
 or against the input from the voices I used. Should I allow the actors to "give
 the game away"? Do I add or subtract from the sense that theses voices were
 something more complicated than just plain old boring vanilla, real.
@@ -1599,7 +1604,7 @@ to see things that are not there. It may be due to feedback in the pattern
 recognition part of our brains, who can know these things?
 
 American theoretical physicist Richard Feynman reminds us to exercise caution
-when fawning over science in The _Pleasure of Finding Things Out_:
+when fawning over science in _The Pleasure of Finding Things Out_:
 
 <blockquote> ... statements of science are not of what is true and what is not
 true, but statements of what is known with different degrees of certainty.<sup
@@ -1668,7 +1673,7 @@ Leading up to the show I, of course, started to feel more and more agonizingly
 pressed for time, as is always the case with me. I began to realize that I had
 complicated matters many times over the course of the project by wanting both
 the text and the music to be referential to each other in various ways. It
-became the age old problem of Catch 22. The text needed to already be finished
+became the age old problem of catch-22. The text needed to already be finished
 in order for me to bring myself to finish the music and, vice versa. The myth of
 Uroboros<sup id="a36">[36](#f36)</sup> sprang to mind. I could neither stop
 time, nor step out of it. No matter how I struggled with Uroboros's clenched
@@ -1706,7 +1711,7 @@ believe that the source for this quote is:
 Last words [of] Hassan Sabbah. The Old Man of the Mountain quoted from The
 Master of the Assassins by Betty Bouthoul.
 
-Taken from Burroughs's Minutes to Go.<sup id="a36">[36](#f36)</sup>
+Taken from Burroughs's _Minutes to Go_.<sup id="a36">[36](#f36)</sup>
 </blockquote>
 
 This quote keeps popping up all over the place. Later on in a video game called
@@ -1744,13 +1749,14 @@ stayed the same. The modus operandi is still:
 Write code, that triggers samples. Then, apply effects in some kind of DAW-like
 environment.
 
-This is what I do, in order to express my musical ideas. Why should I express my
-musical ideas? Because I want to, and because I, can I guess. I am very grateful
-for the opportunity. Why does anyone do anything? I mean, really. The
-possibility exists and I am drawn to it. It passes the time and I have not found
-anything else that keeps me as balanced. My motivations are, for the most part,
-a mystery when I try to send a probe down there. Apart from needing to do it, in
-order for my life to feel meaningful to me, apart from that, I have no idea.
+This is what I do, in order to express my musical ideas. Why should I express
+my musical ideas? Because I want to, and, because I can I guess. I am very
+grateful for the opportunity. Why does anyone do anything? I mean, really. The
+possibility exists and I am drawn to it. It passes the time and I have not
+found anything else that keeps me as balanced. My motivations are, for the most
+part, a mystery when I try to send a probe down there. Apart from needing to do
+it, in order for my life to feel meaningful to me, apart from that, I have no
+idea.
 
 The way I make music is dependent on tools. The tools should be open for others
 to study and use. If I don't take measures to make my tools available to others
@@ -1771,7 +1777,7 @@ anything because of the fact that it is inherently abstract and utterly
 ephemeral. If someone does tell a story, I keep saying, it's usually because
 they are selling something. One of my favourite stories is the one about how
 Vivaldi came to sell so well. In Vivaldi's time, sheet music was the media
-carrier, or the product if you will. The story goes that Vivaldi was able to
+carrier, or the product, if you will. The story goes that Vivaldi was able to
 sustain himself as an artist because he had figured out that narrative sells.
 The alleged evidence for this is that Vivaldi had already tried and failed to
 sell the music he later collected as The Four Seasons. This last part of the
@@ -1898,18 +1904,17 @@ less data-intensive, and no longer a dopamine-fueled candy-land of bright
 colours and blinking lights devouring your soul at the very moment when you are
 at your weakest.
 
-At the time of writing I am still researching a way to perfectly implement <a
-href="https://danielmkarlsson.com/stallman.mp4" target="_blank">Richard
-Stallman's vision</a> of all users right to filter their experience on the
-internet. Let me walk you through what I have put together so far.
+At the time of writing I am still researching a way to perfectly implement The Free
+Software Movement's vision of all users right to filter their experience on
+the internet. Let me walk you through what I have put together so far.
 
-<a href="https://web.archive.org/web/20190421172130/https://brave.com/"
-target="_blank">Brave</a> is an open source browser that is an ok option right
+<a href="https://www.mozilla.org/en-GB/"
+target="_blank">Firefox</a> is an open source browser that is an ok option right
 out of the box for filtering, or put another way, customizing our experience on
 the internet.
 
-Brave allows you to use an extension called <a
-href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en"
+Firefox allows you to use an extension called <a
+href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/"
 target="_blank">uBlock origin</a>, which is designed to protect you from ads.
 
 uBlock origin allows you to use a custom list of elements contained within web
@@ -1963,7 +1968,7 @@ it clearly shows intent, and direction going forward.
 
 <b id="f17">17.</b> <a href="https://web.archive.org/web/20190412210722/https://pastebin.com/LhnajViV" target="_blank">Slavoj Zizek, _The Reality of the Virtual_, pastebin.com, website, archived at archive.org April 12 2019</a> [↩](#a17)
 
-<b id="f18">18.</b> <a href="https://web.archive.org/web/20190412212141/https://nosubject.com/index.php?title=Talk:Real" target="_blank">Jacques Lacan, _No subject an encylopedia of Lacanian psychoanalysis_, web site, archived at archive.org April 12 2019</a> [↩](#a18)
+<b id="f18">18.</b> <a href="https://web.archive.org/web/20190412212141/https://nosubject.com/index.php?title=Talk:Real" target="_blank">Jacques Lacan, _No subject, an encylopedia of Lacanian psychoanalysis_, web site, archived at archive.org April 12 2019</a> [↩](#a18)
 
 <b id="f19">19.</b> <a href="https://web.archive.org/web/20190412213515/https://www.textise.net/showText.aspx?strURL=https%253A//twitter.com/existentialcoms/status/1062768872900648960#main-content" target="_blank">Corey Mohler, _Existential Comics_, website, archived at archive.org April 12 2019</a> [↩](#a19)
 
@@ -1971,7 +1976,7 @@ it clearly shows intent, and direction going forward.
 
 <b id="f21">21.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Mark%20Fisher%20-%20Capitalist%20Realism.pdf" target="_blank">Mark Fisher, _Capitalist Realism_, p.7</a> [↩](#a21)
 
-<b id="f22">22.</b> <a href="https://web.archive.org/web/20181206110547/https://seattle.craigslist.org/sno/msg/d/possibly-cursed-emu-sp1200/6761989886.html" target="_blank">22. Anonymized, _SP1200 CraigsList ad_, website, archived at archive.org December 6 2018</a> [↩](#a22)
+<b id="f22">22.</b> <a href="https://web.archive.org/web/20181206110547/https://seattle.craigslist.org/sno/msg/d/possibly-cursed-emu-sp1200/6761989886.html" target="_blank">Anonymized, _SP1200 CraigsList ad_, website, archived at archive.org December 6 2018</a> [↩](#a22)
 
 <b id="f23">23.</b> <a href="https://github.com/danielmkarlsson/library/raw/master/Mark%20Fisher%20-%20Capitalist%20Realism.pdf" target="_blank">Mark Fisher, _Capitalist Realism_, p.8</a> [↩](#a23)
 
@@ -2042,3 +2047,40 @@ window.addEventListener('load', function () {
   });
 });
 </script>    
+
+<script>
+function goToURL() {
+    var links = [
+        "./a-collapse-of-structures/",
+        "./map/",
+        "./now/",
+        "./ruins-in-the-distance",
+        "./gigs",
+        "./log",
+        "./log",
+        "./frequently-asked-questions",
+        "./list",
+        "./etudes",
+        "./sc4reaper",
+        "./superclean-installparty",
+        "./utilities",
+        "./recipes",
+        "./pieces",
+        "./links",
+    ];
+
+    // get a random number between 0 and the number of links
+    var randIdx = Math.round(Math.random() * (links.length - 1));
+    // construct the link to be opened
+    var root = window.location.protocol + '//' + window.location.host;
+    var link = root + '/' + links[randIdx];
+
+    document.location.href = link;
+};
+</script>
+
+<p align="right">
+<a href="#" onClick="goToURL()">∞</a>
+</p>
+<br>
+<br>

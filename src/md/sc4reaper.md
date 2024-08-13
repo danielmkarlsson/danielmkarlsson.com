@@ -1,15 +1,17 @@
-**SC4Reaper**
+<br>
+<center>**SC4Reaper**</center>
 
-I was given the opportunity to hold a course in SoundDesign at Stockholm
-University of The Arts. It was initially intended to be solely about Reaper. I
-negotiated the situation to have the course also include ways that SuperCollider
-can extend the capabilities and capacities of Reaper. In this course we will
-learn to channel three types of data from SuperCollider to Reaper. In doing so
-we will extend the realm of the possible when we organize sound. The three data
-types are: Audio, MIDI and finally OSC. Please download the below .zip which
-contains files which can be used to make sound in SuperCollider, to record that
-sound in Reaper and to control Reaper in ways which are not possible using
-Reaper alone:  
+I was given the opportunity to hold a course in Sound Design at Stockholm
+University of The Arts a while back. It was initially intended to be solely
+about Reaper. I negotiated the situation to have the course also include ways
+that SuperCollider can extend the capabilities and capacities of Reaper. In
+this course we will learn to channel three types of data from SuperCollider to
+Reaper. In doing so we will extend the realm of the possible when we organize
+sound. The three data types are: Audio, MIDI and finally OSC. Please download
+the below .zip which contains files which can be used to make sound in
+SuperCollider, to record that sound in Reaper and to control Reaper in ways
+which are not possible using Reaper alone:  
+
 [sc4Reaper.zip](https://github.com/danielmkarlsson/sc4reaper/archive/master.zip)<br><br>
 
 <video controls="controls" width="100%" name="sc4reaper01.mov"
@@ -41,6 +43,7 @@ src="sc4reaper02.mov"></video>
 Please download and install the 64 bit version of Reaper from the below link.
 Reaper is our DAW, it is where we record sound and generally do our work of
 organizing sound:  
+
 [Reaper.fm](https://Reaper.fm)<br><br>
 
 Please download and install the Current Version (with Apple notarization) from
@@ -50,11 +53,13 @@ It contains a state of the art synthesis engine which is renowned for it's
 efficiency and cleanliness. It also contains quite an elegant programming
 language that has been specifically tailored to our needs, being as we are; Folks
 who want to organize sound:  
+
 [supercollider.github.io](https://supercollider.github.io/download)<br><br>
 
 Please download and install the latest signed version of SoundFlower from the
 link below. SoundFlower let's us route audio between programs inside our
 computers:  
+
 [github.com/mattingalls/Soundflower](https://github.com/mattingalls/Soundflower)<br><br>
 
 It is my strongly expressed recommendation that you never, ever, _ever_ listen
@@ -136,7 +141,7 @@ write. On a practical level what I'm talking about here is the round swirly
 SuperCollider icon in the dock where we see the programs that are open right
 now. Next to it is the square swirly SuperCollider icon which is SCSynth. Go
 ahead and press `Cmd + ,`. We are now in SuperCollider's IDE configuration.
-Press "Editor". Toggle "Wrap test in post window". This is essential. Depending
+Press "Editor". Toggle "Wrap text in post window". This is essential. Depending
 on taste you might also enjoy toggling "Disable blinking cursor", drives me nuts
 if I don't do that anyway. Press "Apply" and "OK" to exit.
 
@@ -154,23 +159,21 @@ to open up now. Copy that mess of text. Close that file. Press the "File" tab,
 then "Open startup file". Paste into there. Press `Cmd + s` to save it. Then
 press `Cmd + Shift + L` to recompile the class library. We're going to be doing
 this a lot. It's one of a few different ways that we can ask SuperCollider to
-take a look at itself to see if the way that it is configured has changed in any
-way. All of the lines of executable code in that file are now ran automagically
-each time we start SuperCollider. These are sensible defaults I promise. You're
-gonna wanna poke through 'em once you get settled in tho for sure, but until
-then, go with these.
+take a look at itself to see if the way that it is configured has changed in
+any way. All of the lines of executable code in that file are now ran
+automagically each time we start SuperCollider. I find these defaults to be
+sensible. You might want to poke through these once you get settled in, but
+until then, go with these settings.
 
-Open up that sc4reaper folder and look for a file called Pxshuf. Have that ready
-in a Finder window on the side there because we're going to put it in the right
-place soon. Go back to SuperCollider. Press the "File" tab. Click "Open user
-support directory". Quick tangent: We are now in a hidden, secret place on your
-computer because  yada, yada, reasons. Click on the "Extensions" folder to open
-it. Drag that Pxshuf.sc file over into there. Go back to SuperCollider and press `Cmd
-+ Shift + L` to recompile the class library. You have now extended
+Open up that sc4reaper folder and look for a file called Pxshuf. Have that
+ready in a Finder window on the side there because we're going to put it in the
+right place soon. Go back to SuperCollider. Press the "File" tab. Click "Open
+user support directory". Quick tangent: We are now in a hidden, secret place on
+your computer because  yada, yada, reasons. Click on the "Extensions" folder
+to open it. Drag that Pxshuf.sc file over into there. Go back to SuperCollider
+and press `Cmd + Shift + L` to recompile the class library. You have now extended
 SuperCollider's capabilities with one custom Pattern class which is David
-Granström's handiwork. It is excellent. If you for some reason ever find
-yourself without it, you could use the vanilla version instead. It is similar
-but behaves a little different. It is called Pshuf.
+Granström's handiwork. It is excellent. 
 
 Patterns is one of around five competing paradigms within SuperCollider. These
 different paradigms represent different ways of thinking, writing code and most
@@ -184,34 +187,36 @@ We'll get back to Patterns later but it is now high time that we use
 SuperCollider to make some sound. Open the 101.scd file that you can find in
 your SC4Reaper. This style of writing SuperCollider code is often called
 Function play. We can identify it by it's use of curly braces and the word play
-either at the bigging or the end of it. These are often short because a long
-time there was a project called sc140 that tried to spread the gospel of
-SuperCollider by showing that a lot could be done with very few characters. Long
-story short; These are everywhere on The Public Internet. You might find one you
-like one day and use the sound it makes. Press `Cmd + B`. This boots the server.
-Notice that there is a text marker. Make sure that this text marker is on the
-line with the code. Now press `Shift + Enter`. This will evaluate the code. Now
-press `Cmd + M`. This will bring up SuperCollider's volume meter. Hopefully we
-should see some coclourful lights there. No sound tho right? Open Reaper. Make a
-new track by pressing `Cmd + T`. Press the red button on the track we just
-added. This arms the track for recording. Notice that the track is represented
-in two places. Down in the mixer and in the track lane. Both have turned red
-because they represent the same thing. Let's choose how many channels we want to
-record. Down and to the right we see "input 1". Click this text field. click
-"Input: Stereo" and then "Input 1/Input 2". We should at this point see that
-signal from SuperCollider is reaching Reaper in the track meter. If we hover
-over the tiny speaker icon on the track we see that record monitoring is turned
-off. Click the tiny speaker icon to turn it on. If all has gone well we should
-now hear the sound that is coming from SuperCollider. Let's record this sound.
-Press `Cmd + R` to record. Press the space bar when you have a lil´ snip
-recorded. You'll now see a dalog urging you to decide what to do with this file
-you just recorded. Untoggle "on stop". This makes it easier and faster to work
-with Reaper when we are recording a bunch of tracks and we want have another
-shot at nailing our take as quickly as possible. Notice that the track you just
-recorded is white which means it is selected. Press backspace to delete it.
-Quick and easy.
+either at the begining or the end of it. These are often short because a long
+time ago there was a project called sc140 that tried to spread the gospel of
+SuperCollider by showing that a lot could be done with very few characters.
+Long story short; These are everywhere on The Public Internet. You might find
+one you like one day and use the sound it makes. 
 
-Switch over to SuperCollider. Press `Cmd + .`(that's period, the end of sentence
+Press `Cmd + B`. This boots the server. Notice that there is a text marker.
+Make sure that this text marker is on the line with the code. Now press `Shift
++ Enter`. This will evaluate the code. Now press `Cmd + M`. This will bring up
+SuperCollider's volume meter. Hopefully we should see some colourful lights
+there. No sound tho right? Open Reaper. Make a new track by pressing `Cmd + T`.
+Press the red button on the track we just added. This arms the track for
+recording. Notice that the track is represented in two places. Down in the
+mixer and in the track lane. Both have turned red because they represent the
+same thing. Let's choose how many channels we want to record. Down and to the
+right we see "input 1". Click this text field. click "Input: Stereo" and then
+"Input 1/Input 2". We should at this point see that signal from SuperCollider
+is reaching Reaper in the track meter. If we hover over the tiny speaker icon
+on the track we see that record monitoring is turned off. Click the tiny
+speaker icon to turn it on. If all has gone well we should now hear the sound
+that is coming from SuperCollider. Let's record this sound. Press `Cmd + R` to
+record. Press the space bar when you have a lil´ snip recorded. You'll now see
+a dialog urging you to decide what to do with this file you just recorded.
+Untoggle "on stop". This makes it easier and faster to work with Reaper when
+we are recording a bunch of tracks and we want to have another shot at nailing our
+take as quickly as possible. Notice that the track you just recorded is white
+which means it is selected. Press backspace to delete it. Quick and easy.
+
+Switch over to SuperCollider. Press `Cmd + .`(that's period, the end of
+sentence
 character) to stop the sound. Evaluate the code again. Notice that the sound is
 similar but different. That is because the code contains some stochastic choices
 that I've asked the computer to make. This gives us a unique collapsing of the
@@ -223,20 +228,19 @@ Every time we feel that we need to start from the beginning learning how to do
 things in SuperCollider we begin with Eli Fieldsteel's excellent video tutorial
 series:  
 [Fieldsteel video series](https://www.youtube.com/watch?v=yRzsOOiJ_p4&list=PLPYzvS8A_rTaNDweXe6PX4CXSGq4iEWYC)<br><br>
-
-If we want, we can also look at the code from the above Fieldsteel videos here:
-[Fieldsteel video series code](https://github.com/elifieldsteel/Supercollider3_tutorials_code/tree/master/full%20video%20scripts)<br><br>
+If we want, we can also look at the code from the above Fieldsteel videos here:  
+[Fieldsteel video series code](https://github.com/elifieldsteel/SuperCollider-Tutorials/tree/master/full%20video%20scripts)<br><br>
 
 If we find ourselves just wanting to look up a particular thing, the docs are
-online here:  
-[SuperCollider documentation online](https://github.com/elifieldsteel/Supercollider3_tutorials_code/tree/master/full%20video%20scripts)<br><br>
+online here:    
+[SuperCollider documentation online](http://doc.sccode.org/)<br><br>
 
 Thanks to the tireless efforts of Mads Kjeldgaard one awesome place has all the
 best resources and tutorials waiting for us when we want to dig deeper:   
 [Awesome SuperCollider](https://github.com/madskjeldgaard/awesome-supercollider)<br><br>
 
 How to change the default synth in SuperCollider:  
-[madskjeldgaard.dk](https://www.madskjeldgaard.dk/how-to-change-the-default-synth-in-supercollider/)<br><br>
+[madskjeldgaard.dk](https://madskjeldgaard.dk/how-to-change-the-default-synth-in-supercollider/)<br><br>
 
 Get Git:  
 [git-scm.com](https://git-scm.com/)<br><br>
@@ -248,7 +252,7 @@ An FM synth that can be computer controlled:
 [github.io/dexed](http://asb2m10.github.io/dexed/)<br><br>
 
 A safer Benjolin:  
-[github.com/madskjeldgaard](https://gist.github.com/madskjeldgaard/67d286651b574565dedb8bd50b4c25f6)<br><br>
+[github.com/madskjeldgaard/safe-benjolin.scd](https://gist.github.com/madskjeldgaard/67d286651b574565dedb8bd50b4c25f6)<br><br>
 
 sInstruments:  
 [github.com/redfrik/sinstruments](https://github.com/redfrik/sinstruments)<br><br>
@@ -283,19 +287,22 @@ to run VST plugins inside of SuperCollider itself:
 SuperCollider integration for Neovim:  
 [github.com/davidgranstrom/scnvim](https://github.com/davidgranstrom/scnvim)<br><br>
 
-Amazing online gallery of fragments made with SuperCollider:    
-[synthdef.art](https://synthdef.art/function-play/)<br><br>
+<!--- Amazing online gallery of fragments made with SuperCollider: -->   
+<!--- [synthdef.art](https://synthdef.art/function-play/)<br><br> -->
 
-Two drones of infinite duration: 
+Two drones of infinite duration:   
 [danielmkarlsson.github.io/](http://danielmkarlsson.github.io/)<br><br>
 
-I've been maintaining  a project called Ruins in the distance for quite a few
+That material was later released by XKatedral:  
+[A loss of self](https://xkatedral.bandcamp.com/album/daniel-m-karlsson-a-loss-of-self)<br><br>
+
+I've been maintaining a project called Ruins in the distance for quite a few
 years now. That project mainly uses the tools and techniques we've been using in
-the course:   
+the course:  
 [danielmkarlsson.com/ruins-in-the-distance](https://www.danielmkarlsson.com/ruins-in-the-distance/)<br><br>
 
 Verdensteatret - HANNAH, a stage performance that utilizes SuperCollider in a
-multitude of ways:   
+multitude of ways:  
 [verdensteatret.com](https://vimeo.com/243080465)<br><br>
 
 EMS is great:  
@@ -359,3 +366,40 @@ window.addEventListener('load', function () {
   });
 });
 </script>
+
+<script>
+function goToURL() {
+    var links = [
+        "./a-collapse-of-structures/",
+        "./map/",
+        "./now/",
+        "./ruins-in-the-distance",
+        "./gigs",
+        "./log",
+        "./log",
+        "./frequently-asked-questions",
+        "./list",
+        "./etudes",
+        "./sc4reaper",
+        "./superclean-installparty",
+        "./utilities",
+        "./recipes",
+        "./pieces",
+        "./links",
+    ];
+
+    // get a random number between 0 and the number of links
+    var randIdx = Math.round(Math.random() * (links.length - 1));
+    // construct the link to be opened
+    var root = window.location.protocol + '//' + window.location.host;
+    var link = root + '/' + links[randIdx];
+
+    document.location.href = link;
+};
+</script>
+
+<p align="right">
+<a href="#" onClick="goToURL()">∞</a>
+</p>
+<br>
+<br>

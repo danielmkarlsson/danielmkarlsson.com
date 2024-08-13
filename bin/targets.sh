@@ -8,7 +8,7 @@ TITLE=dmk
 
 # pandoc args
 ARGS='--standalone'
-ARGS+=' --include-in-header='"$SRCDIR"'/css/normalize.min.css'
+# ARGS+=' --include-in-header='"$SRCDIR"'/css/normalize.min.css'
 ARGS+=' --include-in-header='"$SRCDIR"'/css/style.css'
 ARGS+=' --include-in-header='"$SRCDIR"'/includes/favicon.html'
 ARGS+=' --metadata pagetitle='"$TITLE"
@@ -25,7 +25,14 @@ for file in $SOURCES; do
   else
       pandoc "$file" -o "$OUTPUTDIR"/"$filename".html $ARGS
   fi
+  if [ -d "$OUTPUTDIR"/"$filename" ]; then
+    if [ -d "$SRCDIR"/playlists/"$filename" ]; then
+        cp "$SRCDIR"/playlists/"$filename"/*.json "$OUTPUTDIR"/"$filename"
+    fi
+  fi
 done
 
 # copy javascript files
 cp -f "$SRCDIR"/includes/*.js "$OUTPUTDIR"
+cp -f player/dmk-player.js "$OUTPUTDIR"
+cp -f player/dmk-player.css "$OUTPUTDIR"
