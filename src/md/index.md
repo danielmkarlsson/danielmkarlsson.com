@@ -1,9 +1,3 @@
-<!--<center>**<span class="blinking">UNDER CONSTRUCTION!</span>**</center>-->
-<!--<center><span class="blinking">My site is going through some _serious_ changes.</span></center><br>-->
-My site is currently in text only mode due to being under reconstruction. 
-Certain external resources are still available for download. 
-Shoot me an email if you are looking for something in particular and maybe we can work something out. 
-
 <br><center>**Daniel M Karlsson**</center><br>
 <center>Composer focused primarily on texture and timbre.<sup><a href="#fn1" id="ref1">1</a></sup>  
 Works extensively with algorithmic composition.  

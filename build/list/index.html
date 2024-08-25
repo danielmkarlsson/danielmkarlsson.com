@@ -376,50 +376,16 @@
 <body>
 <br>
 <center>
-<strong>Etudes</strong>
+<strong>Email list subscription</strong>
 </center>
-<p>These are intermediaries, mockups or experiments that I designed to quickly investigate ideas. They are rough drafts or proofs of concepts that might demonstrate a functionality or a phenomenon. Stakes in the ground or notes for things I’d like to develope further.</p>
-<p><br></p>
-<div class="dmk-player" data-playlist="index.json">
-
-</div>
-<p><br></p>
-<script async type="text/javascript" src="/dmk-player.js?v=5"></script>
-<p><link rel="stylesheet" href="/dmk-player.css"></p>
-<script>
-window.addEventListener('load', function () {
-  var elements = document.getElementsByClassName('dmk-player');
-  var players = Array.from(elements).map(function (el) {
-    if (el.dataset) {
-      var rootUrl = 'https://f005.backblazeb2.com/file/recovery-site/html/etudes/';
-      var playlistIndexUrl = window.location.href;
-      var playlist = el.dataset.playlist;
-      var isVideo = !!el.dataset.isVideo;
-      var layout = {
-        title: false,
-        elapsedTime: false
-      };
-      var options = {
-        playlist: playlist,
-        isVideo: isVideo,
-        rootUrl: rootUrl,
-        playlistIndexUrl: playlistIndexUrl,
-      };
-      return new DMKPlayer(el, options, layout);
-    }
-  });
-  players.forEach(function (player, index) {
-    player.index = index;
-    player.on('play', function () {
-      players.forEach(function (p) {
-        if (p.index !== player.index && p.isPlaying) {
-          p.stop();
-        }
-      });
-    });
-  });
-});
-</script>
+<p><br> You can sign up for an email newsletter by sending an email to:</p>
+<center>
+<code>list@danielmkarlsson.com</code>
+</center>
+<p>with the word <em>subscribe</em> in the subject line (any case is fine). This starts an entirely automated process that I am unaware of. I sat this up for you because that is what I always wanted these kinds of things to be.</p>
+<p>If you would like to unsubscribe, then you guessed it, it’s the same deal as above, but you put the word <em>unsubscribe</em> in the subject line. I have no way of ever finding out if you unsubscribe because I would not like to know if that happened.</p>
+<p>I was going to add a fancy comma separated settings functionality in the body of the email so that you could change the maximum frequency of emails from the list to day, week, month, year or decade but it was way too much work. Instead I decided to never send newsletters more frequently than once per month.</p>
+<p>The newsletter will let you know about what is going on with me as an artist in a very brief, headline kind of style, with links to things for in depth reading. This will pretty much map one to one with new music and or text being posted to my site or made available elsewhere online. Thank you for reading this and for considering becoming a subscriber.</p>
 <script>
 function goToURL() {
     var links = [

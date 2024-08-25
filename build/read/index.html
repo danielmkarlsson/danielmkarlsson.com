@@ -376,83 +376,27 @@
 <body>
 <br>
 <center>
-<strong>Etudes</strong>
+<strong>Read</strong>
 </center>
-<p>These are intermediaries, mockups or experiments that I designed to quickly investigate ideas. They are rough drafts or proofs of concepts that might demonstrate a functionality or a phenomenon. Stakes in the ground or notes for things I’d like to develope further.</p>
 <p><br></p>
-<div class="dmk-player" data-playlist="index.json">
-
-</div>
+<p>Some books that I have read recently:</p>
+<p><a href="https://store.gollancz.co.uk/products/the-eternal-flame">Greg Egan - The Eternal Flame</a></p>
+<p><a href="https://store.gollancz.co.uk/products/the-clockwork-rocket">Greg Egan - The Clockwork Rocket</a></p>
+<p><a href="https://www.hachettebookgroup.com/titles/brian-merchant/blood-in-the-machine/9780316487740/?lens=little-brown">Brian Merchant - Blood in the machine</a></p>
+<p><a href="https://davidgraeber.org/books/debt-the-first-5000-years/">David Graeber - Debt: The First 5000 Years</a></p>
+<p><a href="https://store.gollancz.co.uk/products/incandescence">Greg Egan - Incandescence</a></p>
 <p><br></p>
-<script async type="text/javascript" src="/dmk-player.js?v=5"></script>
-<p><link rel="stylesheet" href="/dmk-player.css"></p>
-<script>
-window.addEventListener('load', function () {
-  var elements = document.getElementsByClassName('dmk-player');
-  var players = Array.from(elements).map(function (el) {
-    if (el.dataset) {
-      var rootUrl = 'https://f005.backblazeb2.com/file/recovery-site/html/etudes/';
-      var playlistIndexUrl = window.location.href;
-      var playlist = el.dataset.playlist;
-      var isVideo = !!el.dataset.isVideo;
-      var layout = {
-        title: false,
-        elapsedTime: false
-      };
-      var options = {
-        playlist: playlist,
-        isVideo: isVideo,
-        rootUrl: rootUrl,
-        playlistIndexUrl: playlistIndexUrl,
-      };
-      return new DMKPlayer(el, options, layout);
-    }
-  });
-  players.forEach(function (player, index) {
-    player.index = index;
-    player.on('play', function () {
-      players.forEach(function (p) {
-        if (p.index !== player.index && p.isPlaying) {
-          p.stop();
-        }
-      });
-    });
-  });
-});
-</script>
-<script>
-function goToURL() {
-    var links = [
-        "./a-collapse-of-structures/",
-        "./map/",
-        "./now/",
-        "./ruins-in-the-distance",
-        "./gigs",
-        "./log",
-        "./log",
-        "./frequently-asked-questions",
-        "./list",
-        "./etudes",
-        "./sc4reaper",
-        "./superclean-installparty",
-        "./utilities",
-        "./recipes",
-        "./pieces",
-        "./links",
-    ];
-
-    // get a random number between 0 and the number of links
-    var randIdx = Math.round(Math.random() * (links.length - 1));
-    // construct the link to be opened
-    var root = window.location.protocol + '//' + window.location.host;
-    var link = root + '/' + links[randIdx];
-
-    document.location.href = link;
-};
-</script>
-<p align="right">
-<a href="#" onClick="goToURL()">∞</a>
-</p>
-<p><br> <br></p>
+<p>Some other books that I can remember having read at the time of writing this:</p>
+<p>Ursula K. Le Guin — The Dispossessed<br />
+Greg Egan - Diaspora<br />
+Andreas Malm - How to Blow Up a Pipeline<br />
+Neil Stephensson - The Diamond Age<br />
+Neil Stephensson - Snowcrash<br />
+Kim Stanley Robinson - The Ministry for the Future<br />
+Nina Björk - Om man älskar frihet<br />
+Fredrik Pohl &amp; C.M. Kornbluth - The space merchants<br />
+Göran Therborn - Kapitalet, överheten och alla vi andra<br />
+William Gibson - Agency<br />
+William Gibson - The peripheral</p>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <br><center>**hld**</center><br> 
-<div class="dmk-player"data-playlist="hld/index.json"></div>
+<div class="dmk-player" data-playlist="index.json"></div>
 
 I went to EMS two times and recorded the Halldorophone which is on loan to EMS
 from the inventor. I found it works best without any kind of bow interaction.
@@ -88,8 +88,7 @@ Routine{
 ```
 <br>
 <br><br><center>**sbt**</center><br> 
-<div class="dmk-player"data-playlist="sbt/index.json"></div>
-
+<!-- <div class="dmk-player"data-playlist="sbt/index.json"></div> -->
 
 As I was completing Towards a Music for Large Ensemble I began to feel I did not
 have time to complete an etude for each new instrument I added. Now it's after
@@ -168,7 +167,7 @@ Routine{
 <br>
 <br>
 <br><center>**est**</center><br> 
-<div class="dmk-player"data-playlist="est/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="est/index.json"></div> -->
 
 I put snare wires on top of a small tambourine drum. Then I put an ebow on the snare wires. 
 The ebow makes the snare wire under it vibrate. I put the mics at either end of the snare 
@@ -229,7 +228,7 @@ Routine{
 <br>
 <br>
 <br><center>**eph**</center><br> 
-<div class="dmk-player"data-playlist="eph/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="eph/index.json"></div> -->
 
 I wrote on The Public Internet that I was looking to borrow a trombone. A person
 reached out and said I could borrow their Euphonium because it was the closest thing they had.
@@ -297,7 +296,7 @@ Routine{
 <br>
 <br>
 <br><center>**mtb**</center><br> 
-<div class="dmk-player"data-playlist="mtb/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="mtb/index.json"></div> -->
 
 I went to visit a friend who lives a little bit outside of the city.
 Ducked in real quick in a cute lil second hand shop before catching the train back.
@@ -358,7 +357,7 @@ Routine{
 <br>
 <br>
 <br><center>**шрами**</center><br> 
-<div class="dmk-player"data-playlist="sar/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="sar/index.json"></div> -->
 
 I soldered together a cute little electronic noise instrument from a pcb kit I ordered from 
 [noise.technology](https://noise.technology/) which is run by Max Wainwright who is a guy 
@@ -427,7 +426,7 @@ Routine{
 <br>
 <br>
 <br><center>**swp**</center><br> 
-<div class="dmk-player"data-playlist="swp/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="swp/index.json"></div> -->
 
 I recorded some feedback through through my Rundgång prototype and a small
 metal plate using the nice mics and the nice micpres. I felt I was not
@@ -485,7 +484,7 @@ Routine{
 <br>
 <br>
 <br><center>**lsh**</center><br> 
-<div class="dmk-player"data-playlist="lsh/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="lsh/index.json"></div> -->
 
 I made this music from the recordings I did of the lowest keyboard register on
 the organ at Lötsjö kapell. I chose this registration because it had the fewest
@@ -551,7 +550,7 @@ Routine{
 <br>
 <br>
 <br><center>**nsb**</center><br> 
-<div class="dmk-player"data-playlist="nsb/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="nsb/index.json"></div> -->
 
 A friend of mine who is a really great percussionist let me borrow one of his
 bows. It's a custom made bow. It's made with fishing line and it is quite short
@@ -628,7 +627,7 @@ Routine{
 <br>
 <br>
 <br><center>**bcm**</center><br> 
-<div class="dmk-player"data-playlist="bcm/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="bcm/index.json"></div> -->
 
 I bought a cymbal real cheap at a second hand store close to were I live. I
 used the nice mics and the nice preamps to record it. I layed the cymbal on a
@@ -687,7 +686,7 @@ Routine{
 <br>
 <br>
 <br><center>**fms**</center><br> 
-<div class="dmk-player"data-playlist="fms/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="fms/index.json"></div> -->
 
 I put a long, thin metal shelf on a box with a pickup and a speaker in it and
 got some feedback going through the shelf itself. The shelf acts as a complex
@@ -758,7 +757,7 @@ Routine{
 <br>
 <br>
 <br><center>**phg**</center><br> 
-<div class="dmk-player"data-playlist="phg/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="phg/index.json"></div> -->
 
 I wanted to make a slower and more subtle music than what I’ve been making as
 of lately. Still I wanted for there to be changes, but just more gradual. Also
@@ -821,7 +820,7 @@ Routine{
 <br>
 
 <br><center>**thb**</center><br> 
-<div class="dmk-player"data-playlist="thb/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="thb/index.json"></div> -->
 
 A while back I borrowed two ebows from a friend who lives close to where I
 live. That got the grand total up to three ebows for a while. At first I tried
@@ -928,7 +927,7 @@ Routine{
 <br>
 
 <br><center>**pno**</center><br> 
-<div class="dmk-player"data-playlist="pno/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="pno/index.json"></div> -->
 
 I bought a tiny Piamino for real cheap. It only has 55 keys. It is not a good
 idea to try to move a piano on your lonesome so, I paid professional piano
@@ -1055,7 +1054,7 @@ Routine{
 <br>
 
 <br><center>**cbg**</center><br> 
-<div class="dmk-player"data-playlist="cbg/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="cbg/index.json"></div> -->
 
 A while back I found a cigar box guitar for real cheap at a second hand store
 close to where I live. It was handbuilt. I think whoever made it spent a lot of
@@ -1173,7 +1172,7 @@ Routine{
 <br>
 
 <br><center>**vcl**</center><br> 
-<div class="dmk-player"data-playlist="vcl/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="vcl/index.json"></div> -->
 
 A friend from England came to stay in the apartment during a guest composer
 residency at EMS. A buddy of mine who lives nearby lent a Cello to my friend
@@ -1265,7 +1264,7 @@ Routine{
 <br>
 
 <br><center>**gvs**</center><br> 
-<div class="dmk-player"data-playlist="gvs/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="gvs/index.json"></div> -->
 
 The other day when I was making the rounds to the local second hand shops and
 flea markets, like I do. In the middle of the vaguely familar, there stood upon
@@ -1327,7 +1326,7 @@ Routine{
 <br>
 
 <br><center>**rec**</center><br> 
-<div class="dmk-player"data-playlist="rec/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="rec/index.json"></div> -->
 
 I was looking for cheap instruments on used instrument sites, like I do, when I
 saw that you can get a Recorder for real cheap. Then I had a faint recollection
@@ -1406,7 +1405,7 @@ Routine{
 <br>
 
 <br><center>**met**</center><br> 
-<div class="dmk-player"data-playlist="met/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="met/index.json"></div> -->
 
 I've been collecting bowls and various other metal objects from thrift stores
 for quite some time now. I for sure got the idea from first hearing and then
@@ -1491,7 +1490,7 @@ Routine{
 <br>
 
 <br><center>**trp**</center><br> 
-<div class="dmk-player"data-playlist="trp/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="trp/index.json"></div> -->
 
 I made some recordings of a trumpet I bought ages ago when the municipality was
 replacing it's music school instruments and selling the old ones at an
@@ -1587,7 +1586,7 @@ Routine{
 <br>
 
 <br><center>**gls**</center><br> 
-<div class="dmk-player"data-playlist="gls/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="gls/index.json"></div> -->
 
 One morning as the old clock radio woke me, I heard a piece of music that
 included Glass Armonica. I was reminded I've been wanting to record glass for a
@@ -1672,7 +1671,7 @@ Routine{
 <br>
 
 <br><center>**tgt**</center><br> 
-<div class="dmk-player"data-playlist="tgt/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="tgt/index.json"></div> -->
 
 I bought a used toy guitar for real cheap. The body is approximately an eighth
 of full size. Four steel strings. I laid it flat on it's back and put an ebow
@@ -1736,7 +1735,7 @@ Routine{
 <br>
 
 <br><center>**bfn**</center><br> 
-<div class="dmk-player"data-playlist="bfn/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="bfn/index.json"></div> -->
 
 Quite a while back I made an informal recording to try out a new kind of fan
 on my steel string parlor guitar. It's a Levin. I've been trying to find a good
@@ -1815,7 +1814,7 @@ Routine{
 <br>
 
 <br><center>**snr**</center><br> 
-<div class="dmk-player"data-playlist="snr/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="snr/index.json"></div> -->
 
 I’ve been trying to find a cheap used snare drum for a while now but I haven’t
 found one that I think would work for me. Then I got to thinking that just the
@@ -1885,7 +1884,7 @@ Routine{
 <br>
 
 <br><center>**mtf**</center><br> 
-<div class="dmk-player"data-playlist="mtf/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="mtf/index.json"></div> -->
 
 I bought a strange flute made out of metal for next to nothing. I bought it
 used like I try to do for most things. I recorded 16 takes of the same low
@@ -1998,7 +1997,7 @@ s.stopRecording;
 <br>
 
 <br><center>**smb**</center><br> 
-<div class="dmk-player"data-playlist="smb/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="smb/index.json"></div> -->
 
 I recorded a small metal bowl which was suspended above a contraption called
 _Rundgång_ that [my friend Jon](https://thehumancomparator.net/) who is a
@@ -2074,7 +2073,7 @@ Pdef(0,
 <br>
 
 <br><center>**zth**</center><br> 
-<div class="dmk-player"data-playlist="zth/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="zth/index.json"></div> -->
 
 I recorded my larger zither with some preparations on it. Magnets and glass
 marbles. Four takes recorded in stereo at 192kHz, then transposed down to half
@@ -2152,7 +2151,7 @@ Pdef(0,
 <br>
 
 <br><center>**bbu**</center><br> 
-<div class="dmk-player"data-playlist="bbu/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="bbu/index.json"></div> -->
 
 I recorded 183 very short transient sounds using bamboo kitchen utensils. I
 used the Audient iD14 as the preamp but recorded in a NI Komplete Audio 6 MK2
@@ -2218,7 +2217,7 @@ t.start;
 <br>
 
 <br><center>**acf**</center><br> 
-<div class="dmk-player"data-playlist="acf/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="acf/index.json"></div> -->
 
 I recorded an accordion's lowest note, held for as long as I could sustain it.
 I chose the registration that had what sounded to me like the most overtones
@@ -2283,7 +2282,7 @@ Routine{
 <br>
 
 <br><center>**tap**</center><br> 
-<div class="dmk-player"data-playlist="tap/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="tap/index.json"></div> -->
 
 I recorded a sine wave onto a cassette tape using a JVC UX-T20BK. When I played
 it back I recorded it at 192kHz. I then transposed it down to 44.1kHz and
@@ -2344,7 +2343,7 @@ Pdef(0,
 <br>
 
 <br><center>**mrb**</center><br> 
-<div class="dmk-player"data-playlist="mrb/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="mrb/index.json"></div> -->
 
 I wanted to make sure that I had gotten rid of that pesky bug where a little
 bit longer files would play back all rotten.  Sounded like low sample rate.
@@ -2393,7 +2392,7 @@ Pdef(0,
 <br>
 
 <br><center>**bwm**</center><br> 
-<div class="dmk-player"data-playlist="bwm/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="bwm/index.json"></div> -->
 
 Anything can be bowed. Even a black metal stove guard I bought for 10 sek at a
 thrift store one time ages ago. I finally got around to bowing it and found
@@ -2458,7 +2457,7 @@ Pdef(0,
 <br>
 
 <br><center>**stn**</center><br> 
-<div class="dmk-player"data-playlist="stn/index.json"></div>
+<!-- <div class="dmk-player"data-playlist="stn/index.json"></div> -->
 
 I started off the day by recording some chuggy stunt guitar sounds in 192kHz. I
 made six short samples of the zeroth and first fret using three playing styles.
@@ -2509,13 +2508,16 @@ Pdef(0,
 
 <style>.playlist { display: none; }</style>
 
-<script async type="text/javascript" src="/player/dmk-player.js?v=5"></script>
+<script async type="text/javascript" src="/dmk-player.js?v=5"></script>
+<link rel="stylesheet" href="/dmk-player.css">
+
 <script>
 window.addEventListener('load', function () {
   var elements = document.getElementsByClassName('dmk-player');
   var players = Array.from(elements).map(function (el) {
     if (el.dataset) {
-      var rootUrl = window.location.origin;
+      var rootUrl = 'https://f005.backblazeb2.com/file/log-tracks/hld/';
+      var playlistIndexUrl = window.location.href;
       var playlist = el.dataset.playlist;
       var isVideo = !!el.dataset.isVideo;
       var layout = {
@@ -2525,7 +2527,8 @@ window.addEventListener('load', function () {
       var options = {
         playlist: playlist,
         isVideo: isVideo,
-        rootUrl: rootUrl
+        rootUrl: rootUrl,
+        playlistIndexUrl: playlistIndexUrl,
       };
       return new DMKPlayer(el, options, layout);
     }
@@ -2541,7 +2544,6 @@ window.addEventListener('load', function () {
     });
   });
 });
-
 </script>
 
 <script>

@@ -376,83 +376,10 @@
 <body>
 <br>
 <center>
-<strong>Etudes</strong>
+<strong>Mutually exclusive continuities</strong>
 </center>
-<p>These are intermediaries, mockups or experiments that I designed to quickly investigate ideas. They are rough drafts or proofs of concepts that might demonstrate a functionality or a phenomenon. Stakes in the ground or notes for things I’d like to develope further.</p>
 <p><br></p>
-<div class="dmk-player" data-playlist="index.json">
-
-</div>
-<p><br></p>
-<script async type="text/javascript" src="/dmk-player.js?v=5"></script>
-<p><link rel="stylesheet" href="/dmk-player.css"></p>
-<script>
-window.addEventListener('load', function () {
-  var elements = document.getElementsByClassName('dmk-player');
-  var players = Array.from(elements).map(function (el) {
-    if (el.dataset) {
-      var rootUrl = 'https://f005.backblazeb2.com/file/recovery-site/html/etudes/';
-      var playlistIndexUrl = window.location.href;
-      var playlist = el.dataset.playlist;
-      var isVideo = !!el.dataset.isVideo;
-      var layout = {
-        title: false,
-        elapsedTime: false
-      };
-      var options = {
-        playlist: playlist,
-        isVideo: isVideo,
-        rootUrl: rootUrl,
-        playlistIndexUrl: playlistIndexUrl,
-      };
-      return new DMKPlayer(el, options, layout);
-    }
-  });
-  players.forEach(function (player, index) {
-    player.index = index;
-    player.on('play', function () {
-      players.forEach(function (p) {
-        if (p.index !== player.index && p.isPlaying) {
-          p.stop();
-        }
-      });
-    });
-  });
-});
-</script>
-<script>
-function goToURL() {
-    var links = [
-        "./a-collapse-of-structures/",
-        "./map/",
-        "./now/",
-        "./ruins-in-the-distance",
-        "./gigs",
-        "./log",
-        "./log",
-        "./frequently-asked-questions",
-        "./list",
-        "./etudes",
-        "./sc4reaper",
-        "./superclean-installparty",
-        "./utilities",
-        "./recipes",
-        "./pieces",
-        "./links",
-    ];
-
-    // get a random number between 0 and the number of links
-    var randIdx = Math.round(Math.random() * (links.length - 1));
-    // construct the link to be opened
-    var root = window.location.protocol + '//' + window.location.host;
-    var link = root + '/' + links[randIdx];
-
-    document.location.href = link;
-};
-</script>
-<p align="right">
-<a href="#" onClick="goToURL()">∞</a>
-</p>
-<p><br> <br></p>
+<p>The piece is about interplay. It’s about the band, playing together, cooperating, listening to each other and cueing each other. I love that kind of stuff. Being in a band is just about the most amazing thing I’ve ever experienced. It felt to me like I was a part of something larger. I could lose myself in that feeling. I became part of this huge sound, together with my friends. Playing in bands when I was growing up really shaped the way I think about music and I’ll never forget it.</p>
+<p>The title for the piece comes from a wikipedia rabbit hole. It looks at how time travel is portrayed in popular culture and about how it has all these kinds of wild inconsistencies which amount to tropes at first and then to how we end up identifying the genre itself. The style of playing that is this piece could be imagined as an expression of an alternate timeline, where ebows and ringmodulation holds the equivalent role that plectrums and distortion holds in our timeline.</p>
 </body>
 </html>

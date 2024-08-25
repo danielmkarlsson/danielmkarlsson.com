@@ -374,36 +374,73 @@
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
 </head>
 <body>
+<center>
+<strong><span class="blinking">UNDER CONSTRUCTION!</span></strong>
+</center>
+<center>
+<span class="blinking">My site is going through some <em>serious</em> changes.</span>
+</center>
+<p><br></p>
 <br>
 <center>
-<strong>Etudes</strong>
+<strong>Daniel M Karlsson</strong>
 </center>
-<p>These are intermediaries, mockups or experiments that I designed to quickly investigate ideas. They are rough drafts or proofs of concepts that might demonstrate a functionality or a phenomenon. Stakes in the ground or notes for things I’d like to develope further.</p>
-<p><br></p>
-<div class="dmk-player" data-playlist="index.json">
+<br>
+<center>
+Composer focused primarily on texture and timbre.<sup><a href="#fn1" id="ref1">1</a></sup><br />
+Works extensively with algorithmic composition.<br />
+Marxist transhumanist singularitarian.<sup><a href="#fn2" id="ref2">2</a></sup>
+</center>
+<br>
+<center>
+<p><a href="./map">map</a> | <a href="./now">now</a> | <a href="./gigs">gig</a> | <a href="./log">log</a> | <a href="./frequently-asked-questions">faq</a> | <a href="https://github.com/danielmkarlsson">git</a> | <a href="./txt">txt</a><br />
+<a href="./list">list</a> | <a href="./face/">face</a> | <a href="./read/">read</a> | <a href="./rigs/">rigs</a> | <a href="./chat/">chat</a><br />
+<a href="./ruins-in-the-distance/">ruins</a> | <a href="./sc4reaper/">sc4re</a> | <a href="./links/">links</a> | <a href="./utilities">utils</a><br />
+<a href="./pieces/">pieces</a> | <a href="./etudes">etudes</a> | <a href="./a-collapse-of-structures">cllpse</a><br />
+<a href="./recipes">recipes</a> | <a href="./configurations">configs</a><br />
+<a href="./1234567">SuperClean</a></p>
+<p><link rel="me" href="[https://social.ordinal.garden/@t36s]" /></p>
+</center>
+<!--<p>-->
+<!--Below is the track that I think is my strongest work at present. If you are-->
+<!--pressed for time then I think you should start there.-->
+<div class="dmk-player" data-playlist="indexPlaylist/index.json">
 
 </div>
+<p><br> <!--If you'd like to read some text I wrote about that piece, then click the link--> <!--above that says col. There are some other links around there that I made for--> <!--other pieces and projects I've done in the past. Those are still valid as--> <!--representative examples of the kind of music that I make.--></p>
+<!--</p>-->
+<p>I would <em>love it</em> if you emailed me, about anything, right now even. I am entirely serious, have at it! I think that if you emailed me then that would be the best thing that could happen here after you are finished with your goTo of me [chuckles].</p>
+<center>
+firstname no initial [at] firstname initial lastname [dot] com
+</center>
 <p><br></p>
-<script async type="text/javascript" src="/dmk-player.js?v=5"></script>
-<p><link rel="stylesheet" href="/dmk-player.css"></p>
+<p><br></p>
+<div class="footnotes">
+<div>
+<sup id="fn1">1. Drone basically but, as always, it’s complicated.</sup>
+</div>
+<div>
+<sup id="fn2">2. My biggest short term goal is <em>Economic Democracy</em> for everyone. A simpler wording would be “everything for everyone”. Practical breakdown includes, but is not limited to: Free access to food, housing, clothing, education, transportation and computation. I am entirely anti capitalist and I regard any and all speculation as fundamentally unacceptable. My biggest long term goal is a fun times fully automated luxury space communism with optional mind uploading for all. You need to know that about me if we are going to be friends.</sup>
+</div>
+</div>
+<style>.playlist { display: none; }</style>
+<script async type="text/javascript" src="/player/dmk-player.js?v=5"></script>
 <script>
 window.addEventListener('load', function () {
   var elements = document.getElementsByClassName('dmk-player');
   var players = Array.from(elements).map(function (el) {
     if (el.dataset) {
-      var rootUrl = 'https://f005.backblazeb2.com/file/recovery-site/html/etudes/';
-      var playlistIndexUrl = window.location.href;
+      var rootUrl = window.location.origin;
       var playlist = el.dataset.playlist;
       var isVideo = !!el.dataset.isVideo;
       var layout = {
-        title: false,
+        title: true,
         elapsedTime: false
       };
       var options = {
         playlist: playlist,
         isVideo: isVideo,
-        rootUrl: rootUrl,
-        playlistIndexUrl: playlistIndexUrl,
+        rootUrl: rootUrl
       };
       return new DMKPlayer(el, options, layout);
     }
@@ -419,6 +456,8 @@ window.addEventListener('load', function () {
     });
   });
 });
+
+// <script src="audio-player.js"></script>
 </script>
 <script>
 function goToURL() {
@@ -439,6 +478,7 @@ function goToURL() {
         "./recipes",
         "./pieces",
         "./links",
+        "./mecha-geriatric",
     ];
 
     // get a random number between 0 and the number of links
@@ -453,6 +493,17 @@ function goToURL() {
 <p align="right">
 <a href="#" onClick="goToURL()">∞</a>
 </p>
+<script>
+//<p align="left">
+//<button1 onclick="darkMode()">°</button1>
+//</p>
+</script>
+<script>
+function darkMode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 <p><br> <br></p>
 </body>
 </html>

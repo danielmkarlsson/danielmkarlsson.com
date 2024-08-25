@@ -1,3 +1,3 @@
 #!/bin/sh
 
-b2 ls --json recovery-site "html/ruins" > file_list.json
+b2 ls --json log-tracks "hld" > file_list.json

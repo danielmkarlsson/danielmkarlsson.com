@@ -1,0 +1,2 @@
+# create a file list from b2
+b2 ls --json recovery-site "html/ruins" > file_list.json

@@ -376,57 +376,30 @@
 <body>
 <br>
 <center>
-<strong>Etudes</strong>
+<strong>ascii</strong>
 </center>
-<p>These are intermediaries, mockups or experiments that I designed to quickly investigate ideas. They are rough drafts or proofs of concepts that might demonstrate a functionality or a phenomenon. Stakes in the ground or notes for things I’d like to develope further.</p>
+<pre class="text"><code>/|\
+  \/||////
+    \/||||\\||\\
+      /|/|\\\|\//|\|//|\\
+        \\/\\/|\/|||/\|\|\/|/|/\|\\
+      |/|/|\||/|/\||/\||//||/\\/
+    /|\/|//||//|\\\/|/|\/||/
+  /|\|||///|\\\|\|\/|\
+/||\|\|/|/\|/</code></pre>
 <p><br></p>
-<div class="dmk-player" data-playlist="index.json">
-
-</div>
+<!-- Form which will send a GET request to the current URL -->
+<form method="post">
+<label> <input name="" autocomplete="" /> </label>
+</form>
 <p><br></p>
-<script async type="text/javascript" src="/dmk-player.js?v=5"></script>
-<p><link rel="stylesheet" href="/dmk-player.css"></p>
-<script>
-window.addEventListener('load', function () {
-  var elements = document.getElementsByClassName('dmk-player');
-  var players = Array.from(elements).map(function (el) {
-    if (el.dataset) {
-      var rootUrl = 'https://f005.backblazeb2.com/file/recovery-site/html/etudes/';
-      var playlistIndexUrl = window.location.href;
-      var playlist = el.dataset.playlist;
-      var isVideo = !!el.dataset.isVideo;
-      var layout = {
-        title: false,
-        elapsedTime: false
-      };
-      var options = {
-        playlist: playlist,
-        isVideo: isVideo,
-        rootUrl: rootUrl,
-        playlistIndexUrl: playlistIndexUrl,
-      };
-      return new DMKPlayer(el, options, layout);
-    }
-  });
-  players.forEach(function (player, index) {
-    player.index = index;
-    player.on('play', function () {
-      players.forEach(function (p) {
-        if (p.index !== player.index && p.isPlaying) {
-          p.stop();
-        }
-      });
-    });
-  });
-});
-</script>
 <script>
 function goToURL() {
     var links = [
         "./a-collapse-of-structures/",
         "./map/",
-        "./now/",
         "./ruins-in-the-distance",
+        "./pieces",
         "./gigs",
         "./log",
         "./log",
@@ -437,7 +410,6 @@ function goToURL() {
         "./superclean-installparty",
         "./utilities",
         "./recipes",
-        "./pieces",
         "./links",
     ];
 
@@ -450,9 +422,7 @@ function goToURL() {
     document.location.href = link;
 };
 </script>
-<p align="right">
-<a href="#" onClick="goToURL()">∞</a>
-</p>
-<p><br> <br></p>
+<p><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br></p>
+<p><a href="#" onClick="goToURL()">∞</a></p>
 </body>
 </html>
