@@ -90,8 +90,6 @@ Routine{
 <br><br><center>**sbt**</center><br> 
 <div class="dmk-player" data-playlist="sbt-index.json"></div>
 
-
-
 As I was completing Towards a Music for Large Ensemble I began to feel I did not
 have time to complete an etude for each new instrument I added. Now it's after
 the premiere of the piece, so there is time again. Time to focus in on one
@@ -2515,61 +2513,41 @@ Pdef(0,
 
 <script>
 window.addEventListener('load', function () {
-  var elements = document.getElementsByClassName('dmk-player');
-  var players = Array.from(elements).map(function (el) {
-    if (el.dataset) {
-      var rootUrl = 'https://f005.backblazeb2.com/file/log-tracks/hld/';
-      var playlistIndexUrl = window.location.href;
-      var playlist = el.dataset.playlist;
-      var isVideo = !!el.dataset.isVideo;
-      var layout = {
-        title: false,
-        elapsedTime: false
-      };
-      var options = {
-        playlist: playlist,
-        isVideo: isVideo,
-        rootUrl: rootUrl,
-        playlistIndexUrl: playlistIndexUrl,
-      };
-      return new DMKPlayer(el, options, layout);
-    }
-  });
-  players.forEach(function (player, index) {
-    player.index = index;
-    player.on('play', function () {
-      players.forEach(function (p) {
-        if (p.index !== player.index && p.isPlaying) {
-          p.stop();
-        }
-      });
-    });
-  });
-});
-</script>
+  const urls = [
+    'https://f005.backblazeb2.com/file/log-tracks/hld/',
+    'https://f005.backblazeb2.com/file/log-tracks/sbt/',
+  ];
 
-<script>
-window.addEventListener('load', function () {
+  const playerOptions = urls.map(url => {
+    var playlistIndexUrl = window.location.href;
+    var playlist = el.dataset.playlist;
+    var isVideo = !!el.dataset.isVideo;
+    var layout = {
+      title: false,
+      elapsedTime: false
+    };
+    var options = {
+      playlist: playlist,
+      isVideo: isVideo,
+      rootUrl: url,
+      playlistIndexUrl: playlistIndexUrl,
+    };
+    return {
+      options,
+      layout,
+    }
+  });
+
+  var playerIndex = 0;
   var elements = document.getElementsByClassName('dmk-player');
   var players = Array.from(elements).map(function (el) {
     if (el.dataset) {
-      var rootUrl = 'https://f005.backblazeb2.com/file/log-tracks/sbt/';
-      var playlistIndexUrl = window.location.href;
-      var playlist = el.dataset.playlist;
-      var isVideo = !!el.dataset.isVideo;
-      var layout = {
-        title: false,
-        elapsedTime: false
-      };
-      var options = {
-        playlist: playlist,
-        isVideo: isVideo,
-        rootUrl: rootUrl,
-        playlistIndexUrl: playlistIndexUrl,
-      };
-      return new DMKPlayer(el, options, layout);
+      const player = new DMKPlayer(el, playerOptions[playerIndex].options, playerOptions[playerIndex].layout);
+      playerIndex += 1;
+      return player;
     }
   });
+
   players.forEach(function (player, index) {
     player.index = index;
     player.on('play', function () {
