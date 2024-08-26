@@ -1,5 +1,5 @@
 <br><center>**hld**</center><br> 
-<div class="dmk-player" data-playlist="index.json"></div>
+<div class="dmk-player" data-playlist="hld-index.json"></div>
 
 I went to EMS two times and recorded the Halldorophone which is on loan to EMS
 from the inventor. I found it works best without any kind of bow interaction.
@@ -88,7 +88,9 @@ Routine{
 ```
 <br>
 <br><br><center>**sbt**</center><br> 
-<!-- <div class="dmk-player"data-playlist="sbt/index.json"></div> -->
+<div class="dmk-player" data-playlist="sbt-index.json"></div>
+
+
 
 As I was completing Towards a Music for Large Ensemble I began to feel I did not
 have time to complete an etude for each new instrument I added. Now it's after
@@ -2517,6 +2519,41 @@ window.addEventListener('load', function () {
   var players = Array.from(elements).map(function (el) {
     if (el.dataset) {
       var rootUrl = 'https://f005.backblazeb2.com/file/log-tracks/hld/';
+      var playlistIndexUrl = window.location.href;
+      var playlist = el.dataset.playlist;
+      var isVideo = !!el.dataset.isVideo;
+      var layout = {
+        title: false,
+        elapsedTime: false
+      };
+      var options = {
+        playlist: playlist,
+        isVideo: isVideo,
+        rootUrl: rootUrl,
+        playlistIndexUrl: playlistIndexUrl,
+      };
+      return new DMKPlayer(el, options, layout);
+    }
+  });
+  players.forEach(function (player, index) {
+    player.index = index;
+    player.on('play', function () {
+      players.forEach(function (p) {
+        if (p.index !== player.index && p.isPlaying) {
+          p.stop();
+        }
+      });
+    });
+  });
+});
+</script>
+
+<script>
+window.addEventListener('load', function () {
+  var elements = document.getElementsByClassName('dmk-player');
+  var players = Array.from(elements).map(function (el) {
+    if (el.dataset) {
+      var rootUrl = 'https://f005.backblazeb2.com/file/log-tracks/sbt/';
       var playlistIndexUrl = window.location.href;
       var playlist = el.dataset.playlist;
       var isVideo = !!el.dataset.isVideo;

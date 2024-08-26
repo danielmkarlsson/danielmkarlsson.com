@@ -379,7 +379,7 @@
 <strong>hld</strong>
 </center>
 <br>
-<div class="dmk-player" data-playlist="index.json">
+<div class="dmk-player" data-playlist="hld-index.json">
 
 </div>
 <p>I went to EMS two times and recorded the Halldorophone which is on loan to EMS from the inventor. I found it works best without any kind of bow interaction. This is at least true for me and for the kinds of sounds that I want to produce. I played the instrument laying on it’s back using only the attenuators and the tuning pegs. I only used one of the built in speakers because the other one made a tremendous amount of hum. There was still some hum and so the only way to get a clean enough signal was to play it loud. This is a shame because it would be nice to be able to play more one the edge of feedback. I used my nice mics and mic pres and recorded at 192kHz 24 bit Stereo like I always do. The single file is about five minutes long and is a distillation of the best parts of the sessions I did with the instrument at EMS. I would like to go back and do some more recordings. I feel I only scratched the surface of what is possible with the instrument. In the code I like how the <code>hal</code> reverb came out. I sat with that for some time and it was a nice and subtle thing in the end. It’s a very narrowly filtered fizzy reverb. Since <code>hal</code> does not bleed over out into a wider field I had the idea to do the panning quite extreme. That line quite neatly captures this idea I’ve had for some time now. Starts out doing one event dead center and then is followed by an exponentially slanted left pan and then an exponentially slanted right pan and then back around to the middle. This pairs nicely with that narrow <code>hal</code> sound. Also <code>cav</code> gives it that low end and mirrored reflection in the stereo image. Nice to get to use the hex group of tunings on top of the regular churchy tunings also. Been trying to get that to work for a while now.</p>
@@ -444,7 +444,10 @@ Routine{
 <center>
 <strong>sbt</strong>
 </center>
-<p><br> <!-- <div class="dmk-player"data-playlist="sbt/index.json"></div> --></p>
+<br>
+<div class="dmk-player" data-playlist="sbt-index.json">
+
+</div>
 <p>As I was completing Towards a Music for Large Ensemble I began to feel I did not have time to complete an etude for each new instrument I added. Now it’s after the premiere of the piece, so there is time again. Time to focus in on one instrument at a time and to figure out a way to make another piece from a single recording. This one I did with this great iterator which is a superball textured rubber mallet. You rub it against drum skins or gongs, or other things, and it makes the whole thing vibrate in this really particular way. I had made recordings of a Tom that I had bought cheap, but that drum made a low mid sound with not a lot of high end, so in th end it ended up sounding too noisy after the post processing envolved in the large ensemble piece. I wanted more amplitude, a lower fundamental and more overtones. I ended up putting a 1 by 1/2 meter metal plate in a bathtub and using the superball mallet on the outside with the mics on the inside. I recorded with my usual gear at 192kHz, 24 bits. There are 61 wav files in the folder. I chose to preserve the dynamic relationship between the files, as that was very clearly necessary in order to capture this technique faithfully. In the code I had the idea that I wanted there to be a kind of slowly mounting tendency towards higher and higher transpositions. This idea got combined with some low passed deviations in the short term, and then a modulo at the end, so that it wraps around from highest to lowest transposition. I had been carrying this idea around for a long time and I enjoyed incorporating it here. I am grateful that the style of playing and the dynamics enable this upward tendency to not be to Overbearing on the general impression of the piece. I felt the idea worked best as a fairly subtle thing, complemented in consort by other temperaments.</p>
 <p><a href="https://f005.backblazeb2.com/file/log-packs/sbt.zip">Download this sample pack here.</a> <br></p>
 <pre class="text"><code>~clean.lsf(&quot;~/snd/sbt&quot;)
@@ -2097,6 +2100,40 @@ window.addEventListener('load', function () {
   var players = Array.from(elements).map(function (el) {
     if (el.dataset) {
       var rootUrl = 'https://f005.backblazeb2.com/file/log-tracks/hld/';
+      var playlistIndexUrl = window.location.href;
+      var playlist = el.dataset.playlist;
+      var isVideo = !!el.dataset.isVideo;
+      var layout = {
+        title: false,
+        elapsedTime: false
+      };
+      var options = {
+        playlist: playlist,
+        isVideo: isVideo,
+        rootUrl: rootUrl,
+        playlistIndexUrl: playlistIndexUrl,
+      };
+      return new DMKPlayer(el, options, layout);
+    }
+  });
+  players.forEach(function (player, index) {
+    player.index = index;
+    player.on('play', function () {
+      players.forEach(function (p) {
+        if (p.index !== player.index && p.isPlaying) {
+          p.stop();
+        }
+      });
+    });
+  });
+});
+</script>
+<script>
+window.addEventListener('load', function () {
+  var elements = document.getElementsByClassName('dmk-player');
+  var players = Array.from(elements).map(function (el) {
+    if (el.dataset) {
+      var rootUrl = 'https://f005.backblazeb2.com/file/log-tracks/sbt/';
       var playlistIndexUrl = window.location.href;
       var playlist = el.dataset.playlist;
       var isVideo = !!el.dataset.isVideo;

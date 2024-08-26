@@ -415,17 +415,14 @@ Scroll down to <code>Profile folder</code> and click the button next to that tex
 make a folder called <code>chrome</code> in there (case sensitive), then<br />
 open a text editor and<br />
 paste this in there:</p>
-<pre><code>#statuspanel[type=&quot;overLink&quot;] #statuspanel-label#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Look&quot;],
-#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Connect&quot;],
-#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Send&quot;],
-#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Transfer&quot;],
-#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Read&quot;],
-#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Wrote&quot;],
-#statuspanel[type=&quot;status&quot;] #statuspanel-label[value^=&quot;Wait&quot;],
-#statuspanel[type=&quot;status&quot;] #statuspanel-label[value*=&quot;TLS handshake&quot;],
-#statuspanel[type=&quot;status&quot;] #statuspanel-label[value*=&quot;FTP transaction&quot;] {
-display:none!important;
-}</code></pre>
+<pre><code>/* hide &#39;overlink&#39; messages */
+#statuspanel[type=&quot;overLink&quot;] {opacity: 0 !important;}
+
+/* hide all status messages */
+#statuspanel {opacity: 0 !important;}
+
+/* hide bookmark star icon in address bar */
+#star-button-box {display: none !important;} </code></pre>
 <p>Then save as: <code>userChrome.css</code><br />
 inside the <code>chrome</code> folder.<br />
 Restart Firefox.<br />
